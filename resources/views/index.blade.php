@@ -4,7 +4,7 @@
 <!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
 	<head>
 		<meta charset="utf-8" />
-		<title>Smarty - Multipurpose + Admin</title>
+		<title>ilernus</title>
 		<meta name="keywords" content="HTML5,CSS3,Template" />
 		<meta name="description" content="" />
 		<meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
@@ -18,6 +18,9 @@
 
 		<!-- CORE CSS -->
 		{!! Html::style('smarty/assets/plugins/bootstrap/css/bootstrap.min.css') !!}
+
+		<!-- LAYER SLIDER -->
+		{!! Html::style('smarty/assets/plugins/slider.layerslider/css/layerslider.css') !!}
 
 		<!-- THEME CSS -->
 		{!! Html::style('smarty/assets/css/essentials.css') !!}
@@ -80,7 +83,8 @@
 
 				Example Usage:  class="clearfix sticky header-sm transparent noborder"
 			-->
-			<div id="header" class="sticky transparent clearfix">
+			<!-- <div id="header" class="sticky transparent clearfix"> -->
+			<div id="header" class="sticky shadow-after-3 clearfix">
 
 				<!-- TOP NAV -->
 				<header id="topNav">
@@ -93,7 +97,8 @@
 
 						<!-- Logo -->
 						<a class="logo pull-left" href="index.html">
-							<img src="smarty/assets/images/logo_dark.png" alt="" />
+							<img src="smarty/assets/images/ilernus3.png" alt="" />
+														
 						</a>
 
 						<!-- 
@@ -114,7 +119,7 @@
 								<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
 									<li class="active"><!-- HOME -->
 										<a href="#slider">
-											HOME
+											ilernus
 										</a>
 									</li>
 									<li><!-- FEATURES -->
@@ -150,28 +155,222 @@
 
 
 			<!-- HOME -->
-			<section id="slider" class="fullheight" style="background:url('smarty/assets/images/demo/1200x800/36-min.jpg')">
-				<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
+			<!-- LAYER SLIDER -->
+			<section id="slider">
 
-				<div class="display-table">
-					<div class="display-table-cell vertical-align-middle">
-						
-						<div class="container text-center">
-							
-							<h1 class="nomargin size-50 weight-300 wow fadeInUp" data-wow-delay="0.4s">Unlimited Easy Landing Pages</h1>
-							<p class="lead font-lato size-30 wow fadeInUp" data-wow-delay="0.7s">Building a Landing Page was never so Easy &amp; Interactive.</p>
-							
-							<div class="margin-top-30">
-								<a href="#" class="btn btn-3d btn-lg btn-teal"><i class="glyphicon glyphicon-th-large"></i>FREE TRIAL</a>
-								<span class="size-17 hidden-xs btn btn-lg">&nbsp; OR &nbsp;</span>
-								<a href="#" class="btn btn-3d btn-lg btn-red"><i class="glyphicon glyphicon-user"></i>START FOR A SIBSCRIPTION</a>
-							</div>
+				<div class="slider">
+					<!--
+						AVAILABLE CLASSES
+							.height-300
+							.height-350
+							.height-400
+							.height-450
+							.height-500
+							.height-550
+							.height-600
+							.height-650
+							.height-700
+							.height-750
+							.height-800
+					-->
+					<div class="layerslider height-500" style="width:100%;">
 
+						<!-- SLIDE -->
+						<div class="ls-slide" data-ls="slidedelay:5500;transition2d:21,105;">
+
+							<!-- background image -->
+							<img src="smarty/assets/images/demo/layerslider/slide-corporate-7.jpg" class="ls-bg" alt="Slide background"/>
+
+							<p class="ls-l" style="top:44%;left:50%;font-weight: 300;font-size:30px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:50;durationin:750;easingin:easeOutBack;skewxin:-50;offsetxout:-50;durationout:600;showuntil:500;easingout:easeInBack;skewxout:50;">
+								bienvenidos a
+							</p>
+							<p class="ls-l" style="top:52%;left:50%;font-weight: 300;font-size:50px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:-100;durationin:750;delayin:250;easingin:easeOutBack;skewxin:-50;offsetxout:100;durationout:600;showuntil:500;easingout:easeInBack;skewxout:50;">
+								<b>ilernus</b>
+							</p>
+
+							<p class="ls-l" style="top:47%;left:690px;font-weight: 500;font-size:35px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:1500;rotateyin:90;transformoriginin:left 50% 0;offsetxout:0;durationout:1500;showuntil:1000;rotateyout:-90;transformoriginout:left 50% 0;">
+								Propiciamos el acceso<br />
+								al conocimiento
+							</p>
+							<img class="ls-l" style="top:45%;left:585px;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:1500;rotateyin:90;transformoriginin:right 50% 0;offsetxout:0;durationout:1500;showuntil:1000;rotateyout:-90;transformoriginout:right 50% 0;" src="smarty/assets/images/demo/layerslider/mouse.png" alt="">
+							<p class="ls-l" style="top:340px;left:150px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#fff;background:#F47741;border-radius:4px;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:3500;rotatein:-45;rotateyin:-1;scalexin:0.5;scaleyin:0.5;transformoriginin:left bottom 0;offsetxout:0;durationout:1000;rotateout:45;scalexout:2;scaleyout:2;transformoriginout:right bottom 0;">
+								ESPACIO Y TIEMPO
+							</p>
+							<p class="ls-l" style="top:300px;left:150px;font-weight: 500;font-size:30px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;durationin:2000;delayin:3500;rotatein:-45;scalexin:2;scaleyin:2;transformoriginin:right top 0;offsetxout:0;durationout:1000;rotateout:45;scalexout:2;scaleyout:2;transformoriginout:left top 0;">
+								Trascendemos las barreras de
+							</p>
+						</div>
+
+						<!-- SLIDE -->
+						<div class="ls-slide" data-ls="slidedelay:5000;transition2d:75,79;">
+
+							<!-- background image -->
+							<img src="smarty/assets/images/demo/layerslider/slide-corporate-4.jpg" class="ls-bg" alt="Slide background"/>
+
+							<img class="ls-l" data-ls="
+								durationin:1500;
+								scalexin:0.8;
+								scaleyin:0.8;
+								scalexout:0.8;
+								scaleyout:0.8;" 
+								style="top:40px;left:65%;white-space: nowrap;" src="smarty/assets/images/demo/desktop_empty3.png" alt="">
+
+							<p class="ls-l" style="top:50px;left:100px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#ffffff;background:#F47741;border-radius:4px;white-space: nowrap;" data-ls="durationin:1500;delayin:300;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">
+								Calidad
+							</p>
+							<p class="ls-l" style="top:90px;left:100px;font-weight: 300;font-size:24px;color:#fff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:700;rotateyin:90;skewxin:60;transformoriginin:25% 50% 0;offsetxout:100;durationout:750;skewxout:60;">
+								en contenido instruccional e-learning
+							</p>
+							<p class="ls-l" style="top:150px;left:100px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#ffffff;background:#41B649;border-radius:4px;white-space: nowrap;" data-ls="durationin:1500;delayin:1000;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">
+								Conocimientos
+							</p>
+							<p class="ls-l" style="top:190px;left:100px;font-weight: 300;font-size:24px;color:#fff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:1400;rotateyin:90;skewxin:60;transformoriginin:25% 50% 0;offsetxout:100;durationout:750;skewxout:60;">
+								que transforman la manera de planificar
+							</p>
+							<p class="ls-l" style="top:250px;left:100px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#ffffff;background:#35459C;border-radius:4px;white-space: nowrap;" data-ls="durationin:1500;delayin:1700;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">
+								Tecnología
+							</p>
+							<p class="ls-l" style="top:290px;left:100px;font-weight: 300;font-size:24px;color:#fff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:2100;rotateyin:90;skewxin:60;transformoriginin:25% 50% 0;offsetxout:100;durationout:750;skewxout:60;">
+								para el desarrollo eficiente
+							</p>
+							<p class="ls-l" style="top:350px;left:100px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#ffffff;background:#7952A1;border-radius:4px;white-space: nowrap;" data-ls="durationin:1500;delayin:2400;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">
+								Control de gestión
+							</p>
+							<p class="ls-l" style="top:390px;left:100px;font-weight: 300;font-size:24px;color:#fff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:2800;rotateyin:90;skewxin:60;transformoriginin:25% 50% 0;offsetxout:100;durationout:750;skewxout:60;">
+								para la formación de empresas en Venezuela
+							</p>
+						</div>
+
+						<!-- SLIDE -->
+						<div class="ls-slide" data-ls="slidedelay:4500;transition2d:21,105;timeshift:-1000;">
+
+							<!-- background -->
+							<img src="smarty/assets/images/demo/slide-bg-full-3-dark.jpg" class="ls-bg" alt="Slide background"/>
+
+							<img class="ls-l" data-ls="
+								offsetxin:0;
+								durationin:1500;
+								delayin:3000;
+								easingin:linear;
+								scalexin:0;
+								scaleyin:0;
+								offsetxout:0;
+								durationout:1500;
+								showuntil:1;
+								easingout:linear;
+								scalexout:2;
+								scaleyout:2;" 
+								style="top:20px;left:50%;white-space: nowrap;" src="smarty/assets/images/demo/layerslider/circle.png" alt="">
+							<img class="ls-l" data-ls="
+								offsetxin:0;
+								durationin:1500;
+								delayin:4000;
+								easingin:linear;
+								scalexin:0;
+								scaleyin:0;
+								offsetxout:0;
+								durationout:1500;
+								showuntil:1;
+								easingout:linear;
+								scalexout:2;
+								scaleyout:2;" 
+								style="top:20px;left:50%;white-space: nowrap;" src="smarty/assets/images/demo/layerslider/circle.png" alt="">
+
+							<!-- left -->
+							<p class="ls-l" data-ls="
+								offsetxin:0;
+								durationin:2500;
+								delayin:1000;
+								scalexin:0;
+								scaleyin:0;
+								offsetxout:0;
+								scalexout:0;
+								scaleyout:0;" 
+								style="top:124px;left:156px;font-weight: 300; opacity: .4;font-size:200px;color:#fff;white-space: nowrap;">
+								
+							</p>
+							<p class="ls-l" data-ls="
+								offsetxin:-50;
+								durationin:2000;
+								delayin:1000;
+								offsetxout:-50;
+								durationout:1000;" 
+								style="top:320px;left:120px;font-weight: 300; background: white; background: #7952A1; height:40px; padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#fff;white-space: nowrap;">
+								INNOVACION
+							</p>
+							<p class="ls-l" data-ls="
+								offsetxin:50;
+								delayin:2000;
+								skewxin:-60;
+								offsetxout:-50;
+								durationout:1000;
+								skewxout:-60;" 
+								style="top:360px;left:273px;font-weight: 500;font-size:30px;color:#fff;white-space: nowrap;">
+								y productividad!
+							</p>
+
+							<!-- right -->
+							<p class="ls-l" data-ls="
+								offsetxin:0;
+								delayin:2500;
+								rotatein:90;
+								transformoriginin:right bottom 0;
+								offsetxout:0;
+								durationout:1500;
+								transformoriginout:right bottom 0;" 
+								style="top:320px;left:1013px;font-weight: 500; text-align: right;font-size:30px;color:#fff;white-space: nowrap;">
+								... para el
+							</p>
+							<p class="ls-l" data-ls="
+								offsetxin:0;
+								durationin:2500;
+								delayin:3250;
+								easingin:easeOutElastic;rotatexin:90;
+								transformoriginin:50% top 0;
+								offsetxout:0;
+								durationout:1000;
+								rotatexout:90;
+								transformoriginout:50% bottom 0;" 
+								style="top:360px;left:890px;font-weight: 300; text-align: center;width:260px;height:40px;padding-right:10px;font-size:30px;line-height:37px;color:#ffffff;background:#35459C;white-space: nowrap;">
+								DESARROLLO
+							</p>
+							<p class="ls-l" data-ls="
+								offsetxin:-50;
+								delayin:3500;
+								skewxin:60;
+								scalexin:1.5;
+								offsetxout:-50;
+								durationout:1000;
+								skewxout:60;
+								scalexout:1.5;" 
+								style="top:405px;left:883px;font-size:30px;color:#fff;white-space: nowrap;">
+								de tus colaboradores
+							</p>
+							<img class="ls-l" data-ls="
+								durationin:1500;
+								scalexin:0.8;
+								scaleyin:0.8;
+								scalexout:0.8;
+								scaleyout:0.8;" 
+								style="top:80px;left:50%;white-space: nowrap;" src="smarty/assets/images/demo/layerslider/emblema.png" alt="">
 						</div>
 
 					</div>
+
+					<script type="text/javascript">
+						var layer_options = {
+							responsive: 		false,
+							responsiveUnder: 	1280,
+							layersContainer: 	1280,
+							hoverPrevNext: 		true,
+							skinsPath: 			'smarty/assets/plugins/slider.layerslider/skins/'
+						}
+					</script>
+
 				</div>
+
 			</section>
+			<!-- /LAYER SLIDER -->
 			<!-- /HOME -->
 
 
@@ -774,6 +973,11 @@
 		{!! Html::script('smarty/assets/plugins/jquery/jquery-2.1.4.min.js') !!}
 		{!! Html::script('smarty/assets/js/scripts.js') !!}
 		<!-- STYLESWITCHER - REMOVE -->
-		{!! Html::script('smarty/assets/plugins/styleswitcher/styleswitcher.js') !!}
+
+
+		<!-- LAYER SLIDER -->
+		{!! Html::script('smarty/assets/plugins/slider.layerslider/js/layerslider_pack.js') !!}
+		{!! Html::script('smarty/assets/js/view/demo.layerslider_slider.js') !!}
+		
 	</body>
 </html>
