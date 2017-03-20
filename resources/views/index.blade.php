@@ -535,10 +535,10 @@
 							<p style="text-align: justify;">
 								Es socio fundador de B&G Consultores Corporativos, S.A., creador del concepto ilernus.							Licenciado en Contaduría  Pública  (1997) con  Maestría  en Finanzas en IESA  (2004), especialista tributario por la Universidad  Metropolitana (2004-2005) y Maestría  en Administración de Empresas (MBA) en el IESA (2008). Obtuvo dos becas para cursar estudios en el IESA.
 							</p>
-							<p style="text-align: justify;">
-								Logró ubicarse  dentro de los primeros quince estudiantes de la Maestría en el IESA (sobre un total de 72 estudiantes) con un promedio de 18/20 puntos y obtuvo el premio a la excelencia ejecutiva en el año 2007 a nivel empresarial.
-								Actualmente ocupa el rol de CEO en Venezuela, asiste a un grupo exclusivo de clientes mediante su participación en sus consejos consultivos y juntas directivas.
-							</p>
+
+							<!-- Modal Ajax Lightbox >-->
+							<a class="btn btn-default btn-lg lightbox" href="{{ route('clover') }}" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'>
+							Leer más</a>
 
 							<hr>
 
@@ -562,16 +562,14 @@
 						<div class="padding-40">
 				
 							<h2>María Alejandra Aguilar P.</h2>
-							<strong>Director General ilernus Venezuela</strong>
+							<strong>Directora General ilernus Venezuela</strong>
 							<p style="text-align: justify;">
 								María Alejandra posee más de 15 años de exitosa experiencia en el área docente en la Universidad Metropolitana, así como también en el área de gerencia, liderazgo y desarrollo de proyectos relacionados con tecnología educativa y formación en línea (e-learning).
 							</p>
-							<p style="text-align: justify;">
-								Es egresada de la Universidad Metropolitana como Licenciada en Educación Preescolar, mención Gerencia. Posee posgrados en Informática Educativa (USB) y Entornos virtuales de aprendizaje (OEA-Virtual Educa). 
-								Los proyectos de formación en línea son su pasión y el desarrollarlos, llevándolos a feliz término, es su meta firme.
-								Actualmente se desempeña como Director General de ilernus Venezuela.
-							</p>
 
+							<!-- Modal Ajax Lightbox >-->
+							<a class="btn btn-default btn-lg lightbox" href="{{ route('maria') }}" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'>
+							Leer más</a>
 							<hr>
 			
 						</div>

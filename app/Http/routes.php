@@ -11,6 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+	Route::get('/', [
+		'uses' => 'HomeController@index',
+		'as' =>'home'
+	]);
+
+	Route::get('clover', [
+		'uses' => 'CloverController@index',
+		'as' =>'clover'
+	]);
+
+	Route::get('maria', [
+		'uses' => 'MariaController@index',
+		'as' =>'maria'
+	]);
