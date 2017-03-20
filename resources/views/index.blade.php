@@ -206,7 +206,7 @@
 						<div class="ls-slide" data-ls="slidedelay:8000;transition2d:75,79;">
 
 							<!-- background image -->
-							<img src="smarty/assets/images/demo/layerslider/slide-corporate-4.jpg" class="ls-bg" alt="Slide background"/>
+							<img src="smarty/assets/images/demo/layerslider/fondo22.jpg" class="ls-bg" alt="Slide background"/>
 
 							<img class="ls-l" data-ls="
 								durationin:1500;
