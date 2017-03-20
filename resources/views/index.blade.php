@@ -123,8 +123,8 @@
 										</a>
 									</li>
 									<li><!-- FEATURES -->
-										<a href="#features">
-											FEATURES
+										<a href="#conocenos">
+											Conócenos
 										</a>
 									</li>
 									<li><!-- PRICING -->
@@ -176,7 +176,7 @@
 					<div class="layerslider height-500" style="width:100%;">
 
 						<!-- SLIDE -->
-						<div class="ls-slide" data-ls="slidedelay:5500;transition2d:21,105;">
+						<div class="ls-slide" data-ls="slidedelay:8000;transition2d:21,105;">
 
 							<!-- background image -->
 							<img src="smarty/assets/images/demo/layerslider/slide-corporate-7.jpg" class="ls-bg" alt="Slide background"/>
@@ -202,7 +202,7 @@
 						</div>
 
 						<!-- SLIDE -->
-						<div class="ls-slide" data-ls="slidedelay:5000;transition2d:75,79;">
+						<div class="ls-slide" data-ls="slidedelay:8000;transition2d:75,79;">
 
 							<!-- background image -->
 							<img src="smarty/assets/images/demo/layerslider/slide-corporate-4.jpg" class="ls-bg" alt="Slide background"/>
@@ -242,7 +242,7 @@
 						</div>
 
 						<!-- SLIDE -->
-						<div class="ls-slide" data-ls="slidedelay:4500;transition2d:21,105;timeshift:-1000;">
+						<div class="ls-slide" data-ls="slidedelay:8000;transition2d:21,105;timeshift:-1000;">
 
 							<!-- background -->
 							<img src="smarty/assets/images/demo/slide-bg-full-3-dark.jpg" class="ls-bg" alt="Slide background"/>
@@ -372,6 +372,250 @@
 			</section>
 			<!-- /LAYER SLIDER -->
 			<!-- /HOME -->
+
+
+
+			<!-- -->
+			<section>
+				<div class="container">
+
+					<header class="text-center margin-bottom-60">
+						<h2>¿Qué es ilernus?</h2>
+						<p class="lead font-lato">
+							La mejor solución que ofrece la más alta calidad en contenidos y metodología instruccional e-learning, soluciones de gestión de aprendizaje en línea y virtualización de contenidos especializados en una plataforma que permite planificar, gestionar, preservar y monitorear el proceso de formación y desarrollo profesional de tus colaboradores.
+						</p>
+
+						<h2>Un proyecto con visión</h2>
+						<p class="lead font-lato">
+							En el año 2015 nació el concepto y su desarrollo. Establecida por emprendedores comprometidos con la creación de soluciones innovadoras y productivas, con el objetivo de llevar al mercado un servicio que apalanque el conocimiento y la formación empresarial.
+						</p>						
+						<hr />
+					</header>
+
+
+					<div class="row">
+						<div class="col-md-6">
+							<h2 style="text-align: center;">Atributos</h2>
+							<ul class="list-unstyled list-icons lead font-lato">
+								<li><i class="fa fa-check text-success"></i>Seguimiento y gestión del desarrollo profesional de los colaboradores.</li>
+								<li><i class="fa fa-check text-success"></i>Gestiona, preserva y transmite el know how de tu organización.</li>
+								<li><i class="fa fa-check text-success"></i>Consolida y simplifica la información de tus colaboradores.</li>
+								<li><i class="fa fa-check text-success"></i>Formación 100% en línea, cuando y donde quieras.</li>
+								<li><i class="fa fa-check text-success"></i>Provee estadísticas y resultados medibles.</li>
+								<li><i class="fa fa-check text-success"></i>Creamos tu biblioteca privada desarrollando contenidos a la medida.</li>
+								<li><i class="fa fa-check text-success"></i>Biblioteca pública con gran variedad de cursos.</li>
+								<li><i class="fa fa-check text-success"></i>Capacitación basada en competencias, con instructores de alto nivel.</li>
+							</ul>
+						</div>
+
+						<div class="col-md-6">
+							<h2 style="text-align: center;">Beneficios</h2>
+								<ul class="list-unstyled list-icons lead font-lato">
+									<li><i class="fa fa-check text-success"></i>Apalanca la estrategia de retención del talento.</li>
+									<li><i class="fa fa-check text-success"></i>Facilita la gestión de formación y entrenamiento.</li>
+									<li><i class="fa fa-check text-success"></i>Ahorra tiempo y recursos.</li>
+									<li><i class="fa fa-check text-success"></i>Refuerza el proceso de gerencia y preservación del conocimiento.</li>
+									<li><i class="fa fa-check text-success"></i>Cuenta con funciones y herramientas orientadas al aprendizaje y a la productividad</li>
+								</ul>
+						</div>
+					</div>
+
+				</div>
+			</section>
+			<!-- / -->
+
+
+			<!-- PARALLAX -->
+			<section class="parallax parallax-2" style="background-image: url('smarty/assets/images/demo/1200x800/36.jpg');">
+				<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
+
+				<div class="container">
+
+					<!-- Counters -->
+					<div class="row countTo-sm text-center">
+
+						<div class="col-xs-6 col-sm-3 col-xs-6">
+							<i class="fa fa-users" style="font-size: 50px" aria-hidden="true"></i>
+							<div class="block size-50" style="color: #F47741;">
+								<strong class="countTo size-50" data-speed="3000">18</strong>
+							</div>
+							<h3 class="size-15 margin-top-10 margin-bottom-0">INSTRUCTORES</h3>
+						</div>
+
+						<div class="col-xs-6 col-sm-3 col-xs-6">
+							<i class="fa fa-graduation-cap" style="font-size: 50px" aria-hidden="true"></i>
+							<div class="block size-50" style="color: #41B649;">
+								<strong class="countTo size-50" data-speed="3000">100</strong>
+							</div>
+							<h3 class="size-15 margin-top-10 margin-bottom-0">CURSOS E-LEARNING TOMADOS</h3>
+						</div>
+
+						<div class="col-xs-6 col-sm-3 col-xs-6">
+							<i class="fa fa-laptop" style="font-size: 50px" aria-hidden="true"></i>
+							<div class="block size-50" style="color: #35459C;">
+								<strong class="countTo size-50" data-speed="3000">30</strong>
+							</div>
+							<h3 class="size-15 margin-top-10 margin-bottom-0">PROYECTOS Y CONTENIDOS VIRTUALIZADOS</h3>
+						</div>
+
+						<div class="col-xs-6 col-sm-3 col-xs-6">
+							<i class="fa fa-smile-o" style="font-size: 50px" aria-hidden="true"></i>
+							<div class="block size-50" style="color: #7952A1;">
+								<strong class="countTo size-50" data-speed="3000">3</strong>
+							</div>
+							<h3 class="size-15 margin-top-10 margin-bottom-0">CLIENTES FELICES</h3>
+						</div>
+
+					</div>
+					<!-- /Counters -->
+
+				</div>
+
+			</section>
+			<!-- /PARALLAX -->
+
+
+<div class="alert alert-transparent bordered-bottom">
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-md-8 col-sm-8"><!-- left text -->
+				<h3>Estamos para ti <span><strong style="color: #35459C">envíanos tus preguntas y comentarios</strong></span> o visitanos</h3>
+				<p class="font-lato weight-300 size-20 nomargin-bottom">
+					Urbanización Terrazas del Avila, Zona Rental Universidad Metropolitana. Edificio 1. Piso 1. Oficina ilernus. Caracas, Estado Miranda.
+				</p>
+			</div><!-- /left text -->
+
+			
+			<div class="col-md-4 col-sm-4 text-right" ><!-- right btn -->
+				<a href="#" rel="nofollow" target="_blank" style="background-color: #F47741; color: #FFF; border: 0px" class="btn btn-primary btn-lg">CONTACTANOS</a>
+			</div><!-- /right btn -->
+
+		</div>
+
+	</div>
+</div>
+
+<!-- -->
+<section id="conocenos">
+	<div class="container">
+		
+		<header class="text-center margin-bottom-60">
+			<h2>Conócenos</h2>
+			<p class="lead font-lato">Nuestro equipo de ilernus</p>
+			<hr />
+		</header>
+<!--
+		<p class="lead">Lorem ipsum dolor sit amet. Etharums your template rerum facilis dolores nemis omnis fugats vitaes you need this.</p>
+		<p>Lorem ipsum dolor sit amet. Etharums your template rerum facilis dolores nemis omnis fugats vitaes you need this totam rem aperiam, eaque ipsa qu ab illo inventore veritatis et quasi architectos beatae vitae dicta sunt explicabo. Nemo enim sadips ipsums dolores sit.Nemo enims sadips ipsums un inventore veritatis et quasi.</p>
+-->
+		<div class="row">
+		
+			<!-- item -->
+			<div class="col-md-6 col-sm-6">
+
+				<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+					<div class="front">
+						<div class="box1 box-default"> <!-- style="background-color: #35459C"-->
+							<div class="box-icon-title">
+								<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/2-min.jpg" alt="" />
+								<h2>Clover Brito</h2>
+								<small>Presidente</small>
+							</div>
+						</div>
+					</div>
+
+					<div class="back">
+						<div class="box2 " style="background-color: #35459C">
+							<h4 class="nomargin">Clover Brito</h4>
+							<small>Presidente</small>
+
+							<hr />
+
+							<p style="text-align: justify;">
+								Es socio fundador de B&G Consultores Corporativos, S.A., creador del concepto ilernus.							Licenciado en Contaduría  Pública  (1997) con  Maestría  en Finanzas en IESA  (2004), especialista tributario por la Universidad  Metropolitana (2004-2005) y Maestría  en Administración de Empresas (MBA) en el IESA (2008). Obtuvo dos becas para cursar estudios en el IESA. Logró ubicarse  dentro de los primeros quince estudiantes de la Maestría en el IESA (sobre un total de 72 estudiantes) con un promedio de 18/20 puntos y obtuvo el premio a la excelencia ejecutiva en el año 2007 a nivel empresarial.
+	
+								Actualmente ocupa el rol de CEO en Venezuela, asiste a un grupo exclusivo de clientes mediante su participación en sus consejos consultivos y juntas directivas.
+							</p>
+							<!--
+								<hr />
+
+								<a href="#" class="social-icon social-icon-sm social-linkedin">
+									<i class="fa fa-linkedin"></i>
+									<i class="fa fa-linkedin"></i>
+								</a>
+
+							-->
+							<hr />
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- /item -->
+
+			<!-- item -->
+			<div class="col-md-6 col-sm-6">
+
+				<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+					<div class="front">
+						<div class="box1 box-default">
+							<div class="box-icon-title">
+								<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/1-min.jpg" alt="" />
+								<h2>Maria Alejandra Aguilar P.</h2>
+								<small>Director General ilernus Venezuela</small>
+							</div>
+						</div>
+					</div>
+
+					<div class="back">
+						<div class="box2 " style="background-color: #35459C">
+							<h4 class="nomargin">Maria Alejandra Aguilar P.</h4>
+							<small>Director General ilernus Venezuela</small>
+
+							<hr />
+
+							<p style="text-align: justify;">
+								María Alejandra posee más de 15 años de exitosa experiencia en el área docente en la Universidad Metropolitana, así como también en el área de gerencia, liderazgo y desarrollo de proyectos relacionados con tecnología educativa y formación en línea (e-learning).
+								Es egresada de la Universidad Metropolitana como Licenciada en Educación Preescolar, mención Gerencia. Posee posgrados en Informática Educativa (USB) y Entornos virtuales de aprendizaje (OEA-Virtual Educa). 
+								Los proyectos de formación en línea son su pasión y el desarrollarlos, llevándolos a feliz término, es su meta firme.
+								Actualmente se desempeña como Director General de ilernus Venezuela.
+							</p>
+
+							<!--
+								<hr />
+
+								<a href="#" class="social-icon social-icon-sm social-linkedin">
+									<i class="fa fa-linkedin"></i>
+									<i class="fa fa-linkedin"></i>
+								</a>
+
+							-->
+							<hr />
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- /item -->
+
+		</div>
+
+		
+	</div>
+</section>
+<!-- / -->
+
+
+
+
+
+
+
+
 
 
 
