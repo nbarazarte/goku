@@ -25,6 +25,7 @@
 		<!-- THEME CSS -->
 		{!! Html::style('smarty/assets/css/essentials.css') !!}
 		{!! Html::style('smarty/assets/css/layout.css') !!}
+		{!! Html::style('smarty/assets/css/customilernus.css') !!}
 
 		<!-- PAGE LEVEL SCRIPTS -->
 		{!! Html::style('smarty/assets/css/header-1.css') !!}
@@ -397,25 +398,25 @@
 						<div class="col-md-6">
 							<h2 style="text-align: center;">Atributos</h2>
 							<ul class="list-unstyled list-icons lead font-lato">
-								<li><i class="fa fa-check text-success"></i>Seguimiento y gestión del desarrollo profesional de los colaboradores.</li>
-								<li><i class="fa fa-check text-success"></i>Gestiona, preserva y transmite el know how de tu organización.</li>
-								<li><i class="fa fa-check text-success"></i>Consolida y simplifica la información de tus colaboradores.</li>
-								<li><i class="fa fa-check text-success"></i>Formación 100% en línea, cuando y donde quieras.</li>
-								<li><i class="fa fa-check text-success"></i>Provee estadísticas y resultados medibles.</li>
-								<li><i class="fa fa-check text-success"></i>Creamos tu biblioteca privada desarrollando contenidos a la medida.</li>
-								<li><i class="fa fa-check text-success"></i>Biblioteca pública con gran variedad de cursos.</li>
-								<li><i class="fa fa-check text-success"></i>Capacitación basada en competencias, con instructores de alto nivel.</li>
+								<li><i style="color: #35459C; font-size: 28px" class="icon icon-segumiento"></i>Seguimiento y gestión del desarrollo profesional de los colaboradores.</li>
+								<li><i style="color: #35459C; font-size: 28px" class="icon icon-gestiona"></i>Gestiona, preserva y transmite el know how de tu organización.</li>
+								<li><i style="color: #35459C; font-size: 28px" class="icon icon-segumiento"></i>Consolida y simplifica la información de tus colaboradores.</li>
+								<li><i style="color: #35459C; font-size: 28px" class="icon icon-segumiento"></i>Formación 100% en línea, cuando y donde quieras.</li>
+								<li><i style="color: #35459C; font-size: 28px" class="icon icon-segumiento"></i>Provee estadísticas y resultados medibles.</li>
+								<li><i style="color: #35459C; font-size: 28px" class="icon icon-creamos"></i>Creamos tu biblioteca privada desarrollando contenidos a la medida.</li>
+								<li><i style="color: #35459C; font-size: 28px" class="icon icon-biblioteca"></i>Biblioteca pública con gran variedad de cursos.</li>
+								<li><i style="color: #35459C; font-size: 28px" class="icon icon-captacion"></i>Capacitación basada en competencias, con instructores de alto nivel.</li>
 							</ul>
 						</div>
 
 						<div class="col-md-6">
 							<h2 style="text-align: center;">Beneficios</h2>
 								<ul class="list-unstyled list-icons lead font-lato">
-									<li><i class="fa fa-check text-success"></i>Apalanca la estrategia de retención del talento.</li>
-									<li><i class="fa fa-check text-success"></i>Facilita la gestión de formación y entrenamiento.</li>
-									<li><i class="fa fa-check text-success"></i>Ahorra tiempo y recursos.</li>
-									<li><i class="fa fa-check text-success"></i>Refuerza el proceso de gerencia y preservación del conocimiento.</li>
-									<li><i class="fa fa-check text-success"></i>Cuenta con funciones y herramientas orientadas al aprendizaje y a la productividad</li>
+									<li><i style="color: #F47741; font-size: 28px" class="icon icon-apalanca"></i>Apalanca la estrategia de retención del talento.</li>
+									<li><i style="color: #F47741; font-size: 28px" class="icon icon-gestion"></i>Facilita la gestión de formación y entrenamiento.</li>
+									<li><i style="color: #F47741; font-size: 28px" class="icon icon-segumiento"></i>Ahorra tiempo y recursos.</li>
+									<li><i style="color: #F47741; font-size: 28px" class="icon icon-refuerza"></i>Refuerza el proceso de gerencia y preservación del conocimiento.</li>
+									<li><i style="color: #F47741; font-size: 28px" class="icon icon-herramientas"></i>Cuenta con funciones y herramientas orientadas al aprendizaje y a la productividad</li>
 								</ul>
 						</div>
 					</div>
@@ -511,100 +512,86 @@
 		<p>Lorem ipsum dolor sit amet. Etharums your template rerum facilis dolores nemis omnis fugats vitaes you need this totam rem aperiam, eaque ipsa qu ab illo inventore veritatis et quasi architectos beatae vitae dicta sunt explicabo. Nemo enim sadips ipsums dolores sit.Nemo enims sadips ipsums un inventore veritatis et quasi.</p>
 -->
 		<div class="row">
-		
-			<!-- item -->
-			<div class="col-md-6 col-sm-6">
 
-				<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
-					<div class="front">
-						<div class="box1 box-default"> <!-- style="background-color: #35459C"-->
-							<div class="box-icon-title">
-								<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/2-min.jpg" alt="" />
-								<h2>Clover Brito</h2>
-								<small>Presidente</small>
-							</div>
-						</div>
+			<!-- Member -->
+			<section class="nopadding">
+				
+				<div class="row nomargin">
+				
+					<!-- LEFT -->
+					<div class="col-md-6 col-sm-6 nopadding nomargin">
+
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/2-min.jpg" alt="image" />
+
 					</div>
 
-					<div class="back">
-						<div class="box2 " style="background-color: #35459C">
-							<h4 class="nomargin">Clover Brito</h4>
-							<small>Presidente</small>
-
-							<hr />
-
+					<!-- RIGHT -->
+					<div class="col-md-6 col-sm-6 nopadding nomargin">
+					
+						<div class="padding-40">
+				
+							<h2>Clover Brito</h2>
+							<strong>Presidente</strong>
 							<p style="text-align: justify;">
-								Es socio fundador de B&G Consultores Corporativos, S.A., creador del concepto ilernus.							Licenciado en Contaduría  Pública  (1997) con  Maestría  en Finanzas en IESA  (2004), especialista tributario por la Universidad  Metropolitana (2004-2005) y Maestría  en Administración de Empresas (MBA) en el IESA (2008). Obtuvo dos becas para cursar estudios en el IESA. Logró ubicarse  dentro de los primeros quince estudiantes de la Maestría en el IESA (sobre un total de 72 estudiantes) con un promedio de 18/20 puntos y obtuvo el premio a la excelencia ejecutiva en el año 2007 a nivel empresarial.
-	
+								Es socio fundador de B&G Consultores Corporativos, S.A., creador del concepto ilernus.							Licenciado en Contaduría  Pública  (1997) con  Maestría  en Finanzas en IESA  (2004), especialista tributario por la Universidad  Metropolitana (2004-2005) y Maestría  en Administración de Empresas (MBA) en el IESA (2008). Obtuvo dos becas para cursar estudios en el IESA.
+							</p>
+							<p style="text-align: justify;">
+								Logró ubicarse  dentro de los primeros quince estudiantes de la Maestría en el IESA (sobre un total de 72 estudiantes) con un promedio de 18/20 puntos y obtuvo el premio a la excelencia ejecutiva en el año 2007 a nivel empresarial.
 								Actualmente ocupa el rol de CEO en Venezuela, asiste a un grupo exclusivo de clientes mediante su participación en sus consejos consultivos y juntas directivas.
 							</p>
-							<!--
-								<hr />
 
-								<a href="#" class="social-icon social-icon-sm social-linkedin">
-									<i class="fa fa-linkedin"></i>
-									<i class="fa fa-linkedin"></i>
-								</a>
-
-							-->
-							<hr />
+							<hr>
 
 						</div>
+
 					</div>
+
 				</div>
 
-			</div>
-			<!-- /item -->
+			</section>
+			<!-- /Member -->
 
-			<!-- item -->
-			<div class="col-md-6 col-sm-6">
+			<!-- Member -->
+			<section class="nopadding">
+				
+				<div class="row nomargin">
 
-				<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
-					<div class="front">
-						<div class="box1 box-default">
-							<div class="box-icon-title">
-								<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/1-min.jpg" alt="" />
-								<h2>Maria Alejandra Aguilar P.</h2>
-								<small>Director General ilernus Venezuela</small>
-							</div>
-						</div>
-					</div>
-
-					<div class="back">
-						<div class="box2 " style="background-color: #35459C">
-							<h4 class="nomargin">Maria Alejandra Aguilar P.</h4>
-							<small>Director General ilernus Venezuela</small>
-
-							<hr />
-
+					<!-- RIGHT -->
+					<div class="col-md-6 col-sm-6 nopadding nomargin">
+					
+						<div class="padding-40">
+				
+							<h2>María Alejandra Aguilar P.</h2>
+							<strong>Director General ilernus Venezuela</strong>
 							<p style="text-align: justify;">
 								María Alejandra posee más de 15 años de exitosa experiencia en el área docente en la Universidad Metropolitana, así como también en el área de gerencia, liderazgo y desarrollo de proyectos relacionados con tecnología educativa y formación en línea (e-learning).
+							</p>
+							<p style="text-align: justify;">
 								Es egresada de la Universidad Metropolitana como Licenciada en Educación Preescolar, mención Gerencia. Posee posgrados en Informática Educativa (USB) y Entornos virtuales de aprendizaje (OEA-Virtual Educa). 
 								Los proyectos de formación en línea son su pasión y el desarrollarlos, llevándolos a feliz término, es su meta firme.
 								Actualmente se desempeña como Director General de ilernus Venezuela.
 							</p>
 
-							<!--
-								<hr />
-
-								<a href="#" class="social-icon social-icon-sm social-linkedin">
-									<i class="fa fa-linkedin"></i>
-									<i class="fa fa-linkedin"></i>
-								</a>
-
-							-->
-							<hr />
-
+							<hr>
+			
 						</div>
-					</div>
-				</div>
 
-			</div>
-			<!-- /item -->
+					</div>
+
+					<!-- LEFT -->
+					<div class="col-md-6 col-sm-6 nopadding nomargin">
+
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/1-min.jpg" alt="image" />
+
+					</div>
+
+				</div>
+				
+			</section>
+			<!-- /Member -->
 
 		</div>
 
-		
 	</div>
 </section>
 <!-- / -->
