@@ -180,7 +180,7 @@
 						<div class="ls-slide" data-ls="slidedelay:8000;transition2d:21,105;">
 
 							<!-- background image -->
-							<img src="smarty/assets/images/demo/layerslider/shutterstock_379547437.jpg" class="ls-bg" alt="Slide background"/>
+							<img src="smarty/assets/images/demo/layerslider/education-2.jpg" class="ls-bg" alt="Slide background"/>
 
 							<p class="ls-l" style="top:44%;left:50%;font-weight: 300;font-size:30px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:50;durationin:750;easingin:easeOutBack;skewxin:-50;offsetxout:-50;durationout:600;showuntil:500;easingout:easeInBack;skewxout:50;">
 								<b>bienvenidos a</b>
@@ -374,25 +374,23 @@
 			<!-- /LAYER SLIDER -->
 			<!-- /HOME -->
 
-
-
 			<!-- -->
 			<section>
 				<div class="container">
 
 					<header class="text-center margin-bottom-60">
 						<h2>¿Qué es ilernus?</h2>
-						<p class="lead font-lato">
-							La mejor solución que ofrece la más alta calidad en contenidos y metodología instruccional e-learning, soluciones de gestión de aprendizaje en línea y virtualización de contenidos especializados en una plataforma que permite planificar, gestionar, preservar y monitorear el proceso de formación y desarrollo profesional de tus colaboradores.
+						<p class="lead font-lato margin-bottom-60">
+							La mejor solución que ofrece la más alta calidad en <strong style="color: #35459C">contenidos y metodología instruccional e-learning,</strong> soluciones de gestión de aprendizaje en línea y virtualización de contenidos especializados en una plataforma que permite planificar, gestionar, preservar y monitorear el proceso de formación y desarrollo profesional de tus colaboradores.
 						</p>
 
 						<h2>Un proyecto con visión</h2>
-						<p class="lead font-lato">
-							En el año 2015 nació el concepto y su desarrollo. Establecida por emprendedores comprometidos con la creación de soluciones innovadoras y productivas, con el objetivo de llevar al mercado un servicio que apalanque el conocimiento y la formación empresarial.
+						<p class="lead font-lato margin-bottom-60">
+							En el año 2015 nació el concepto y su desarrollo. Establecida por emprendedores comprometidos con la creación de soluciones <strong style="color: #35459C">innovadoras y productivas,</strong> con el objetivo de llevar al mercado un servicio que apalanque el conocimiento y la formación empresarial.
 						</p>						
 						<hr />
-					</header>
 
+					</header>
 
 					<div class="row">
 						<div class="col-md-6">
@@ -504,7 +502,7 @@
 		
 		<header class="text-center margin-bottom-60">
 			<h2>Conócenos</h2>
-			<p class="lead font-lato">Nuestro equipo de ilernus</p>
+			<p class="lead font-lato margin-bottom-60">Nuestro equipo de iLernus</p>
 			<hr />
 		</header>
 <!--
@@ -537,7 +535,7 @@
 							</p>
 
 							<!-- Modal Ajax Lightbox >-->
-							<a class="btn btn-default btn-lg lightbox" href="{{ route('clover') }}" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'>
+							<a class="btn btn-default btn-lg lightbox" href="{{ route('clover') }}" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}' style="background-color: #35459C; color: #FFF; border: 0px">
 							Leer más</a>
 
 							<hr>
@@ -568,7 +566,7 @@
 							</p>
 
 							<!-- Modal Ajax Lightbox >-->
-							<a class="btn btn-default btn-lg lightbox" href="{{ route('maria') }}" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'>
+							<a class="btn btn-default btn-lg lightbox" href="{{ route('maria') }}" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}' style="background-color: #F47741; color: #FFF; border: 0px">
 							Leer más</a>
 							<hr>
 			
@@ -594,26 +592,20 @@
 </section>
 <!-- / -->
 
-
-
-
 			<!-- Portfolio -->
 			<section id="servicios">
 				<div class="container">
 
 					<header class="text-center margin-bottom-60">
 						<h2>Servicios</h2>
-						<p class="lead font-lato">
-							<span><strong style="color: #35459C">iLernus</strong></span> University es una plataforma educativa de aprendizaje en línea que permite capacitar y actualizar a los colaboradores de su empresa a través de la suscripción de planes y paquetes de contenidos de interés.	 
+
+						<p class="lead font-lato margin-bottom-60" style="">
+							iLernus University es una plataforma educativa de aprendizaje en línea que permite <strong style="color: #35459C">capacitar y actualizar</strong> a los colaboradores de su empresa a través de la suscripción de planes y paquetes de contenidos de interés.<br>
+							iLernus Producciones ofrece la concepción, <strong style="color: #35459C">desarrollo y producción</strong> de servicios instruccionales y audiovisuales con fines educativos, diseñándolos a la medida de su empresa bajo altos estándares de calidad.<br>
+							iLernus Academia brinda <strong style="color: #35459C">soluciones educativas</strong> presenciales in company o en nuestras instalaciones, con un equipo de la más alta talla que diseñan una estratégica de formación a su medida.
+				
 						</p>
-						
-						<p class="lead font-lato">
-							<span><strong style="color: #41B649">iLernus</strong></span> Producciones ofrece la concepción, desarrollo y producción de servicios instruccionales y audiovisuales con fines educativos, diseñándolos a la medida de su empresa bajo altos estándares de calidad.
-						</p>
-							
-						<p class="lead font-lato">	 
-							<span><strong style="color: #F47741">iLernus</strong></span> Academia brinda soluciones educativas presenciales in company o en nuestras instalaciones, con un equipo de la más alta talla que diseñan una estratégica de formación a su medida.
-						</p>
+
 						<hr />
 					</header>
 					<div id="portfolio" class="portfolio-nogutter">
