@@ -5,9 +5,9 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>ilernus</title>
-		<meta name="keywords" content="HTML5,CSS3,Template" />
+		<meta name="keywords" content="e-learning" />
 		<meta name="description" content="" />
-		<meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+		<meta name="Author" content="" />
 
 		<!-- mobile settings -->
 		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
@@ -97,8 +97,8 @@
 						</button>
 
 						<!-- Logo -->
-						<a class="logo pull-left" href="index.html">
-							<img src="smarty/assets/images/ilernus3.png" alt="" />
+						<a class="logo pull-left" href="{{ route('home') }}">
+							<img src="smarty/assets/images/ilernus4.png" alt="" />
 														
 						</a>
 
@@ -183,7 +183,7 @@
 							<img src="smarty/assets/images/demo/layerslider/shutterstock_379547437.jpg" class="ls-bg" alt="Slide background"/>
 
 							<p class="ls-l" style="top:44%;left:50%;font-weight: 300;font-size:30px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:50;durationin:750;easingin:easeOutBack;skewxin:-50;offsetxout:-50;durationout:600;showuntil:500;easingout:easeInBack;skewxout:50;">
-								bienvenidos a
+								<b>bienvenidos a</b>
 							</p>
 							<p class="ls-l" style="top:52%;left:50%;font-weight: 300;font-size:50px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:-100;durationin:750;delayin:250;easingin:easeOutBack;skewxin:-50;offsetxout:100;durationout:600;showuntil:500;easingout:easeInBack;skewxout:50;">
 								<b>ilernus</b>
@@ -220,25 +220,25 @@
 								Calidad
 							</p>
 							<p class="ls-l" style="top:90px;left:100px;font-weight: 300;font-size:24px;color:#fff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:700;rotateyin:90;skewxin:60;transformoriginin:25% 50% 0;offsetxout:100;durationout:750;skewxout:60;">
-								en contenido instruccional e-learning
+								<b>en contenido instruccional e-learning</b>
 							</p>
 							<p class="ls-l" style="top:150px;left:100px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#ffffff;background:#41B649;border-radius:4px;white-space: nowrap;" data-ls="durationin:1500;delayin:1000;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">
 								Conocimientos
 							</p>
 							<p class="ls-l" style="top:190px;left:100px;font-weight: 300;font-size:24px;color:#fff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:1400;rotateyin:90;skewxin:60;transformoriginin:25% 50% 0;offsetxout:100;durationout:750;skewxout:60;">
-								que transforman la manera de planificar
+								<b>que transforman la manera de planificar</b>
 							</p>
 							<p class="ls-l" style="top:250px;left:100px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#ffffff;background:#35459C;border-radius:4px;white-space: nowrap;" data-ls="durationin:1500;delayin:1700;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">
 								Tecnología
 							</p>
 							<p class="ls-l" style="top:290px;left:100px;font-weight: 300;font-size:24px;color:#fff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:2100;rotateyin:90;skewxin:60;transformoriginin:25% 50% 0;offsetxout:100;durationout:750;skewxout:60;">
-								para el desarrollo eficiente
+								<b>para el desarrollo eficiente</b>
 							</p>
 							<p class="ls-l" style="top:350px;left:100px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#ffffff;background:#7952A1;border-radius:4px;white-space: nowrap;" data-ls="durationin:1500;delayin:2400;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">
 								Control de gestión
 							</p>
 							<p class="ls-l" style="top:390px;left:100px;font-weight: 300;font-size:24px;color:#fff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:2800;rotateyin:90;skewxin:60;transformoriginin:25% 50% 0;offsetxout:100;durationout:750;skewxout:60;">
-								para la formación de empresas en Venezuela
+								<b>para la formación de empresas en Venezuela</b>
 							</p>
 						</div>
 
@@ -521,7 +521,7 @@
 					<!-- LEFT -->
 					<div class="col-md-6 col-sm-6 nopadding nomargin">
 
-						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/2-min.jpg" alt="image" />
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/11-min.jpg" alt="image" />
 
 					</div>
 
@@ -579,7 +579,7 @@
 					<!-- LEFT -->
 					<div class="col-md-6 col-sm-6 nopadding nomargin">
 
-						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/1-min.jpg" alt="image" />
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/22-min.jpg" alt="image" />
 
 					</div>
 
@@ -604,15 +604,15 @@
 					<header class="text-center margin-bottom-60">
 						<h2>Servicios</h2>
 						<p class="lead font-lato">
-							iLernus University es una plataforma educativa de aprendizaje en línea que permite capacitar y actualizar a los colaboradores de su empresa a través de la suscripción de planes y paquetes de contenidos de interés.	 
+							<span><strong style="color: #35459C">iLernus</strong></span> University es una plataforma educativa de aprendizaje en línea que permite capacitar y actualizar a los colaboradores de su empresa a través de la suscripción de planes y paquetes de contenidos de interés.	 
 						</p>
 						
 						<p class="lead font-lato">
-							iLernus Producciones ofrece la concepción, desarrollo y producción de servicios instruccionales y audiovisuales con fines educativos, diseñándolos a la medida de su empresa bajo altos estándares de calidad.
+							<span><strong style="color: #41B649">iLernus</strong></span> Producciones ofrece la concepción, desarrollo y producción de servicios instruccionales y audiovisuales con fines educativos, diseñándolos a la medida de su empresa bajo altos estándares de calidad.
 						</p>
 							
 						<p class="lead font-lato">	 
-							iLernus Academia brinda soluciones educativas presenciales in company o en nuestras instalaciones, con un equipo de la más alta talla que diseñan una estratégica de formación a su medida.
+							<span><strong style="color: #F47741">iLernus</strong></span> Academia brinda soluciones educativas presenciales in company o en nuestras instalaciones, con un equipo de la más alta talla que diseñan una estratégica de formación a su medida.
 						</p>
 						<hr />
 					</header>
@@ -704,10 +704,8 @@
 
 										<img class="img-responsive" src="smarty/assets/images/demo/mockups/600x399/9-min.jpg" width="600" height="399" alt="">
 									</figure>
-
-									<div class="item-box-desc">
-										<h3>Bases legales del contrato laboral en Venezuela</h3>
-										<ul class="list-inline categories nomargin">
+									<h3 style="font-size: 15px">Bases legales del contrato laboral en Venezuela</h3>
+									<ul class="list-inline categories nomargin">
 											<li>
 												<a href="#">												
 													<span class="label" style="background-color: #35459C; color: #ffffff">Negocios</span>
@@ -715,7 +713,6 @@
 											</li>
 
 										</ul>
-									</div>
 
 								</div>
 
@@ -858,17 +855,15 @@
 										<img class="img-responsive" src="smarty/assets/images/demo/mockups/600x399/9-min.jpg" width="600" height="399" alt="">
 									</figure>
 
-									<div class="item-box-desc">
-										<h3>Modalidades y elementos asociados al contrato laboral</h3>
-										<ul class="list-inline categories nomargin">
-											<li>
-												<a href="#">												
-													<span class="label" style="background-color: #35459C; color: #ffffff">Negocios</span>
-												</a>
-											</li>
+									<h3 style="font-size: 15px">Modalidades y elementos asociados al contrato laboral</h3>
+									<ul class="list-inline categories nomargin">
+										<li>
+											<a href="#">												
+												<span class="label" style="background-color: #35459C; color: #ffffff">Negocios</span>
+											</a>
+										</li>
 
-										</ul>
-									</div>
+									</ul>
 
 								</div>
 
@@ -986,7 +981,7 @@
 							</div><!-- /item -->
 
 
-							<div class="col-md-3 col-sm-3 mix photography"><!-- item -->
+							<div class="col-md-3 col-sm-3 mix development"><!-- item -->
 
 								<div class="item-box">
 									<figure>
@@ -994,29 +989,32 @@
 											<span class="overlay dark-5"></span>
 											<span class="inner">
 
-												<!-- lightbox -->
-												<a class="ico-rounded lightbox" href="smarty/assets/images/demo/mockups/1200x800/1-min.jpg" data-plugin-options='{"type":"image"}'>
-													<span class="fa fa-plus size-20"></span>
-												</a>
+
+												<!-- Modal Ajax Lightbox >-->
+												<a class="ico-rounded lightbox" href="{{ route('causasConsecuencias') }}" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'>
+												<span class="fa fa-search size-20"></span> 
+												</a>												
 
 												<!-- details -->
-												<a class="ico-rounded" href="portfolio-single-slider.html">
-													<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+												<a class="ico-rounded" href="#">
+													<span class="fa fa-share size-20"></span>
 												</a>
 
 											</span>
 										</span>
 
-										<img class="img-responsive" src="smarty/assets/images/demo/mockups/600x399/1-min.jpg" width="600" height="399" alt="">
+										<img class="img-responsive" src="smarty/assets/images/demo/mockups/600x399/9-min.jpg" width="600" height="399" alt="">
 									</figure>
+									
+									<h3 style="font-size: 15px">Causas y consecuencias de la suspensión de la relación de trabajo</h3>
+									<ul class="list-inline categories nomargin">
+										<li>
+											<a href="#">												
+												<span class="label" style="background-color: #35459C; color: #ffffff">Negocios</span>
+											</a>
+										</li>
 
-									<div class="item-box-desc">
-										<h3>Mobile </h3>
-										<ul class="list-inline categories nomargin">
-											<li><a href="#">ff</a></li>
-											<li><a href="#">Design</a></li>
-										</ul>
-									</div>
+									</ul>
 
 								</div>
 

@@ -40,3 +40,8 @@
 		'uses' => 'HomeController@modalidadesElementos',
 		'as' =>'modalidadesElementos'
 	]);	
+
+	Route::get('causasConsecuencias', [
+		'uses' => 'HomeController@causasConsecuencias',
+		'as' =>'causasConsecuencias'
+	]);		

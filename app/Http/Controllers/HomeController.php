@@ -41,7 +41,18 @@ class HomeController extends Controller
     {
         //
          return \View::make('modalidadesElementos');
-    }       
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function causasConsecuencias()
+    {
+        //
+         return \View::make('causasConsecuencias');
+    }          
 
     /**
      * Show the form for creating a new resource.
