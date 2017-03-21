@@ -65,3 +65,15 @@
 .icon-segumiento:before {
   content: "\61";
 }
+.icon-consolida:before {
+  content: "\6a";
+}
+.icon-estadisticas:before {
+  content: "\6b";
+}
+.icon-formacin:before {
+  content: "\6c";
+}
+.icon-tiempo:before {
+  content: "\6d";
+}

@@ -180,7 +180,7 @@
 						<div class="ls-slide" data-ls="slidedelay:8000;transition2d:21,105;">
 
 							<!-- background image -->
-							<img src="smarty/assets/images/demo/layerslider/slide-corporate-7.jpg" class="ls-bg" alt="Slide background"/>
+							<img src="smarty/assets/images/demo/layerslider/shutterstock_379547437.jpg" class="ls-bg" alt="Slide background"/>
 
 							<p class="ls-l" style="top:44%;left:50%;font-weight: 300;font-size:30px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:50;durationin:750;easingin:easeOutBack;skewxin:-50;offsetxout:-50;durationout:600;showuntil:500;easingout:easeInBack;skewxout:50;">
 								bienvenidos a
@@ -398,25 +398,25 @@
 						<div class="col-md-6">
 							<h2 style="text-align: center;">Atributos</h2>
 							<ul class="list-unstyled list-icons lead font-lato">
-								<li><i style="color: #35459C; font-size: 28px" class="icon icon-segumiento"></i>Seguimiento y gestión del desarrollo profesional de los colaboradores.</li>
-								<li><i style="color: #35459C; font-size: 28px" class="icon icon-gestiona"></i>Gestiona, preserva y transmite el know how de tu organización.</li>
-								<li><i style="color: #35459C; font-size: 28px" class="icon icon-segumiento"></i>Consolida y simplifica la información de tus colaboradores.</li>
-								<li><i style="color: #35459C; font-size: 28px" class="icon icon-segumiento"></i>Formación 100% en línea, cuando y donde quieras.</li>
-								<li><i style="color: #35459C; font-size: 28px" class="icon icon-segumiento"></i>Provee estadísticas y resultados medibles.</li>
-								<li><i style="color: #35459C; font-size: 28px" class="icon icon-creamos"></i>Creamos tu biblioteca privada desarrollando contenidos a la medida.</li>
-								<li><i style="color: #35459C; font-size: 28px" class="icon icon-biblioteca"></i>Biblioteca pública con gran variedad de cursos.</li>
-								<li><i style="color: #35459C; font-size: 28px" class="icon icon-captacion"></i>Capacitación basada en competencias, con instructores de alto nivel.</li>
+								<li><i style="color: #35459C; font-size: 20px" class="icon icon-segumiento"></i>Seguimiento y gestión del desarrollo profesional de los colaboradores.</li>
+								<li><i style="color: #35459C; font-size: 20px" class="icon icon-gestiona"></i>Gestiona, preserva y transmite el know how de tu organización.</li>
+								<li><i style="color: #35459C; font-size: 20px" class="icon icon-consolida"></i>Consolida y simplifica la información de tus colaboradores.</li>
+								<li><i style="color: #35459C; font-size: 20px" class="icon icon-formacin"></i>Formación 100% en línea, cuando y donde quieras.</li>
+								<li><i style="color: #35459C; font-size: 20px" class="icon icon-estadisticas"></i>Provee estadísticas y resultados medibles.</li>
+								<li><i style="color: #35459C; font-size: 20px" class="icon icon-creamos"></i>Creamos tu biblioteca privada desarrollando contenidos a la medida.</li>
+								<li><i style="color: #35459C; font-size: 20px" class="icon icon-biblioteca"></i>Biblioteca pública con gran variedad de cursos.</li>
+								<li><i style="color: #35459C; font-size: 20px" class="icon icon-captacion"></i>Capacitación basada en competencias, con instructores de alto nivel.</li>
 							</ul>
 						</div>
 
 						<div class="col-md-6">
 							<h2 style="text-align: center;">Beneficios</h2>
 								<ul class="list-unstyled list-icons lead font-lato">
-									<li><i style="color: #F47741; font-size: 28px" class="icon icon-apalanca"></i>Apalanca la estrategia de retención del talento.</li>
-									<li><i style="color: #F47741; font-size: 28px" class="icon icon-gestion"></i>Facilita la gestión de formación y entrenamiento.</li>
-									<li><i style="color: #F47741; font-size: 28px" class="icon icon-segumiento"></i>Ahorra tiempo y recursos.</li>
-									<li><i style="color: #F47741; font-size: 28px" class="icon icon-refuerza"></i>Refuerza el proceso de gerencia y preservación del conocimiento.</li>
-									<li><i style="color: #F47741; font-size: 28px" class="icon icon-herramientas"></i>Cuenta con funciones y herramientas orientadas al aprendizaje y a la productividad</li>
+									<li><i style="color: #35459C; font-size: 20px" class="icon icon-apalanca"></i>Apalanca la estrategia de retención del talento.</li>
+									<li><i style="color: #35459C; font-size: 20px" class="icon icon-gestion"></i>Facilita la gestión de formación y entrenamiento.</li>
+									<li><i style="color: #35459C; font-size: 20px" class="icon icon-tiempo"></i>Ahorra tiempo y recursos.</li>
+									<li><i style="color: #35459C; font-size: 20px" class="icon icon-refuerza"></i>Refuerza el proceso de gerencia y preservación del conocimiento.</li>
+									<li><i style="color: #35459C; font-size: 20px" class="icon icon-herramientas"></i>Cuenta con funciones y herramientas orientadas al aprendizaje y a la productividad</li>
 								</ul>
 						</div>
 					</div>
