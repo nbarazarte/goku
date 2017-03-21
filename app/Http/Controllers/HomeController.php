@@ -20,6 +20,29 @@ class HomeController extends Controller
          return \View::make('index');
     }
 
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function basesLegales()
+    {
+        //
+         return \View::make('basesLegales');
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function modalidadesElementos()
+    {
+        //
+         return \View::make('modalidadesElementos');
+    }       
+
     /**
      * Show the form for creating a new resource.
      *

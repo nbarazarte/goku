@@ -11,10 +11,13 @@
 |
 */
 
+/********* index ***********/
 	Route::get('/', [
 		'uses' => 'HomeController@index',
 		'as' =>'home'
 	]);
+
+/********* conocenos: info de los lideres ***********/
 
 	Route::get('clover', [
 		'uses' => 'CloverController@index',
@@ -25,3 +28,15 @@
 		'uses' => 'MariaController@index',
 		'as' =>'maria'
 	]);
+
+/********* info de los cursos ***********/	
+
+	Route::get('basesLegales', [
+		'uses' => 'HomeController@basesLegales',
+		'as' =>'basesLegales'
+	]);
+
+	Route::get('modalidadesElementos', [
+		'uses' => 'HomeController@modalidadesElementos',
+		'as' =>'modalidadesElementos'
+	]);	

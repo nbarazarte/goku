@@ -129,8 +129,8 @@
 										</a>
 									</li>
 									<li><!-- PRICING -->
-										<a href="#pricing">
-											PRICING
+										<a href="#servicios">
+											Servicios
 										</a>
 									</li>
 									<li><!-- TESTIMONIALS -->
@@ -594,6 +594,516 @@
 </section>
 <!-- / -->
 
+
+
+
+			<!-- Portfolio -->
+			<section id="servicios">
+				<div class="container">
+
+					<header class="text-center margin-bottom-60">
+						<h2>Servicios</h2>
+						<p class="lead font-lato">
+							iLernus University es una plataforma educativa de aprendizaje en línea que permite capacitar y actualizar a los colaboradores de su empresa a través de la suscripción de planes y paquetes de contenidos de interés.	 
+						</p>
+						
+						<p class="lead font-lato">
+							iLernus Producciones ofrece la concepción, desarrollo y producción de servicios instruccionales y audiovisuales con fines educativos, diseñándolos a la medida de su empresa bajo altos estándares de calidad.
+						</p>
+							
+						<p class="lead font-lato">	 
+							iLernus Academia brinda soluciones educativas presenciales in company o en nuestras instalaciones, con un equipo de la más alta talla que diseñan una estratégica de formación a su medida.
+						</p>
+						<hr />
+					</header>
+					<div id="portfolio" class="portfolio-nogutter">
+
+						<ul class="nav nav-pills mix-filter margin-bottom-60">
+							<li data-filter="all" class="filter active"><a href="#">All</a></li>
+							<li data-filter="development" class="filter"><a href="#">Negocios</a></li>
+							<li data-filter="photography" class="filter"><a href="#">Tecnología</a></li>
+							<li data-filter="design" class="filter"><a href="#">Desarrollo</a></li>
+							<li data-filter="productividad" class="filter"><a href="#">Productividad</a></li>
+						</ul>
+
+
+						<div class="row mix-grid">
+
+							<div class="col-md-3 col-sm-3 mix design"><!-- item -->
+
+								<div class="item-box">
+									<figure>
+										<span class="item-hover">
+											<span class="overlay dark-5"></span>
+											<span class="inner">
+
+												<!-- lightbox -->
+												<a class="ico-rounded lightbox" href="smarty/assets/images/demo/mockups/1200x800/8-min.jpg" data-plugin-options='{"type":"image"}'>
+													<span class="fa fa-plus size-20"></span>
+												</a>
+
+												<!-- details -->
+												<a class="ico-rounded" href="portfolio-single-slider.html">
+													<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+												</a>
+
+											</span>
+										</span>
+
+										<!-- carousel -->
+										<div class="owl-carousel buttons-autohide controlls-over nomargin" data-plugin-options='{"singleItem": true, "autoPlay": 4000, "navigation": false, "pagination": true, "transitionStyle":"goDown"}'>
+											<div>
+												<img class="img-responsive" src="smarty/assets/images/demo/mockups/600x399/8-min.jpg" width="600" height="399" alt="">
+											</div>
+											<div>
+												<img class="img-responsive" src="smarty/assets/images/demo/mockups/600x399/9-min.jpg" width="600" height="399" alt="">
+											</div>
+											<div>
+												<img class="img-responsive" src="smarty/assets/images/demo/mockups/600x399/10-min.jpg" width="600" height="399" alt="">
+											</div>
+										</div>
+										<!-- /carousel -->
+
+
+									</figure>
+
+									<div class="item-box-desc">
+										<h3>Street Photography</h3>
+										<ul class="list-inline categories nomargin">
+											<li><a href="#">Photography</a></li>
+											<li><a href="#">Design</a></li>
+										</ul>
+									</div>
+
+								</div>
+
+							</div><!-- /item -->
+
+
+							<div class="col-md-3 col-sm-3 mix development"><!-- item -->
+
+								<div class="item-box">
+									<figure>
+										<span class="item-hover">
+											<span class="overlay dark-5"></span>
+											<span class="inner">
+
+
+												<!-- Modal Ajax Lightbox >-->
+												<a class="ico-rounded lightbox" href="{{ route('basesLegales') }}" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'>
+												<span class="fa fa-search size-20"></span> 
+												</a>												
+
+												<!-- details -->
+												<a class="ico-rounded" href="#">
+													<span class="fa fa-share size-20"></span>
+												</a>
+
+											</span>
+										</span>
+
+										<img class="img-responsive" src="smarty/assets/images/demo/mockups/600x399/9-min.jpg" width="600" height="399" alt="">
+									</figure>
+
+									<div class="item-box-desc">
+										<h3 style="font-size: 12px">Bases legales del contrato laboral en Venezuela</h3>
+										<ul class="list-inline categories nomargin">
+											<li>
+												<a href="#">												
+													<span class="label" style="background-color: #35459C; color: #ffffff">Negocios</span>
+												</a>
+											</li>
+
+										</ul>
+									</div>
+
+								</div>
+
+							</div><!-- /item -->
+
+
+							<div class="col-md-3 col-sm-3 mix photography"><!-- item -->
+
+								<div class="item-box">
+									<figure>
+										<span class="item-hover">
+											<span class="overlay dark-5"></span>
+											<span class="inner">
+
+												<!-- lightbox -->
+												<a class="ico-rounded lightbox" href="smarty/assets/images/demo/mockups/1200x800/10-min.jpg" data-plugin-options='{"type":"image"}'>
+													<span class="fa fa-plus size-20"></span>
+												</a>
+
+												<!-- details -->
+												<a class="ico-rounded" href="portfolio-single-slider.html">
+													<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+												</a>
+
+											</span>
+										</span>
+
+										<img class="img-responsive" src="smarty/assets/images/demo/mockups/600x399/10-min.jpg" width="600" height="399" alt="">
+									</figure>
+
+									<div class="item-box-desc">
+										<h3>Fashion Design</h3>
+										<ul class="list-inline categories nomargin">
+											<li><a href="#">Photography</a></li>
+											<li><a href="#">Design</a></li>
+										</ul>
+									</div>
+
+								</div>
+
+							</div><!-- /item -->
+
+
+							<div class="col-md-3 col-sm-3 mix design"><!-- item -->
+
+								<div class="item-box">
+									<figure>
+										<span class="item-hover">
+											<span class="overlay dark-5"></span>
+											<span class="inner">
+
+												<!-- lightbox -->
+												<a class="ico-rounded lightbox" href="smarty/assets/images/demo/mockups/1200x800/11-min.jpg" data-plugin-options='{"type":"image"}'>
+													<span class="fa fa-plus size-20"></span>
+												</a>
+
+												<!-- details -->
+												<a class="ico-rounded" href="portfolio-single-slider.html">
+													<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+												</a>
+
+											</span>
+										</span>
+
+										<img class="img-responsive" src="smarty/assets/images/demo/mockups/600x399/11-min.jpg" width="600" height="399" alt="">
+									</figure>
+
+									<div class="item-box-desc">
+										<h3>Ocean Project</h3>
+										<ul class="list-inline categories nomargin">
+											<li><a href="#">Photography</a></li>
+											<li><a href="#">Design</a></li>
+										</ul>
+									</div>
+
+								</div>
+
+							</div><!-- /item -->
+
+
+							<div class="col-md-3 col-sm-3 mix design"><!-- item -->
+
+								<div class="item-box">
+									<figure>
+										<span class="item-hover">
+											<span class="overlay dark-5"></span>
+											<span class="inner">
+
+												<!-- lightbox -->
+												<a class="ico-rounded lightbox" href="smarty/assets/images/demo/mockups/1200x800/12-min.jpg" data-plugin-options='{"type":"image"}'>
+													<span class="fa fa-plus size-20"></span>
+												</a>
+
+												<!-- details -->
+												<a class="ico-rounded" href="portfolio-single-slider.html">
+													<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+												</a>
+
+											</span>
+										</span>
+
+										<img class="img-responsive" src="smarty/assets/images/demo/mockups/600x399/12-min.jpg" width="600" height="399" alt="">
+									</figure>
+
+									<div class="item-box-desc">
+										<h3>Architect Project</h3>
+										<ul class="list-inline categories nomargin">
+											<li><a href="#">Architecture</a></li>
+											<li><a href="#">Design</a></li>
+										</ul>
+									</div>
+
+								</div>
+
+							</div><!-- /item -->
+
+
+							<div class="col-md-3 col-sm-3 mix development"><!-- item -->
+
+								<div class="item-box">
+									<figure>
+										<span class="item-hover">
+											<span class="overlay dark-5"></span>
+											<span class="inner">
+
+
+												<!-- Modal Ajax Lightbox >-->
+												<a class="ico-rounded lightbox" href="{{ route('modalidadesElementos') }}" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'>
+												<span class="fa fa-search size-20"></span> 
+												</a>												
+
+												<!-- details -->
+												<a class="ico-rounded" href="#">
+													<span class="fa fa-share size-20"></span>
+												</a>
+
+											</span>
+										</span>
+
+										<img class="img-responsive" src="smarty/assets/images/demo/mockups/600x399/9-min.jpg" width="600" height="399" alt="">
+									</figure>
+
+									<div class="item-box-desc">
+										<h3 style="font-size: 12px">Modalidades y elementos asociados al contrato laboral</h3>
+										<ul class="list-inline categories nomargin">
+											<li>
+												<a href="#">												
+													<span class="label" style="background-color: #35459C; color: #ffffff">Negocios</span>
+												</a>
+											</li>
+
+										</ul>
+									</div>
+
+								</div>
+
+							</div><!-- /item -->
+
+
+							<div class="col-md-3 col-sm-3 mix photography"><!-- item -->
+
+								<div class="item-box">
+									<figure>
+										<span class="item-hover">
+											<span class="overlay dark-5"></span>
+											<span class="inner">
+
+												<!-- lightbox -->
+												<a class="ico-rounded lightbox" href="smarty/assets/images/demo/mockups/1200x800/14-min.jpg" data-plugin-options='{"type":"image"}'>
+													<span class="fa fa-plus size-20"></span>
+												</a>
+
+												<!-- details -->
+												<a class="ico-rounded" href="portfolio-single-slider.html">
+													<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+												</a>
+
+											</span>
+										</span>
+
+										<img class="img-responsive" src="smarty/assets/images/demo/mockups/600x399/14-min.jpg" width="600" height="399" alt="">
+									</figure>
+
+									<div class="item-box-desc">
+										<h3>Mobile</h3>
+										<ul class="list-inline categories nomargin">
+											<li><a href="#">ff</a></li>
+											<li><a href="#">Design</a></li>
+										</ul>
+									</div>
+
+								</div>
+
+							</div><!-- /item -->
+
+
+							<div class="col-md-3 col-sm-3 mix design"><!-- item -->
+
+								<div class="item-box">
+									<figure>
+										<span class="item-hover">
+											<span class="overlay dark-5"></span>
+											<span class="inner">
+
+												<!-- lightbox -->
+												<a class="ico-rounded lightbox" href="smarty/assets/images/demo/mockups/1200x800/15-min.jpg" data-plugin-options='{"type":"image"}'>
+													<span class="fa fa-plus size-20"></span>
+												</a>
+
+												<!-- details -->
+												<a class="ico-rounded" href="portfolio-single-slider.html">
+													<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+												</a>
+
+											</span>
+										</span>
+
+										<img class="img-responsive" src="smarty/assets/images/demo/mockups/600x399/15-min.jpg" width="600" height="399" alt="">
+									</figure>
+
+									<div class="item-box-desc">
+										<h3>Nature Art</h3>
+										<ul class="list-inline categories nomargin">
+											<li><a href="#">Nature</a></li>
+											<li><a href="#">Art</a></li>
+										</ul>
+									</div>
+
+								</div>
+
+							</div><!-- /item -->
+
+
+							<div class="col-md-3 col-sm-3 mix design"><!-- item -->
+
+								<div class="item-box">
+									<figure>
+										<span class="item-hover">
+											<span class="overlay dark-5"></span>
+											<span class="inner">
+
+												<!-- lightbox -->
+												<a class="ico-rounded lightbox" href="smarty/assets/images/demo/mockups/1200x800/16-min.jpg" data-plugin-options='{"type":"image"}'>
+													<span class="fa fa-plus size-20"></span>
+												</a>
+
+												<!-- details -->
+												<a class="ico-rounded" href="portfolio-single-slider.html">
+													<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+												</a>
+
+											</span>
+										</span>
+
+										<img class="img-responsive" src="smarty/assets/images/demo/mockups/600x399/16-min.jpg" width="600" height="399" alt="">
+									</figure>
+
+									<div class="item-box-desc">
+										<h3>Nature Art</h3>
+										<ul class="list-inline categories nomargin">
+											<li><a href="#">Nature</a></li>
+											<li><a href="#">Art</a></li>
+										</ul>
+									</div>
+
+								</div>
+
+							</div><!-- /item -->
+
+
+							<div class="col-md-3 col-sm-3 mix photography"><!-- item -->
+
+								<div class="item-box">
+									<figure>
+										<span class="item-hover">
+											<span class="overlay dark-5"></span>
+											<span class="inner">
+
+												<!-- lightbox -->
+												<a class="ico-rounded lightbox" href="smarty/assets/images/demo/mockups/1200x800/1-min.jpg" data-plugin-options='{"type":"image"}'>
+													<span class="fa fa-plus size-20"></span>
+												</a>
+
+												<!-- details -->
+												<a class="ico-rounded" href="portfolio-single-slider.html">
+													<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+												</a>
+
+											</span>
+										</span>
+
+										<img class="img-responsive" src="smarty/assets/images/demo/mockups/600x399/1-min.jpg" width="600" height="399" alt="">
+									</figure>
+
+									<div class="item-box-desc">
+										<h3>Mobile </h3>
+										<ul class="list-inline categories nomargin">
+											<li><a href="#">ff</a></li>
+											<li><a href="#">Design</a></li>
+										</ul>
+									</div>
+
+								</div>
+
+							</div><!-- /item -->
+
+
+							<div class="col-md-3 col-sm-3 mix design"><!-- item -->
+
+								<div class="item-box">
+									<figure>
+										<span class="item-hover">
+											<span class="overlay dark-5"></span>
+											<span class="inner">
+
+												<!-- lightbox -->
+												<a class="ico-rounded lightbox" href="smarty/assets/images/demo/mockups/1200x800/2-min.jpg" data-plugin-options='{"type":"image"}'>
+													<span class="fa fa-plus size-20"></span>
+												</a>
+
+												<!-- details -->
+												<a class="ico-rounded" href="portfolio-single-slider.html">
+													<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+												</a>
+
+											</span>
+										</span>
+
+										<img class="img-responsive" src="smarty/assets/images/demo/mockups/600x399/2-min.jpg" width="600" height="399" alt="">
+									</figure>
+
+									<div class="item-box-desc">
+										<h3>Nature Art</h3>
+										<ul class="list-inline categories nomargin">
+											<li><a href="#">Nature</a></li>
+											<li><a href="#">Art</a></li>
+										</ul>
+									</div>
+
+								</div>
+
+							</div><!-- /item -->
+
+
+							<div class="col-md-3 col-sm-3 mix design"><!-- item -->
+
+								<div class="item-box">
+									<figure>
+										<span class="item-hover">
+											<span class="overlay dark-5"></span>
+											<span class="inner">
+
+												<!-- lightbox -->
+												<a class="ico-rounded lightbox" href="smarty/assets/images/demo/mockups/1200x800/3-min.jpg" data-plugin-options='{"type":"image"}'>
+													<span class="fa fa-plus size-20"></span>
+												</a>
+
+												<!-- details -->
+												<a class="ico-rounded" href="portfolio-single-slider.html">
+													<span class="glyphicon glyphicon-option-horizontal size-20"></span>
+												</a>
+
+											</span>
+										</span>
+
+										<img class="img-responsive" src="smarty/assets/images/demo/mockups/600x399/3-min.jpg" width="600" height="399" alt="">
+									</figure>
+
+									<div class="item-box-desc">
+										<h3>Nature Art</h3>
+										<ul class="list-inline categories nomargin">
+											<li><a href="#">Nature</a></li>
+											<li><a href="#">Art</a></li>
+										</ul>
+									</div>
+
+								</div>
+
+							</div><!-- /item -->
+
+
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+			<!-- /Portfolio -->
 
 
 
