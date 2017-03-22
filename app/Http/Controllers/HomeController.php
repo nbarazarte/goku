@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\tbl_curso;
+use DB;
 
 class HomeController extends Controller
 {
@@ -17,42 +19,12 @@ class HomeController extends Controller
     public function index()
     {
         //
-         return \View::make('index');
+        //return \View::make('index');
+
+        $cursos = DB::table('tbl_cursos')->get();                   
+        return \View::make('index', compact('cursos'));
     }
 
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function basesLegales()
-    {
-        //
-         return \View::make('basesLegales');
-    }
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function modalidadesElementos()
-    {
-        //
-         return \View::make('modalidadesElementos');
-    }
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function causasConsecuencias()
-    {
-        //
-         return \View::make('causasConsecuencias');
-    }          
 
     /**
      * Show the form for creating a new resource.

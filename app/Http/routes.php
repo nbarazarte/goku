@@ -28,20 +28,3 @@
 		'uses' => 'MariaController@index',
 		'as' =>'maria'
 	]);
-
-/********* info de los cursos ***********/	
-
-	Route::get('basesLegales', [
-		'uses' => 'HomeController@basesLegales',
-		'as' =>'basesLegales'
-	]);
-
-	Route::get('modalidadesElementos', [
-		'uses' => 'HomeController@modalidadesElementos',
-		'as' =>'modalidadesElementos'
-	]);	
-
-	Route::get('causasConsecuencias', [
-		'uses' => 'HomeController@causasConsecuencias',
-		'as' =>'causasConsecuencias'
-	]);		
