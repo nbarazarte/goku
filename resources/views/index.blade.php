@@ -392,32 +392,176 @@
 
 					</header>
 
-					<div class="row">
-						<div class="col-md-6">
-							<h2 style="text-align: center;">Atributos</h2>
-							<ul class="list-unstyled list-icons lead font-lato">
-								<li><i style="color: #35459C; font-size: 20px" class="icon icon-segumiento"></i>Seguimiento y gestión del desarrollo profesional de los colaboradores.</li>
-								<li><i style="color: #35459C; font-size: 20px" class="icon icon-gestiona"></i>Gestiona, preserva y transmite el know how de tu organización.</li>
-								<li><i style="color: #35459C; font-size: 20px" class="icon icon-consolida"></i>Consolida y simplifica la información de tus colaboradores.</li>
-								<li><i style="color: #35459C; font-size: 20px" class="icon icon-formacin"></i>Formación 100% en línea, cuando y donde quieras.</li>
-								<li><i style="color: #35459C; font-size: 20px" class="icon icon-estadisticas"></i>Provee estadísticas y resultados medibles.</li>
-								<li><i style="color: #35459C; font-size: 20px" class="icon icon-creamos"></i>Creamos tu biblioteca privada desarrollando contenidos a la medida.</li>
-								<li><i style="color: #35459C; font-size: 20px" class="icon icon-biblioteca"></i>Biblioteca pública con gran variedad de cursos.</li>
-								<li><i style="color: #35459C; font-size: 20px" class="icon icon-captacion"></i>Capacitación basada en competencias, con instructores de alto nivel.</li>
-							</ul>
+
+
+
+				<div class="row">
+					<h2 style="text-align: center;">Atributos</h2>
+
+
+						<div class="col-md-3">
+
+							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+								<a class="box-icon-title" href="#">
+									<i class="icon icon-segumiento"></i>
+									<h2>Seguimiento</h2>
+								</a>
+								<p>Seguimiento y gestión del desarrollo profesional de los colaboradores.</p>
+							</div>
+
 						</div>
 
-						<div class="col-md-6">
-							<h2 style="text-align: center;">Beneficios</h2>
-								<ul class="list-unstyled list-icons lead font-lato">
-									<li><i style="color: #35459C; font-size: 20px" class="icon icon-apalanca"></i>Apalanca la estrategia de retención del talento.</li>
-									<li><i style="color: #35459C; font-size: 20px" class="icon icon-gestion"></i>Facilita la gestión de formación y entrenamiento.</li>
-									<li><i style="color: #35459C; font-size: 20px" class="icon icon-tiempo"></i>Ahorra tiempo y recursos.</li>
-									<li><i style="color: #35459C; font-size: 20px" class="icon icon-refuerza"></i>Refuerza el proceso de gerencia y preservación del conocimiento.</li>
-									<li><i style="color: #35459C; font-size: 20px" class="icon icon-herramientas"></i>Cuenta con funciones y herramientas orientadas al aprendizaje y a la productividad</li>
-								</ul>
+						<div class="col-md-3">
+
+							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+								<a class="box-icon-title" href="#">
+									<i class="icon icon-gestiona"></i>
+									<h2>Gestiona</h2>
+								</a>
+								<p>Gestiona, preserva y transmite el know how de tu organización.</p>
+							</div>
+
 						</div>
-					</div>
+
+						<div class="col-md-3">
+
+							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+								<a class="box-icon-title" href="#">
+									<i class="icon icon-consolida"></i>
+									<h2>Consolida</h2>
+								</a>
+								<p>Consolida y simplifica la información de tus colaboradores.</p>
+							</div>
+
+						</div>
+
+						<div class="col-md-3">
+
+							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+								<a class="box-icon-title" href="#">
+									<i class="icon icon-formacin"></i>
+									<h2>Formación</h2>
+								</a>
+								<p>Formación 100% en línea, cuando y donde quieras.</p>
+							</div>
+
+						</div>	
+
+						<div class="col-md-3">
+
+							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+								<a class="box-icon-title" href="#">
+									<i class="icon icon-estadisticas"></i>
+									<h2>Provee</h2>
+								</a>
+								<p>Provee estadísticas y resultados medibles.</p>
+							</div>
+
+						</div>
+
+						<div class="col-md-3">
+
+							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+								<a class="box-icon-title" href="#">
+									<i class="icon icon-creamos"></i>
+									<h2>Creamos</h2>
+								</a>
+								<p>Creamos tu biblioteca privada desarrollando contenidos a la medida.</p>
+							</div>
+
+						</div>
+
+						<div class="col-md-3">
+
+							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+								<a class="box-icon-title" href="#">
+									<i class="icon icon-biblioteca"></i>
+									<h2>Biblioteca</h2>
+								</a>
+								<p>Biblioteca pública con gran variedad de cursos.</p>
+							</div>
+
+						</div>
+
+						<div class="col-md-3">
+
+							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+								<a class="box-icon-title" href="#">
+									<i class="icon icon-captacion"></i>
+									<h2>Capacitación</h2>
+								</a>
+								<p>Capacitación basada en competencias, con instructores de alto nivel.</p>
+							</div>
+
+						</div>			
+
+				</div>
+
+
+				<div class="row">
+					<h2 style="text-align: center;">Beneficios</h2>
+						<div class="col-md-3">
+
+							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+								<a class="box-icon-title" href="#">
+									<i class="icon icon-apalanca"></i>
+									<h2>Apalancar</h2>
+								</a>
+								<p>Apalanca la estrategia de retención del talento.</p>
+							</div>
+
+						</div>
+
+						<div class="col-md-3">
+
+							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+								<a class="box-icon-title" href="#">
+									<i class="icon icon-gestion"></i>
+									<h2>Facilitar</h2>
+								</a>
+								<p>Facilita la gestión de formación y entrenamiento.</p>
+							</div>
+
+						</div>
+
+						<div class="col-md-3">
+
+							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+								<a class="box-icon-title" href="#">
+									<i class="icon icon-tiempo"></i>
+									<h2>Ahorrar</h2>
+								</a>
+								<p>Ahorra tiempo y recursos.</p>
+							</div>
+
+						</div>
+
+						<div class="col-md-3">
+
+							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+								<a class="box-icon-title" href="#">
+									<i class="icon icon-refuerza"></i>
+									<h2>Reforzar</h2>
+								</a>
+								<p>Refuerza el proceso de gerencia y preservación del conocimiento.</p>
+							</div>
+
+						</div>	
+
+						<div class=""><!--col-md-3-->
+
+							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+								<a class="box-icon-title" href="#">
+									<i class="icon icon-herramientas"></i>
+									<h2>Contar</h2>
+								</a>
+								<p>Cuenta con funciones y herramientas orientadas al aprendizaje y a la productividad</p>
+							</div>
+
+						</div>								
+
+				</div>				
+
 
 				</div>
 			</section>
