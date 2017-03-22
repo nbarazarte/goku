@@ -29,7 +29,7 @@
 
 		<!-- PAGE LEVEL SCRIPTS -->
 		{!! Html::style('smarty/assets/css/header-1.css') !!}
-		{!! Html::style('smarty/assets/css/color_scheme/green.css') !!}
+		{!! Html::style('smarty/assets/css/color_scheme/blue.css') !!}
 	</head>
 
 	<!--
