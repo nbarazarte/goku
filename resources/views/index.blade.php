@@ -790,7 +790,7 @@
 											</span>
 										</span>
 
-										<img class="img-responsive" src="smarty/assets/images/demo/mockups/600x399/9-min.jpg" width="600" height="399" alt="">
+										<img class="img-responsive" src="smarty/assets/images/cursosilernus/{{ $curso->str_imagen }}" width="600" height="399" alt="">
 									</figure>
 
 									<div class="item-box-desc">

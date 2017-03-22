@@ -21,7 +21,9 @@ class HomeController extends Controller
         //
         //return \View::make('index');
 
-        $cursos = DB::table('tbl_cursos')->get();                   
+        
+        //$cursos = DB::table('tbl_cursos')->get();
+        $cursos = DB::table('tbl_cursos')->orderByRaw("RAND()")->get();            
         return \View::make('index', compact('cursos'));
     }
 

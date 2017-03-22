@@ -20,7 +20,7 @@ class tbl_cursos extends Model
      *
      * @var array
      */
-    protected $fillable = ['str_curso', 'str_categoria', 'str_clase'];
+    protected $fillable = ['str_curso', 'str_categoria', 'str_clase', 'str_imagen'];
 
 
     /**
