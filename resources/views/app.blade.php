@@ -102,20 +102,23 @@
 						</a>
 
 
-						<div class="sticky-side sticky-side-left visible-md visible-lg" style="background-color: transparent;">
-							<a href="#" class="social-icon social-icon-light  social-facebook">
+						<div class="sticky-side sticky-side-left visible-md visible-lg">
+							<a href="#" class="social-icon social-icon-sm social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
 								<i class="fa fa-facebook"></i>
 								<i class="fa fa-facebook"></i>
 							</a>
-							<a href="#" class="social-icon social-icon-light  social-twitter">
+							<a href="#" class="social-icon social-icon-sm social-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
 								<i class="fa fa-twitter"></i>
 								<i class="fa fa-twitter"></i>
 							</a>
-							<a href="#" class="social-icon social-icon-light  social-youtube">
+							<a href="#" class="social-icon social-icon-sm social-youtube" data-toggle="tooltip" data-placement="top" title="Youtube">
 								<i class="fa fa-youtube-play"></i>
 								<i class="fa fa-youtube-play"></i>
 							</a>
-
+							<a href="#" class="social-icon social-icon-sm social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
+								<i class="fa fa-linkedin"></i>
+								<i class="fa fa-linkedin"></i>
+							</a>
 						</div>				
 
 						<!-- 
@@ -170,40 +173,37 @@
 								 @elseif(Route::current()->getName() == 'curso')
 
 
-								<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
-									<li class="active"><!-- HOME -->
-										<a href=" {{ route('home') }} ">
-											ilernus
-										</a>
-									</li>
-									<li><!--  -->
-										<a href="#">
-											Negocios
-										</a>
-									</li>
-									<li><!--  -->
-										<a href="#">
-											Tecnología
-										</a>
-									</li>
-									<li><!--  -->
-										<a href="#">
-											Desarrollo
-										</a>
-									</li>
-									<li><!--  -->
-										<a class="" href="#">
-											Producción
-										</a>
-									</li>																				
+									<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
+										<li class="active"><!-- HOME -->
+											<a href=" {{ route('home') }} ">
+												ilernus
+											</a>
+										</li>
+										<li><!--  -->
+											<a href="#">
+												Negocios
+											</a>
+										</li>
+										<li><!--  -->
+											<a href="#">
+												Tecnología
+											</a>
+										</li>
+										<li><!--  -->
+											<a href="#">
+												Desarrollo
+											</a>
+										</li>
+										<li><!--  -->
+											<a class="" href="#">
+												Producción
+											</a>
+										</li>																				
 
 
-								</ul>
+									</ul>
 
 								 @endif
-
-
-
 
 							</nav>
 
@@ -224,15 +224,40 @@
 
 				<div class="copyright">
 					<div class="container">
-						<ul class="list-inline inline-links mobile-block pull-right nomargin">
-							<li><a href="#slider">ilernus</a></li>
-							<li><a href="#conocenos">Conócenos</a></li>
-							<li><a href="#servicios">Servicios</a></li>
-							<li><a href="#">Blog</a></li>
-							<li><a href="#contacto">Contáctanos</a></li>
-						</ul>
 
-						<b>Copyright &copy; <?=date('Y')?> iLernus</b>
+						<div class="row">
+							<div class="col-md-2">
+								<b>Copyright &copy; <?=date('Y')?> iLernus</b>
+							</div>
+
+							<div class="col-md-8">
+
+							</div>
+
+							<div class="col-md-2">
+								<a href="#" class="social-icon social-icon-sm social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
+									<i class="fa fa-facebook"></i>
+									<i class="fa fa-facebook"></i>
+								</a>
+
+								<a href="#" class="social-icon social-icon-sm social-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+									<i class="fa fa-twitter"></i>
+									<i class="fa fa-twitter"></i>
+								</a>
+
+								<a href="#" class="social-icon social-icon-sm social-youtube" data-toggle="tooltip" data-placement="top" title="Youtube">
+									<i class="fa fa-youtube-play"></i>
+									<i class="fa fa-youtube-play"></i>
+								</a>
+
+								<a href="#" class="social-icon social-icon-sm social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
+									<i class="fa fa-linkedin"></i>
+									<i class="fa fa-linkedin"></i>
+								</a>										
+							</div>
+						</div>
+
+
 					</div>
 				</div>
 			</footer>

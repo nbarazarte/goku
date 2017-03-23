@@ -524,7 +524,7 @@
 							<h2>Clover Brito</h2>
 							<strong>Presidente</strong>
 							<p style="text-align: justify;">
-								Es socio fundador de B&G Consultores Corporativos, S.A., creador del concepto ilernus.							Licenciado en Contaduría  Pública  (1997) con  Maestría  en Finanzas en IESA  (2004), especialista tributario por la Universidad  Metropolitana (2004-2005) y Maestría  en Administración de Empresas (MBA) en el IESA (2008). Obtuvo dos becas para cursar estudios en el IESA.
+								Es socio fundador de B&G Consultores Corporativos, S.A., creador del concepto ilernus. Licenciado en Contaduría  Pública  (1997) con  Maestría  en Finanzas en IESA  (2004), especialista tributario por la Universidad  Metropolitana (2004-2005) y Maestría  en Administración de Empresas (MBA) en el IESA (2008). Obtuvo dos becas para cursar estudios en el IESA.
 							</p>
 
 							<!-- Modal Ajax Lightbox >-->
@@ -592,9 +592,10 @@
 						<h2>Servicios</h2>
 
 						<p class="lead font-lato margin-bottom-60" style="">
-							iLernus University es una plataforma educativa de aprendizaje en línea que permite <strong style="color: #35459C">capacitar y actualizar</strong> a los colaboradores de su empresa a través de la suscripción de planes y paquetes de contenidos de interés.<br>
-							iLernus Producciones ofrece la concepción, <strong style="color: #F47741">desarrollo y producción</strong> de servicios instruccionales y audiovisuales con fines educativos, diseñándolos a la medida de su empresa bajo altos estándares de calidad.<br>
-							iLernus Academia brinda <strong style="color: #35459C">soluciones educativas</strong> presenciales in company o en nuestras instalaciones, con un equipo de la más alta talla que diseñan una estratégica de formación a su medida.
+							<em><strong style="color: #35459C; font-size: 25px">iLernus University</strong></em>
+							es una plataforma educativa de aprendizaje en línea que permite capacitar y actualizar a los colaboradores de su empresa a través de la suscripción de planes y paquetes de contenidos de interés.<br>
+							<em><strong style="color: #F47741; font-size: 25px">iLernus Producciones</strong></em> ofrece la concepción, desarrollo y producciónde servicios instruccionales y audiovisuales con fines educativos, diseñándolos a la medida de su empresa bajo altos estándares de calidad.<br>
+							<em><strong style="color: #35459C; font-size: 25px">iLernus Academia</strong></em> brinda soluciones educativas presenciales in company o en nuestras instalaciones, con un equipo de la más alta talla que diseñan una estratégica de formación a su medida.
 				
 						</p>
 
@@ -634,7 +635,7 @@
 												-->
 
 												<!-- details -->
-												<a class="ico-rounded" href="{{ route('curso',$curso->str_curso) }}">
+												<a class="ico-rounded" href="{{ route('curso',$curso->str_curso) }}" target="_blank">
 													<span class="fa fa-share size-20"></span>
 												</a>
 

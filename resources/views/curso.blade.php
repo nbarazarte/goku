@@ -24,13 +24,52 @@
 					.shadow-before-3 	= shadow 3 header top
 					.shadow-after-3 	= shadow 3 header bottom
 			-->
-			<section class="page-header page-header-lg parallax parallax-3" style="background-image:url('assets/images/imgpattern2.jpg')">
+			
+
+
+			<?php
+
+				switch ($curso->str_categoria) {
+					case 'Negocios':
+						
+							$imagen_fondo = '';
+							$color = '#35459C';
+
+						break;
+
+					case 'Tecnología':
+
+							$imagen_fondo = '';
+							$color = '#F47741';
+
+						break;	
+
+					case 'Desarrollo':
+
+							$imagen_fondo = '';
+							$color = '#41B649';
+
+						break;
+
+					case 'Productividad':
+
+							$imagen_fondo = '912.jpg';
+							$color = '#7952A1';
+
+						break;																
+					
+
+				}
+
+			?>
+
+			<section class="page-header page-header-lg parallax parallax-3" style="background-image:url('{{ asset('smarty/assets/images/'.$imagen_fondo) }}')">
+
 				<div class="overlay dark-2"><!-- dark overlay [1 to 9 opacity] --></div>
 
 				<div class="container">
 
-					<h1> {!! $curso->str_categoria !!}<small> </small></h1>
-
+					<h1 style="font-size: 35px"><span class="label" style="background-color: <?=$color?>">{!! $curso->str_categoria !!}</span></h1>
 
 				</div>
 			</section>
@@ -55,11 +94,11 @@
 							<!-- OWL SLIDER -->
 								<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/mockups/800x553/2-min.jpg') }}" alt="">
 
-								<img class="img-responsive" src="{{ asset('smarty/assets/images/cursosilernus/cover-desarrollo-autoestima.jpg') }}" alt="">
 							<!-- /OWL SLIDER -->
 						</div>
 						<div class="col-md-6">
-							<h3>{!! $curso->str_curso !!} </h3>
+							<h3>{!! str_replace("-"," ",$curso->str_curso) !!}</h3>
+
 							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
 							<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
 							<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore dolore magnm aliquam quaerat voluptatem.</p>
