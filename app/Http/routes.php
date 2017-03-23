@@ -17,6 +17,14 @@
 		'as' =>'home'
 	]);
 
+	//Route::get('curso/{curso}','HomeController@curso');
+
+	Route::get('curso/{curso}', [
+		'uses' => 'HomeController@curso',
+		'as' =>'curso'
+	]);
+
+
 /********* conocenos: info de los lideres ***********/
 
 	Route::get('clover', [

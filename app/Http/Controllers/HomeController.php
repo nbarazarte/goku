@@ -27,6 +27,19 @@ class HomeController extends Controller
         return \View::make('index', compact('cursos'));
     }
 
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function curso($curso)
+    {
+        //
+        
+        $cursos = DB::table('tbl_cursos')->where('str_curso', $curso)->get();
+         
+        return \View::make('curso', compact('cursos'));
+    }    
 
     /**
      * Show the form for creating a new resource.
