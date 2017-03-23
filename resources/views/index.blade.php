@@ -123,23 +123,23 @@
 											ilernus
 										</a>
 									</li>
-									<li><!-- FEATURES -->
+									<li><!--  -->
 										<a href="#conocenos">
 											Conócenos
 										</a>
 									</li>
-									<li><!-- PRICING -->
+									<li><!--  -->
 										<a href="#servicios">
 											Servicios
 										</a>
 									</li>
-									<li><!-- TESTIMONIALS -->
+									<li><!--  -->
 										<a href="#">
-											Xyz
+											Blog
 										</a>
 									</li>
-									<li><!-- PURCHASE -->
-										<a class="external" href="#">
+									<li><!--  -->
+										<a class="" href="#contacto">
 											Contáctanos
 										</a>
 									</li>
@@ -386,7 +386,7 @@
 
 						<h2>Un proyecto con visión</h2>
 						<p class="lead font-lato margin-bottom-60">
-							En el año 2015 nació el concepto y su desarrollo. Establecida por emprendedores comprometidos con la creación de soluciones <strong style="color: #35459C">innovadoras y productivas,</strong> con el objetivo de llevar al mercado un servicio que apalanque el conocimiento y la formación empresarial.
+							En el año 2015 nació el concepto y su desarrollo. Establecida por emprendedores comprometidos con la creación de soluciones <strong style="color: #F47741">innovadoras y productivas,</strong> con el objetivo de llevar al mercado un servicio que apalanque el conocimiento y la formación empresarial.
 						</p>						
 						<hr />
 
@@ -617,28 +617,30 @@
 			</section>
 			<!-- /PARALLAX -->
 
-
+<!--
 <div class="alert alert-transparent bordered-bottom">
 	<div class="container">
 
 		<div class="row">
 
-			<div class="col-md-8 col-sm-8"><!-- left text -->
+			<div class="col-md-8 col-sm-8"><!-- left text - ->
 				<h3>Estamos para ti <span><strong style="color: #35459C">envíanos tus preguntas y comentarios</strong></span> o visitanos</h3>
 				<p class="font-lato weight-300 size-20 nomargin-bottom">
 					Urbanización Terrazas del Avila, Zona Rental Universidad Metropolitana. Edificio 1. Piso 1. Oficina ilernus. Caracas, Estado Miranda.
 				</p>
-			</div><!-- /left text -->
+			</div><!-- /left text - ->
 
 			
-			<div class="col-md-4 col-sm-4 text-right" ><!-- right btn -->
+			<div class="col-md-4 col-sm-4 text-right" ><!-- right btn - ->
 				<a href="#" rel="nofollow" target="_blank" style="background-color: #F47741; color: #FFF; border: 0px" class="btn btn-primary btn-lg">CONTACTANOS</a>
-			</div><!-- /right btn -->
+			</div><!-- /right btn - ->
 
 		</div>
 
 	</div>
 </div>
+
+-->
 
 <!-- -->
 <section id="conocenos">
@@ -646,7 +648,7 @@
 		
 		<header class="text-center margin-bottom-60">
 			<h2>Conócenos</h2>
-			<p class="lead font-lato margin-bottom-60">Nuestro equipo de iLernus</p>
+			<p class="lead font-lato margin-bottom-60">Ofrecemos la más alta calidad en contenidos y metodolgía para el <strong style="color: #F47741">e</strong>-<strong style="color: #35459C">learning.</strong></p>
 			<hr />
 		</header>
 <!--
@@ -744,7 +746,7 @@
 
 						<p class="lead font-lato margin-bottom-60" style="">
 							iLernus University es una plataforma educativa de aprendizaje en línea que permite <strong style="color: #35459C">capacitar y actualizar</strong> a los colaboradores de su empresa a través de la suscripción de planes y paquetes de contenidos de interés.<br>
-							iLernus Producciones ofrece la concepción, <strong style="color: #35459C">desarrollo y producción</strong> de servicios instruccionales y audiovisuales con fines educativos, diseñándolos a la medida de su empresa bajo altos estándares de calidad.<br>
+							iLernus Producciones ofrece la concepción, <strong style="color: #F47741">desarrollo y producción</strong> de servicios instruccionales y audiovisuales con fines educativos, diseñándolos a la medida de su empresa bajo altos estándares de calidad.<br>
 							iLernus Academia brinda <strong style="color: #35459C">soluciones educativas</strong> presenciales in company o en nuestras instalaciones, con un equipo de la más alta talla que diseñan una estratégica de formación a su medida.
 				
 						</p>
@@ -831,13 +833,181 @@
 			</section>
 			<!-- /Portfolio -->
 
+<section id="contacto">
+	<div class="container">
+		
+		<header class="text-center margin-bottom-60">
+			<h2>Contáctanos</h2>
+			<p class="lead font-lato margin-bottom-60">Más que formación es gestión</p>
+
+		</header>
+
+			<!-- 
+			Available heights
+				height-100
+				height-150
+				height-200
+				height-250
+				height-300
+				height-350
+				height-400
+				height-450
+				height-500
+				height-550
+				height-600
+			-->
+			<div id="map2" class="height-400 grayscale"></div>
 
 
 
 
 
-			
+			<!-- -->
+			<section>
+				<div class="container">
+					
+					<div class="row">
 
+						<!-- FORM -->
+						<div class="col-md-9 col-sm-9">
+
+							<h3>Estamos para ti <span><strong style="color: #35459C">envíanos tus preguntas y comentarios</strong></span></h3>
+
+							
+							<!--
+								MESSAGES
+								
+									How it works?
+									The form data is posted to php/contact.php where the fields are verified!
+									php.contact.php will redirect back here and will add a hash to the end of the URL:
+										#alert_success 		= email sent
+										#alert_failed		= email not sent - internal server error (404 error or SMTP problem)
+										#alert_mandatory	= email not sent - required fields empty
+										Hashes are handled by assets/js/contact.js
+
+									Form data: required to be an array. Example:
+										contact[email][required]  WHERE: [email] = field name, [required] = only if this field is required (PHP will check this)
+										Also, add `required` to input fields if is a mandatory field. 
+										Example: <input required type="email" value="" class="form-control" name="contact[email][required]">
+
+									PLEASE NOTE: IF YOU WANT TO ADD OR REMOVE FIELDS (EXCEPT CAPTCHA), JUST EDIT THE HTML CODE, NO NEED TO EDIT php/contact.php or javascript
+												 ALL FIELDS ARE DETECTED DINAMICALY BY THE PHP
+
+									WARNING! Do not change the `email` and `name`!
+												contact[name][required] 	- should stay as it is because PHP is using it for AddReplyTo (phpmailer)
+												contact[email][required] 	- should stay as it is because PHP is using it for AddReplyTo (phpmailer)
+							-->
+
+							<!-- Alert Success -->
+							<div id="alert_success" class="alert alert-success margin-bottom-30">
+								<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+								<strong>Thank You!</strong> Tu mensaje ha sido enviado!
+							</div><!-- /Alert Success -->
+
+
+							<!-- Alert Failed -->
+							<div id="alert_failed" class="alert alert-danger margin-bottom-30">
+								<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+								<strong>[SMTP] Error!</strong> error del servidor!
+							</div><!-- /Alert Failed -->
+
+
+							<!-- Alert Mandatory -->
+							<div id="alert_mandatory" class="alert alert-danger margin-bottom-30">
+								<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+								<strong>Sorry!</strong> Por favor completa los campos marcados con asterisco (*) !
+							</div><!-- /Alert Mandatory -->
+
+
+							<form action="php/contact.php" method="post" enctype="multipart/form-data">
+								<fieldset>
+									<input type="hidden" name="action" value="contact_send" />
+
+									<div class="row">
+										<div class="form-group">
+											<div class="col-md-4">
+												<label for="contact:name">Nombre y Apellido *</label>
+												<input required type="text" value="" class="form-control" name="contact[name][required]" id="contact:name">
+											</div>
+											<div class="col-md-4">
+												<label for="contact:email">Correo Electrónico *</label>
+												<input required type="email" value="" class="form-control" name="contact[email][required]" id="contact:email">
+											</div>
+											<div class="col-md-4">
+												<label for="contact:phone">Teléfono</label>
+												<input type="text" value="" class="form-control" name="contact[phone]" id="contact:phone">
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="form-group">
+
+											<div class="col-md-4">
+												<label for="contact_asunto">Asunto</label>
+												<select class="form-control pointer" name="contact[asunto]">
+													<option value="">--- Seleccone ---</option>
+													<option value="comentarios">Comentarios</option>
+													<option value="sugerencias">Sugerencias</option>
+													<option value="otros">Otros</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="form-group">
+											<div class="col-md-12">
+												<label for="contact:message">Mensaje *</label>
+												<textarea required maxlength="10000" rows="8" class="form-control" name="contact[message]" id="contact:message"></textarea>
+											</div>
+										</div>
+									</div>
+
+								</fieldset>
+
+								<div class="row">
+									<div class="col-md-12">
+										<button type="submit" class="btn btn-primary"><i class="fa fa-check"></i> Enviar</button>
+									</div>
+								</div>
+							</form>
+
+						</div>
+						<!-- /FORM -->
+
+
+						<!-- INFO -->
+						<div class="col-md-3 col-sm-3">
+
+							<h2><strong style="color: #F47741"><em>¡Visitanos!</em></strong></h2>
+
+							<p>
+								... <em>y transforma la manera de planificar, desarrollar, gestionar y preservar el</em> <strong style="color: #35459C">conocimiento en tu empresa.</strong>
+							</p>
+
+							<hr />
+
+							<p>
+								<span class="block"><strong><i class="fa fa-map-marker"></i> Dirección:</strong> Urb. Terrazas del Avila, Zona Rental Universidad Metropolitana. Edif. 1. P1. Oficina ilernus, (B&G). Caracas, Edo. Miranda.</span>
+								<span class="block"><strong><i class="fa fa-phone"></i> Teléfono:</strong> <a href="tel:1800-555-1234">+58 (212) 204.24.31 </a></span>
+								<span class="block"><strong><i class="fa fa-envelope"></i> Correo Electrónico:</strong> <a href="mailto:mail@yourdomain.com">info@ilernus.com</a></span>
+							</p>
+
+							<hr />
+
+						</div>
+						<!-- /INFO -->
+
+					</div>
+
+				</div>
+			</section>
+			<!-- / -->
+					
+
+				</div>
+			</section>	
+
+	
 
 
 			<!-- FOOTER -->
@@ -862,7 +1032,7 @@
 										Vivas 2355 Australia<br>
 									</li>
 									<li class="footer-sprite phone">
-										Phone: 1-800-565-2390
+										Teléfono: 1-800-565-2390
 									</li>
 									<li class="footer-sprite email">
 										<a href="mailto:support@yourname.com">support@yourname.com</a>
@@ -900,13 +1070,11 @@
 							<!-- Links -->
 							<h4 class="letter-spacing-1">EXPLORE SMARTY</h4>
 							<ul class="footer-links list-unstyled">
-								<li><a href="#">Home</a></li>
-								<li><a href="#">About Us</a></li>
-								<li><a href="#">Our Services</a></li>
-								<li><a href="#">Our Clients</a></li>
-								<li><a href="#">Our Pricing</a></li>
-								<li><a href="#">Smarty Tour</a></li>
-								<li><a href="#">Contact Us</a></li>
+								<li><a href="#slider">ilernus</a></li>
+								<li><a href="#conocenos">Conocenos</a></li>
+								<li><a href="#servicios">Servicios</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#contacto">Contáctanos</a></li>
 							</ul>
 							<!-- /Links -->
 
@@ -960,6 +1128,7 @@
 							</div>
 							<!-- /Social Icons -->
 
+
 						</div>
 
 					</div>
@@ -969,11 +1138,11 @@
 				<div class="copyright">
 					<div class="container">
 						<ul class="pull-right nomargin list-inline mobile-block">
-							<li><a href="#">Terms &amp; Conditions</a></li>
+							<li><a href="#">Términos y Condiciones</a></li>
 							<li>&bull;</li>
 							<li><a href="#">Privacy</a></li>
 						</ul>
-						&copy; All Rights Reserved, Company LTD
+						&copy; ilernus
 					</div>
 				</div>
 			</footer>
@@ -1001,10 +1170,41 @@
 		{!! Html::script('smarty/assets/js/scripts.js') !!}
 		<!-- STYLESWITCHER - REMOVE -->
 
-
 		<!-- LAYER SLIDER -->
 		{!! Html::script('smarty/assets/plugins/slider.layerslider/js/layerslider_pack.js') !!}
 		{!! Html::script('smarty/assets/js/view/demo.layerslider_slider.js') !!}
-		
+
+		<!-- PAGELEVEL SCRIPTS -->
+		<script type="text/javascript" src="smarty/assets/js/contact.js"></script>
+
+		<!-- 
+			GMAP.JS 
+			http://hpneo.github.io/gmaps/
+		-->
+		<script type="text/javascript" src="//maps.google.com/maps/api/js?key=AIzaSyDn4Fqtci9trC4i6iJjbC-UfdnwONchtQ0"></script>
+		{!! Html::script('smarty/assets/plugins/gmaps.js') !!}
+		<script type="text/javascript">
+
+			jQuery(document).ready(function(){
+
+				/**
+					@BASIC GOOGLE MAP
+				**/
+				var map2 = new GMaps({
+					div: '#map2',
+					lat: 10.4985307,
+					lng: -66.7909896,
+					scrollwheel: false
+				});
+
+				var marker = map2.addMarker({
+					lat: 10.4985307,
+					lng: -66.7909896,
+					title: 'ilernus'
+				});
+
+			});
+
+		</script>		
 	</body>
 </html>
