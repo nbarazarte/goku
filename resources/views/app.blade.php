@@ -142,7 +142,7 @@
 
 									<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
 										<li class="active"><!-- HOME -->
-											<a href=" {{ route('home') }} ">
+											<a href="#slider">
 												ilernus
 											</a>
 										</li>

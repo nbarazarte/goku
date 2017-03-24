@@ -240,16 +240,27 @@
 					</header>
 
 
+				</div>
+			</section>
+			<!-- / -->
 
+			<section class="callout-dark heading-title heading-arrow-bottom">
+				<div class="container">
+
+					<div class="text-center">
+						<h3 class="size-30">Atributos</h3>
+						<p>En <strong style="color: #F47741; font-size: 20px">ilernus</strong> queremos brindarte lo <em><b>mejor</b></em></p>
+					</div>
+
+				</div>
+			</section>
 
 				<div class="row">
-					<h2 style="text-align: center;">Atributos</h2>
 
-
-						<div class="col-md-3">
+					<div class="col-md-3">
 
 							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
-								<a class="box-icon-title" href="#">
+								<a class="box-icon-title">
 									<i class="icon icon-segumiento"></i>
 									<h2>Seguimiento</h2>
 								</a>
@@ -261,7 +272,7 @@
 						<div class="col-md-3">
 
 							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
-								<a class="box-icon-title" href="#">
+								<a class="box-icon-title">
 									<i class="icon icon-gestiona"></i>
 									<h2>Gestiona</h2>
 								</a>
@@ -273,7 +284,7 @@
 						<div class="col-md-3">
 
 							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
-								<a class="box-icon-title" href="#">
+								<a class="box-icon-title">
 									<i class="icon icon-consolida"></i>
 									<h2>Consolida</h2>
 								</a>
@@ -285,7 +296,7 @@
 						<div class="col-md-3">
 
 							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
-								<a class="box-icon-title" href="#">
+								<a class="box-icon-title">
 									<i class="icon icon-formacin"></i>
 									<h2>Formación</h2>
 								</a>
@@ -297,7 +308,7 @@
 						<div class="col-md-3">
 
 							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
-								<a class="box-icon-title" href="#">
+								<a class="box-icon-title">
 									<i class="icon icon-estadisticas"></i>
 									<h2>Provee</h2>
 								</a>
@@ -309,7 +320,7 @@
 						<div class="col-md-3">
 
 							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
-								<a class="box-icon-title" href="#">
+								<a class="box-icon-title">
 									<i class="icon icon-creamos"></i>
 									<h2>Creamos</h2>
 								</a>
@@ -321,7 +332,7 @@
 						<div class="col-md-3">
 
 							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
-								<a class="box-icon-title" href="#">
+								<a class="box-icon-title">
 									<i class="icon icon-biblioteca"></i>
 									<h2>Biblioteca</h2>
 								</a>
@@ -333,7 +344,7 @@
 						<div class="col-md-3">
 
 							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
-								<a class="box-icon-title" href="#">
+								<a class="box-icon-title">
 									<i class="icon icon-captacion"></i>
 									<h2>Capacitación</h2>
 								</a>
@@ -344,13 +355,23 @@
 
 				</div>
 
+			<section class="callout-dark heading-title heading-arrow-bottom" style="">
+				<div class="container">
+
+					<div class="text-center">
+						<h3 class="size-30">Beneficios</h3>
+						<p>Toda nuestra plataforma de <strong style="color: #F47741; font-size: 20px">ilernus</strong> es para <em><b>ti</b></em></p>
+					</div>
+
+				</div>
+			</section>
 
 				<div class="row">
-					<h2 style="text-align: center;">Beneficios</h2>
+
 						<div class="col-md-3">
 
 							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
-								<a class="box-icon-title" href="#">
+								<a class="box-icon-title">
 									<i class="icon icon-apalanca"></i>
 									<h2>Apalancar</h2>
 								</a>
@@ -362,7 +383,7 @@
 						<div class="col-md-3">
 
 							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
-								<a class="box-icon-title" href="#">
+								<a class="box-icon-title">
 									<i class="icon icon-gestion"></i>
 									<h2>Facilitar</h2>
 								</a>
@@ -374,7 +395,7 @@
 						<div class="col-md-3">
 
 							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
-								<a class="box-icon-title" href="#">
+								<a class="box-icon-title">
 									<i class="icon icon-tiempo"></i>
 									<h2>Ahorrar</h2>
 								</a>
@@ -386,7 +407,7 @@
 						<div class="col-md-3">
 
 							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
-								<a class="box-icon-title" href="#">
+								<a class="box-icon-title">
 									<i class="icon icon-refuerza"></i>
 									<h2>Reforzar</h2>
 								</a>
@@ -398,7 +419,7 @@
 						<div class=""><!--col-md-3-->
 
 							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
-								<a class="box-icon-title" href="#">
+								<a class="box-icon-title">
 									<i class="icon icon-herramientas"></i>
 									<h2>Contar</h2>
 								</a>
@@ -407,12 +428,7 @@
 
 						</div>								
 
-				</div>				
-
-
-				</div>
-			</section>
-			<!-- / -->
+				</div>	
 
 
 			<!-- PARALLAX -->
@@ -464,40 +480,21 @@
 			</section>
 			<!-- /PARALLAX -->
 
-<!--
-<div class="alert alert-transparent bordered-bottom">
-	<div class="container">
+			<section id="conocenos" class="callout-dark heading-title heading-arrow-bottom" style="">
+				<div class="container">
 
-		<div class="row">
+					<div class="text-center">
+						<h3 class="size-30">Conócenos</h3>
+						<p>En <strong style="color: #F47741; font-size: 20px">ilernus</strong> ofrecemos la más alta calidad en contenidos y metodolgía para el <em><b>e-learning</b></em></p>
+					</div>
 
-			<div class="col-md-8 col-sm-8"><!-- left text - ->
-				<h3>Estamos para ti <span><strong style="color: #35459C">envíanos tus preguntas y comentarios</strong></span> o visitanos</h3>
-				<p class="font-lato weight-300 size-20 nomargin-bottom">
-					Urbanización Terrazas del Avila, Zona Rental Universidad Metropolitana. Edificio 1. Piso 1. Oficina ilernus. Caracas, Estado Miranda.
-				</p>
-			</div><!-- /left text - ->
-
-			
-			<div class="col-md-4 col-sm-4 text-right" ><!-- right btn - ->
-				<a href="#" rel="nofollow" target="_blank" style="background-color: #F47741; color: #FFF; border: 0px" class="btn btn-primary btn-lg">CONTACTANOS</a>
-			</div><!-- /right btn - ->
-
-		</div>
-
-	</div>
-</div>
-
--->
+				</div>
+			</section>
 
 <!-- -->
-<section id="conocenos">
+<section >
 	<div class="container">
 		
-		<header class="text-center margin-bottom-60">
-			<h2>Conócenos</h2>
-			<p class="lead font-lato margin-bottom-60">Ofrecemos la más alta calidad en contenidos y metodolgía para el <strong style="color: #F47741">e</strong>-<strong style="color: #35459C">learning.</strong></p>
-			<hr />
-		</header>
 <!--
 		<p class="lead">Lorem ipsum dolor sit amet. Etharums your template rerum facilis dolores nemis omnis fugats vitaes you need this.</p>
 		<p>Lorem ipsum dolor sit amet. Etharums your template rerum facilis dolores nemis omnis fugats vitaes you need this totam rem aperiam, eaque ipsa qu ab illo inventore veritatis et quasi architectos beatae vitae dicta sunt explicabo. Nemo enim sadips ipsums dolores sit.Nemo enims sadips ipsums un inventore veritatis et quasi.</p>
@@ -585,22 +582,34 @@
 </section>
 <!-- / -->
 
+
+			<section id="servicios" class="callout-dark heading-title heading-arrow-bottom" style="">
+				<div class="container">
+
+					<div class="text-center">
+						<h3 class="size-30">Servicios</h3>
+						<p><em><b>Únete</b></em> a nosotros en <strong style="color: #F47741; font-size: 20px">ilernus</strong> estamos comprometidos con tu crecimiento</p>
+					</div>
+
+				</div>
+			</section>
+
 			<!-- Portfolio -->
-			<section id="servicios">
+			<section >
 				<div class="container">
 					<header class="text-center margin-bottom-60">
-						<h2>Servicios</h2>
+			
 
+						<img class="pull-left img-responsive wow fadeInLeft" data-wow-delay="0.4s" src="{{ asset('smarty/assets/images/demo/layerslider/emblema.png') }}" style="width: 10%" alt="" />	
+
+		
 						<p class="lead font-lato margin-bottom-60" style="">
 							<em><strong style="color: #35459C; font-size: 25px">iLernus University</strong></em>
-							es una plataforma educativa de aprendizaje en línea que permite capacitar y actualizar a los colaboradores de su empresa a través de la suscripción de planes y paquetes de contenidos de interés.<br>
-							<em><strong style="color: #F47741; font-size: 25px">iLernus Producciones</strong></em> ofrece la concepción, desarrollo y producciónde servicios instruccionales y audiovisuales con fines educativos, diseñándolos a la medida de su empresa bajo altos estándares de calidad.<br>
+							es una plataforma educativa de aprendizaje en línea que permite capacitar y actualizar a los colaboradores de su empresa a través de la suscripción de planes y paquetes de contenidos de interés.
+							<em><strong style="color: #F47741; font-size: 25px">iLernus Producciones</strong></em> ofrece la concepción, desarrollo y producciónde servicios instruccionales y audiovisuales con fines educativos, diseñándolos a la medida de su empresa bajo altos estándares de calidad.
 							<em><strong style="color: #35459C; font-size: 25px">iLernus Academia</strong></em> brinda soluciones educativas presenciales in company o en nuestras instalaciones, con un equipo de la más alta talla que diseñan una estratégica de formación a su medida.
 				
 						</p>
-
-
-
 
 						<hr />
 					</header>
@@ -681,14 +690,20 @@
 			</section>
 			<!-- /Portfolio -->
 
-<section id="contacto">
+			<section id="contacto" class="callout-dark heading-title heading-arrow-bottom" style="">
+				<div class="container">
+
+					<div class="text-center">
+						<h3 class="size-30">Contáctanos</h3>
+						<p><strong style="color: #F47741; font-size: 20px">ilernus,</strong> más que formación es <em><b>gestión</b></em></p>
+					</div>
+
+				</div>
+			</section>
+
+<section>
 	<div class="container">
 		
-		<header class="text-center margin-bottom-60">
-			<h2>Contáctanos</h2>
-			<p class="lead font-lato margin-bottom-60">Más que formación es gestión</p>
-
-		</header>
 
 			<!-- 
 			Available heights
