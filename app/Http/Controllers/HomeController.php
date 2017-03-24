@@ -46,7 +46,25 @@ class HomeController extends Controller
         $cursosProductividad = Consultas::consulta('cursosCategoria','Productividad');
 
         return \View::make('curso', compact('cursos','cursosNegocios','cursosDesarrollo', 'cursosTecnologia','cursosProductividad'));
-    }    
+    }
+
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function blog()
+    {
+        $cursos = DB::table('tbl_cursos')->get();   
+        $tiposCursos = Consultas::consulta('categorias','');
+        $cursosNegocios = Consultas::consulta('cursosCategoria','Negocios');
+        $cursosDesarrollo = Consultas::consulta('cursosCategoria','Desarrollo');
+        $cursosTecnologia = Consultas::consulta('cursosCategoria','Tecnología');
+        $cursosProductividad = Consultas::consulta('cursosCategoria','Productividad');
+
+        return \View::make('blog', compact('cursos','tiposCursos','cursosNegocios','cursosDesarrollo', 'cursosTecnologia','cursosProductividad'));
+    }        
 
     /**
      * Show the form for creating a new resource.

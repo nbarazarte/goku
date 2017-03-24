@@ -24,6 +24,10 @@
 		'as' =>'curso'
 	]);
 
+	Route::get('/Blog', [
+		'uses' => 'HomeController@blog',
+		'as' =>'blog'
+	]);
 
 /********* conocenos: info de los lideres ***********/
 

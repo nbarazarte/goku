@@ -142,7 +142,7 @@
 								-->
 
 
-								 @if(Route::current()->getName() == 'home')
+								 @if(Route::current()->getName() == 'home' || Route::current()->getName() == 'blog')
 
 									<ul id="topMain" class="nav nav-pills nav-main nav-onepage" style="font-size: 14px">
 										<li class="active"><!-- HOME -->
@@ -160,8 +160,8 @@
 												Servicios
 											</a>
 											
-											<!-- class="dropdown-toggle"
-											<ul class="dropdown-menu" style="font-size: 14px">
+											<!-- class="dropdown-toggle" -->
+											<ul class="dropdown-menu dropdown-toggle" style="font-size: 14px">
 												@foreach ($tiposCursos as $tipo) 
 													<li class="dropdown">
 														
@@ -176,7 +176,7 @@
 																	<li>
 																		<a href="{{ route('curso',$negocio->str_curso) }}">
 
-																			{!! str_replace("-"," ",$negocio->str_curso) !!}
+																			{!! str_replace("-"," ",$negocio->str_titulocorto) !!}
 
 																		</a>
 																	</li>
@@ -188,7 +188,7 @@
 																	<li>
 																		<a href="{{ route('curso',$desarrollo->str_curso) }}">
 
-																			{!! str_replace("-"," ",$desarrollo->str_curso) !!}
+																			{!! str_replace("-"," ",$desarrollo->str_titulocorto) !!}
 
 																		</a>
 																	</li>
@@ -200,7 +200,7 @@
 																	<li>
 																		<a href="{{ route('curso',$productividad->str_curso) }}">
 
-																			{!! str_replace("-"," ",$productividad->str_curso) !!}
+																			{!! str_replace("-"," ",$productividad->str_titulocorto) !!}
 
 																		</a>
 																	</li>
@@ -212,7 +212,7 @@
 																	<li>
 																		<a href="{{ route('curso',$tecnologia->str_curso) }}">
 
-																			{!! str_replace("-"," ",$tecnologia->str_curso) !!}
+																			{!! str_replace("-"," ",$tecnologia->str_titulocorto) !!}
 
 																		</a>
 																	</li>
@@ -227,11 +227,11 @@
 																																															
 											</ul>
 
-											-->
+											
 											
 										</li>
 										<li><!--  -->
-											<a href="#">
+											<a href="{{ route('blog')}}">
 												Blog
 											</a>
 										</li>
