@@ -75,9 +75,6 @@
 			</section>
 			<!-- /PAGE HEADER -->
 
-
-
-			<!-- -->
 			<section>
 				<div class="container">
 					
@@ -92,17 +89,16 @@
 					<article class="row">
 						<div class="col-md-6">
 							<!-- OWL SLIDER -->
-								<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/mockups/800x553/2-min.jpg') }}" alt="">
+								<img class="img-responsive" src="smarty/assets/images/cursosilernus/{{ $curso->str_imagen }}" alt="">
 
 							<!-- /OWL SLIDER -->
 						</div>
 						<div class="col-md-6">
 							<h3>{!! str_replace("-"," ",$curso->str_curso) !!}</h3>
 
-							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-							<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-							<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore dolore magnm aliquam quaerat voluptatem.</p>
-							<p>Enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+							<p>
+							{{ $curso->str_contenido }}
+							</p>
 						</div>
 					</article>
 					<!-- /BORN TO BE A WINNER -->

@@ -659,10 +659,10 @@
 
 	                                        	@if( strlen(".$curso->str_curso.") < 20 ) 
 	                                        	
-	                                        		{!! $curso->str_curso !!} 
+	                                        		{!! str_replace("-"," ",$curso->str_curso) !!}
 	                                        		
 	                                        	@else 
-	                                        		{!! substr($curso->str_curso,0,19)."..." !!}
+	                                        		{!! substr(str_replace("-"," ",$curso->str_curso),0,19)."..." !!}
 	                                        		
 	                                        	@endif 
 
