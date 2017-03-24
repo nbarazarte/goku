@@ -19,7 +19,7 @@
 
 	//Route::get('curso/{curso}','HomeController@curso');
 
-	Route::get('{curso}', [
+	Route::get('/Servicios/{curso}', [
 		'uses' => 'HomeController@curso',
 		'as' =>'curso'
 	]);

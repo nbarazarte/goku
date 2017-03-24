@@ -152,9 +152,76 @@
 											</a>
 										</li>
 										<li><!--  -->
-											<a href="#servicios">
+											<a class="dropdown-toggle" href="#servicios">
 												Servicios
 											</a>
+											
+											<ul class="dropdown-menu">
+												@foreach ($tiposCursos as $tipo) 
+													<li class="dropdown">
+														
+														<a class="dropdown-toggle" href="#">
+															{{ $tipo->str_categoria }}
+														</a>
+														<ul class="dropdown-menu">
+
+				                                        	@if($tipo->str_categoria == 'Negocios') 
+				                                        	
+																@foreach ($cursosNegocios as $negocio) 
+																	<li>
+																		<a href="{{ route('curso',$negocio->str_curso) }}">
+
+																			{!! str_replace("-"," ",$negocio->str_curso) !!}
+
+																		</a>
+																	</li>
+																@endforeach				                                        		
+				                                        		
+				                                        	@elseif($tipo->str_categoria == 'Desarrollo')
+
+																@foreach ($cursosDesarrollo as $desarrollo) 
+																	<li>
+																		<a href="{{ route('curso',$desarrollo->str_curso) }}">
+
+																			{!! str_replace("-"," ",$desarrollo->str_curso) !!}
+
+																		</a>
+																	</li>
+																@endforeach					                                        	
+
+				                                        	@elseif($tipo->str_categoria == 'Productividad')
+
+																@foreach ($cursosProductividad as $productividad) 
+																	<li>
+																		<a href="{{ route('curso',$productividad->str_curso) }}">
+
+																			{!! str_replace("-"," ",$productividad->str_curso) !!}
+
+																		</a>
+																	</li>
+																@endforeach					                                        	
+
+				                                        	@elseif($tipo->str_categoria == 'Tecnología') 
+
+																@foreach ($cursosTecnologia as $tecnologia) 
+																	<li>
+																		<a href="{{ route('curso',$tecnologia->str_curso) }}">
+
+																			{!! str_replace("-"," ",$tecnologia->str_curso) !!}
+
+																		</a>
+																	</li>
+																@endforeach					                                        		
+				                                        		
+				                                        	@endif 
+
+														</ul>
+														
+													</li>
+												@endforeach
+																																															
+											</ul>
+											
 										</li>
 										<li><!--  -->
 											<a href="#">
@@ -183,21 +250,89 @@
 											<a href="#">
 												Negocios
 											</a>
+
+											<ul class="dropdown-menu">
+	                                        	
+												@foreach ($cursosNegocios as $negocio)
+
+													<li>
+														<a href="{{ route('curso',$negocio->str_curso) }}">
+
+															{!! str_replace("-"," ",$negocio->str_curso) !!}
+
+														</a>
+													</li>
+
+												@endforeach
+
+											</ul>		
+
 										</li>
 										<li><!--  -->
 											<a href="#">
 												Tecnología
 											</a>
+
+											<ul class="dropdown-menu">
+	                                        	
+												@foreach ($cursosTecnologia as $tecnologia)
+
+													<li>
+														<a href="{{ route('curso',$tecnologia->str_curso) }}">
+
+															{!! str_replace("-"," ",$tecnologia->str_curso) !!}
+
+														</a>
+													</li>
+
+												@endforeach
+
+											</ul>
+
 										</li>
 										<li><!--  -->
 											<a href="#">
 												Desarrollo
 											</a>
+
+											<ul class="dropdown-menu">
+	                                        	
+												@foreach ($cursosDesarrollo as $desarrollo)
+
+													<li>
+														<a href="{{ route('curso',$desarrollo->str_curso) }}">
+
+															{!! str_replace("-"," ",$desarrollo->str_curso) !!}
+
+														</a>
+													</li>
+
+												@endforeach
+
+											</ul>
+
 										</li>
 										<li><!--  -->
 											<a class="" href="#">
-												Producción
+												Productividad
 											</a>
+
+											<ul class="dropdown-menu">
+	                                        	
+												@foreach ($cursosProductividad as $productividad)
+
+													<li>
+														<a href="{{ route('curso',$productividad->str_curso) }}">
+
+															{!! str_replace("-"," ",$productividad->str_curso) !!}
+
+														</a>
+													</li>
+
+												@endforeach
+
+											</ul>
+
 										</li>																				
 
 

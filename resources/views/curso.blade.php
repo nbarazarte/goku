@@ -89,7 +89,7 @@
 					<article class="row">
 						<div class="col-md-6">
 							<!-- OWL SLIDER -->
-								<img class="img-responsive" src="smarty/assets/images/cursosilernus/{{ $curso->str_imagen }}" alt="">
+								<img class="img-responsive" src="{{ asset('smarty/assets/images/cursosilernus/'.$curso->str_imagen) }}" alt="">
 
 							<!-- /OWL SLIDER -->
 						</div>

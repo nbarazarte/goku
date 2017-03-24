@@ -8,6 +8,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\tbl_curso;
 use DB;
+use App\Consultas;
 
 class HomeController extends Controller
 {
@@ -18,13 +19,15 @@ class HomeController extends Controller
      */
     public function index()
     {
-        //
-        //return \View::make('index');
-
         
-        //$cursos = DB::table('tbl_cursos')->get();
-        $cursos = DB::table('tbl_cursos')->orderByRaw("RAND()")->get();            
-        return \View::make('index', compact('cursos'));
+        $cursos = DB::table('tbl_cursos')->orderByRaw("RAND()")->get();    
+        $tiposCursos = Consultas::consulta('categorias','');
+        $cursosNegocios = Consultas::consulta('cursosCategoria','Negocios');
+        $cursosDesarrollo = Consultas::consulta('cursosCategoria','Desarrollo');
+        $cursosTecnologia = Consultas::consulta('cursosCategoria','Tecnología');
+        $cursosProductividad = Consultas::consulta('cursosCategoria','Productividad');
+
+        return \View::make('index', compact('cursos','tiposCursos','cursosNegocios','cursosDesarrollo', 'cursosTecnologia','cursosProductividad'));
     }
 
     /**
@@ -34,11 +37,15 @@ class HomeController extends Controller
      */
     public function curso($curso)
     {
-        //
-        
+
         $cursos = DB::table('tbl_cursos')->where('str_curso', $curso)->get();
+        $cursosNegocios = Consultas::consulta('cursosCategoria','Negocios');
+        $cursosDesarrollo = Consultas::consulta('cursosCategoria','Desarrollo');
+        $cursosTecnologia = Consultas::consulta('cursosCategoria','Tecnología');
+        $cursosProductividad = Consultas::consulta('cursosCategoria','Productividad');
+
          
-        return \View::make('curso', compact('cursos'));
+        return \View::make('curso', compact('cursos','cursosNegocios','cursosDesarrollo', 'cursosTecnologia','cursosProductividad'));
     }    
 
     /**
