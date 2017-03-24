@@ -20,7 +20,8 @@ class HomeController extends Controller
     public function index()
     {
         
-        $cursos = DB::table('tbl_cursos')->orderByRaw("RAND()")->get();    
+        //$cursos = DB::table('tbl_cursos')->orderByRaw("RAND()")->get();    
+        $cursos = DB::table('tbl_cursos')->get();   
         $tiposCursos = Consultas::consulta('categorias','');
         $cursosNegocios = Consultas::consulta('cursosCategoria','Negocios');
         $cursosDesarrollo = Consultas::consulta('cursosCategoria','Desarrollo');
@@ -44,7 +45,6 @@ class HomeController extends Controller
         $cursosTecnologia = Consultas::consulta('cursosCategoria','Tecnología');
         $cursosProductividad = Consultas::consulta('cursosCategoria','Productividad');
 
-         
         return \View::make('curso', compact('cursos','cursosNegocios','cursosDesarrollo', 'cursosTecnologia','cursosProductividad'));
     }    
 

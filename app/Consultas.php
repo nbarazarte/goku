@@ -14,7 +14,7 @@ class Consultas extends Model
 			case 'cursosCategoria':
 				
         		$cursosCategoria = DB::table('tbl_cursos')
-                ->select('str_curso')
+                ->select('str_curso','str_titulocorto')
                 ->where('str_categoria', '=', $valor)
                 ->orderBy('str_categoria','asc')              
                 ->get();  

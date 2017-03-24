@@ -32,28 +32,28 @@
 				switch ($curso->str_categoria) {
 					case 'Negocios':
 						
-							$imagen_fondo = '';
+							$imagen_fondo = 'slide-b-bg-blue.jpg';
 							$color = '#35459C';
 
 						break;
 
 					case 'Tecnología':
 
-							$imagen_fondo = '';
+							$imagen_fondo = 'slide-b-bg-yellow.jpg';
 							$color = '#F47741';
 
 						break;	
 
 					case 'Desarrollo':
 
-							$imagen_fondo = '';
+							$imagen_fondo = 'slide-b-bg.jpg';
 							$color = '#41B649';
 
 						break;
 
 					case 'Productividad':
 
-							$imagen_fondo = '912.jpg';
+							$imagen_fondo = 'slide-b-bg-violet.jpg';
 							$color = '#7952A1';
 
 						break;																
@@ -63,7 +63,7 @@
 
 			?>
 
-			<section class="page-header page-header-lg parallax parallax-3" style="background-image:url('{{ asset('smarty/assets/images/'.$imagen_fondo) }}')">
+			<section class="page-header page-header-lg parallax parallax-3" style="background-image:url('{{ asset('smarty/assets/images/demo/layerslider/'.$imagen_fondo) }}'); ">
 
 				<div class="overlay dark-2"><!-- dark overlay [1 to 9 opacity] --></div>
 
@@ -89,7 +89,7 @@
 					<article class="row">
 						<div class="col-md-6">
 							<!-- OWL SLIDER -->
-								<img class="img-responsive" src="{{ asset('smarty/assets/images/cursosilernus/'.$curso->str_imagen) }}" alt="">
+								<img class="img-responsive img-rounded" src="{{ asset('smarty/assets/images/cursosilernus/'.$curso->str_imagen) }}" alt="">
 
 							<!-- /OWL SLIDER -->
 						</div>
@@ -134,7 +134,7 @@
 
 						
 						<div class="col-md-4 col-sm-4 text-right" ><!-- right btn -->
-							<a href="#" rel="nofollow" target="_blank" style="background-color: #F47741; color: #FFF; border: 0px" class="btn btn-primary btn-lg">CONTACTANOS</a>
+							<a href="http://localhost:8000#contacto" rel="nofollow" target="_blank" style="background-color: #F47741; color: #FFF; border: 0px" class="btn btn-primary btn-lg">CONTACTANOS</a>
 						</div><!-- /right btn -->
 
 					</div>

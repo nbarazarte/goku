@@ -509,7 +509,7 @@
 					<!-- LEFT -->
 					<div class="col-md-6 col-sm-6 nopadding nomargin">
 
-						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/11-min.jpg" alt="image" />
+						<img class="img-responsive img-rounded" src="smarty/assets/images/demo/people/1200x800/11-min.jpg" alt="image" />
 
 					</div>
 
@@ -567,7 +567,7 @@
 					<!-- LEFT -->
 					<div class="col-md-6 col-sm-6 nopadding nomargin">
 
-						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/22-min.jpg" alt="image" />
+						<img class="img-responsive img-rounded" src="smarty/assets/images/demo/people/1200x800/22-min.jpg" alt="image" />
 
 					</div>
 
@@ -616,8 +616,8 @@
 					<div id="portfolio" class="portfolio-nogutter">
 
 						<ul class="nav nav-pills mix-filter margin-bottom-60">
-							<!--<li data-filter="all" class="filter active"><a href="#">Todos</a></li>-->
-							<li data-filter="destacados" class="filter active"><a href="#">Destacados</a></li>							
+							<li data-filter="all" class="filter active"><a href="#">Todos</a></li>
+							<li data-filter="destacados" class="filter"><a href="#">Destacados</a></li>							
 							<li data-filter="negocios" class="filter"><a href="#">Negocios</a></li>
 							<li data-filter="tecnologia" class="filter"><a href="#">Tecnología</a></li>
 							<li data-filter="desarrollo" class="filter"><a href="#">Desarrollo</a></li>
@@ -655,17 +655,9 @@
 									</figure>
 
 									<div class="item-box-desc">
-										<h3>
-
-	                                        	@if( strlen(".$curso->str_curso.") < 20 ) 
-	                                        	
-	                                        		{!! str_replace("-"," ",$curso->str_curso) !!}
-	                                        		
-	                                        	@else 
-	                                        		{!! substr(str_replace("-"," ",$curso->str_curso),0,19)."..." !!}
-	                                        		
-	                                        	@endif 
-
+										<h3  style="cursor: pointer;" title="{!! str_replace("-"," ",$curso->str_curso) !!}">
+                                        	
+                                        	{!! str_replace("-"," ",$curso->str_titulocorto) !!}
 
 										</h3>
 										<ul class="list-inline categories nomargin">

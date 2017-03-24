@@ -121,6 +121,10 @@
 							</a>
 						</div>				
 
+
+
+
+
 						<!-- 
 							Top Nav 
 							
@@ -140,7 +144,7 @@
 
 								 @if(Route::current()->getName() == 'home')
 
-									<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
+									<ul id="topMain" class="nav nav-pills nav-main nav-onepage" style="font-size: 14px">
 										<li class="active"><!-- HOME -->
 											<a href="#slider">
 												ilernus
@@ -152,11 +156,12 @@
 											</a>
 										</li>
 										<li><!--  -->
-											<a class="dropdown-toggle" href="#servicios">
+											<a  href="#servicios">
 												Servicios
 											</a>
 											
-											<ul class="dropdown-menu">
+											<!-- class="dropdown-toggle"
+											<ul class="dropdown-menu" style="font-size: 14px">
 												@foreach ($tiposCursos as $tipo) 
 													<li class="dropdown">
 														
@@ -221,6 +226,8 @@
 												@endforeach
 																																															
 											</ul>
+
+											-->
 											
 										</li>
 										<li><!--  -->
@@ -239,7 +246,6 @@
 
 								 @elseif(Route::current()->getName() == 'curso')
 
-
 									<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
 										<li class="active"><!-- HOME -->
 											<a href=" {{ route('home') }} ">
@@ -255,10 +261,10 @@
 	                                        	
 												@foreach ($cursosNegocios as $negocio)
 
-													<li>
+													<li style="cursor: pointer;" title="{!! str_replace("-"," ",$negocio->str_curso) !!}">
 														<a href="{{ route('curso',$negocio->str_curso) }}">
 
-															{!! str_replace("-"," ",$negocio->str_curso) !!}
+				                                        	{!! str_replace("-"," ",$negocio->str_titulocorto) !!} 
 
 														</a>
 													</li>
@@ -277,10 +283,10 @@
 	                                        	
 												@foreach ($cursosTecnologia as $tecnologia)
 
-													<li>
+													<li style="cursor: pointer;" title="{!! str_replace("-"," ",$tecnologia->str_curso) !!}">
 														<a href="{{ route('curso',$tecnologia->str_curso) }}">
 
-															{!! str_replace("-"," ",$tecnologia->str_curso) !!}
+				                                        	{!! str_replace("-"," ",$tecnologia->str_titulocorto) !!} 
 
 														</a>
 													</li>
@@ -299,10 +305,10 @@
 	                                        	
 												@foreach ($cursosDesarrollo as $desarrollo)
 
-													<li>
+													<li style="cursor: pointer;" title="{!! str_replace("-"," ",$desarrollo->str_curso) !!}">
 														<a href="{{ route('curso',$desarrollo->str_curso) }}">
 
-															{!! str_replace("-"," ",$desarrollo->str_curso) !!}
+				                                        	{!! str_replace("-"," ",$desarrollo->str_titulocorto) !!} 
 
 														</a>
 													</li>
@@ -321,10 +327,10 @@
 	                                        	
 												@foreach ($cursosProductividad as $productividad)
 
-													<li>
+													<li style="cursor: pointer;" title="{!! str_replace("-"," ",$productividad->str_curso) !!}">
 														<a href="{{ route('curso',$productividad->str_curso) }}">
 
-															{!! str_replace("-"," ",$productividad->str_curso) !!}
+				                                        	{!! str_replace("-"," ",$productividad->str_titulocorto) !!} 
 
 														</a>
 													</li>
