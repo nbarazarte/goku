@@ -50,6 +50,15 @@ class HomeController extends Controller
 
         $cursos = DB::table('tbl_cursos')->where('str_curso', $curso)->get();
 
+
+
+        if(!$cursos){
+
+            return \View::make('errors.404');
+        }
+
+
+
         return \View::make('curso', compact('cursos'));
     }
 
