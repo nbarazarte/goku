@@ -432,34 +432,39 @@
 		<!-- PAGELEVEL SCRIPTS -->
 		<script type="text/javascript" src="smarty/assets/js/contact.js"></script>
 
-		<!-- 
-			GMAP.JS 
-			http://hpneo.github.io/gmaps/
-		-->
-		<script type="text/javascript" src="//maps.google.com/maps/api/js?key=AIzaSyDn4Fqtci9trC4i6iJjbC-UfdnwONchtQ0"></script>
-		{!! Html::script('smarty/assets/plugins/gmaps.js') !!}
-		<script type="text/javascript">
 
-			jQuery(document).ready(function(){
+		@if(Route::current()->getName() == 'home')
+		
+			<!-- 
+				GMAP.JS 
+				http://hpneo.github.io/gmaps/
+			-->
+			<script type="text/javascript" src="//maps.google.com/maps/api/js?key=AIzaSyDn4Fqtci9trC4i6iJjbC-UfdnwONchtQ0"></script>
+			{!! Html::script('smarty/assets/plugins/gmaps.js') !!}
+			<script type="text/javascript">
 
-				/**
-					@BASIC GOOGLE MAP
-				**/
-				var map2 = new GMaps({
-					div: '#map2',
-					lat: 10.4985307,
-					lng: -66.7909896,
-					scrollwheel: false
+				jQuery(document).ready(function(){
+
+					/**
+						@BASIC GOOGLE MAP
+					**/
+					var map2 = new GMaps({
+						div: '#map2',
+						lat: 10.4985307,
+						lng: -66.7909896,
+						scrollwheel: false
+					});
+
+					var marker = map2.addMarker({
+						lat: 10.4985307,
+						lng: -66.7909896,
+						title: 'ilernus'
+					});
+
 				});
 
-				var marker = map2.addMarker({
-					lat: 10.4985307,
-					lng: -66.7909896,
-					title: 'ilernus'
-				});
+			</script>	
 
-			});
-
-		</script>		
+		@endif	
 	</body>
 </html>
