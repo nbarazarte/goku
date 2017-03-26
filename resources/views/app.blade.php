@@ -30,6 +30,9 @@
 		<!-- PAGE LEVEL SCRIPTS -->
 		{!! Html::style('smarty/assets/css/header-1.css') !!}
 		{!! Html::style('smarty/assets/css/color_scheme/blue.css') !!}
+
+
+		<link rel="shortcut icon" type="image/png" href="{{ asset('smarty/assets/images/emblemafavicon.ico') }}"/>
 	</head>
 
 	<!--
@@ -98,7 +101,7 @@
 
 						<!-- Logo -->
 						<a class="logo pull-left" href="{{ route('home') }}">
-							<img src="{{ asset('smarty/assets/images/ilernus4.png') }}" alt="" />														
+							<img src="{{ asset('smarty/assets/images/ilernus4.png') }}" alt="logo ilernus" title="www.ilernus.com" />														
 						</a>
 
 
@@ -174,7 +177,7 @@
 				                                        	
 																@foreach ($cursosNegocios as $negocio) 
 																	<li>
-																		<a href="{{ route('curso',$negocio->str_curso) }}">
+																		<a href="{{ route('curso',$negocio->str_curso) }}" target="_blank">
 
 																			{!! str_replace("-"," ",$negocio->str_titulocorto) !!}
 
@@ -186,7 +189,7 @@
 
 																@foreach ($cursosDesarrollo as $desarrollo) 
 																	<li>
-																		<a href="{{ route('curso',$desarrollo->str_curso) }}">
+																		<a href="{{ route('curso',$desarrollo->str_curso) }}" target="_blank">
 
 																			{!! str_replace("-"," ",$desarrollo->str_titulocorto) !!}
 
@@ -198,7 +201,7 @@
 
 																@foreach ($cursosProductividad as $productividad) 
 																	<li>
-																		<a href="{{ route('curso',$productividad->str_curso) }}">
+																		<a href="{{ route('curso',$productividad->str_curso) }}" target="_blank">
 
 																			{!! str_replace("-"," ",$productividad->str_titulocorto) !!}
 
@@ -210,7 +213,7 @@
 
 																@foreach ($cursosTecnologia as $tecnologia) 
 																	<li>
-																		<a href="{{ route('curso',$tecnologia->str_curso) }}">
+																		<a href="{{ route('curso',$tecnologia->str_curso) }}" target="_blank">
 
 																			{!! str_replace("-"," ",$tecnologia->str_titulocorto) !!}
 
