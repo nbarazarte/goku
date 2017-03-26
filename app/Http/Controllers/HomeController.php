@@ -40,12 +40,13 @@ class HomeController extends Controller
     {
 
         $cursos = DB::table('tbl_cursos')->where('str_curso', $curso)->get();
+        $tiposCursos = Consultas::consulta('categorias','');
         $cursosNegocios = Consultas::consulta('cursosCategoria','Negocios');
         $cursosDesarrollo = Consultas::consulta('cursosCategoria','Desarrollo');
         $cursosTecnologia = Consultas::consulta('cursosCategoria','Tecnología');
         $cursosProductividad = Consultas::consulta('cursosCategoria','Productividad');
 
-        return \View::make('curso', compact('cursos','cursosNegocios','cursosDesarrollo', 'cursosTecnologia','cursosProductividad'));
+        return \View::make('curso', compact('cursos','tiposCursos','cursosNegocios','cursosDesarrollo', 'cursosTecnologia','cursosProductividad'));
     }
 
 

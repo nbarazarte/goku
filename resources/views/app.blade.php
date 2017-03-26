@@ -32,7 +32,12 @@
 		{!! Html::style('smarty/assets/css/color_scheme/blue.css') !!}
 
 
-		<link rel="shortcut icon" type="image/png" href="{{ asset('smarty/assets/images/emblemafavicon.ico') }}"/>
+
+		<link rel="icon" href="{{ asset('smarty/assets/images/emblemafavicon.ico') }}" type="image/x-icon"/>
+		<link rel="shortcut icon" href="{{ asset('smarty/assets/images/emblemafavicon.ico') }}" type="image/x-icon"/>
+
+
+
 	</head>
 
 	<!--
@@ -144,25 +149,57 @@
 									Add .external for an external link!
 								-->
 
-
-								 @if(Route::current()->getName() == 'home' || Route::current()->getName() == 'blog')
-
 									<ul id="topMain" class="nav nav-pills nav-main nav-onepage" style="font-size: 14px">
-										<li class="active"><!-- HOME -->
-											<a href="#slider">
-												ilernus
-											</a>
+										<li class=""><!-- HOME -->
+
+											@if(Route::current()->getName() == 'home')
+
+												<a href="#slider">
+													Inicio
+												</a>
+
+											@elseif((Route::current()->getName() == 'curso') || (Route::current()->getName() == 'blog'))
+
+												<a href="{{ route('home') }}">
+													Ilernus
+												</a>
+
+											@endif
+
 										</li>
 										<li><!--  -->
-											<a href="#conocenos">
-												Conócenos
-											</a>
+
+											@if(Route::current()->getName() == 'home')
+
+												<a href="#conocenos">
+													Conócenos
+												</a>
+
+											@elseif((Route::current()->getName() == 'curso') || (Route::current()->getName() == 'blog'))
+
+												<a href="http://localhost:8000#conocenos">
+													Conócenos
+												</a>
+
+											@endif
+
 										</li>
 										<li><!--  -->
-											<a  href="#servicios">
-												Servicios
-											</a>
-											
+
+											@if(Route::current()->getName() == 'home')
+
+												<a  href="#servicios">
+													Servicios
+												</a>
+
+											@elseif((Route::current()->getName() == 'curso') || (Route::current()->getName() == 'blog'))
+
+												<a href="http://localhost:8000#servicios">
+													Servicios
+												</a>
+
+											@endif
+
 											<!-- class="dropdown-toggle" -->
 											<ul class="dropdown-menu dropdown-toggle" style="font-size: 14px">
 												@foreach ($tiposCursos as $tipo) 
@@ -177,7 +214,7 @@
 				                                        	
 																@foreach ($cursosNegocios as $negocio) 
 																	<li>
-																		<a href="{{ route('curso',$negocio->str_curso) }}" target="_blank">
+																		<a href="{{ route('curso',$negocio->str_curso) }}" >
 
 																			{!! str_replace("-"," ",$negocio->str_titulocorto) !!}
 
@@ -189,7 +226,7 @@
 
 																@foreach ($cursosDesarrollo as $desarrollo) 
 																	<li>
-																		<a href="{{ route('curso',$desarrollo->str_curso) }}" target="_blank">
+																		<a href="{{ route('curso',$desarrollo->str_curso) }}" >
 
 																			{!! str_replace("-"," ",$desarrollo->str_titulocorto) !!}
 
@@ -201,7 +238,7 @@
 
 																@foreach ($cursosProductividad as $productividad) 
 																	<li>
-																		<a href="{{ route('curso',$productividad->str_curso) }}" target="_blank">
+																		<a href="{{ route('curso',$productividad->str_curso) }}" >
 
 																			{!! str_replace("-"," ",$productividad->str_titulocorto) !!}
 
@@ -213,7 +250,7 @@
 
 																@foreach ($cursosTecnologia as $tecnologia) 
 																	<li>
-																		<a href="{{ route('curso',$tecnologia->str_curso) }}" target="_blank">
+																		<a href="{{ route('curso',$tecnologia->str_curso) }}" >
 
 																			{!! str_replace("-"," ",$tecnologia->str_titulocorto) !!}
 
@@ -229,9 +266,7 @@
 												@endforeach
 																																															
 											</ul>
-
-											
-											
+																						
 										</li>
 										<li><!--  -->
 											<a href="{{ route('blog')}}">
@@ -239,115 +274,25 @@
 											</a>
 										</li>
 										<li><!--  -->
-											<a class="" href="#contacto">
-												Contáctanos
-											</a>
-										</li>																				
 
+											@if(Route::current()->getName() == 'home')
 
-									</ul>								 
+												<a class="" href="#contacto">
+													Contáctanos
+												</a>
 
-								 @elseif(Route::current()->getName() == 'curso')
+											@elseif((Route::current()->getName() == 'curso') || (Route::current()->getName() == 'blog'))
 
-									<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
-										<li class="active"><!-- HOME -->
-											<a href=" {{ route('home') }} ">
-												ilernus
-											</a>
-										</li>
-										<li><!--  -->
-											<a href="#">
-												Negocios
-											</a>
+												<a href="http://localhost:8000#contacto">
+													Contáctanos
+												</a>
 
-											<ul class="dropdown-menu">
-	                                        	
-												@foreach ($cursosNegocios as $negocio)
-
-													<li style="cursor: pointer;" title="{!! str_replace("-"," ",$negocio->str_curso) !!}">
-														<a href="{{ route('curso',$negocio->str_curso) }}">
-
-				                                        	{!! str_replace("-"," ",$negocio->str_titulocorto) !!} 
-
-														</a>
-													</li>
-
-												@endforeach
-
-											</ul>		
-
-										</li>
-										<li><!--  -->
-											<a href="#">
-												Tecnología
-											</a>
-
-											<ul class="dropdown-menu">
-	                                        	
-												@foreach ($cursosTecnologia as $tecnologia)
-
-													<li style="cursor: pointer;" title="{!! str_replace("-"," ",$tecnologia->str_curso) !!}">
-														<a href="{{ route('curso',$tecnologia->str_curso) }}">
-
-				                                        	{!! str_replace("-"," ",$tecnologia->str_titulocorto) !!} 
-
-														</a>
-													</li>
-
-												@endforeach
-
-											</ul>
-
-										</li>
-										<li><!--  -->
-											<a href="#">
-												Desarrollo
-											</a>
-
-											<ul class="dropdown-menu">
-	                                        	
-												@foreach ($cursosDesarrollo as $desarrollo)
-
-													<li style="cursor: pointer;" title="{!! str_replace("-"," ",$desarrollo->str_curso) !!}">
-														<a href="{{ route('curso',$desarrollo->str_curso) }}">
-
-				                                        	{!! str_replace("-"," ",$desarrollo->str_titulocorto) !!} 
-
-														</a>
-													</li>
-
-												@endforeach
-
-											</ul>
-
-										</li>
-										<li><!--  -->
-											<a class="" href="#">
-												Productividad
-											</a>
-
-											<ul class="dropdown-menu">
-	                                        	
-												@foreach ($cursosProductividad as $productividad)
-
-													<li style="cursor: pointer;" title="{!! str_replace("-"," ",$productividad->str_curso) !!}">
-														<a href="{{ route('curso',$productividad->str_curso) }}">
-
-				                                        	{!! str_replace("-"," ",$productividad->str_titulocorto) !!} 
-
-														</a>
-													</li>
-
-												@endforeach
-
-											</ul>
+											@endif
 
 										</li>																				
 
 
-									</ul>
-
-								 @endif
+									</ul>						 
 
 							</nav>
 

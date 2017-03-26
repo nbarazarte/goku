@@ -23,13 +23,6 @@
 
 					<h1>BLOG</h1>
 
-					<!-- breadcrumbs -->
-					<ol class="breadcrumb">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Blog</a></li>
-						<li class="active">Left Sidebar</li>
-					</ol><!-- /breadcrumbs -->
-
 				</div>
 			</section>
 			<!-- /PAGE HEADER -->
@@ -246,33 +239,6 @@
 							<hr />
 
 
-							<!-- SOCIAL ICONS -->
-							<div class="hidden-xs margin-top-30 margin-bottom-60">
-								<a href="#" class="social-icon social-icon-border social-facebook pull-left" data-toggle="tooltip" data-placement="top" title="Facebook">
-									<i class="icon-facebook"></i>
-									<i class="icon-facebook"></i>
-								</a>
-
-								<a href="#" class="social-icon social-icon-border social-twitter pull-left" data-toggle="tooltip" data-placement="top" title="Twitter">
-									<i class="icon-twitter"></i>
-									<i class="icon-twitter"></i>
-								</a>
-
-								<a href="#" class="social-icon social-icon-border social-gplus pull-left" data-toggle="tooltip" data-placement="top" title="Google plus">
-									<i class="icon-gplus"></i>
-									<i class="icon-gplus"></i>
-								</a>
-
-								<a href="#" class="social-icon social-icon-border social-linkedin pull-left" data-toggle="tooltip" data-placement="top" title="Linkedin">
-									<i class="icon-linkedin"></i>
-									<i class="icon-linkedin"></i>
-								</a>
-
-								<a href="#" class="social-icon social-icon-border social-rss pull-left" data-toggle="tooltip" data-placement="top" title="Rss">
-									<i class="icon-rss"></i>
-									<i class="icon-rss"></i>
-								</a>
-							</div>
 
 						</div>
 
