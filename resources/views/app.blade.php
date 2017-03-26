@@ -7,7 +7,7 @@
 		<title>ilernus</title>
 		<meta name="keywords" content="e-learning" />
 		<meta name="description" content="" />
-		<meta name="Author" content="" />
+		<meta name="Author" content="Neil Barazarte [www.neilbarazarte]" />
 
 		<!-- mobile settings -->
 		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
