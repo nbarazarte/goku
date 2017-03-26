@@ -217,7 +217,7 @@
 
 							<!-- TWIITER WIDGET -->
 							<h3 class="hidden-xs size-16 margin-bottom-10">TWITTER FEED</h3>							
-							<ul class="hidden-xs widget-twitter margin-bottom-60" data-php="php/twitter/tweet.php" data-username="stepofweb" data-limit="3">
+							<ul class="hidden-xs widget-twitter margin-bottom-60" data-php="{{ asset('smarty/php/twitter/tweet.php') }}" data-username="neilbarazarte" data-limit="3">
 								<li></li>
 							</ul>
 

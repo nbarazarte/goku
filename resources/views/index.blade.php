@@ -724,69 +724,35 @@
 
 							<h3>Estamos para ti <span><strong style="color: #35459C">envíanos tus preguntas y comentarios</strong></span></h3>
 
-							
-							<!--
-								MESSAGES
-								
-									How it works?
-									The form data is posted to php/contact.php where the fields are verified!
-									php.contact.php will redirect back here and will add a hash to the end of the URL:
-										#alert_success 		= email sent
-										#alert_failed		= email not sent - internal server error (404 error or SMTP problem)
-										#alert_mandatory	= email not sent - required fields empty
-										Hashes are handled by assets/js/contact.js
+                    			@if(Session::has('message'))
+					            
+									<div id="mensaje-enviado" class="alert alert-success" role="alert">
+									  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									  <span aria-hidden="true">&times;</span></button>
+									  <strong><i class="fa fa-check"></i></strong> {{Session::get('message')}}
+									</div>
 
-									Form data: required to be an array. Example:
-										contact[email][required]  WHERE: [email] = field name, [required] = only if this field is required (PHP will check this)
-										Also, add `required` to input fields if is a mandatory field. 
-										Example: <input required type="email" value="" class="form-control" name="contact[email][required]">
+								@endif  							
 
-									PLEASE NOTE: IF YOU WANT TO ADD OR REMOVE FIELDS (EXCEPT CAPTCHA), JUST EDIT THE HTML CODE, NO NEED TO EDIT php/contact.php or javascript
-												 ALL FIELDS ARE DETECTED DINAMICALY BY THE PHP
-
-									WARNING! Do not change the `email` and `name`!
-												contact[name][required] 	- should stay as it is because PHP is using it for AddReplyTo (phpmailer)
-												contact[email][required] 	- should stay as it is because PHP is using it for AddReplyTo (phpmailer)
-							-->
-
-							<!-- Alert Success -->
-							<div id="alert_success" class="alert alert-success margin-bottom-30">
-								<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-								<strong>Thank You!</strong> Tu mensaje ha sido enviado!
-							</div><!-- /Alert Success -->
+							{!! Form::open(['route' => 'enviar', 'method'=>'PUT', 'id' => 'demo-form', 'enctype'=>'multipart/form-data', 'class' => '', 'onKeypress' => 'if(event.keyCode == 13) event.returnValue = false']) !!} 
 
 
-							<!-- Alert Failed -->
-							<div id="alert_failed" class="alert alert-danger margin-bottom-30">
-								<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-								<strong>[SMTP] Error!</strong> error del servidor!
-							</div><!-- /Alert Failed -->
-
-
-							<!-- Alert Mandatory -->
-							<div id="alert_mandatory" class="alert alert-danger margin-bottom-30">
-								<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-								<strong>Sorry!</strong> Por favor completa los campos marcados con asterisco (*) !
-							</div><!-- /Alert Mandatory -->
-
-
-							<form action="php/contact.php" method="post" enctype="multipart/form-data">
 								<fieldset>
 									<input type="hidden" name="action" value="contact_send" />
 
 									<div class="row">
 										<div class="form-group">
 											<div class="col-md-4">
-												<label for="contact:name">Nombre y Apellido *</label>
-												<input required type="text" value="" class="form-control" name="contact[name][required]" id="contact:name">
+												<label for="name">Nombre y Apellido *</label>
+												<input required type="text" value="" class="form-control" name="name" id="name">
 											</div>
 											<div class="col-md-4">
-												<label for="contact:email">Correo Electrónico *</label>
-												<input required type="email" value="" class="form-control" name="contact[email][required]" id="contact:email">
+												<label for="email">Correo Electrónico *</label>
+												<input required type="email" value="" class="form-control" name="email" id="email">
 											</div>
 											<div class="col-md-4">
-												<label for="contact:phone">Teléfono</label>
-												<input type="text" value="" class="form-control" name="contact[phone]" id="contact:phone">
+												<label for="phone">Teléfono</label>
+												<input type="text" value="" class="form-control" name="phone" id="phone">
 											</div>
 										</div>
 									</div>
@@ -795,7 +761,7 @@
 
 											<div class="col-md-4">
 												<label for="contact_asunto">Asunto</label>
-												<select class="form-control pointer" name="contact[asunto]">
+												<select class="form-control pointer" id="asunto" name="asunto">
 													<option value="">--- Seleccone ---</option>
 													<option value="comentarios">Comentarios</option>
 													<option value="sugerencias">Sugerencias</option>
@@ -807,8 +773,8 @@
 									<div class="row">
 										<div class="form-group">
 											<div class="col-md-12">
-												<label for="contact:message">Mensaje *</label>
-												<textarea required maxlength="10000" rows="8" class="form-control" name="contact[message]" id="contact:message"></textarea>
+												<label for="message">Mensaje *</label>
+												<textarea required maxlength="10000" rows="8" class="form-control" name="message" id="message"></textarea>
 											</div>
 										</div>
 									</div>
@@ -817,10 +783,13 @@
 
 								<div class="row">
 									<div class="col-md-12">
-										<button type="submit" class="btn btn-primary"><i class="fa fa-check"></i> Enviar</button>
+										
+
+										{!! Form::submit('Enviar',['class' => 'btn btn-primary']) !!}
+
 									</div>
 								</div>
-							</form>
+							{!! Form::close() !!}
 
 						</div>
 						<!-- /FORM -->

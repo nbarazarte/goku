@@ -40,3 +40,8 @@
 		'uses' => 'MariaController@index',
 		'as' =>'maria'
 	]);
+
+	Route::put('Enviando', [
+			'uses' => 'HomeController@enviar',
+			'as' =>'enviar'
+	]);	
