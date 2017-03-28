@@ -1006,9 +1006,11 @@
 							<div class="{{ $curso->str_clase}}"><!-- item -->
 
 								<div class="item-box">
-									<figure>
+									<figure style="background-color: {{ $curso->str_color }}">
 										<span class="item-hover">
 											<span class="overlay dark-5"></span>
+
+
 											<span class="inner">
 
 												<!--
@@ -1019,22 +1021,32 @@
 												-->
 
 												<!-- details -->
-												<a class="ico-rounded" href="{{ route('curso',$curso->str_curso) }}" target="_blank">
-													<span class="fa fa-share size-20"></span>
-												</a>
+												<!--
+													<a class="ico-rounded" href="{{ route('curso',$curso->str_curso) }}" target="_blank">
+														<span class="fa fa-share size-20"></span>
+													</a>
+												-->
+												<h3 style="color: #ffffff; font-size: 18px">{!! str_replace("-"," ",$curso->str_titulocorto) !!}</h3>
 
 											</span>
 										</span>
 
 										<img class="img-responsive" src="{{ asset('smarty/assets/images/cursosilernus/'.$curso->str_imagen) }}" width="600" height="399" alt="">
+
+										<h3><span style="color: #ffffff">
+											<img class="pull-center img-responsive" src="{{ asset('smarty/assets/images/demo/layerslider/emblema.png') }}" style="width: 6%" alt="" />
+										{{ $curso->str_categoria }}</span></h3>
 									</figure>
 
 									<div class="item-box-desc">
 										<h3  style="cursor: pointer;" title="{!! str_replace("-"," ",$curso->str_curso) !!}">
                                         	
-                                        	{!! str_replace("-"," ",$curso->str_titulocorto) !!}
+                                        	<!--
+												aquí iba el titulo corto
+                                        	-->
 
 										</h3>
+										<!--
 										<ul class="list-inline categories nomargin">
 											<li>
 												<a href="#">
@@ -1043,6 +1055,7 @@
 											</li>
 										
 										</ul>
+										-->
 									</div>
 
 								</div>
@@ -1087,7 +1100,7 @@
 					<div class="row">
 
 						<!-- FORM -->
-						<div class="col-md-12 col-sm-12">
+						<div class="col-md-12 col-sm-12" style="">
 
 							<iframe src="http://avirtum.com/demo/ipanorama/fullscreen.html" width="100%" height="400px"></iframe>
 
@@ -1119,8 +1132,7 @@
 
 							<h3>Envíanos tus preguntas y comentarios</h3>
 
-						
-
+				
                     			@if(Session::has('message'))
 					            
 									<div id="mensaje-enviado" class="alert alert-success" role="alert">
