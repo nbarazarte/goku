@@ -1068,6 +1068,18 @@
 				</div>
 			</section>
 		
+
+			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
+
+				<div class="text-center">
+
+					<h3 style="color: #ffffff">Da un recorrido virtual por nuestras instalaciones</h3>
+
+				</div>
+
+			</div>
+
+
 			<!-- -->
 			<section>
 				<div class="container">
@@ -1077,24 +1089,37 @@
 						<!-- FORM -->
 						<div class="col-md-12 col-sm-12">
 
-						<h3>Da un recorrido virtual por <span><strong style="color: #35459C"><em>nuestras instalaciones</em></strong></span></h3>
-
-						<iframe src="http://avirtum.com/demo/ipanorama/fullscreen.html" width="100%" height="400px"></iframe>
+							<iframe src="http://avirtum.com/demo/ipanorama/fullscreen.html" width="100%" height="400px"></iframe>
 
 						</div>
 
 					</div>	
+
+
+				</div>
+			</section>
+
+			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
+
+				<div class="text-center">
+
+					<h3 style="color: #ffffff">Estamos para ti</h3>
+
+				</div>
+
+			</div>
+
+			<section>
+				<div class="container">		
 
 					<div class="row">
 
 						<!-- FORM -->
 						<div class="col-md-8 col-sm-8">
 
-							<h3>Estamos para ti <span><strong style="color: #35459C">envíanos tus preguntas y comentarios</strong></span></h3>
+							<h3>Envíanos tus preguntas y comentarios</h3>
 
-							<p>
-								... <em>y transforma la manera de planificar, desarrollar, gestionar y preservar el</em> <strong style="color: #F47741">conocimiento en tu empresa.</strong>
-							</p>
+						
 
                     			@if(Session::has('message'))
 					            
