@@ -248,12 +248,22 @@
 				<div class="container">
 
 					<div class="text-center">
-						<h3 class="size-30">Atributos</h3>
+						<h3 class="size-30">¿Por qué elegirnos?</h3>
 						<p>En <strong style="color: #F47741; font-size: 20px">ilernus</strong> queremos brindarte lo <em><b>mejor</b></em></p>
 					</div>
 
 				</div>
 			</section>
+
+			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
+
+				<div class="text-center">
+
+					<h3 style="color: #ffffff">Atributos</h3>
+
+				</div>
+
+			</div>			
 
 				<div class="row">
 
@@ -355,7 +365,8 @@
 						</div>			
 
 				</div>
-
+			
+			<!--
 			<section class="callout-dark heading-title heading-arrow-bottom" style="">
 				<div class="container">
 
@@ -366,10 +377,21 @@
 
 				</div>
 			</section>
+			-->
+
+			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
+
+				<div class="text-center">
+
+					<h3 style="color: #ffffff">Beneficios</h3>
+
+				</div>
+
+			</div>		
 
 				<div class="row">
 
-						<div class="col-md-3">
+						<div class="col-md-5th">
 
 							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
@@ -381,7 +403,7 @@
 
 						</div>
 
-						<div class="col-md-3">
+						<div class="col-md-5th">
 
 							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
@@ -393,7 +415,7 @@
 
 						</div>
 
-						<div class="col-md-3">
+						<div class="col-md-5th">
 
 							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
@@ -405,7 +427,7 @@
 
 						</div>
 
-						<div class="col-md-3">
+						<div class="col-md-5th">
 
 							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
@@ -417,7 +439,7 @@
 
 						</div>	
 
-						<div class=""><!--col-md-3-->
+						<div class="col-md-5th"><!--col-md-3-->
 
 							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
@@ -492,96 +514,390 @@
 				</div>
 			</section>
 
+			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
+
+				<div class="text-center">
+
+					<h3 style="color: #ffffff">Equipo Directivo</h3>
+
+				</div>
+
+			</div>	
 <!-- -->
 <section >
 	<div class="container">
 		
-<!--
-		<p class="lead">Lorem ipsum dolor sit amet. Etharums your template rerum facilis dolores nemis omnis fugats vitaes you need this.</p>
-		<p>Lorem ipsum dolor sit amet. Etharums your template rerum facilis dolores nemis omnis fugats vitaes you need this totam rem aperiam, eaque ipsa qu ab illo inventore veritatis et quasi architectos beatae vitae dicta sunt explicabo. Nemo enim sadips ipsums dolores sit.Nemo enims sadips ipsums un inventore veritatis et quasi.</p>
--->
-		<div class="row">
+<div class="row">
 
-			<!-- Member -->
-			<section class="nopadding">
-				
-				<div class="row nomargin">
-				
-					<!-- LEFT -->
-					<div class="col-md-6 col-sm-6 nopadding nomargin">
 
-						<img class="img-responsive img-rounded" src="smarty/assets/images/demo/people/1200x800/11-min.jpg" alt="image" />
+	<div class="col-md-3">
 
+		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+			<div class="front">
+				<div class="box1 box-default">
+					<div class="box-icon-title">
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/2-min.jpg" alt="" />
+						<h2>Alexander Elorriaga</h2>
 					</div>
-
-					<!-- RIGHT -->
-					<div class="col-md-6 col-sm-6 nopadding nomargin">
 					
-						<div class="padding-40">
-				
-							<h2>Clover Brito</h2>
-							<strong>Presidente</strong>
-							<p style="text-align: justify;">
-								Es socio fundador de B&G Consultores Corporativos, S.A., creador del concepto ilernus. Licenciado en Contaduría  Pública  (1997) con  Maestría  en Finanzas en IESA  (2004), especialista tributario por la Universidad  Metropolitana (2004-2005) y Maestría  en Administración de Empresas (MBA) en el IESA (2008). Obtuvo dos becas para cursar estudios en el IESA.
-							</p>
+				</div>
+			</div>
 
-							<!-- Modal Ajax Lightbox >-->
-							<a class="btn btn-default btn-lg lightbox" href="{{ route('clover') }}" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}' style="background-color: #35459C; color: #FFF; border: 0px">
-							Leer más</a>
-
-							<hr>
-
-						</div>
-
-					</div>
+			<div class="back">
+				<div class="box2" style="background-color: #35459C">
+					<h4>BACK SIDE</h4>
+					<hr />
+					<p>(Descripción breve)</p>
 
 				</div>
-
-			</section>
-			<!-- /Member -->
-
-			<!-- Member -->
-			<section class="nopadding">
-				
-				<div class="row nomargin">
-
-					<!-- RIGHT -->
-					<div class="col-md-6 col-sm-6 nopadding nomargin">
-					
-						<div class="padding-40">
-				
-							<h2>María Alejandra Aguilar P.</h2>
-							<strong>Directora General ilernus Venezuela</strong>
-							<p style="text-align: justify;">
-								María Alejandra posee más de 15 años de exitosa experiencia en el área docente en la Universidad Metropolitana, así como también en el área de gerencia, liderazgo y desarrollo de proyectos relacionados con tecnología educativa y formación en línea (e-learning).
-							</p>
-
-							<!-- Modal Ajax Lightbox >-->
-							<a class="btn btn-default btn-lg lightbox" href="{{ route('maria') }}" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}' style="background-color: #F47741; color: #FFF; border: 0px">
-							Leer más</a>
-							<hr>
-			
-						</div>
-
-					</div>
-
-					<!-- LEFT -->
-					<div class="col-md-6 col-sm-6 nopadding nomargin">
-
-						<img class="img-responsive img-rounded" src="smarty/assets/images/demo/people/1200x800/22-min.jpg" alt="image" />
-
-					</div>
-
-				</div>
-				
-			</section>
-			<!-- /Member -->
-
+			</div>
 		</div>
 
 	</div>
+
+	<div class="col-md-3">
+
+		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+			<div class="front">
+				<div class="box1 box-default">
+					<div class="box-icon-title">
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/1-min.jpg" alt="" />
+						<h2>Francis Cova</h2>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="back">
+				<div class="box2" style="background-color: #35459C">
+					<h4>BACK SIDE</h4>
+					<hr />
+					<p>(Descripción breve)</p>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="col-md-3">
+
+		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+			<div class="front">
+				<div class="box1 box-default">
+					<div class="box-icon-title">
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/2-min.jpg" alt="" />
+						<h2>Clover Brito</h2>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="back">
+				<div class="box2" style="background-color: #35459C">
+					<h4>BACK SIDE</h4>
+					<hr />
+					<p>(Descripción breve)</p>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="col-md-3">
+
+		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+			<div class="front">
+				<div class="box1 box-default">
+					<div class="box-icon-title">
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/1-min.jpg" alt="" />
+						<h2>Nohelia Bastidas</h2>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="back">
+				<div class="box2" style="background-color: #35459C">
+					<h4>BACK SIDE</h4>
+					<hr />
+					<p>(Descripción breve)</p>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+</div>
+	</div>
+</section>		
+
+			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
+
+				<div class="text-center">
+
+					<h3 style="color: #ffffff">Equipo Gerencial</h3>
+
+				</div>
+
+			</div>	
+
+
+<section>
+	<div class="container">
+		
+<div class="row">
+
+
+	<div class="col-md-3">
+
+		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+			<div class="front">
+				<div class="box1 box-default">
+					<div class="box-icon-title">
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/1-min.jpg" alt="" />
+						<h2>María Aguilar</h2>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="back">
+				<div class="box2" style="background-color: #35459C">
+					<h4>CEO</h4>
+					<hr />
+					<p>(Descripción breve)</p>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="col-md-3">
+
+		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+			<div class="front">
+				<div class="box1 box-default">
+					<div class="box-icon-title">
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/2-min.jpg" alt="" />
+						<h2>Oscar Rojas</h2>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="back">
+				<div class="box2" style="background-color: #35459C">
+					<h4>Desarrollo</h4>
+					<hr />
+					<p>(Descripción breve)</p>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="col-md-3">
+
+		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+			<div class="front">
+				<div class="box1 box-default">
+					<div class="box-icon-title">
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/2-min.jpg" alt="" />
+						<h2>Julio Alcarra</h2>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="back">
+				<div class="box2" style="background-color: #35459C">
+					<h4>Academia</h4>
+					<hr />
+					<p>(Descripción breve)</p>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="col-md-3">
+
+		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+			<div class="front">
+				<div class="box1 box-default">
+					<div class="box-icon-title">
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/1-min.jpg" alt="" />
+						<h2>Jimena Gracia</h2>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="back">
+				<div class="box2" style="background-color: #35459C">
+					<h4>Comercial</h4>
+					<hr />
+					<p>(Descripción breve)</p>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+</div>
+
+<br>
+
+<div class="row">
+	
+	<div class="col-md-5th">
+
+		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+			<div class="front">
+				<div class="box1 box-default">
+					<div class="box-icon-title">
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/2-min.jpg" alt="" />
+						<h2>Liener Martínez</h2>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="back">
+				<div class="box2" style="background-color: #35459C">
+					<h4>Administración</h4>
+					<hr />
+					<p>(Descripción breve)</p>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="col-md-5th">
+
+		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+			<div class="front">
+				<div class="box1 box-default">
+					<div class="box-icon-title">
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/1-min.jpg" alt="" />
+						<h2>Romina Laconelli</h2>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="back">
+				<div class="box2" style="background-color: #35459C">
+					<h4>Gestión de Talentos</h4>
+					<hr />
+					<p>(Descripción breve)</p>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="col-md-5th">
+
+		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+			<div class="front">
+				<div class="box1 box-default">
+					<div class="box-icon-title">
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/1-min.jpg" alt="" />
+						<h2>Antonella Lobosco</h2>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="back">
+				<div class="box2" style="background-color: #35459C">
+					<h4>Consultoria Jurídica</h4>
+					<hr />
+					<p>(Descripción breve)</p>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="col-md-5th">
+
+		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+			<div class="front">
+				<div class="box1 box-default" >
+					<div class="box-icon-title">
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/1-min.jpg" alt="" />
+						<h2>Nailis Blandin</h2>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="back">
+				<div class="box2" style="background-color: #35459C">
+					<h4>Informática</h4>
+					<hr />
+					<p>(Descripción breve)</p>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="col-md-5th">
+
+		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+			<div class="front">
+				<div class="box1 box-default" >
+					<div class="box-icon-title">
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/2-min.jpg" alt="" />
+						<h2>Johnny Castro</h2>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="back">
+				<div class="box2" style="background-color: #35459C">
+					<h4>Calidad y Gestión</h4>
+					<hr />
+					<p>(Descripción breve)</p>
+
+				</div>
+			</div>
+		</div>
+
+	</div>	
+
+</div>
+
+
+
+
+
+
+
+
+
+	</div>
+
+
 </section>
-<!-- / -->
+
+
 
 
 			<section id="soluciones" class="callout-dark heading-title heading-arrow-bottom" style="">
@@ -600,7 +916,7 @@
 			<!-- Portfolio -->
 			<section >
 				<div class="container">
-					<header class="text-center margin-bottom-60">
+					
 			
 					<div class="row">
 					
@@ -642,10 +958,36 @@
 
 	
 
+					</div>
 
 
-						<hr />
-					</header>
+
+</div>
+</section>
+
+
+
+			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
+
+				<div class="text-center">
+
+					<h3 style="color: #ffffff">Nuestros Cursos</h3>
+
+				</div>
+
+			</div>	
+
+
+			<section>
+
+			<div class="container">
+
+
+
+					<div class="row">
+
+
+
 					<div id="portfolio" class="portfolio-nogutter">
 
 						<ul class="nav nav-pills mix-filter margin-bottom-60">

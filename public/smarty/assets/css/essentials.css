@@ -5163,14 +5163,14 @@ section.dark .box-icon a.box-icon-more {
 
 /* transparent icon */
 .box-icon.box-icon-transparent .box-icon-title>i {
-	/*
+	
 		background-color:transparent;
 		border:#ccc 1px solid;
 		color:#333;
-	*/
+	
 
-	background-color:transparent;
-	border:#F47741 3px solid;
+	/*background-color:transparent;
+	border:#F47741 3px solid;*/
 
 }
 	section.dark .box-icon.box-icon-transparent .box-icon-title>i {
