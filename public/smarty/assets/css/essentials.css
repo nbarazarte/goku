@@ -5061,7 +5061,7 @@ content: ' ';
 	line-height: 37px;
 	font-size: 18px;
 	margin-right:15px;
-	background-color:#333;
+	/*background-color:#333;*/
 	text-align:center;
 	color:#fff;
 
@@ -5163,9 +5163,15 @@ section.dark .box-icon a.box-icon-more {
 
 /* transparent icon */
 .box-icon.box-icon-transparent .box-icon-title>i {
+	/*
+		background-color:transparent;
+		border:#ccc 1px solid;
+		color:#333;
+	*/
+
 	background-color:transparent;
-	border:#ccc 1px solid;
-	color:#333;
+	border:#F47741 3px solid;
+
 }
 	section.dark .box-icon.box-icon-transparent .box-icon-title>i {
 		color:#fff;

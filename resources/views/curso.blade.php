@@ -32,28 +32,28 @@
 				switch ($curso->str_categoria) {
 					case 'Negocios':
 						
-							$imagen_fondo = 'slide-b-bg-blue.jpg';
+							$imagen_fondo = 'cubes-azul.jpg';
 							$color = '#35459C';
 
 						break;
 
 					case 'Tecnología':
 
-							$imagen_fondo = 'slide-b-bg-yellow.jpg';
+							$imagen_fondo = 'cubes-naranja.jpg';
 							$color = '#F47741';
 
 						break;	
 
 					case 'Desarrollo':
 
-							$imagen_fondo = 'slide-b-bg.jpg';
+							$imagen_fondo = 'cubes-verde.jpg';
 							$color = '#41B649';
 
 						break;
 
 					case 'Productividad':
 
-							$imagen_fondo = 'slide-b-bg-violet.jpg';
+							$imagen_fondo = 'cubes-morado.jpg';
 							$color = '#7952A1';
 
 						break;																
@@ -103,9 +103,60 @@
 					</article>
 					<!-- /BORN TO BE A WINNER -->
 
+<hr>
+<div class="row">
+
+	<div class="col-md-3">
+
+		<div class="box-static box-border-top">
+			<div class="box-title">
+				<h4>Image Flip Boxes</h4>
+			</div>
+			<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus.</p>
+			<p><small>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis.</small></p>
+		</div>
+
+	</div>
+
+	<div class="col-md-3">
+
+		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+			<div class="front">
+				<div class="box1 box-warning">
+					<div class="box-icon-title">
+						<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/600x400/19-min.jpg') }}" alt="" />
+						<h2>Clean Design</h2>
+					</div>
+					<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
+				</div>
+			</div>
+
+			<div class="back">
+				<div class="box2 box-warning">
+					<h4>BACK SIDE</h4>
+					<hr />
+					<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere</p>
+					<a href="#" class="social-icon social-linkedin">
+						<i class="fa fa-linkedin"></i>
+						<i class="fa fa-linkedin"></i>
+					</a>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+</div>
+
+
 				</div>
 			</section>
 			<!-- / -->
+
+
+
+
 
 
 			<!-- 

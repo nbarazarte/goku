@@ -144,7 +144,7 @@
 								offsetxout:-50;
 								durationout:1000;" 
 								style="top:320px;left:120px;font-weight: 300; background: white; background: #7952A1; height:40px; padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#fff;white-space: nowrap;">
-								INNOVACION
+								INNOVACIÓN
 							</p>
 							<p class="ls-l" data-ls="
 								offsetxin:50;
@@ -259,22 +259,23 @@
 
 					<div class="col-md-3">
 
-							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-segumiento"></i>
-									<h2>Seguimiento</h2>
+									<h2>Revisar</h2>
 								</a>
 								<p>Seguimiento y gestión del desarrollo profesional de los colaboradores.</p>
+
 							</div>
 
 						</div>
 
 						<div class="col-md-3">
 
-							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-gestiona"></i>
-									<h2>Gestiona</h2>
+									<h2>Gestionar</h2>
 								</a>
 								<p>Gestiona, preserva y transmite el know how de tu organización.</p>
 							</div>
@@ -283,10 +284,10 @@
 
 						<div class="col-md-3">
 
-							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-consolida"></i>
-									<h2>Consolida</h2>
+									<h2>Consolidar</h2>
 								</a>
 								<p>Consolida y simplifica la información de tus colaboradores.</p>
 							</div>
@@ -295,10 +296,10 @@
 
 						<div class="col-md-3">
 
-							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-formacin"></i>
-									<h2>Formación</h2>
+									<h2>Formar</h2>
 								</a>
 								<p>Formación 100% en línea, cuando y donde quieras.</p>
 							</div>
@@ -307,10 +308,10 @@
 
 						<div class="col-md-3">
 
-							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-estadisticas"></i>
-									<h2>Provee</h2>
+									<h2>Proveer</h2>
 								</a>
 								<p>Provee estadísticas y resultados medibles.</p>
 							</div>
@@ -319,10 +320,10 @@
 
 						<div class="col-md-3">
 
-							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-creamos"></i>
-									<h2>Creamos</h2>
+									<h2>Desarrollar</h2>
 								</a>
 								<p>Creamos tu biblioteca privada desarrollando contenidos a la medida.</p>
 							</div>
@@ -331,10 +332,10 @@
 
 						<div class="col-md-3">
 
-							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-biblioteca"></i>
-									<h2>Biblioteca</h2>
+									<h2>Desplegar</h2>
 								</a>
 								<p>Biblioteca pública con gran variedad de cursos.</p>
 							</div>
@@ -343,10 +344,10 @@
 
 						<div class="col-md-3">
 
-							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-captacion"></i>
-									<h2>Capacitación</h2>
+									<h2>Capacitar</h2>
 								</a>
 								<p>Capacitación basada en competencias, con instructores de alto nivel.</p>
 							</div>
@@ -370,7 +371,7 @@
 
 						<div class="col-md-3">
 
-							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-apalanca"></i>
 									<h2>Apalancar</h2>
@@ -382,7 +383,7 @@
 
 						<div class="col-md-3">
 
-							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-gestion"></i>
 									<h2>Facilitar</h2>
@@ -394,7 +395,7 @@
 
 						<div class="col-md-3">
 
-							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-tiempo"></i>
 									<h2>Ahorrar</h2>
@@ -406,7 +407,7 @@
 
 						<div class="col-md-3">
 
-							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-refuerza"></i>
 									<h2>Reforzar</h2>
@@ -418,10 +419,10 @@
 
 						<div class=""><!--col-md-3-->
 
-							<div class="box-icon box-icon-center box-icon-round box-icon-transparent box-icon-large">
+							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-herramientas"></i>
-									<h2>Contar</h2>
+									<h2>Emplear</h2>
 								</a>
 								<p>Cuenta con funciones y herramientas orientadas al aprendizaje y a la productividad</p>
 							</div>
@@ -583,33 +584,65 @@
 <!-- / -->
 
 
-			<section id="servicios" class="callout-dark heading-title heading-arrow-bottom" style="">
+			<section id="soluciones" class="callout-dark heading-title heading-arrow-bottom" style="">
 				<div class="container">
 
 					<div class="text-center">
-						<h3 class="size-30">Servicios</h3>
+						<h3 class="size-30">Soluciones</h3>
 						<p><em><b>Únete</b></em> a nosotros en <strong style="color: #F47741; font-size: 20px">ilernus</strong> estamos comprometidos con tu crecimiento</p>
 					</div>
 
 				</div>
 			</section>
 
+
+
 			<!-- Portfolio -->
 			<section >
 				<div class="container">
 					<header class="text-center margin-bottom-60">
 			
+					<div class="row">
+					
+						<div class="col-md-4">
+							
+							<div class="heading-title heading-border-bottom heading-color">
+								<h3>
+									<img class="pull-center img-responsive wow fadeInLeft" data-wow-delay="0.4s" src="{{ asset('smarty/assets/images/demo/layerslider/emblema.png') }}" style="width: 10%" alt="" />
+									<em><strong style="color: #35459C; font-size: 25px">iLernus University</strong></em>
+								</h3>
 
-						<img class="pull-left img-responsive wow fadeInLeft" data-wow-delay="0.4s" src="{{ asset('smarty/assets/images/demo/layerslider/emblema.png') }}" style="width: 10%" alt="" />	
+							</div>
+							
+							<p style="text-align: justify;">Es una plataforma educativa de <strong style="color: #F47741">aprendizaje en línea</strong> que permite capacitar y actualizar a los colaboradores de su empresa a través de la suscripción de planes y paquetes de contenidos de interés.</p>
 
-		
-						<p class="lead font-lato margin-bottom-60" style="">
-							<em><strong style="color: #35459C; font-size: 25px">iLernus University</strong></em>
-							es una plataforma educativa de aprendizaje en línea que permite capacitar y actualizar a los colaboradores de su empresa a través de la suscripción de planes y paquetes de contenidos de interés.
-							<em><strong style="color: #F47741; font-size: 25px">iLernus Producciones</strong></em> ofrece la concepción, desarrollo y producciónde servicios instruccionales y audiovisuales con fines educativos, diseñándolos a la medida de su empresa bajo altos estándares de calidad.
-							<em><strong style="color: #35459C; font-size: 25px">iLernus Academia</strong></em> brinda soluciones educativas presenciales in company o en nuestras instalaciones, con un equipo de la más alta talla que diseñan una estratégica de formación a su medida.
-				
-						</p>
+						</div>
+
+						<div class="col-md-4">
+							<div class="heading-title heading-border-bottom heading-color">
+								<h3>
+									<img class="pull-center img-responsive wow fadeInLeft" data-wow-delay="0.4s" src="{{ asset('smarty/assets/images/demo/layerslider/emblema.png') }}" style="width: 10%" alt="" />
+									<em><strong style="color: #35459C; font-size: 25px">iLernus Producciones</strong></em>
+								</h3>
+							</div>
+							<p style="text-align: justify;">Ofrece la concepción, desarrollo y producción de <strong style="color: #F47741">servicios instruccionales y audiovisuales</strong> con fines educativos, diseñándolos a la medida de su empresa bajo altos estándares de calidad.</p>
+
+						</div>
+
+						<div class="col-md-4">
+							<div class="heading-title heading-border-bottom heading-color">
+								<h3>
+									<img class="pull-center img-responsive wow fadeInLeft" data-wow-delay="0.4s" src="{{ asset('smarty/assets/images/demo/layerslider/emblema.png') }}" style="width: 10%" alt="" />
+									<em><strong style="color: #35459C; font-size: 25px">iLernus Academia</strong></em>
+								</h3>
+							</div>
+							<p style="text-align: justify;">Brinda <strong style="color: #F47741">soluciones educativas presenciales</strong> in company o en nuestras instalaciones, con un equipo de la más alta talla que diseñan una estratégica de formación a su medida.</p>
+
+						</div>
+
+	
+
+
 
 						<hr />
 					</header>
@@ -677,7 +710,7 @@
 						</div>
 
 					</div>
-
+					</div>
 				</div>
 			</section>
 			<!-- /Portfolio -->
@@ -692,37 +725,34 @@
 
 				</div>
 			</section>
-
-<section>
-	<div class="container">
 		
-
-			<!-- 
-			Available heights
-				height-100
-				height-150
-				height-200
-				height-250
-				height-300
-				height-350
-				height-400
-				height-450
-				height-500
-				height-550
-				height-600
-			-->
-			<div id="map2" class="height-400 grayscale"></div>
-
 			<!-- -->
 			<section>
 				<div class="container">
-					
+
 					<div class="row">
 
 						<!-- FORM -->
-						<div class="col-md-9 col-sm-9">
+						<div class="col-md-12 col-sm-12">
+
+						<h3>Da un recorrido virtual por <span><strong style="color: #35459C"><em>nuestras instalaciones</em></strong></span></h3>
+
+						<iframe src="http://avirtum.com/demo/ipanorama/fullscreen.html" width="100%" height="400px"></iframe>
+
+						</div>
+
+					</div>	
+
+					<div class="row">
+
+						<!-- FORM -->
+						<div class="col-md-8 col-sm-8">
 
 							<h3>Estamos para ti <span><strong style="color: #35459C">envíanos tus preguntas y comentarios</strong></span></h3>
+
+							<p>
+								... <em>y transforma la manera de planificar, desarrollar, gestionar y preservar el</em> <strong style="color: #F47741">conocimiento en tu empresa.</strong>
+							</p>
 
                     			@if(Session::has('message'))
 					            
@@ -736,7 +766,6 @@
 
 							{!! Form::open(['route' => 'enviar', 'method'=>'PUT', 'id' => 'demo-form', 'enctype'=>'multipart/form-data', 'class' => '', 'onKeypress' => 'if(event.keyCode == 13) event.returnValue = false']) !!} 
 
-
 								<fieldset>
 									<input type="hidden" name="action" value="contact_send" />
 
@@ -747,7 +776,7 @@
 												<input required type="text" value="" class="form-control" name="name" id="name">
 											</div>
 											<div class="col-md-4">
-												<label for="email">Correo Electrónico *</label>
+												<label for="email">Correo Electónico *</label>
 												<input required type="email" value="" class="form-control" name="email" id="email">
 											</div>
 											<div class="col-md-4">
@@ -760,15 +789,33 @@
 										<div class="form-group">
 
 											<div class="col-md-4">
-												<label for="contact_asunto">Asunto</label>
-												<select class="form-control pointer" id="asunto" name="asunto">
+												<label for="contact_asunto">Cargo</label>
+												<select class="form-control pointer" id="cargo" name="cargo">
 													<option value="">--- Seleccone ---</option>
-													<option value="comentarios">Comentarios</option>
-													<option value="sugerencias">Sugerencias</option>
+													<option value="presidente">Presidente</option>
+													<option value="gerente">Gerente</option>
 													<option value="otros">Otros</option>
 												</select>
 											</div>
-										</div>
+											<div class="col-md-4">
+													<label for="contact_asunto">Sector Industrial</label>
+													<select class="form-control pointer" id="sector" name="sector">
+														<option value="">--- Seleccone ---</option>
+														<option value="entretenimiento">Entretenimiento</option>
+														<option value="educacion">Educación</option>
+														<option value="otros">Otros</option>
+													</select>
+												</div>											
+											<div class="col-md-4">
+													<label for="contact_asunto">Asunto</label>
+													<select class="form-control pointer" id="asunto" name="asunto">
+														<option value="">--- Seleccone ---</option>
+														<option value="comentarios">Comentarios</option>
+														<option value="sugerencias">Sugerencias</option>
+														<option value="otros">Otros</option>
+													</select>
+												</div>											
+											</div>
 									</div>
 									<div class="row">
 										<div class="form-group">
@@ -783,10 +830,7 @@
 
 								<div class="row">
 									<div class="col-md-12">
-										
-
 										{!! Form::submit('Enviar',['class' => 'btn btn-primary']) !!}
-
 									</div>
 								</div>
 							{!! Form::close() !!}
@@ -794,15 +838,26 @@
 						</div>
 						<!-- /FORM -->
 
-
 						<!-- INFO -->
-						<div class="col-md-3 col-sm-3">
+						<div class="col-md-4 col-sm-4">
 
 							<h2><strong style="color: #F47741"><em>¡Visitanos!</em></strong></h2>
 
-							<p>
-								... <em>y transforma la manera de planificar, desarrollar, gestionar y preservar el</em> <strong style="color: #35459C">conocimiento en tu empresa.</strong>
-							</p>
+							<!-- 
+							Available heights
+								height-100
+								height-150
+								height-200
+								height-250
+								height-300
+								height-350
+								height-400
+								height-450
+								height-500
+								height-550
+								height-600
+							-->
+							<div id="map2" class="height-200 grayscale"></div>
 
 							<hr />
 
@@ -812,8 +867,6 @@
 								<span class="block"><strong><i class="fa fa-envelope"></i> Correo Electrónico:</strong> <a href="mailto:mail@yourdomain.com">info@ilernus.com</a></span>
 							</p>
 
-							<hr />
-
 						</div>
 						<!-- /INFO -->
 
@@ -822,10 +875,5 @@
 				</div>
 			</section>
 			<!-- / -->
-					
-
-				</div>
-			</section>	
-
 
 @endsection
