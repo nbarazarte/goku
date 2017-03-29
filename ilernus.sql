@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 24-03-2017 a las 14:20:30
+-- Tiempo de generación: 29-03-2017 a las 00:15:36
 -- Versión del servidor: 5.5.54-0+deb8u1
 -- Versión de PHP: 5.6.30-0+deb8u1
 
@@ -76,6 +76,48 @@ INSERT INTO `tbl_cursos` (`id`, `str_curso`, `str_titulocorto`, `str_contenido`,
 (30, 'Endomercadeo', 'Endomercadeo', 'Ayuda a analizas la aplicación concreta del mercadeo en la gestión de los recursos humanos de la empresa, lo que se ha denominado como Endomercadeo. El principio básico de esta nueva especialidad es simple, la empresa, además del cliente externo, tiene un nuevo tipo de cliente, el interno, el propio trabajador al cual hay que vender ideas, culturas, políticas, proyectos, etc.', 'Productividad', 'col-md-3 col-sm-3 mix	productividad', '#7952A1', '	cover-productividad-endomercadeo.jpg	', 0, '2017-03-24 16:49:23', '0000-00-00 00:00:00'),
 (31, 'La-estrategia-efectiva-del-Community-Manager', 'Community-Manager', 'Familiarizarse con el uso de redes sociales así como de herramientas digitales para la gestión de comunidades online que le permitan desarrollar estrategias en su labor como Community Manager dentro de la empresa.', 'Productividad', 'col-md-3 col-sm-3 mix	productividad destacados', '#7952A1', '	cover-productividad-communityManager.png	', 0, '2017-03-24 16:49:23', '0000-00-00 00:00:00');
 
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `tbl_instructores`
+--
+
+CREATE TABLE IF NOT EXISTS `tbl_instructores` (
+`id` bigint(20) NOT NULL,
+  `str_nombre` varchar(255) NOT NULL COMMENT 'nombre del instructor',
+  `str_sexo` varchar(15) NOT NULL COMMENT 'genero',
+  `str_profesion` varchar(255) NOT NULL COMMENT 'carrera del instructor',
+  `str_cv` text NOT NULL COMMENT 'curriculo del instructor',
+  `blb_img` longblob NOT NULL COMMENT 'foto del instructor',
+  `bol_eliminado` tinyint(1) NOT NULL DEFAULT '0',
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `tbl_instructores`
+--
+
+INSERT INTO `tbl_instructores` (`id`, `str_nombre`, `str_sexo`, `str_profesion`, `str_cv`, `blb_img`, `bol_eliminado`, `created_at`, `updated_at`) VALUES
+(1, 'María Jesús Pidal', 'f', 'Finanzas', 'María es profesora titular de la Universidad Metropolitana. Profesora de Matemática Financiera y Finanzas Corporativas. Directora de Postgrado del Área de Estudios Gerenciales, Económicos y Sociales. Doctor en Ciencias Economías y Empresariales de la Universidad de Almería, España .Magister en Finanzas de la Universidad Metropolitana. Magister Scientiarum, mención Matemática de la UCV. Licenciada en Matemática de la UCV.', '', 0, '2017-03-29 02:37:13', '0000-00-00 00:00:00'),
+(2, 'Anafina Vargas', 'f', 'Innovación – Emprendimiento', 'Posee un Master en Creación y Gestión de Empresas Innovadoras y de Base Tecnológica (Universidad de Valencia-España), Master en Administración Mención Gerencia de Empresas (Universidad Metropolitana). Licenciada en Sociología (Universidad Central de Venezuela). Coordinadora de la Maestría en Administración (Mención Gerencia de Empresas) en la Universidad Metropolitana. Profesora e investigadora en el área de emprendimiento. Profesora en la Maestría de Gestión y Política Cultural de la UCV.', '', 0, '2017-03-29 02:49:23', '0000-00-00 00:00:00'),
+(3, 'Liliana Vaudo', 'f', 'Derecho', 'Doctora en ciencias mención derecho UCV abogado, doctor en derecho UCV, Esp. en ciencias penales, en criminología, procesal, docencia policial. Docente de la universidad metropolitana. Jefe Departamento de Estudios Jurídicos de la Universidad Metropolitana.', '', 0, '2017-03-29 02:49:23', '0000-00-00 00:00:00'),
+(4, 'Ma. Eugenia Perfetti', 'f', 'Letras', 'Licenciada en Letras de la Universidad Católica Andrés Bello (UCAB); Magister en Historia de Las Américas de la UCAB; cursante del Doctorado en Ciencias Sociales y Humanidades de la Universidad Simón Bolívar. - Profesora “Asociado” adscrita al Departamento de Humanidades de la Universidad Metropolitana (UNIMET).', '', 0, '2017-03-29 02:50:54', '0000-00-00 00:00:00'),
+(5, 'Francisco Rodríguez', 'm', 'Gestión de la calidad – Productividad', 'Presidente del Fondo para la Investigación y Mejoramiento de la Productividad – FIM PRODUCTIVIDAD AC y Director General fundador del Instituto Internacional de Formación Empresarial –INFOEM AC. Tiene un Doctorado en Ingeniería de Proyectos en la Universidad Politécnica de Valencia, España, y más de 30 años de experiencia profesional como Ingeniero Industrial con énfasis en calidad, productividad e innovación.\r\nEs profesor del Postgrado de Ingeniería Industrial y Productividad de la Universidad Católica Andrés Bello.', '', 0, '2017-03-29 03:14:16', '0000-00-00 00:00:00'),
+(6, 'Alejandro Sosa', 'm', 'Administración y Finanzas', 'Director de Administración y Finanzas del GRUPO PARQUE JUNKO. Fue Director de Administración y Finanzas del Grupo S&N Global Corp. Director de Presupuestos, Administración y Servicios en la Contraloría Municipal de Baruta.', '', 0, '2017-03-29 02:52:22', '0000-00-00 00:00:00'),
+(7, 'Eduardo Jasso', 'm', 'Sistemas - Gestión de RRSS', 'Ciencias Computacionales, especialidad en Redes del ITESM (México). Licenciado en Ciencias de la Informática. Sub director de TI en la Corporación Interamericana de Entretenimiento (compuesta por 180n empresas). Gerente de tecnología de información con más de 18 años experiencia en centros de cómputo, infraestructura, redes y telefonía.', '', 0, '2017-03-29 03:13:56', '0000-00-00 00:00:00'),
+(8, 'María Elena Del Valle', 'f', 'Educadora', 'Doctora Suman Cum Laude en Educación con posdoctorado en Semiótica y Pragmática de la Universidad Complutense de Madrid. Profesora a tiempo completo y profesor investigador de la Universidad Metropolitana. Posee amplia experiencia en el campo de la investigación. Pertenece a la Red Concilium de España. Sus áreas de acción están orientadas a la comunicación, análisis del discurso, Diseño Instruccional, Competencias, entre otras.', '', 0, '2017-03-29 02:53:16', '0000-00-00 00:00:00'),
+(9, 'Tomás Padovani', 'm', 'Seguridad y Salud Laboral', 'Ingeniero en Producción de Sistemas, experto en el diseñar, implantar e implementar Sistemas de Gestión en Seguridad y Salud en el Trabajo, programas de seguridad y salud en el trabajo, auditorias, investigaciones de accidentes y enfermedades ocupacionales, adiestramientos, evaluaciones y recomendaciones técnicas en el ámbito de la Seguridad y Salud en el Trabajo, estableciendo mecanismos y controles enmarcado en la normativa legal vigente que aseguren su cumplimento por parte de la población laboral en las Organizaciones Empresariales.', '', 0, '2017-03-29 02:53:16', '0000-00-00 00:00:00'),
+(10, 'Nancy Alfonzo', 'f', 'Farmacia – Coaching', 'Licenciado en Farmacia Universidad Central de Venezuela. Diplomado Gestión Estratégica de Capacitación de la Universidad Simón Bolívar, México. Diplomado en Desarrollo Gerencial UCAB. Coach Organizacional Certificado, GSP de Venezuela. Coordinador de Entrenamiento Sanofi de Venezuela.', '', 0, '2017-03-29 02:54:13', '0000-00-00 00:00:00'),
+(11, 'Miguel Galindo', 'm', 'Normas ISO', 'Ingeniero Industrial con Maestría en Administración, Mención Gerencia de Empresas. Cuenta con amplia experiencia en las áreas de: dirección estratégica, organización y métodos, atención al cliente, gerencia de proyectos y la certificación de sistemas de gestión de la calidad ISO 9001. Ha participado en proyectos dirigidos a la implementación de estos sistemas en diferentes sectores económicos, tales como: ingeniería, consultoría gerencial, tecnología de información, gerencia delegada de procesos, plásticos y artes gráficas.', '', 0, '2017-03-29 02:54:13', '0000-00-00 00:00:00'),
+(12, 'Klarimer Rojas', 'f', 'Abogado - Lic. Idiomas', 'Abogado. Instructora de Inglés de Negocios In-Company y Online, con certificación Business English  Brisbane,  Australia. \r\nProfesora de inglés como segunda lengua ESL (English as a Second Language) e  Inglés con fines específicos ESP (English for Specific Purposes). Preparadora para los exámenes TOEFL/IELTS/FCE/CAE.', '', 0, '2017-03-29 02:55:20', '0000-00-00 00:00:00'),
+(13, 'Rosa Benítez', 'f', 'Nutricionista', 'Licenciada en Nutrición y Dietética de la Universidad Central de Venezuela. Diplomado en Psicología Positiva en la Universidad Metropolitana.\r\nHa sido nutricionista en diversas escuelas. Actualmente es líder del proyecto de promoción de la cocina venezolana y de proyecto Mi lonchera. Miembro de la Fundación Armando Scannone Tempone.', '', 0, '2017-03-29 02:55:20', '0000-00-00 00:00:00'),
+(14, 'José de Jesús Blanca', 'm', 'Abogado', 'Especialista en Derecho Laboral y en Derecho Administrativo de la Universidad Central de Venezuela.\r\nAsesor del Consejo Nacional para la Defensa de los Derechos de los Afrodescendientes de Venezuela (CONADECAFRO) y del Consejo de Derecho de Niños, Niñas y Adolescentes del Municipio Libertador del Distrito Capital.  Ha sido asesor del Ministerio del Poder Popular para Relaciones Interiores, Justicia y Paz y del Instituto Metropolitano para la Promoción y Desarrollo del Poder Popular.', '', 0, '2017-03-29 02:56:16', '0000-00-00 00:00:00'),
+(15, 'Jairo Troconis', 'm', 'Geólogo', 'Presidente de la Fundación Vida Saludable (FUNDAVISA) en donde se ha desarrollado como experto en el tema, específico, de la prevención en el consumo de drogas. Igualmente tiene amplia experiencia en la Gerencia de Programas Sociales y en el tema asociado a la Responsabilidad Social Empresarial. Docente. Instructor Free Lance.', '', 0, '2017-03-29 02:56:16', '0000-00-00 00:00:00'),
+(16, 'Alberto Pastrano', 'm', 'Abogado', 'Abogado de la Universidad Metropolitana, encargado de la Coordinación General de la Unidad de Servicios Legales Integrados de la UNIMET.\r\nIgualmente, dirige el Centro de Derechos Humanos. El CDH UNIMET, investiga, acusa y hace seguimiento a todo tipo de violaciones de Derechos Humanos en la República Bolivariana de Venezuela. Realiza cursos de enseñanza y actualización de Derechos Humanos y realiza informes a todas las instancias pertinentes en el territorio nacional e internacional. Somos parte de la RED de defensa de Derechos Humanos en el país.', '', 0, '2017-03-29 02:57:05', '0000-00-00 00:00:00'),
+(17, 'Miriana Bello', 'f', 'Psicología', 'Licenciada en Psicología, mención industrial  en la Universidad Central de Venezuela, Especialista en Recursos Humanos en la Universidad Metropolitana. Conferencista certificada por la Universidad Metropolitana, Red Internacional IDEAR y Stephan Kaiser, Locutora Certificada por la Universidad Central de Venezuela, actriz y presentadora de televisión.  \r\nDirectora General de la empresa consultora de Gestión de Talento Humano “PSICOLOGIA AL DIA” y es productora y locutora de los micros “Psicología al Día” para el circuito radial Kys FM.', '', 0, '2017-03-29 02:57:05', '0000-00-00 00:00:00'),
+(18, 'Luis Vicente García', 'm', 'Coaching', 'Coach Gerencial de Rendimiento y Entrenador Corporativo de FocalPoint Coaching. Además es Conferencista internacional en temas gerenciales, de motivación y actitud, éxito y liderazgo.\r\nEs Co-autor de los siguientes libros best-sellers:\r\n- Dare to Succeed, con Jack Canfield\r\n- The Ultimate Success Guide, con Brian Tracy\r\n- Ready, Aim, Influence, con Carlos Slim y Marshall Goldsmith\r\n- Ready, Aim, Inspire!, con Joe Vitale\r\n\r\nAutor de los libros:\r\n- 101 Preguntas y respuestas sobre las Franquicias\r\n- Motivando al Futro Franquiciado\r\nY es Productor Ejecutivo del Documental"ARMONIA: Together changing Poverty into LIFE"', '', 0, '2017-03-29 02:57:37', '0000-00-00 00:00:00');
+
 --
 -- Índices para tablas volcadas
 --
@@ -87,6 +129,12 @@ ALTER TABLE `tbl_cursos`
  ADD PRIMARY KEY (`id`), ADD UNIQUE KEY `id` (`id`);
 
 --
+-- Indices de la tabla `tbl_instructores`
+--
+ALTER TABLE `tbl_instructores`
+ ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
@@ -95,6 +143,11 @@ ALTER TABLE `tbl_cursos`
 --
 ALTER TABLE `tbl_cursos`
 MODIFY `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT 'indice de la tabla',AUTO_INCREMENT=32;
+--
+-- AUTO_INCREMENT de la tabla `tbl_instructores`
+--
+ALTER TABLE `tbl_instructores`
+MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=19;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

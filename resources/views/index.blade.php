@@ -463,12 +463,20 @@
 					<!-- Counters -->
 					<div class="row countTo-sm text-center">
 
-						<div class="col-xs-6 col-sm-3 col-xs-6">
-							<i class="fa fa-users" style="font-size: 50px" aria-hidden="true"></i>
-							<div class="block size-50" style="color: #F47741;">
-								<strong class="countTo size-50" data-speed="3000">18</strong>
-							</div>
-							<h3 class="size-15 margin-top-10 margin-bottom-0">INSTRUCTORES</h3>
+						<div class="col-xs-6 col-sm-3 col-xs-6" style="cursor: pointer;" title="Instructores de ilernus">
+							
+
+							<a href="{{ route('instructores') }}" target="_blank">
+
+								<i class="fa fa-users" style="font-size: 50px" aria-hidden="true"></i>
+								<div class="block size-50" style="color: #F47741;">
+									<strong class="countTo size-50" data-speed="3000">18</strong>
+								</div>
+								<h3 class="size-15 margin-top-10 margin-bottom-0">INSTRUCTORES</h3>
+
+							</a>
+
+
 						</div>
 
 						<div class="col-xs-6 col-sm-3 col-xs-6">
@@ -545,7 +553,7 @@
 
 			<div class="back">
 				<div class="box2" style="background-color: #35459C">
-					<h4>BACK SIDE</h4>
+					<h4>Director</h4>
 					<hr />
 					<p>(Descripción breve)</p>
 
@@ -570,7 +578,7 @@
 
 			<div class="back">
 				<div class="box2" style="background-color: #35459C">
-					<h4>BACK SIDE</h4>
+					<h4>Director</h4>
 					<hr />
 					<p>(Descripción breve)</p>
 
@@ -595,7 +603,7 @@
 
 			<div class="back">
 				<div class="box2" style="background-color: #35459C">
-					<h4>BACK SIDE</h4>
+					<h4>Director</h4>
 					<hr />
 					<p>(Descripción breve)</p>
 
@@ -620,7 +628,7 @@
 
 			<div class="back">
 				<div class="box2" style="background-color: #35459C">
-					<h4>BACK SIDE</h4>
+					<h4>Director</h4>
 					<hr />
 					<p>(Descripción breve)</p>
 
@@ -1059,7 +1067,7 @@
 												-->
 
 													<!-- Button trigger modal -->
-													<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal{{$x}}">
+													<button type="button" class="btn btn-sm" style="background-color: {{ $curso->str_color }}" data-toggle="modal" data-target="#myModal{{$x}}">
 													  <i class="fa fa-search"></i> <b>Ver</b>
 													</button>
 
@@ -1233,7 +1241,7 @@
 
 					<div class="text-center">
 						<h3 class="size-30">Contáctanos</h3>
-						<p><strong style="color: #F47741; font-size: 20px">ilernus,</strong> más que formación es <em><b>gestión</b></em></p>
+						<p>En <strong style="color: #F47741; font-size: 20px">ilernus,</strong> nos adaptamos a <em><b>ti</b></em></p>
 					</div>
 
 				</div>

@@ -82,7 +82,11 @@ class HomeController extends Controller
     public function instructores()
     {
 
-        return \View::make('instructores');
+        
+        $instructores = DB::table('tbl_instructores')->get();
+
+        return \View::make('instructores', compact('instructores'));
+        
     }    
 
 

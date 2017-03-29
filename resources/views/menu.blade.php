@@ -59,8 +59,8 @@
 
 											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'blog'))
 
-												<a href="http://localhost:8000#servicios">
-													Servicios
+												<a href="http://localhost:8000#soluciones">
+													Soluciones
 												</a>
 
 											@endif
