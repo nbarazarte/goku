@@ -29,6 +29,11 @@
 		'as' =>'blog'
 	]);
 
+	Route::get('/Instructores', [
+		'uses' => 'HomeController@instructores',
+		'as' =>'instructores'
+	]);	
+
 /********* conocenos: info de los lideres ***********/
 
 	Route::get('clover', [

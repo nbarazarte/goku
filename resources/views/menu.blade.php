@@ -23,7 +23,7 @@
 													Inicio
 												</a>
 
-											@elseif((Route::current()->getName() == 'curso') || (Route::current()->getName() == 'blog'))
+											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'blog'))
 
 												<a href="{{ route('home') }}">
 													Ilernus
@@ -40,7 +40,7 @@
 													Conócenos
 												</a>
 
-											@elseif((Route::current()->getName() == 'curso') || (Route::current()->getName() == 'blog'))
+											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'blog'))
 
 												<a href="http://localhost:8000#conocenos">
 													Conócenos
@@ -57,7 +57,7 @@
 													Soluciones
 												</a>
 
-											@elseif((Route::current()->getName() == 'curso') || (Route::current()->getName() == 'blog'))
+											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'blog'))
 
 												<a href="http://localhost:8000#servicios">
 													Servicios
@@ -67,7 +67,12 @@
 																						
 										</li>
 										<li><!--  -->
-											<a href="{{ route('blog')}}">
+											<a href="{{ route('instructores')}}" target="_blank">
+												Instructores
+											</a>
+										</li>										
+										<li><!--  -->
+											<a href="{{ route('blog')}}" target="_blank">
 												Blog
 											</a>
 										</li>
@@ -78,7 +83,7 @@
 													Testimonios
 												</a>
 
-											@elseif((Route::current()->getName() == 'curso') || (Route::current()->getName() == 'blog'))
+											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'blog'))
 
 												<a href="http://localhost:8000#testimonios">
 													Testimonios
@@ -93,7 +98,7 @@
 													Contáctanos
 												</a>
 
-											@elseif((Route::current()->getName() == 'curso') || (Route::current()->getName() == 'blog'))
+											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'blog'))
 
 												<a href="http://localhost:8000#contacto">
 													Contáctanos

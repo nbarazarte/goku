@@ -74,6 +74,17 @@ class HomeController extends Controller
         return \View::make('blog');
     }
 
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function instructores()
+    {
+
+        return \View::make('instructores');
+    }    
+
 
     public function enviar()
     {       
