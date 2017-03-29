@@ -999,20 +999,51 @@
 							<li data-filter="productividad" class="filter"><a href="#">Productividad</a></li>							
 						</ul>
 
-
 						<div class="row mix-grid">
+
+						<?php
+							$x=0;
+						?>
 						@foreach ($cursos as $curso) 
+
+							<!-- Modal -->
+							<div class="modal fade" id="myModal{{$x}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							        <h4 class="modal-title" id="myModalLabel">
+							        	<span class="label" style="background-color: {{ $curso->str_color }}">{{ $curso->str_categoria }}</span>
+							        </h4>
+							      </div>
+							      <div class="modal-body">
+
+							      <h3>
+							      	{!! str_replace("-"," ",$curso->str_curso) !!}
+							      </h3>
+
+							        {!! $curso->str_contenido !!}
+
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
 
 							<div class="{{ $curso->str_clase}}"><!-- item -->
 
 								<div class="item-box">
-									<figure style="background-color: {{ $curso->str_color }}">
+									<figure style="background-color: {{ $curso->str_color }}; cursor: pointer;" title="{!! str_replace("-"," ",$curso->str_curso) !!}">
 										<span class="item-hover">
 											<span class="overlay dark-5"></span>
 
-
+	
 											<span class="inner">
-
+											<h3 style="color: #ffffff; font-size: 18px">
+													{!! str_replace("-"," ",$curso->str_titulocorto) !!}
+													<br><br>
 												<!--
 												<!-- lightbox - ->
 												<a class="ico-rounded lightbox" href="" data-plugin-options='{"type":"image"}'>
@@ -1026,7 +1057,13 @@
 														<span class="fa fa-share size-20"></span>
 													</a>
 												-->
-												<h3 style="color: #ffffff; font-size: 18px">{!! str_replace("-"," ",$curso->str_titulocorto) !!}</h3>
+
+													<!-- Button trigger modal -->
+													<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal{{$x}}">
+													  <i class="fa fa-search"></i> <b>Ver</b>
+													</button>
+
+												</h3>
 
 											</span>
 										</span>
@@ -1039,7 +1076,7 @@
 									</figure>
 
 									<div class="item-box-desc">
-										<h3  style="cursor: pointer;" title="{!! str_replace("-"," ",$curso->str_curso) !!}">
+										<h3>
                                         	
                                         	<!--
 												aquí iba el titulo corto
@@ -1061,6 +1098,10 @@
 								</div>
 
 							</div><!-- /item -->
+
+							<?php
+								 $x++;
+							?>
 						@endforeach
 						</div>
 
@@ -1254,5 +1295,7 @@
 				</div>
 			</section>
 			<!-- / -->
+
+
 
 @endsection

@@ -34,8 +34,8 @@ class HomeController extends Controller
     public function index()
     {
         
-        $cursos = DB::table('tbl_cursos')->orderByRaw("RAND()")->get();    
-        //$cursos = DB::table('tbl_cursos')->get();
+        //$cursos = DB::table('tbl_cursos')->orderByRaw("RAND()")->get();    
+        $cursos = DB::table('tbl_cursos')->get();
 
         return \View::make('index', compact('cursos'));
     }
