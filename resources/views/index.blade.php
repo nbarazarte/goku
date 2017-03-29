@@ -1111,6 +1111,123 @@
 			</section>
 			<!-- /Portfolio -->
 
+
+			<section id="testimonios" class="callout-dark heading-title heading-arrow-bottom" style="">
+				<div class="container">
+
+					<div class="text-center">
+						<h3 class="size-30">Testimonios</h3>
+						<p><strong style="color: #F47741; font-size: 20px">ilernus,</strong> más que formación es <em><b>gestión</b></em></p>
+					</div>
+
+				</div>
+			</section>
+
+
+			<section>
+				<div class="container">
+
+					<div class="row">
+
+
+							<!-- 
+								data-plugin-options:
+									"transitionStyle":"fadeUp" (fade,backSlide,goDown,fadeUp)
+
+								Note: remove class="rounded" from the img for squared image!
+							-->
+
+
+							<div class="row">
+
+								<div class="col-md-6">
+
+									<div class="testimonial-bordered">
+										<div class="owl-carousel text-center owl-testimonial nomargin" data-plugin-options='{"singleItem": true, "autoPlay": 4000, "navigation": false, "pagination": true, "transitionStyle":"fade"}'>
+											
+											<div class="testimonial">
+												<figure>
+													<img class="rounded" src="{{ asset('smarty/assets/images/demo/people/300x300/11-min.jpg') }}" alt="" />
+												</figure>
+												<div class="testimonial-content nopadding">
+													<p class="lead">Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero.</p>
+													<cite>
+														Joana Doe
+														<span>Company Ltd.</span>
+													</cite>
+												</div>
+											</div>
+
+											<div class="testimonial">
+												<figure>
+													<img class="rounded" src="{{ asset('smarty/assets/images/demo/people/300x300/12-min.jpg') }}" alt="" />
+												</figure>
+												<div class="testimonial-content nopadding">
+													<p class="lead">voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa.</p>
+													<cite>
+														Melissa Doe
+														<span>Company Ltd.</span>
+													</cite>
+												</div>
+											</div>
+
+										</div>
+									</div>
+
+
+								</div>
+
+							<div class="col-md-6">
+
+								<div class="testimonial-bordered">
+									<div class="owl-carousel text-center owl-testimonial nomargin" data-plugin-options='{"singleItem": true, "autoPlay": 4000, "navigation": false, "pagination": true, "transitionStyle":"fade"}'>
+										
+										<div class="testimonial">
+											<figure>
+												<img class="rounded" src="{{ asset('smarty/assets/images/demo/people/300x300/11-min.jpg') }}" alt="" />
+											</figure>
+											<div class="testimonial-content nopadding">
+												<p class="lead">Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero.</p>
+												<cite>
+													Joana Doe
+													<span>Company Ltd.</span>
+												</cite>
+											</div>
+										</div>
+
+										<div class="testimonial">
+											<figure>
+												<img class="rounded" src="{{ asset('smarty/assets/images/demo/people/300x300/12-min.jpg') }}" alt="" />
+											</figure>
+											<div class="testimonial-content nopadding">
+												<p class="lead">voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa.</p>
+												<cite>
+													Melissa Doe
+													<span>Company Ltd.</span>
+												</cite>
+											</div>
+										</div>
+
+									</div>
+								</div>							
+							
+							</div>
+
+
+
+							</div>
+
+
+
+
+					</div>
+				</div>
+			</section>		
+
+
+
+
+
 			<section id="contacto" class="callout-dark heading-title heading-arrow-bottom" style="">
 				<div class="container">
 
@@ -1295,6 +1412,9 @@
 				</div>
 			</section>
 			<!-- / -->
+
+
+
 
 
 

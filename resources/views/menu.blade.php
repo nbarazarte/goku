@@ -71,6 +71,20 @@
 												Blog
 											</a>
 										</li>
+										<li>
+											@if(Route::current()->getName() == 'home')
+
+												<a  href="#testimonios">
+													Testimonios
+												</a>
+
+											@elseif((Route::current()->getName() == 'curso') || (Route::current()->getName() == 'blog'))
+
+												<a href="http://localhost:8000#testimonios">
+													Testimonios
+												</a>
+
+											@endif										
 										<li><!--  -->
 
 											@if(Route::current()->getName() == 'home')
