@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\tbl_curso;
+use App\tbl_equipoilernus;
+use App\tbl_instructores;
 use DB;
 use App\Consultas;
 use App\Menu;
@@ -37,7 +39,11 @@ class HomeController extends Controller
         //$cursos = DB::table('tbl_cursos')->orderByRaw("RAND()")->get();    
         $cursos = DB::table('tbl_cursos')->get();
 
-        return \View::make('index', compact('cursos'));
+        $directores = DB::table('tbl_equipoilernus')->where('str_tipo', 'director')->get();
+
+        $gerentes = DB::table('tbl_equipoilernus')->where('str_tipo', 'gerencial')->get();
+
+        return \View::make('index', compact('cursos','directores','gerentes'));
     }
 
     /**

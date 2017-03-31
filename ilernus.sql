@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 29-03-2017 a las 00:15:36
+-- Tiempo de generación: 30-03-2017 a las 23:06:28
 -- Versión del servidor: 5.5.54-0+deb8u1
 -- Versión de PHP: 5.6.30-0+deb8u1
 
@@ -79,6 +79,36 @@ INSERT INTO `tbl_cursos` (`id`, `str_curso`, `str_titulocorto`, `str_contenido`,
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `tbl_equipoilernus`
+--
+
+CREATE TABLE IF NOT EXISTS `tbl_equipoilernus` (
+`id` bigint(20) NOT NULL COMMENT 'id de la tabla',
+  `str_nombre` varchar(255) NOT NULL COMMENT 'nombre de la persona',
+  `str_sexo` varchar(15) NOT NULL COMMENT 'genero',
+  `str_cargo` varchar(255) NOT NULL COMMENT 'cargo de la persona',
+  `str_tipo` varchar(255) NOT NULL COMMENT 'tipo de integrante de ilernus',
+  `str_cv` text NOT NULL COMMENT 'curriculo de la persona',
+  `blb_img` longblob NOT NULL COMMENT 'foto de la persona',
+  `bol_eliminado` tinyint(1) NOT NULL DEFAULT '0' COMMENT 'eliminado logico',
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `tbl_equipoilernus`
+--
+
+INSERT INTO `tbl_equipoilernus` (`id`, `str_nombre`, `str_sexo`, `str_cargo`, `str_tipo`, `str_cv`, `blb_img`, `bol_eliminado`, `updated_at`, `created_at`) VALUES
+(1, 'Clover Brito', 'm', 'Presidente', 'director', 'Es socio fundador de B&G Consultores Corporativos, S.A., creador del concepto ilernus.\r\nLicenciado en Contaduría  Pública  (1997) con  Maestría  en Finanzas en IESA  (2004), especialista tributario por la Universidad  Metropolitana (2004-2005) y Maestría  en Administración de Empresas (MBA) en el IESA (2008). Obtuvo dos becas para cursar estudios en el IESA. Logró ubicarse  dentro de los primeros quince estudiantes de la Maestría en el IESA (sobre un total de 72 estudiantes) con un promedio de 18/20 puntos y obtuvo el premio a la excelencia ejecutiva en el año 2007 a nivel empresarial.\r\nActualmente ocupa el rol de CEO en Venezuela, asiste a un grupo exclusivo de clientes mediante su participación en sus consejos consultivos y juntas directivas.', '', 0, '2017-03-31 01:22:46', '0000-00-00 00:00:00'),
+(2, 'Nohelia Bastidas P.', 'f', 'Director General de ilernus Corp', 'director', 'Cuenta con  más de 15 años de experiencia financiera y en distintas áreas de Administración e Impuestos. Su trayectoria le ha permitido consolidar mejores prácticas de la Gestión Administrativa y Laboral, en áreas como; presupuesto, obligaciones fiscales y parafiscales y de control interno.\r\nLicenciada en Administración de Empresas (1998), egresada de la Universidad Católica Andrés Bello con maestría en Administración, Mención Gerencia de Empresas en la Universidad Metropolitana (2008), aprobado con Mención Meritoria. \r\nMiembro del Comité de Finanzas de la Cámara Venezolana Británica de Comercio y Venamcham.\r\nActualmente, se desempeña como Director General de ilernus Corp.', '', 0, '2017-03-31 01:22:46', '0000-00-00 00:00:00'),
+(3, 'Jimena Gracia Misol', 'f', 'Director Comercial', 'gerencial', 'Jimena, acumula más de 15 años de experiencia en la dirección de áreas de ventas y mercadeo de productos y servicios de Tecnología, Telecomunicaciones, Retail, Servicios y Salud.  \r\nEn su trayectoria ha desarrollado estrategias exitosas BTL (Bellow the line) y Trade Marketing para distintos productos y servicios.\r\nPosee conocimientos sólidos en control de forecast, presupuestos, lanzamientos y posicionamiento de nuevos productos. Es egresada del Instituto Universitario de Nuevas Profesiones como Administrador de Empresas (1.999).\r\nActualmente se desempeña como Director Comercial en B&G Technologies S.A.', '', 0, '2017-03-31 01:25:45', '0000-00-00 00:00:00'),
+(4, 'Maria Alejandra Aguilar P.', 'f', 'Director General ilernus Venezuela', 'gerencial', 'María Alejandra posee más de 15 años de exitosa experiencia en el área docente en la Universidad Metropolitana, así como también en el área de gerencia, liderazgo y desarrollo de proyectos relacionados con tecnología educativa y formación en línea (e-learning).\r\nEs egresada de la Universidad Metropolitana como Licenciada en Educación Preescolar, mención Gerencia. Posee posgrados en Informática Educativa (USB) y Entornos virtuales de aprendizaje (OEA-Virtual Educa). \r\nLos proyectos de formación en línea son su pasión y el desarrollarlos, llevándolos a feliz término, es su meta firme.\r\nActualmente se desempeña como Director General de ilernus Venezuela.', '', 0, '2017-03-31 01:25:26', '0000-00-00 00:00:00'),
+(5, 'Oscar Rojas', 'm', 'Director de Desarrollo', 'gerencial', 'Oscar, tiene más de 12 años de experiencia en la área de tecnología de la información\r\nEn su carrera profesional obtuvo el título de T.S.U en Informática en el I.U.T.V año 2003, luego el título de Ingeniero en Informática en la Universidad Alejandro de Humboldt año 2011, actualmente cursa tesis en la Maestría en Gobierno Electrónico en la Universidad Nacional Experimental Politécnica de la Fuerza Armada.\r\nSólida experiencia en el despliegue de proyectos de tecnología, habilidad para conformar equipo de trabajo, colaboración  y disciplina operativa.\r\nActualmente se desempeña como Director de Desarrollo ILERNUS en B&G Technologies S.A.', '', 0, '2017-03-31 01:25:36', '0000-00-00 00:00:00');
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `tbl_instructores`
 --
 
@@ -129,6 +159,12 @@ ALTER TABLE `tbl_cursos`
  ADD PRIMARY KEY (`id`), ADD UNIQUE KEY `id` (`id`);
 
 --
+-- Indices de la tabla `tbl_equipoilernus`
+--
+ALTER TABLE `tbl_equipoilernus`
+ ADD PRIMARY KEY (`id`);
+
+--
 -- Indices de la tabla `tbl_instructores`
 --
 ALTER TABLE `tbl_instructores`
@@ -143,6 +179,11 @@ ALTER TABLE `tbl_instructores`
 --
 ALTER TABLE `tbl_cursos`
 MODIFY `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT 'indice de la tabla',AUTO_INCREMENT=32;
+--
+-- AUTO_INCREMENT de la tabla `tbl_equipoilernus`
+--
+ALTER TABLE `tbl_equipoilernus`
+MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'id de la tabla',AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT de la tabla `tbl_instructores`
 --

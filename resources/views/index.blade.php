@@ -484,7 +484,7 @@
 							<div class="block size-50" style="color: #41B649;">
 								<strong class="countTo size-50" data-speed="3000">100</strong>
 							</div>
-							<h3 class="size-15 margin-top-10 margin-bottom-0">CURSOS E-LEARNING TOMADOS</h3>
+							<h3 class="size-15 margin-top-10 margin-bottom-0">CURSOS E-LEARNING IMPARTIDOS</h3>
 						</div>
 
 						<div class="col-xs-6 col-sm-3 col-xs-6">
@@ -516,7 +516,7 @@
 
 					<div class="text-center">
 						<h3 class="size-30">Conócenos</h3>
-						<p>En <strong style="color: #F47741; font-size: 20px">ilernus</strong> ofrecemos la más alta calidad en contenidos y metodolgía para el <em><b>e-learning</b></em></p>
+						<p>En <strong style="color: #F47741; font-size: 20px">ilernus</strong> ofrecemos la más alta calidad en contenidos y metodología para el <em><b>e-learning</b></em></p>
 					</div>
 
 				</div>
@@ -537,6 +537,7 @@
 		
 <div class="row">
 
+@foreach ($directores as $director) 
 
 	<div class="col-md-3">
 
@@ -545,7 +546,7 @@
 				<div class="box1 box-default">
 					<div class="box-icon-title">
 						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/2-min.jpg" alt="" />
-						<h2>Alexander Elorriaga</h2>
+						<h2>{{ $director->str_nombre }}</h2>
 					</div>
 					
 				</div>
@@ -553,8 +554,10 @@
 
 			<div class="back">
 				<div class="box2" style="background-color: #35459C">
+					<!--
 					<h4>Director</h4>
 					<hr />
+					-->
 					<p>(Descripción breve)</p>
 
 				</div>
@@ -563,80 +566,7 @@
 
 	</div>
 
-	<div class="col-md-3">
-
-		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
-			<div class="front">
-				<div class="box1 box-default">
-					<div class="box-icon-title">
-						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/1-min.jpg" alt="" />
-						<h2>Francis Cova</h2>
-					</div>
-					
-				</div>
-			</div>
-
-			<div class="back">
-				<div class="box2" style="background-color: #35459C">
-					<h4>Director</h4>
-					<hr />
-					<p>(Descripción breve)</p>
-
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-	<div class="col-md-3">
-
-		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
-			<div class="front">
-				<div class="box1 box-default">
-					<div class="box-icon-title">
-						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/2-min.jpg" alt="" />
-						<h2>Clover Brito</h2>
-					</div>
-					
-				</div>
-			</div>
-
-			<div class="back">
-				<div class="box2" style="background-color: #35459C">
-					<h4>Director</h4>
-					<hr />
-					<p>(Descripción breve)</p>
-
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-	<div class="col-md-3">
-
-		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
-			<div class="front">
-				<div class="box1 box-default">
-					<div class="box-icon-title">
-						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/1-min.jpg" alt="" />
-						<h2>Nohelia Bastidas</h2>
-					</div>
-					
-				</div>
-			</div>
-
-			<div class="back">
-				<div class="box2" style="background-color: #35459C">
-					<h4>Director</h4>
-					<hr />
-					<p>(Descripción breve)</p>
-
-				</div>
-			</div>
-		</div>
-
-	</div>
+@endforeach
 
 </div>
 	</div>
@@ -658,7 +588,7 @@
 		
 <div class="row">
 
-
+@foreach ($gerentes as $gerente) 
 	<div class="col-md-3">
 
 		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
@@ -666,7 +596,8 @@
 				<div class="box1 box-default">
 					<div class="box-icon-title">
 						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/1-min.jpg" alt="" />
-						<h2>María Aguilar</h2>
+						<h2>{{ $gerente->str_nombre }}</h2>
+						<strong style="font-size: 12px">{{ $gerente->str_cargo }}</strong>
 					</div>
 					
 				</div>
@@ -674,8 +605,10 @@
 
 			<div class="back">
 				<div class="box2" style="background-color: #35459C">
+					<!--
 					<h4>CEO</h4>
 					<hr />
+					-->
 					<p>(Descripción breve)</p>
 
 				</div>
@@ -683,81 +616,7 @@
 		</div>
 
 	</div>
-
-	<div class="col-md-3">
-
-		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
-			<div class="front">
-				<div class="box1 box-default">
-					<div class="box-icon-title">
-						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/2-min.jpg" alt="" />
-						<h2>Oscar Rojas</h2>
-					</div>
-					
-				</div>
-			</div>
-
-			<div class="back">
-				<div class="box2" style="background-color: #35459C">
-					<h4>Desarrollo</h4>
-					<hr />
-					<p>(Descripción breve)</p>
-
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-	<div class="col-md-3">
-
-		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
-			<div class="front">
-				<div class="box1 box-default">
-					<div class="box-icon-title">
-						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/2-min.jpg" alt="" />
-						<h2>Julio Alcarra</h2>
-					</div>
-					
-				</div>
-			</div>
-
-			<div class="back">
-				<div class="box2" style="background-color: #35459C">
-					<h4>Academia</h4>
-					<hr />
-					<p>(Descripción breve)</p>
-
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-	<div class="col-md-3">
-
-		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
-			<div class="front">
-				<div class="box1 box-default">
-					<div class="box-icon-title">
-						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/1-min.jpg" alt="" />
-						<h2>Jimena Gracia</h2>
-					</div>
-					
-				</div>
-			</div>
-
-			<div class="back">
-				<div class="box2" style="background-color: #35459C">
-					<h4>Comercial</h4>
-					<hr />
-					<p>(Descripción breve)</p>
-
-				</div>
-			</div>
-		</div>
-
-	</div>
+@endforeach
 
 </div>
 
@@ -1321,7 +1180,7 @@
 												<input required type="text" value="" class="form-control" name="name" id="name">
 											</div>
 											<div class="col-md-4">
-												<label for="email">Correo Electónico *</label>
+												<label for="email">Correo Electrónico *</label>
 												<input required type="email" value="" class="form-control" name="email" id="email">
 											</div>
 											<div class="col-md-4">
@@ -1336,7 +1195,7 @@
 											<div class="col-md-4">
 												<label for="contact_asunto">Cargo</label>
 												<select class="form-control pointer" id="cargo" name="cargo">
-													<option value="">--- Seleccone ---</option>
+													<option value="">--- Seleccione ---</option>
 													<option value="presidente">Presidente</option>
 													<option value="gerente">Gerente</option>
 													<option value="otros">Otros</option>
@@ -1345,7 +1204,7 @@
 											<div class="col-md-4">
 													<label for="contact_asunto">Sector Industrial</label>
 													<select class="form-control pointer" id="sector" name="sector">
-														<option value="">--- Seleccone ---</option>
+														<option value="">--- Seleccione ---</option>
 														<option value="entretenimiento">Entretenimiento</option>
 														<option value="educacion">Educación</option>
 														<option value="otros">Otros</option>
@@ -1354,7 +1213,7 @@
 											<div class="col-md-4">
 													<label for="contact_asunto">Asunto</label>
 													<select class="form-control pointer" id="asunto" name="asunto">
-														<option value="">--- Seleccone ---</option>
+														<option value="">--- Seleccione ---</option>
 														<option value="comentarios">Comentarios</option>
 														<option value="sugerencias">Sugerencias</option>
 														<option value="otros">Otros</option>
