@@ -1227,7 +1227,7 @@
 												<label for="contact_asunto">Cargo</label>
 												<select class="form-control pointer" id="cargo" name="cargo">
 													<option value="">--- Seleccione ---</option>
-													<option value="presidente">Presidente</option>
+													<option value="director">Director</option>
 													<option value="gerente">Gerente</option>
 													<option value="otros">Otros</option>
 												</select>
@@ -1236,8 +1236,19 @@
 													<label for="contact_asunto">Sector Industrial</label>
 													<select class="form-control pointer" id="sector" name="sector">
 														<option value="">--- Seleccione ---</option>
-														<option value="entretenimiento">Entretenimiento</option>
+														<option value="salud">Salud</option>
+														<option value="medios_comunicacion">Medios de Comunicación</option>
+														<option value="deportes">Deportes</option>
+														<option value="tecnologia">Tecnología</option>
 														<option value="educacion">Educación</option>
+														<option value="comercio">Comercio</option>
+														<option value="transporte_comunicaciones">Transporte y Comunicaciones</option>
+														<option value="turismo">Turismo</option>
+														<option value="banca_finanzas">Banca/Finanzas</option>
+														<option value="seguros">Seguros</option>
+														<option value="admin_publica">Administración Pública</option>
+														<option value="marketing">Marketing</option>
+														<option value="capital_humano">Capital Humano</option>
 														<option value="otros">Otros</option>
 													</select>
 												</div>											

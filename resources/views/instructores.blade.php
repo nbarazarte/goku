@@ -51,19 +51,20 @@
 
 
 						<!-- POST ITEM -->
-						<div class="blog-post-item col-md-3 col-sm-6">
+						<div class="blog-post-item col-md-3 col-sm-6" style="text-align: center;">
 
 							<!-- IMAGE -->
-							<figure class="margin-bottom-20">
+							<figure class="margin-bottom-20" style="text-align: center;">
 
 
 							@if( $instructor->str_sexo == 'm' )
 
-								<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/people/300x300/imgpsh_fullsize.png') }}" alt="">
+								<img class="img-responsive" src="{{ asset('smarty/assets/images/emblema.png') }}" alt="" style=" width: 100px">
 
 							@else
 
-								<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/people/300x300/imgpsh_fullsize.png') }}" alt="">
+								<img class="img-responsive" src="{{ asset('smarty/assets/images/emblema.png') }}" alt="" style=" width: 100px">
+
 
 							@endif
 
@@ -71,7 +72,7 @@
 
 							</figure>
 
-							<h2><a href="blog-single-default.html">{{ $instructor->str_nombre }}</a></h2>
+							<h2 style="text-align: center;"><a href="blog-single-default.html">{{ $instructor->str_nombre }}</a></h2>
 
 
 							<p>
