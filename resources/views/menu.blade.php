@@ -70,12 +70,17 @@
 											<a href="{{ route('instructores')}}" target="_blank">
 												Instructores
 											</a>
-										</li>										
-										<li><!--  -->
+										</li>
+
+										<!--
+										<li>
 											<a href="{{ route('blog')}}" target="_blank">
 												Blog
 											</a>
 										</li>
+										-->
+
+										<!--
 										<li>
 											@if(Route::current()->getName() == 'home')
 
@@ -90,8 +95,10 @@
 												</a>
 
 											@endif										
-										<li><!--  -->
+										</li>
 
+										-->
+										<li>
 											@if(Route::current()->getName() == 'home')
 
 												<a class="" href="#contacto">

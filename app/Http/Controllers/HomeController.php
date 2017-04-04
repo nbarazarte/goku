@@ -43,7 +43,9 @@ class HomeController extends Controller
 
         $gerentes = DB::table('tbl_equipoilernus')->where('str_tipo', 'gerencial')->get();
 
-        return \View::make('index', compact('cursos','directores','gerentes'));
+        $gerentes1 = DB::table('tbl_equipoilernus')->where('str_tipo', 'gerencial1')->get();
+
+        return \View::make('index', compact('cursos','directores','gerentes','gerentes1'));
     }
 
     /**
@@ -129,7 +131,7 @@ class HomeController extends Controller
         $mail->Password = "falcor90dbb";
         $mail->SetFrom('atrellus@gmail.com');
         $mail->AddReplyTo($_POST['email'], $_POST['name']);
-        $mail->addAddress("ezebarazarte@gmail.com");
+        $mail->addAddress("ventas@ilernus.com");
         
         $mail->Subject = "ilernus.com - ". $_POST['asunto'];
         //$mail->msgHTML(file_get_contents('contents.html'), dirname(__FILE__));

@@ -59,11 +59,11 @@
 
 							@if( $instructor->str_sexo == 'm' )
 
-								<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/people/300x300/a-min.jpg') }}" alt="">
+								<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/people/300x300/imgpsh_fullsize.png') }}" alt="">
 
 							@else
 
-								<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/people/300x300/9-min.jpg') }}" alt="">
+								<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/people/300x300/imgpsh_fullsize.png') }}" alt="">
 
 							@endif
 

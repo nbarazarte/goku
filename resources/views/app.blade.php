@@ -111,19 +111,19 @@
 
 
 						<div class="sticky-side sticky-side-left visible-md visible-lg">
-							<a href="#" class="social-icon social-icon-sm social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
+							<a href="https://www.facebook.com/ilernus/" target="_blank" class="social-icon social-icon-sm social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
 								<i class="fa fa-facebook"></i>
 								<i class="fa fa-facebook"></i>
 							</a>
-							<a href="#" class="social-icon social-icon-sm social-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+							<a href="https://twitter.com/ilernus" target="_blank" class="social-icon social-icon-sm social-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
 								<i class="fa fa-twitter"></i>
 								<i class="fa fa-twitter"></i>
 							</a>
-							<a href="#" class="social-icon social-icon-sm social-youtube" data-toggle="tooltip" data-placement="top" title="Youtube">
-								<i class="fa fa-youtube-play"></i>
-								<i class="fa fa-youtube-play"></i>
+							<a href="https://www.instagram.com/ilernus/" target="_blank" class="social-icon social-icon-sm social-instagram" style="background-color: #bc2a8d" data-toggle="tooltip" data-placement="top" title="Instagram">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+								<i class="fa fa-instagram" aria-hidden="true"></i>
 							</a>
-							<a href="#" class="social-icon social-icon-sm social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
+							<a href="https://www.linkedin.com/company/ilernus" target="_blank" class="social-icon social-icon-sm social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
 								<i class="fa fa-linkedin"></i>
 								<i class="fa fa-linkedin"></i>
 							</a>
@@ -157,22 +157,22 @@
 							</div>
 
 							<div class="col-md-2">
-								<a href="#" class="social-icon social-icon-sm social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
+								<a href="https://www.facebook.com/ilernus/" target="_blank" class="social-icon social-icon-sm social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
 									<i class="fa fa-facebook"></i>
 									<i class="fa fa-facebook"></i>
 								</a>
 
-								<a href="#" class="social-icon social-icon-sm social-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+								<a href="https://twitter.com/ilernus" target="_blank" class="social-icon social-icon-sm social-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
 									<i class="fa fa-twitter"></i>
 									<i class="fa fa-twitter"></i>
 								</a>
 
-								<a href="#" class="social-icon social-icon-sm social-youtube" data-toggle="tooltip" data-placement="top" title="Youtube">
-									<i class="fa fa-youtube-play"></i>
-									<i class="fa fa-youtube-play"></i>
+								<a href="https://www.instagram.com/ilernus/" target="_blank" class="social-icon social-icon-sm social-instagram" style="background-color: #bc2a8d" data-toggle="tooltip" data-placement="top" title="Instagram">
+									<i class="fa fa-instagram" aria-hidden="true"></i>
+									<i class="fa fa-instagram" aria-hidden="true"></i>
 								</a>
 
-								<a href="#" class="social-icon social-icon-sm social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
+								<a href="https://www.linkedin.com/company/ilernus" target="_blank" class="social-icon social-icon-sm social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
 									<i class="fa fa-linkedin"></i>
 									<i class="fa fa-linkedin"></i>
 								</a>										

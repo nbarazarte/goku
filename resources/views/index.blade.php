@@ -537,7 +537,37 @@
 		
 <div class="row">
 
+<?php
+	$x=0;
+?>
 @foreach ($directores as $director) 
+
+							<div class="modal fade" id="myModal{{$x}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							        <h4 class="modal-title" id="myModalLabel">
+							        	<span class="label" style="background-color: #35459C ">{{ $director->str_cargo }}</span>
+							        </h4>
+							      </div>
+							      <div class="modal-body">
+							      <h3>
+							      	{{ $director->str_nombre }}
+							      </h3>
+
+							        {!! $director->str_cv !!}
+
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+
+
+
 
 	<div class="col-md-3">
 
@@ -545,8 +575,13 @@
 			<div class="front">
 				<div class="box1 box-default">
 					<div class="box-icon-title">
-						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/2-min.jpg" alt="" />
-						<h2>{{ $director->str_nombre }}</h2>
+
+
+					
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/{{ $director->str_imagen }}.jpg" alt="" />
+					
+
+						<!--<h2>{{ $director->str_nombre }}</h2>-->
 					</div>
 					
 				</div>
@@ -558,7 +593,15 @@
 					<h4>Director</h4>
 					<hr />
 					-->
-					<p>(Descripción breve)</p>
+					<p> {{ $director->str_cv_corto }}</p>
+
+					<br>
+
+					<a href="#" class="btn btn-reveal btn-default" data-toggle="modal" data-target="#myModal{{$x}}">
+						<i class="fa fa-plus"></i>
+						<span>Ver más</span>
+					</a>
+
 
 				</div>
 			</div>
@@ -566,6 +609,9 @@
 
 	</div>
 
+<?php
+	 $x++;
+?>
 @endforeach
 
 </div>
@@ -588,16 +634,47 @@
 		
 <div class="row">
 
-@foreach ($gerentes as $gerente) 
+<?php
+	$x=0;
+?>
+@foreach ($gerentes as $gerente)
+
+
+							<div class="modal fade" id="myModalGerente{{$x}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							        <h4 class="modal-title" id="myModalLabel">
+							        	<span class="label" style="background-color: #35459C ">{{ $gerente->str_cargo }}</span>
+							        </h4>
+							      </div>
+							      <div class="modal-body">
+							      <h3>
+							      	{{ $gerente->str_nombre }}
+							      </h3>
+
+							        {!! $gerente->str_cv !!}
+
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+
+
+
 	<div class="col-md-3">
 
 		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
 			<div class="front">
 				<div class="box1 box-default">
 					<div class="box-icon-title">
-						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/1-min.jpg" alt="" />
-						<h2>{{ $gerente->str_nombre }}</h2>
-						<strong style="font-size: 12px">{{ $gerente->str_cargo }}</strong>
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/{{ $gerente->str_imagen }}.jpg" alt="" />
+						<!--<h2>{{ $gerente->str_nombre }}</h2>
+						<strong style="font-size: 12px">{{ $gerente->str_cargo }}</strong>-->
 					</div>
 					
 				</div>
@@ -609,13 +686,23 @@
 					<h4>CEO</h4>
 					<hr />
 					-->
-					<p>(Descripción breve)</p>
+					<p> {{ $gerente->str_cv_corto }}</p>
+
+					<br>
+
+					<a href="#" class="btn btn-reveal btn-default" data-toggle="modal" data-target="#myModalGerente{{$x}}">
+						<i class="fa fa-plus"></i>
+						<span>Ver más</span>
+					</a>
 
 				</div>
 			</div>
 		</div>
 
 	</div>
+<?php
+	$x++;
+?>
 @endforeach
 
 </div>
@@ -623,6 +710,36 @@
 <br>
 
 <div class="row">
+
+<?php
+	$x=0;
+?>
+@foreach ($gerentes1 as $gerente1)
+
+
+							<div class="modal fade" id="myModalGerente1{{$x}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							        <h4 class="modal-title" id="myModalLabel">
+							        	<span class="label" style="background-color: #35459C ">{{ $gerente1->str_cargo }}</span>
+							        </h4>
+							      </div>
+							      <div class="modal-body">
+							      <h3>
+							      	{{ $gerente1->str_nombre }}
+							      </h3>
+
+							        {!! $gerente1->str_cv !!}
+
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
 	
 	<div class="col-md-5th">
 
@@ -630,8 +747,9 @@
 			<div class="front">
 				<div class="box1 box-default">
 					<div class="box-icon-title">
-						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/2-min.jpg" alt="" />
-						<h2>Liener Martínez</h2>
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/{{ $gerente1->str_imagen }}.jpg" alt="" />
+						<!--<h2>{{ $gerente->str_nombre }}</h2>
+						<strong style="font-size: 12px">{{ $gerente->str_cargo }}</strong>-->
 					</div>
 					
 				</div>
@@ -639,9 +757,18 @@
 
 			<div class="back">
 				<div class="box2" style="background-color: #35459C">
-					<h4>Administración</h4>
+					<!--
+					<h4>CEO</h4>
 					<hr />
-					<p>(Descripción breve)</p>
+					-->
+					<p> {{ $gerente1->str_cv_corto }}</p>
+
+					<br>
+
+					<a href="#" class="btn btn-reveal btn-default" data-toggle="modal" data-target="#myModalGerente1{{$x}}">
+						<i class="fa fa-plus"></i>
+						<span>Ver más</span>
+					</a>
 
 				</div>
 			</div>
@@ -649,105 +776,11 @@
 
 	</div>
 
-	<div class="col-md-5th">
 
-		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
-			<div class="front">
-				<div class="box1 box-default">
-					<div class="box-icon-title">
-						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/1-min.jpg" alt="" />
-						<h2>Romina Laconelli</h2>
-					</div>
-					
-				</div>
-			</div>
-
-			<div class="back">
-				<div class="box2" style="background-color: #35459C">
-					<h4>Gestión de Talentos</h4>
-					<hr />
-					<p>(Descripción breve)</p>
-
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-	<div class="col-md-5th">
-
-		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
-			<div class="front">
-				<div class="box1 box-default">
-					<div class="box-icon-title">
-						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/1-min.jpg" alt="" />
-						<h2>Antonella Lobosco</h2>
-					</div>
-					
-				</div>
-			</div>
-
-			<div class="back">
-				<div class="box2" style="background-color: #35459C">
-					<h4>Consultoria Jurídica</h4>
-					<hr />
-					<p>(Descripción breve)</p>
-
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-	<div class="col-md-5th">
-
-		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
-			<div class="front">
-				<div class="box1 box-default" >
-					<div class="box-icon-title">
-						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/1-min.jpg" alt="" />
-						<h2>Nailis Blandin</h2>
-					</div>
-					
-				</div>
-			</div>
-
-			<div class="back">
-				<div class="box2" style="background-color: #35459C">
-					<h4>Informática</h4>
-					<hr />
-					<p>(Descripción breve)</p>
-
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-	<div class="col-md-5th">
-
-		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
-			<div class="front">
-				<div class="box1 box-default" >
-					<div class="box-icon-title">
-						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/2-min.jpg" alt="" />
-						<h2>Johnny Castro</h2>
-					</div>
-					
-				</div>
-			</div>
-
-			<div class="back">
-				<div class="box2" style="background-color: #35459C">
-					<h4>Calidad y Gestión</h4>
-					<hr />
-					<p>(Descripción breve)</p>
-
-				</div>
-			</div>
-		</div>
-
-	</div>	
+<?php
+	$x++;
+?>
+@endforeach
 
 </div>
 
@@ -978,7 +1011,7 @@
 			</section>
 			<!-- /Portfolio -->
 
-
+			<!--
 			<section id="testimonios" class="callout-dark heading-title heading-arrow-bottom" style="">
 				<div class="container">
 
@@ -989,13 +1022,13 @@
 
 				</div>
 			</section>
-
-
+			-->
+			<!--
 			<section>
 				<div class="container">
 
 					<div class="row">
-
+-->
 
 							<!-- 
 								data-plugin-options:
@@ -1004,7 +1037,7 @@
 								Note: remove class="rounded" from the img for squared image!
 							-->
 
-
+<!--
 							<div class="row">
 
 								<div class="col-md-6">
@@ -1091,7 +1124,7 @@
 				</div>
 			</section>		
 
-
+-->
 
 
 
@@ -1106,7 +1139,7 @@
 				</div>
 			</section>
 		
-
+			<!--
 			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
 
 				<div class="text-center">
@@ -1117,14 +1150,12 @@
 
 			</div>
 
-
-			<!-- -->
 			<section>
 				<div class="container">
 
 					<div class="row">
 
-						<!-- FORM -->
+						
 						<div class="col-md-12 col-sm-12" style="">
 
 							<iframe src="http://avirtum.com/demo/ipanorama/fullscreen.html" width="100%" height="400px"></iframe>
@@ -1136,7 +1167,7 @@
 
 				</div>
 			</section>
-
+			-->
 			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
 
 				<div class="text-center">
