@@ -593,7 +593,7 @@
 					<h4>Director</h4>
 					<hr />
 					-->
-					<p> {{ $director->str_cv_corto }}</p>
+					<p style="font-size: 11px"> {{ $director->str_cv_corto }}</p>
 
 					<br>
 
@@ -686,7 +686,7 @@
 					<h4>CEO</h4>
 					<hr />
 					-->
-					<p> {{ $gerente->str_cv_corto }}</p>
+					<p style="font-size: 11px"> {{ $gerente->str_cv_corto }}</p>
 
 					<br>
 
@@ -761,7 +761,7 @@
 					<h4>CEO</h4>
 					<hr />
 					-->
-					<p> {{ $gerente1->str_cv_corto }}</p>
+					<p style="font-size: 11px"> {{ $gerente1->str_cv_corto }}</p>
 
 					<br>
 

@@ -127,9 +127,9 @@ class HomeController extends Controller
         $mail->Port = 465;
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = "ssl";
-        $mail->Username = "atrellus@gmail.com";
-        $mail->Password = "falcor90dbb";
-        $mail->SetFrom('atrellus@gmail.com');
+        $mail->Username = "socialmedia@monitorbg.com";
+        $mail->Password = "Monitor.2017";
+        $mail->SetFrom('socialmedia@monitorbg.com');
         $mail->AddReplyTo($_POST['email'], $_POST['name']);
         $mail->addAddress("ventas@ilernus.com");
         
