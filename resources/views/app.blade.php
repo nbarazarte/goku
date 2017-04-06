@@ -15,24 +15,24 @@
 
 		<!-- WEB FONTS : use %7C instead of | (pipe) -->
 		<!--
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />-->
+		-->
 
-		{!! Html::style('smarty/assets/css/css.css') !!}
+		{!! Html::style('smarty/assets/css/css.min.css') !!}
 
 		<!-- CORE CSS -->
 		{!! Html::style('smarty/assets/plugins/bootstrap/css/bootstrap.min.css') !!}
 
 		<!-- LAYER SLIDER -->
-		{!! Html::style('smarty/assets/plugins/slider.layerslider/css/layerslider.css') !!}
+		{!! Html::style('smarty/assets/plugins/slider.layerslider/css/layerslider.min.css') !!}
 
 		<!-- THEME CSS -->
-		{!! Html::style('smarty/assets/css/essentials.css') !!}
-		{!! Html::style('smarty/assets/css/layout.css') !!}
-		{!! Html::style('smarty/assets/css/customilernus.css') !!}
+		{!! Html::style('smarty/assets/css/essentials.min.css') !!}
+		{!! Html::style('smarty/assets/css/layout.min.css') !!}
+		{!! Html::style('smarty/assets/css/customilernus.min.css') !!}
 
 		<!-- PAGE LEVEL SCRIPTS -->
-		{!! Html::style('smarty/assets/css/header-1.css') !!}
-		{!! Html::style('smarty/assets/css/color_scheme/blue.css') !!}
+		{!! Html::style('smarty/assets/css/header-1.min.css') !!}
+		{!! Html::style('smarty/assets/css/color_scheme/blue.min.css') !!}
 
 
 
@@ -206,15 +206,15 @@
 		<!-- JAVASCRIPT FILES -->
 		<script type="text/javascript">var plugin_path = 'smarty/assets/plugins/';</script>
 		{!! Html::script('smarty/assets/plugins/jquery/jquery-2.1.4.min.js') !!}
-		{!! Html::script('smarty/assets/js/scripts.js') !!}
+		{!! Html::script('smarty/assets/js/scripts.min.js') !!}
 		<!-- STYLESWITCHER - REMOVE -->
 
 		<!-- LAYER SLIDER -->
-		{!! Html::script('smarty/assets/plugins/slider.layerslider/js/layerslider_pack.js') !!}
-		{!! Html::script('smarty/assets/js/view/demo.layerslider_slider.js') !!}
+		{!! Html::script('smarty/assets/plugins/slider.layerslider/js/layerslider_pack.min.js') !!}
+		{!! Html::script('smarty/assets/js/view/demo.layerslider_slider.min.js') !!}
 
 		<!-- PAGELEVEL SCRIPTS -->
-		<script type="text/javascript" src="smarty/assets/js/contact.js"></script>
+		<!--<script type="text/javascript" src="smarty/assets/js/contact.js"></script>-->
 
 
 		@if(Route::current()->getName() == 'home')
@@ -225,8 +225,8 @@
 			-->
 			<!--<script type="text/javascript" src="//maps.google.com/maps/api/js?key=AIzaSyDn4Fqtci9trC4i6iJjbC-UfdnwONchtQ0"></script>-->
 
-			{!! Html::script('smarty/assets/plugins/api.js') !!}
-			{!! Html::script('smarty/assets/plugins/gmaps.js') !!}
+			{!! Html::script('smarty/assets/plugins/api.min.js') !!}
+			{!! Html::script('smarty/assets/plugins/gmaps.min.js') !!}
 			<script type="text/javascript">
 
 				jQuery(document).ready(function(){
@@ -236,14 +236,14 @@
 					**/
 					var map2 = new GMaps({
 						div: '#map2',
-						lat: 10.4985307,
-						lng: -66.7909896,
+						lat: 10.498705,
+						lng: -66.788824,
 						scrollwheel: false
 					});
 
 					var marker = map2.addMarker({
-						lat: 10.4985307,
-						lng: -66.7909896,
+						lat: 10.498705,
+						lng: -66.788824,
 						title: 'ilernus'
 					});
 
