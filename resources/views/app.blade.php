@@ -7,14 +7,17 @@
 		<title>ilernus</title>
 		<meta name="keywords" content="e-learning" />
 		<meta name="description" content="" />
-		<meta name="Author" content="Neil Barazarte [www.neilbarazarte]" />
+		<meta name="Author" content="Neil Barazarte [www.neilbarazarte.com]" />
 
 		<!-- mobile settings -->
 		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
 		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 
 		<!-- WEB FONTS : use %7C instead of | (pipe) -->
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+		<!--
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />-->
+
+		{!! Html::style('smarty/assets/css/css.css') !!}
 
 		<!-- CORE CSS -->
 		{!! Html::style('smarty/assets/plugins/bootstrap/css/bootstrap.min.css') !!}
@@ -93,7 +96,7 @@
 				Example Usage:  class="clearfix sticky header-sm transparent noborder"
 			-->
 			<!-- <div id="header" class="sticky transparent clearfix"> -->
-			<div id="header" class="sticky shadow-after-3 clearfix">
+			<div id="header" class="sticky  clearfix"> <!-- shadow-after-3 -->
 
 				<!-- TOP NAV -->
 				<header id="topNav">
@@ -220,7 +223,9 @@
 				GMAP.JS 
 				http://hpneo.github.io/gmaps/
 			-->
-			<script type="text/javascript" src="//maps.google.com/maps/api/js?key=AIzaSyDn4Fqtci9trC4i6iJjbC-UfdnwONchtQ0"></script>
+			<!--<script type="text/javascript" src="//maps.google.com/maps/api/js?key=AIzaSyDn4Fqtci9trC4i6iJjbC-UfdnwONchtQ0"></script>-->
+
+			{!! Html::script('smarty/assets/plugins/api.js') !!}
 			{!! Html::script('smarty/assets/plugins/gmaps.js') !!}
 			<script type="text/javascript">
 
