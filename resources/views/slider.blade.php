@@ -36,7 +36,7 @@
 								scaleyin:0.8;
 								scalexout:0.8;
 								scaleyout:0.8;" 
-								style="top:40px;left:65%;white-space: nowrap;" src="smarty/assets/images/demo/desktop_empty.png" alt="">
+								style="top:40px;left:75%;white-space: nowrap;" src="smarty/assets/images/demo/desktop_empty.png" alt="">
 
 							<p class="ls-l" style="top:50px;left:100px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#ffffff;background:#F47741;border-radius:4px;white-space: nowrap;" data-ls="durationin:1500;delayin:300;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">
 								Calidad
