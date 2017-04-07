@@ -34,17 +34,10 @@
 		'as' =>'instructores'
 	]);	
 
-/********* conocenos: info de los lideres ***********/
-
-	Route::get('clover', [
-		'uses' => 'CloverController@index',
-		'as' =>'clover'
-	]);
-
-	Route::get('maria', [
-		'uses' => 'MariaController@index',
-		'as' =>'maria'
-	]);
+	Route::get('/Contáctanos', [
+		'uses' => 'HomeController@contactanos',
+		'as' =>'contactanos'
+	]);		
 
 	Route::put('Enviando', [
 			'uses' => 'HomeController@enviar',

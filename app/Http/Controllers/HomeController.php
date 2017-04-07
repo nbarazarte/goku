@@ -43,9 +43,7 @@ class HomeController extends Controller
 
         $gerentes = DB::table('tbl_equipoilernus')->where('str_tipo', 'gerencial')->get();
 
-        $gerentes1 = DB::table('tbl_equipoilernus')->where('str_tipo', 'gerencial1')->get();
-
-        return \View::make('index', compact('cursos','directores','gerentes','gerentes1'));
+        return \View::make('index', compact('cursos','directores','gerentes'));
     }
 
     /**
@@ -53,22 +51,13 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function curso($curso)
+    public function instructores()
     {
 
-        $cursos = DB::table('tbl_cursos')->where('str_curso', $curso)->get();
+        $instructores = DB::table('tbl_instructores')->get();
 
-
-
-        if(!$cursos){
-
-            return \View::make('errors.404');
-        }
-
-
-
-        return \View::make('curso', compact('cursos'));
-    }
+        return \View::make('instructores', compact('instructores'));
+    }  
 
 
     /**
@@ -87,13 +76,10 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function instructores()
+    public function contactanos()
     {
 
-        
-        $instructores = DB::table('tbl_instructores')->get();
-
-        return \View::make('instructores', compact('instructores'));
+        return \View::make('contactanos');
         
     }    
 

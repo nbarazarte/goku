@@ -217,7 +217,7 @@
 		<!--<script type="text/javascript" src="smarty/assets/js/contact.js"></script>-->
 
 
-		@if(Route::current()->getName() == 'home')
+		@if(Route::current()->getName() == 'contactanos')
 		
 			<!-- 
 				GMAP.JS 

@@ -23,7 +23,7 @@
 													Inicio
 												</a>
 
-											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'blog'))
+											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog'))
 
 												<a href="{{ route('home') }}">
 													Ilernus
@@ -40,7 +40,7 @@
 													Conócenos
 												</a>
 
-											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'blog'))
+											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog'))
 
 												<a href="http://localhost:8000#conocenos">
 													Conócenos
@@ -57,7 +57,7 @@
 													Soluciones
 												</a>
 
-											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'blog'))
+											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog'))
 
 												<a href="http://localhost:8000#soluciones">
 													Soluciones
@@ -67,7 +67,7 @@
 																						
 										</li>
 										<li><!--  -->
-											<a href="{{ route('instructores')}}" target="_blank">
+											<a href="{{ route('instructores')}}">
 												Instructores
 											</a>
 										</li>
@@ -88,7 +88,7 @@
 													Testimonios
 												</a>
 
-											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'blog'))
+											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') ||  (Route::current()->getName() == 'blog'))
 
 												<a href="http://localhost:8000#testimonios">
 													Testimonios
@@ -98,22 +98,11 @@
 										</li>
 
 										-->
-										<li>
-											@if(Route::current()->getName() == 'home')
-
-												<a class="" href="#contacto">
-													Contáctanos
-												</a>
-
-											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'blog'))
-
-												<a href="http://localhost:8000#contacto">
-													Contáctanos
-												</a>
-
-											@endif
-
-										</li>																				
+										<li><!--  -->
+											<a href="{{ route('contactanos')}}">
+												Contáctanos
+											</a>
+										</li>																			
 
 
 									</ul>						 

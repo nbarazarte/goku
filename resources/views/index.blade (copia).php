@@ -135,7 +135,7 @@
 									<i class="icon icon-segumiento"></i>
 									<h2>Revisar</h2>
 								</a>
-								<p style="font-size: 13px; text-align: center;">Seguimiento y gestión del desarrollo <br>profesional de los colaboradores.</p>
+								<p>Seguimiento y gestión del desarrollo profesional de los colaboradores.</p>
 
 							</div>
 
@@ -148,7 +148,7 @@
 									<i class="icon icon-gestiona"></i>
 									<h2>Gestionar</h2>
 								</a>
-								<p style="font-size: 13px; text-align: center;">Gestiona, preserva y transmite <br>el know how de tu organización.</p>
+								<p>Gestiona, preserva y transmite el know how de tu organización.</p>
 							</div>
 
 						</div>
@@ -160,7 +160,7 @@
 									<i class="icon icon-consolida"></i>
 									<h2>Consolidar</h2>
 								</a>
-								<p style="font-size: 13px; text-align: center;">Consolida y simplifica la información <br>de tus colaboradores.</p>
+								<p>Consolida y simplifica la información de tus colaboradores.</p>
 							</div>
 
 						</div>
@@ -172,7 +172,7 @@
 									<i class="icon icon-formacin"></i>
 									<h2>Formar</h2>
 								</a>
-								<p style="font-size: 13px; text-align: center;">Formación 100% en línea, <br>cuando y donde quieras.</p>
+								<p>Formación 100% en línea, cuando y donde quieras.</p>
 							</div>
 
 						</div>	
@@ -184,7 +184,7 @@
 									<i class="icon icon-estadisticas"></i>
 									<h2>Proveer</h2>
 								</a>
-								<p style="font-size: 13px; text-align: center;">Provee estadísticas <br>y resultados medibles.</p>
+								<p>Provee estadísticas y resultados medibles.</p>
 							</div>
 
 						</div>
@@ -196,7 +196,7 @@
 									<i class="icon icon-creamos"></i>
 									<h2>Desarrollar</h2>
 								</a>
-								<p style="font-size: 13px; text-align: center;">Creamos tu biblioteca privada <br>desarrollando contenidos a la medida.</p>
+								<p>Creamos tu biblioteca privada desarrollando contenidos a la medida.</p>
 							</div>
 
 						</div>
@@ -208,7 +208,7 @@
 									<i class="icon icon-biblioteca"></i>
 									<h2>Desplegar</h2>
 								</a>
-								<p style="font-size: 13px; text-align: center;">Biblioteca pública con <br>gran variedad de cursos.</p>
+								<p>Biblioteca pública con gran variedad de cursos.</p>
 							</div>
 
 						</div>
@@ -220,7 +220,7 @@
 									<i class="icon icon-captacion"></i>
 									<h2>Capacitar</h2>
 								</a>
-								<p style="font-size: 13px; text-align: center;">Capacitación basada en competencias, <br>con instructores de alto nivel.</p>
+								<p>Capacitación basada en competencias, con instructores de alto nivel.</p>
 							</div>
 
 						</div>			
@@ -259,7 +259,7 @@
 									<i class="icon icon-apalanca"></i>
 									<h2>Apalancar</h2>
 								</a>
-								<p style="font-size: 13px; text-align: center;">Apalanca la estrategia de <br>retención del talento.</p>
+								<p>Apalanca la estrategia de retención del talento.</p>
 							</div>
 
 						</div>
@@ -271,7 +271,7 @@
 									<i class="icon icon-gestion"></i>
 									<h2>Facilitar</h2>
 								</a>
-								<p style="font-size: 13px; text-align: center;">Facilita la gestión de formación <bR>y entrenamiento.</p>
+								<p>Facilita la gestión de formación y entrenamiento.</p>
 							</div>
 
 						</div>
@@ -283,7 +283,7 @@
 									<i class="icon icon-tiempo"></i>
 									<h2>Ahorrar</h2>
 								</a>
-								<p style="font-size: 13px; text-align: center;">Ahorra tiempo y recursos.</p>
+								<p>Ahorra tiempo y recursos.</p>
 							</div>
 
 						</div>
@@ -295,7 +295,7 @@
 									<i class="icon icon-refuerza"></i>
 									<h2>Reforzar</h2>
 								</a>
-								<p style="font-size: 13px; text-align: center;">Refuerza el proceso de gerencia y preservación del conocimiento.</p>
+								<p>Refuerza el proceso de gerencia y preservación del conocimiento.</p>
 							</div>
 
 						</div>	
@@ -307,7 +307,7 @@
 									<i class="icon icon-herramientas"></i>
 									<h2>Emplear</h2>
 								</a>
-								<p style="font-size: 13px; text-align: center;">Cuenta con funciones y <br>herramientas orientadas <br>al aprendizaje y a la productividad</p>
+								<p>Cuenta con funciones y herramientas orientadas al aprendizaje y a la productividad</p>
 							</div>
 
 						</div>								
@@ -316,7 +316,7 @@
 
 
 			<!-- PARALLAX -->
-			<section class="parallax parallax-2" style="background-image: url('smarty/assets/images/demo/1200x800/35.jpg');">
+			<section class="parallax parallax-2" style="background-image: url('smarty/assets/images/demo/1200x800/36.jpg');">
 				<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
 
 				<div class="container">
@@ -421,7 +421,7 @@
 
 							      </div>
 							      <div class="modal-footer">
-							        <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
 							      </div>
 							    </div>
 							  </div>
@@ -458,7 +458,7 @@
 
 					<br>
 
-					<a href="#" class="btn btn-reveal btn-warning" data-toggle="modal" data-target="#myModal{{$x}}">
+					<a href="#" class="btn btn-reveal btn-default" data-toggle="modal" data-target="#myModal{{$x}}">
 						<i class="fa fa-plus"></i>
 						<span>Ver más</span>
 					</a>
@@ -519,7 +519,7 @@
 
 							      </div>
 							      <div class="modal-footer">
-							        <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
 							      </div>
 							    </div>
 							  </div>
@@ -527,14 +527,15 @@
 
 
 
-	<div class="col-md-5th">
+	<div class="col-md-3">
 
 		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
 			<div class="front">
 				<div class="box1 box-default">
 					<div class="box-icon-title">
 						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/{{ $gerente->str_imagen }}.jpg" alt="" />
-
+						<!--<h2>{{ $gerente->str_nombre }}</h2>
+						<strong style="font-size: 12px">{{ $gerente->str_cargo }}</strong>-->
 					</div>
 					
 				</div>
@@ -542,10 +543,15 @@
 
 			<div class="back">
 				<div class="box2" style="background-color: #35459C">
-
+					<!--
+					<h4>CEO</h4>
+					<hr />
+					-->
 					<p style="font-size: 11px"> {{ $gerente->str_cv_corto }}</p>
 
-					<a href="#" class="btn btn-reveal btn-warning" data-toggle="modal" data-target="#myModalGerente{{$x}}">
+					<br>
+
+					<a href="#" class="btn btn-reveal btn-default" data-toggle="modal" data-target="#myModalGerente{{$x}}">
 						<i class="fa fa-plus"></i>
 						<span>Ver más</span>
 					</a>
@@ -553,7 +559,7 @@
 				</div>
 			</div>
 		</div>
-			<br>
+
 	</div>
 <?php
 	$x++;
@@ -561,6 +567,90 @@
 @endforeach
 
 </div>
+
+<br>
+
+<div class="row">
+
+<?php
+	$x=0;
+?>
+@foreach ($gerentes1 as $gerente1)
+
+
+							<div class="modal fade" id="myModalGerente1{{$x}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							        <h4 class="modal-title" id="myModalLabel">
+							        	<span class="label" style="background-color: #35459C ">{{ $gerente1->str_cargo }}</span>
+							        </h4>
+							      </div>
+							      <div class="modal-body">
+							      <h3>
+							      	{{ $gerente1->str_nombre }}
+							      </h3>
+
+							        {!! $gerente1->str_cv !!}
+
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+	
+	<div class="col-md-5th">
+
+		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+			<div class="front">
+				<div class="box1 box-default">
+					<div class="box-icon-title">
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/{{ $gerente1->str_imagen }}.jpg" alt="" />
+						<!--<h2>{{ $gerente->str_nombre }}</h2>
+						<strong style="font-size: 12px">{{ $gerente->str_cargo }}</strong>-->
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="back">
+				<div class="box2" style="background-color: #35459C">
+					<!--
+					<h4>CEO</h4>
+					<hr />
+					-->
+					<p style="font-size: 11px"> {{ $gerente1->str_cv_corto }}</p>
+
+					<br>
+
+					<a href="#" class="btn btn-reveal btn-default" data-toggle="modal" data-target="#myModalGerente1{{$x}}">
+						<i class="fa fa-plus"></i>
+						<span>Ver más</span>
+					</a>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+<?php
+	$x++;
+?>
+@endforeach
+
+</div>
+
+
+
+
+
+
+
 
 
 	</div>
@@ -899,7 +989,199 @@
 
 
 
-			
+			<section id="contacto" class="callout-dark heading-title heading-arrow-bottom" style="">
+				<div class="container">
+
+					<div class="text-center">
+						<h3 class="size-30">Contáctanos</h3>
+						<p>En <strong style="color: #F47741; font-size: 20px">ilernus,</strong> nos adaptamos a <em><b>ti</b></em></p>
+					</div>
+
+				</div>
+			</section>
+		
+			<!--
+			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
+
+				<div class="text-center">
+
+					<h3 style="color: #ffffff">Da un recorrido virtual por nuestras instalaciones</h3>
+
+				</div>
+
+			</div>
+
+			<section>
+				<div class="container">
+
+					<div class="row">
+
+						
+						<div class="col-md-12 col-sm-12" style="">
+
+							<iframe src="http://avirtum.com/demo/ipanorama/fullscreen.html" width="100%" height="400px"></iframe>
+
+						</div>
+
+					</div>	
+
+
+				</div>
+			</section>
+			-->
+			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
+
+				<div class="text-center">
+
+					<h3 style="color: #ffffff">Estamos para ti</h3>
+
+				</div>
+
+			</div>
+
+			<section>
+				<div class="container">		
+
+					<div class="row">
+
+						<!-- FORM -->
+						<div class="col-md-8 col-sm-8">
+
+							<h3>Envíanos tus preguntas y comentarios</h3>
+
+				
+                    			@if(Session::has('message'))
+					            
+									<div id="mensaje-enviado" class="alert alert-success" role="alert">
+									  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									  <span aria-hidden="true">&times;</span></button>
+									  <strong><i class="fa fa-check"></i></strong> {{Session::get('message')}}
+									</div>
+
+								@endif  							
+
+							{!! Form::open(['route' => 'enviar', 'method'=>'PUT', 'id' => 'demo-form', 'enctype'=>'multipart/form-data', 'class' => '', 'onKeypress' => 'if(event.keyCode == 13) event.returnValue = false']) !!} 
+
+								<fieldset>
+									<input type="hidden" name="action" value="contact_send" />
+
+									<div class="row">
+										<div class="form-group">
+											<div class="col-md-4">
+												<label for="name">Nombre y Apellido *</label>
+												<input required type="text" value="" class="form-control" name="name" id="name">
+											</div>
+											<div class="col-md-4">
+												<label for="email">Correo Electrónico *</label>
+												<input required type="email" value="" class="form-control" name="email" id="email">
+											</div>
+											<div class="col-md-4">
+												<label for="phone">Teléfono</label>
+												<input type="text" value="" class="form-control" name="phone" id="phone">
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="form-group">
+
+											<div class="col-md-4">
+												<label for="contact_asunto">Cargo</label>
+												<select class="form-control pointer" id="cargo" name="cargo">
+													<option value="">--- Seleccione ---</option>
+													<option value="director">Director</option>
+													<option value="gerente">Gerente</option>
+													<option value="otros">Otros</option>
+												</select>
+											</div>
+											<div class="col-md-4">
+													<label for="contact_asunto">Sector Industrial</label>
+													<select class="form-control pointer" id="sector" name="sector">
+														<option value="">--- Seleccione ---</option>
+														<option value="salud">Salud</option>
+														<option value="medios_comunicacion">Medios de Comunicación</option>
+														<option value="deportes">Deportes</option>
+														<option value="tecnologia">Tecnología</option>
+														<option value="educacion">Educación</option>
+														<option value="comercio">Comercio</option>
+														<option value="transporte_comunicaciones">Transporte y Comunicaciones</option>
+														<option value="turismo">Turismo</option>
+														<option value="banca_finanzas">Banca/Finanzas</option>
+														<option value="seguros">Seguros</option>
+														<option value="admin_publica">Administración Pública</option>
+														<option value="marketing">Marketing</option>
+														<option value="capital_humano">Capital Humano</option>
+														<option value="otros">Otros</option>
+													</select>
+												</div>											
+											<div class="col-md-4">
+													<label for="contact_asunto">Asunto</label>
+													<select class="form-control pointer" id="asunto" name="asunto">
+														<option value="">--- Seleccione ---</option>
+														<option value="comentarios">Comentarios</option>
+														<option value="sugerencias">Sugerencias</option>
+														<option value="otros">Otros</option>
+													</select>
+												</div>											
+											</div>
+									</div>
+									<div class="row">
+										<div class="form-group">
+											<div class="col-md-12">
+												<label for="message">Mensaje *</label>
+												<textarea required maxlength="10000" rows="8" class="form-control" name="message" id="message"></textarea>
+											</div>
+										</div>
+									</div>
+
+								</fieldset>
+
+								<div class="row">
+									<div class="col-md-12">
+										{!! Form::submit('Enviar',['class' => 'btn btn-primary']) !!}
+									</div>
+								</div>
+							{!! Form::close() !!}
+
+						</div>
+						<!-- /FORM -->
+
+						<!-- INFO -->
+						<div class="col-md-4 col-sm-4">
+
+							<h2><strong style="color: #F47741"><em>¡Visitanos!</em></strong></h2>
+
+							<!-- 
+							Available heights
+								height-100
+								height-150
+								height-200
+								height-250
+								height-300
+								height-350
+								height-400
+								height-450
+								height-500
+								height-550
+								height-600
+							-->
+							<div id="map2" class="height-200 grayscale"></div>
+
+							<hr />
+
+							<p>
+								<span class="block"><strong><i class="fa fa-map-marker"></i> Dirección:</strong> Urb. Terrazas del Avila, Zona Rental Universidad Metropolitana. Edif. 1. P1. Oficina ilernus, (B&G). Caracas, Edo. Miranda.</span>
+								<span class="block"><strong><i class="fa fa-phone"></i> Teléfono:</strong> <a href="tel:1800-555-1234">+58 (212) 204.24.31 </a></span>
+								<span class="block"><strong><i class="fa fa-envelope"></i> Correo Electrónico:</strong> <a href="mailto:mail@yourdomain.com">info@ilernus.com</a></span>
+							</p>
+
+						</div>
+						<!-- /INFO -->
+
+					</div>
+
+				</div>
+			</section>
+			<!-- / -->
 
 
 

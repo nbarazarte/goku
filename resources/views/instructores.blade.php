@@ -2,14 +2,75 @@
 
 @section('content')
 
-			<section class="page-header dark page-header-xs" style="background-color: #35459C">
-				<div class="container" style="">
+			<section class="callout-dark heading-title heading-arrow-bottom">
+				<div class="container">
 
-					<h1 style="color: #ffffff">Nuestros Instructores</h1>
+					<div class="text-center">
+						<h3 class="size-30">Nuestros Instructores</h3>
+						<p>En <strong style="color: #F47741; font-size: 20px">ilernus</strong> contamos con el más alto nivel de <em><b>excelencia</b></em></p>
+					</div>
 
 				</div>
 			</section>
-			<!-- /PAGE HEADER -->
+
+			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
+
+				<div class="text-center">
+
+					<h3 style="color: #ffffff">Formados en las más prestigiosas casas de estudio</h3>
+
+				</div>
+
+			</div>	
+
+
+
+
+<!-- 
+	controlls-over		= navigation buttons over the image 
+	buttons-autohide 	= navigation buttons visible on mouse hover only
+	
+	data-plugin-options:
+		"singleItem": true
+		"autoPlay": true
+		"navigation": true
+		"pagination": true
+-->
+<div class="text-center">
+	<div class="owl-carousel nomargin" data-plugin-options='{"singleItem": false, "autoPlay": true}'>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/brands/universidades/1.png') }}" alt="">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/brands/universidades/2.png') }}" alt="">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/brands/universidades/3.png') }}" alt="">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/brands/universidades/1.png') }}" alt="">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/brands/universidades/2.png') }}" alt="">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/brands/universidades/3.png') }}" alt="">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/brands/universidades/1.png') }}" alt="">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/brands/universidades/2.png') }}" alt="">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/brands/universidades/3.png') }}" alt="">
+		</div>		
+
+
+	</div>
+</div>
+
+
 
 
 			<!-- -->
