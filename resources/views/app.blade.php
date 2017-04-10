@@ -285,9 +285,8 @@
 				GMAP.JS 
 				http://hpneo.github.io/gmaps/
 			-->
-			<!--<script type="text/javascript" src="//maps.google.com/maps/api/js?key=AIzaSyDn4Fqtci9trC4i6iJjbC-UfdnwONchtQ0"></script>-->
+			<script type="text/javascript" src="//maps.google.com/maps/api/js?key=AIzaSyDn4Fqtci9trC4i6iJjbC-UfdnwONchtQ0"></script>
 
-			{!! Html::script('smarty/assets/plugins/api.min.js') !!}
 			{!! Html::script('smarty/assets/plugins/gmaps.min.js') !!}
 			<script type="text/javascript">
 
