@@ -71,7 +71,7 @@
 
 							<img class="ls-l" style="top:-201px;left:70px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;delayin:500;fadein:false;offsetxout:right;durationout:1000;fadeout:false;" src="smarty/assets/images/1x1.png" data-src="smarty/assets/images/caption_bg.png" alt="">
 
-							<p class="ls-l" style="top:48px;left:100px;color: #fff; text-shadow: none; font-size: 22px; line-height: 34px; padding: 0px 10px; padding-top: 1px; margin: 0px; border-width: 0px; border-style: none; background-color:#35459C; white-space: nowrap;" data-ls="offsetxin:0;durationin:800;delayin:500;rotatein:30;scalexin:0.2;scaleyin:0.2;offsetxout:0;offsetyout:top;durationout:1000;fadeout:false;rotateout:30;scalexout:0.2;scaleyout:0.2;">NUESTROS INSTRUCTORES</p>
+							<p class="ls-l" style="top:48px;left:100px;color: #fff; text-shadow: none; font-weight: 300;height:40px;font-size: 30px; line-height: 34px; padding: 0px 10px; padding-top: 1px; margin: 0px; border-width: 0px; border-style: none; background-color:#35459C; white-space: nowrap;" data-ls="offsetxin:0;durationin:800;delayin:500;rotatein:30;scalexin:0.2;scaleyin:0.2;offsetxout:0;offsetyout:top;durationout:1000;fadeout:false;rotateout:30;scalexout:0.2;scaleyout:0.2;">NUESTROS INSTRUCTORES</p>
 
 							<p class="ls-l" style="top:92px;left:100px;font-weight: bold;font-size: 24px; line-height: 45px; color:#ffffff; white-space: nowrap;" data-ls="offsetxin:0;durationin:1300;delayin:750;rotatein:30;scalexin:0.2;scaleyin:0.2;offsetxout:right;durationout:1000;fadeout:false;rotateout:45;scalexout:0.2;scaleyout:0.2;">Capacitación basada en competencias</p>
 
