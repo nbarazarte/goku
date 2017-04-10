@@ -22,7 +22,7 @@
 			-->
 			
 
-			<section class="page-header page-header-lg parallax parallax-3" style="background-image:url('{{ asset('smarty/assets/images/demo/n4.png') }}'); ">
+			<section class="page-header page-header-lg parallax parallax-3" style="background-image:url('{{ asset('smarty/assets/images/demo/cubes-azul.jpg') }}'); ">
 
 				<div class="overlay dark-2"><!-- dark overlay [1 to 9 opacity] --></div>
 
@@ -85,7 +85,7 @@
 
 						
 						<div class="col-md-4 col-sm-4 text-right" ><!-- right btn -->
-							<a href="http://localhost:8000#contacto" rel="nofollow" target="_blank" style="background-color: #F47741; color: #FFF; border: 0px" class="btn btn-primary btn-lg">CONTACTANOS</a>
+							<a href="http://localhost:8000/Contáctanos" rel="nofollow" target="_blank" style="background-color: #F47741; color: #FFF; border: 0px" class="btn btn-primary btn-lg">CONTACTANOS</a>
 						</div><!-- /right btn -->
 
 					</div>

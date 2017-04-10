@@ -8,7 +8,7 @@
 								<b>bienvenidos a</b>
 							</p>
 							<p class="ls-l" style="top:52%;left:50%;font-weight: 300;font-size:50px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:-100;durationin:750;delayin:250;easingin:easeOutBack;skewxin:-50;offsetxout:100;durationout:600;showuntil:500;easingout:easeInBack;skewxout:50;">
-								<b>ilernus</b>
+								<b>iLernus</b>
 							</p>
 
 							<p class="ls-l" style="top:47%;left:690px;font-weight: 500;font-size:35px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:1500;rotateyin:90;transformoriginin:left 50% 0;offsetxout:0;durationout:1500;showuntil:1000;rotateyout:-90;transformoriginout:left 50% 0;">
@@ -62,6 +62,43 @@
 							<p class="ls-l" style="top:390px;left:100px;font-weight: 300;font-size:24px;color:#fff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:2800;rotateyin:90;skewxin:60;transformoriginin:25% 50% 0;offsetxout:100;durationout:750;skewxout:60;">
 								<b>para la formación de empresas en Venezuela</b>
 							</p>
+						</div>
+
+
+
+
+
+
+
+						<!-- SLIDE -->
+						<div class="ls-slide" data-ls="slidedelay:8000;transition2d:75,79;">
+
+							<!-- background image -->
+							<img src="smarty/assets/images/demo/layerslider/instructores.jpg" class="ls-bg" alt="Slide background"/>
+
+							<img class="ls-l" style="top:-601px;left:70px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;delayin:350;fadein:false;offsetxout:right;durationout:1000;fadeout:false;" src="smarty/assets/images/1x1.png" data-src="smarty/assets/images/caption_bg.png" alt="">
+
+							<p class="ls-l" style="top:48px;left:100px;color: #fff; text-shadow: none; font-size: 22px; line-height: 34px; padding: 0px 10px; padding-top: 1px; margin: 0px; border-width: 0px; border-style: none; background-color:#35459C; white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:500;rotatein:30;scalexin:0.2;scaleyin:0.2;offsetxout:0;offsetyout:top;durationout:1000;fadeout:false;rotateout:30;scalexout:0.2;scaleyout:0.2;">
+								Nuestros Instructores
+							</p>
+
+							<p class="ls-l" style="top:92px;left:100px;font-size: 20px; line-height: 45px; color:#ffffff; white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:750;rotatein:30;scalexin:0.2;scaleyin:0.2;offsetxout:right;durationout:1000;fadeout:false;rotateout:45;scalexout:0.2;scaleyout:0.2;">Poseen capacitación basada en <br>competencias</p>
+
+							<h5 class="ls-l" style="top:50px;left:661px; font-weight: normal;font-size:30px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;delayin:800;easingin:easeOutQuint;scalexin:0.8;scaleyin:0.8;offsetxout:0;durationout:750;scalexout:0.8;scaleyout:0.8;">Los caracteriza la excelencia</h5>
+							<h5 class="ls-l" style="top:110px;left:661px; font-weight: normal;font-size:30px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;delayin:1300;easingin:easeOutQuint;scalexin:0.8;scaleyin:0.8;offsetxout:0;durationout:750;scalexout:0.8;scaleyout:0.8;">Poseen sólida experiencia</h5>
+							<h5 class="ls-l" style="top:170px;left:661px; font-weight: normal;font-size:30px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;delayin:1800;easingin:easeOutQuint;scalexin:0.8;scaleyin:0.8;offsetxout:0;durationout:750;scalexout:0.8;scaleyout:0.8;">Son especialistas de alto nivel</h5>
+							<h5 class="ls-l" style="top:230px;left:661px; font-weight: normal;font-size:30px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;delayin:2300;easingin:easeOutQuint;scalexin:0.8;scaleyin:0.8;offsetxout:0;durationout:750;scalexout:0.8;scaleyout:0.8;">Están formados en las más prestigiosas <br> universidades del mundo</h5>
+
+
+							<h5 class="ls-l" style="top:45px;left:600px; font-weight: normal; text-align: center;width:50px;height:50px;font-size:50px;line-height:50px;color:white;background:#F47741;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:500;easingin:easeOutQuint;rotatein:90;scalexin:0.5;scaleyin:0.5;offsetxout:0;durationout:750;rotateout:90;scalexout:0.5;scaleyout:0.5;">+</h5>
+							<h5 class="ls-l" style="top:105px;left:600px; font-weight: normal; text-align: center;width:50px;height:50px;font-size:50px;line-height:50px;color:white;background:#41B649;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:1000;easingin:easeOutQuint;rotatein:90;scalexin:0.5;scaleyin:0.5;offsetxout:0;durationout:750;rotateout:90;scalexout:0.5;scaleyout:0.5;">+</h5>
+							<h5 class="ls-l" style="top:165px;left:600px; font-weight: normal; text-align: center;width:50px;height:50px;font-size:50px;line-height:50px;color:white;background:#35459C;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:1500;easingin:easeOutQuint;rotatein:90;scalexin:0.5;scaleyin:0.5;offsetxout:0;durationout:750;rotateout:90;scalexout:0.5;scaleyout:0.5;">+</h5>
+							<h5 class="ls-l" style="top:225px;left:600px; font-weight: normal; text-align: center;width:50px;height:50px;font-size:50px;line-height:50px;color:white;background:#7952A1;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:2000;easingin:easeOutQuint;rotatein:90;scalexin:0.5;scaleyin:0.5;offsetxout:0;durationout:750;rotateout:90;scalexout:0.5;scaleyout:0.5;">+</h5>
+
+
+
+
+
 						</div>
 
 						<!-- SLIDE -->

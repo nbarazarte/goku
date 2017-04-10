@@ -4,32 +4,35 @@
 <!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
 	<head>
 		<meta charset="utf-8" />
-		<title>ilernus</title>
+		<title>iLernus</title>
 		<meta name="keywords" content="e-learning" />
 		<meta name="description" content="" />
-		<meta name="Author" content="" />
+		<meta name="Author" content="Neil Barazarte [www.neilbarazarte.com]" />
 
 		<!-- mobile settings -->
 		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
 		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 
 		<!-- WEB FONTS : use %7C instead of | (pipe) -->
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+		<!--
+		-->
+
+		{!! Html::style('smarty/assets/css/css.min.css') !!}
 
 		<!-- CORE CSS -->
 		{!! Html::style('smarty/assets/plugins/bootstrap/css/bootstrap.min.css') !!}
 
 		<!-- LAYER SLIDER -->
-		{!! Html::style('smarty/assets/plugins/slider.layerslider/css/layerslider.css') !!}
+		{!! Html::style('smarty/assets/plugins/slider.layerslider/css/layerslider.min.css') !!}
 
 		<!-- THEME CSS -->
-		{!! Html::style('smarty/assets/css/essentials.css') !!}
-		{!! Html::style('smarty/assets/css/layout.css') !!}
-		{!! Html::style('smarty/assets/css/customilernus.css') !!}
+		{!! Html::style('smarty/assets/css/essentials.min.css') !!}
+		{!! Html::style('smarty/assets/css/layout.min.css') !!}
+		{!! Html::style('smarty/assets/css/customilernus.min.css') !!}
 
 		<!-- PAGE LEVEL SCRIPTS -->
-		{!! Html::style('smarty/assets/css/header-1.css') !!}
-		{!! Html::style('smarty/assets/css/color_scheme/blue.css') !!}
+		{!! Html::style('smarty/assets/css/header-1.min.css') !!}
+		{!! Html::style('smarty/assets/css/color_scheme/blue.min.css') !!}
 
 
 
@@ -93,7 +96,7 @@
 				Example Usage:  class="clearfix sticky header-sm transparent noborder"
 			-->
 			<!-- <div id="header" class="sticky transparent clearfix"> -->
-			<div id="header" class="sticky shadow-after-3 clearfix">
+			<div id="header" class="sticky  clearfix"> <!-- shadow-after-3 -->
 
 				<!-- TOP NAV -->
 				<header id="topNav">
@@ -111,28 +114,25 @@
 
 
 						<div class="sticky-side sticky-side-left visible-md visible-lg">
-							<a href="#" class="social-icon social-icon-sm social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
+							<a href="https://www.facebook.com/ilernus/" target="_blank" class="social-icon social-icon-sm social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
 								<i class="fa fa-facebook"></i>
 								<i class="fa fa-facebook"></i>
 							</a>
-							<a href="#" class="social-icon social-icon-sm social-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+							<a href="https://twitter.com/ilernus" target="_blank" class="social-icon social-icon-sm social-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
 								<i class="fa fa-twitter"></i>
 								<i class="fa fa-twitter"></i>
 							</a>
-							<a href="#" class="social-icon social-icon-sm social-youtube" data-toggle="tooltip" data-placement="top" title="Youtube">
-								<i class="fa fa-youtube-play"></i>
-								<i class="fa fa-youtube-play"></i>
+							<a href="https://www.instagram.com/ilernus/" target="_blank" class="social-icon social-icon-sm social-instagram" style="background-color: #bc2a8d" data-toggle="tooltip" data-placement="top" title="Instagram">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+								<i class="fa fa-instagram" aria-hidden="true"></i>
 							</a>
-							<a href="#" class="social-icon social-icon-sm social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
+							<a href="https://www.linkedin.com/company/ilernus" target="_blank" class="social-icon social-icon-sm social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
 								<i class="fa fa-linkedin"></i>
 								<i class="fa fa-linkedin"></i>
 							</a>
 						</div>				
 
-
-
-
-
+						
 
 					</div>
 
@@ -144,49 +144,111 @@
   					@yield('content')
 
 
-			<!-- FOOTER -->
-			<footer id="footer">
+			<div class="callout alert alert-default noborder noradius nomargin">
 
-				<div class="copyright">
-					<div class="container">
+	<div class="text-center">
 
-						<div class="row">
-							<div class="col-md-2">
-								<b>Copyright &copy; <?=date('Y')?> iLernus</b>
-							</div>
+		<h3> <i class="fa fa-phone-square" aria-hidden="true"></i> Llamanos al  <strong>0800-ILERNUS</strong>!</h3>
+		<p class="font-lato size-20">
+			Estamos para brindarte la mejor atención y asesoría
+		</p>
+				
+	</div>
 
-							<div class="col-md-8">
+</div>
 
-							</div>
+<!-- FOOTER -->
+			<footer id="footer" >
+				<div class="container" >
 
-							<div class="col-md-2">
-								<a href="#" class="social-icon social-icon-sm social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
+					<div class="row" style="text-align: center;">
+						
+						<div class="col-md-5th">
+							<!-- Footer Logo -->
+							
+							<img src="{{ asset('smarty/assets/images/ilernus4_mini.png') }}" alt="logo ilernus" title="www.ilernus.com" />	
+
+							<!-- Small Description -->
+							<p>&copy; 2017 iLernus. Todos los derechos reservados.</p>
+
+
+						</div>
+
+						<div class="col-md-5th">
+
+							<!-- Links -->
+							<h4 class="letter-spacing-1">LABORAL</h4>
+							<ul class="footer-links list-unstyled">
+								<li><a href="#">Trabaja con nosotros</a></li>
+							</ul>
+							<!-- /Links -->
+
+						</div>
+
+						<div class="col-md-5th">
+
+							<!-- Links -->
+							<h4 class="letter-spacing-1">SOPORTE</h4>
+							<ul class="footer-links list-unstyled">
+								<li><a href="{{ route('faq')}}">Preguntas Frecuentes</a></li>
+								<li><a href="{{ route('mapa')}}">Mapa del Sitio</a></li>
+							</ul>
+							<!-- /Links -->
+
+						</div>
+
+						<div class="col-md-5th">
+								<a href="https://www.facebook.com/ilernus/" target="_blank" class="social-icon social-icon-sm social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
 									<i class="fa fa-facebook"></i>
 									<i class="fa fa-facebook"></i>
 								</a>
 
-								<a href="#" class="social-icon social-icon-sm social-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
+								<a href="https://twitter.com/ilernus" target="_blank" class="social-icon social-icon-sm social-twitter" data-toggle="tooltip" data-placement="top" title="Twitter">
 									<i class="fa fa-twitter"></i>
 									<i class="fa fa-twitter"></i>
 								</a>
 
-								<a href="#" class="social-icon social-icon-sm social-youtube" data-toggle="tooltip" data-placement="top" title="Youtube">
-									<i class="fa fa-youtube-play"></i>
-									<i class="fa fa-youtube-play"></i>
+								<a href="https://www.instagram.com/ilernus/" target="_blank" class="social-icon social-icon-sm social-instagram" style="background-color: #bc2a8d" data-toggle="tooltip" data-placement="top" title="Instagram">
+									<i class="fa fa-instagram" aria-hidden="true"></i>
+									<i class="fa fa-instagram" aria-hidden="true"></i>
 								</a>
 
-								<a href="#" class="social-icon social-icon-sm social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
+								<a href="https://www.linkedin.com/company/ilernus" target="_blank" class="social-icon social-icon-sm social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
 									<i class="fa fa-linkedin"></i>
 									<i class="fa fa-linkedin"></i>
-								</a>										
-							</div>
+								</a>
+
+						</div>
+
+						<div class="col-md-5th">
+							
+							<a href="http://www.monitorbg.com" target="_blank">
+							<img src="{{ asset('smarty/assets/images/bg.png') }}" alt="logo bg" title="www.monitorbg.com"/>	
+
+							<!-- Small Description -->
+							<p>Desarrollado por: B&G Technologies S.A. J-405498633</p>							
+							</a>
 						</div>
 
 
 					</div>
+
+				</div>
+
+				<div class="copyright">
+					<div class="container">
+						<ul class="pull-right nomargin list-inline mobile-block">
+							<li><a href="{{ route('terminos') }}">Términos del Servicio</a></li>
+							<li>&bull;</li>
+							<li><a href="{{ route('politicas')}}">Políticas de Privacidad</a></li>
+						</ul>
+						El nombre y logo de iLernus son marcas registradas.
+					</div>
 				</div>
 			</footer>
 			<!-- /FOOTER -->
+
+
 		</div>
 		<!-- /wrapper -->
 
@@ -206,15 +268,15 @@
 		<!-- JAVASCRIPT FILES -->
 		<script type="text/javascript">var plugin_path = 'smarty/assets/plugins/';</script>
 		{!! Html::script('smarty/assets/plugins/jquery/jquery-2.1.4.min.js') !!}
-		{!! Html::script('smarty/assets/js/scripts.js') !!}
+		{!! Html::script('smarty/assets/js/scripts.min.js') !!}
 		<!-- STYLESWITCHER - REMOVE -->
 
 		<!-- LAYER SLIDER -->
-		{!! Html::script('smarty/assets/plugins/slider.layerslider/js/layerslider_pack.js') !!}
-		{!! Html::script('smarty/assets/js/view/demo.layerslider_slider.js') !!}
+		{!! Html::script('smarty/assets/plugins/slider.layerslider/js/layerslider_pack.min.js') !!}
+		{!! Html::script('smarty/assets/js/view/demo.layerslider_slider.min.js') !!}
 
 		<!-- PAGELEVEL SCRIPTS -->
-		<script type="text/javascript" src="smarty/assets/js/contact.js"></script>
+		<!--<script type="text/javascript" src="smarty/assets/js/contact.js"></script>-->
 
 
 	</body>

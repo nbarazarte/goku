@@ -6,8 +6,8 @@
 				<div class="container">
 
 					<div class="text-center">
-						<h3 class="size-30">Nuestros Instructores</h3>
-						<p>En <strong style="color: #F47741; font-size: 20px">ilernus</strong> contamos con el más alto nivel de <em><b>excelencia</b></em></p>
+						<h3 class="size-30">Academia de Instructores</h3>
+						<p>En <strong style="color: #F47741; font-size: 20px">iLernus</strong> contamos con el más alto nivel de <em><b>excelencia</b></em></p>
 					</div>
 
 				</div>
@@ -102,7 +102,7 @@
 
 							      </div>
 							      <div class="modal-footer">
-							        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+							        <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
 							      </div>
 							    </div>
 							  </div>
@@ -117,37 +117,20 @@
 							<!-- IMAGE -->
 							<figure class="margin-bottom-20" style="text-align: center;">
 
-
-							@if( $instructor->str_sexo == 'm' )
-
 								<img class="img-responsive" src="{{ asset('smarty/assets/images/emblema.png') }}" alt="" style=" width: 100px">
-
-							@else
-
-								<img class="img-responsive" src="{{ asset('smarty/assets/images/emblema.png') }}" alt="" style=" width: 100px">
-
-
-							@endif
-
-								
 
 							</figure>
 
 							<h2 style="text-align: center;"><a href="blog-single-default.html">{{ $instructor->str_nombre }}</a></h2>
 
-
 							<p>
 								{{ $instructor->str_profesion}}
 							</p>
 
-							<a href="#" class="btn btn-reveal btn-default" data-toggle="modal" data-target="#myModal{{$x}}">
+							<a href="#" style="color: #ffffff; font-weight: bold;" class="btn btn-reveal btn-warning" data-toggle="modal" data-target="#myModal{{$x}}">
 								<i class="fa fa-plus"></i>
 								<span>Ver más</span>
 							</a>
-
-
-
-
 
 
 						</div>

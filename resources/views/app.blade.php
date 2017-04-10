@@ -4,7 +4,7 @@
 <!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
 	<head>
 		<meta charset="utf-8" />
-		<title>ilernus</title>
+		<title>iLernus</title>
 		<meta name="keywords" content="e-learning" />
 		<meta name="description" content="" />
 		<meta name="Author" content="Neil Barazarte [www.neilbarazarte.com]" />
@@ -144,22 +144,60 @@
   					@yield('content')
 
 
-			<!-- FOOTER -->
-			<footer id="footer">
+			<div class="callout alert alert-default noborder noradius nomargin">
 
-				<div class="copyright">
-					<div class="container">
+	<div class="text-center">
 
-						<div class="row">
-							<div class="col-md-2">
-								<b>Copyright &copy; <?=date('Y')?> iLernus</b>
-							</div>
+		<h3> <i class="fa fa-phone-square" aria-hidden="true"></i> Llamanos al  <strong>0800-ILERNUS</strong>!</h3>
+		<p class="font-lato size-20">
+			Estamos para brindarte la mejor atención y asesoría
+		</p>
+				
+	</div>
 
-							<div class="col-md-8">
+</div>
 
-							</div>
+<!-- FOOTER -->
+			<footer id="footer" >
+				<div class="container" >
 
-							<div class="col-md-2">
+					<div class="row" style="text-align: center;">
+						
+						<div class="col-md-5th">
+							<!-- Footer Logo -->
+							
+							<img src="{{ asset('smarty/assets/images/ilernus4_mini.png') }}" alt="logo ilernus" title="www.ilernus.com" />	
+
+							<!-- Small Description -->
+							<p>&copy; 2017 iLernus. Todos los derechos reservados.</p>
+
+
+						</div>
+
+						<div class="col-md-5th">
+
+							<!-- Links -->
+							<h4 class="letter-spacing-1">LABORAL</h4>
+							<ul class="footer-links list-unstyled">
+								<li><a href="#">Trabaja con nosotros</a></li>
+							</ul>
+							<!-- /Links -->
+
+						</div>
+
+						<div class="col-md-5th">
+
+							<!-- Links -->
+							<h4 class="letter-spacing-1">SOPORTE</h4>
+							<ul class="footer-links list-unstyled">
+								<li><a href="{{ route('faq')}}">Preguntas Frecuentes</a></li>
+								<li><a href="{{ route('mapa')}}">Mapa del Sitio</a></li>
+							</ul>
+							<!-- /Links -->
+
+						</div>
+
+						<div class="col-md-5th">
 								<a href="https://www.facebook.com/ilernus/" target="_blank" class="social-icon social-icon-sm social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
 									<i class="fa fa-facebook"></i>
 									<i class="fa fa-facebook"></i>
@@ -178,15 +216,39 @@
 								<a href="https://www.linkedin.com/company/ilernus" target="_blank" class="social-icon social-icon-sm social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
 									<i class="fa fa-linkedin"></i>
 									<i class="fa fa-linkedin"></i>
-								</a>										
-							</div>
+								</a>
+
+						</div>
+
+						<div class="col-md-5th">
+							
+							<a href="http://www.monitorbg.com" target="_blank">
+							<img src="{{ asset('smarty/assets/images/bg.png') }}" alt="logo bg" title="www.monitorbg.com"/>	
+
+							<!-- Small Description -->
+							<p>Desarrollado por: B&G Technologies S.A. J-405498633</p>							
+							</a>
 						</div>
 
 
 					</div>
+
+				</div>
+
+				<div class="copyright">
+					<div class="container">
+						<ul class="pull-right nomargin list-inline mobile-block">
+							<li><a href="{{ route('terminos') }}">Términos del Servicio</a></li>
+							<li>&bull;</li>
+							<li><a href="{{ route('politicas')}}">Políticas de Privacidad</a></li>
+						</ul>
+						El nombre y logo de iLernus son marcas registradas.
+					</div>
 				</div>
 			</footer>
 			<!-- /FOOTER -->
+
+
 		</div>
 		<!-- /wrapper -->
 

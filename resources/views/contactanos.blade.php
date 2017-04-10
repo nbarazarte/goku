@@ -7,7 +7,7 @@
 
 					<div class="text-center">
 						<h3 class="size-30">Contáctanos</h3>
-						<p>En <strong style="color: #F47741; font-size: 20px">ilernus,</strong> nos adaptamos a <em><b>ti</b></em></p>
+						<p>En <strong style="color: #F47741; font-size: 20px">iLernus,</strong> nos adaptamos a <em><b>ti</b></em></p>
 					</div>
 
 				</div>
@@ -51,6 +51,8 @@
 				</div>
 
 			</div>
+
+
 
 			<section>
 				<div class="container">		
@@ -161,7 +163,7 @@
 						<!-- INFO -->
 						<div class="col-md-4 col-sm-4">
 
-							<h2><strong style="color: #F47741"><em>¡Visitanos!</em></strong></h2>
+							<h2><strong style="color: #F47741"><em>¡Visítanos!</em></strong></h2>
 
 							<!-- 
 							Available heights

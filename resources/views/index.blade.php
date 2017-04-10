@@ -87,7 +87,7 @@
 				<div class="container">
 
 					<header class="text-center margin-bottom-60">
-						<h2>¿Qué es ilernus?</h2>
+						<h2>¿Qué es iLernus?</h2>
 						<p class="lead font-lato margin-bottom-60">
 							La mejor solución que ofrece la más alta calidad en <strong style="color: #35459C">contenidos y metodología instruccional e-learning,</strong> soluciones de gestión de aprendizaje en línea y virtualización de contenidos especializados en una plataforma que permite planificar, gestionar, preservar y monitorear el proceso de formación y desarrollo profesional de tus colaboradores.
 						</p>
@@ -110,7 +110,7 @@
 
 					<div class="text-center">
 						<h3 class="size-30">¿Por qué elegirnos?</h3>
-						<p>En <strong style="color: #F47741; font-size: 20px">ilernus</strong> queremos brindarte lo <em><b>mejor</b></em></p>
+						<p>En <strong style="color: #F47741; font-size: 20px">iLernus</strong> queremos brindarte lo <em><b>mejor</b></em></p>
 					</div>
 
 				</div>
@@ -133,7 +133,7 @@
 							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-segumiento"></i>
-									<h2>Revisar</h2>
+									<h2>Revisa</h2>
 								</a>
 								<p style="font-size: 13px; text-align: center;">Seguimiento y gestión del desarrollo <br>profesional de los colaboradores.</p>
 
@@ -146,7 +146,7 @@
 							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-gestiona"></i>
-									<h2>Gestionar</h2>
+									<h2>Gestiona</h2>
 								</a>
 								<p style="font-size: 13px; text-align: center;">Gestiona, preserva y transmite <br>el know how de tu organización.</p>
 							</div>
@@ -158,7 +158,7 @@
 							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-consolida"></i>
-									<h2>Consolidar</h2>
+									<h2>Consolida</h2>
 								</a>
 								<p style="font-size: 13px; text-align: center;">Consolida y simplifica la información <br>de tus colaboradores.</p>
 							</div>
@@ -170,7 +170,7 @@
 							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-formacin"></i>
-									<h2>Formar</h2>
+									<h2>Forma</h2>
 								</a>
 								<p style="font-size: 13px; text-align: center;">Formación 100% en línea, <br>cuando y donde quieras.</p>
 							</div>
@@ -182,7 +182,7 @@
 							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-estadisticas"></i>
-									<h2>Proveer</h2>
+									<h2>Provee</h2>
 								</a>
 								<p style="font-size: 13px; text-align: center;">Provee estadísticas <br>y resultados medibles.</p>
 							</div>
@@ -194,7 +194,7 @@
 							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-creamos"></i>
-									<h2>Desarrollar</h2>
+									<h2>Desarrolla</h2>
 								</a>
 								<p style="font-size: 13px; text-align: center;">Creamos tu biblioteca privada <br>desarrollando contenidos a la medida.</p>
 							</div>
@@ -206,7 +206,7 @@
 							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-biblioteca"></i>
-									<h2>Desplegar</h2>
+									<h2>Dispone</h2>
 								</a>
 								<p style="font-size: 13px; text-align: center;">Biblioteca pública con <br>gran variedad de cursos.</p>
 							</div>
@@ -218,7 +218,7 @@
 							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-captacion"></i>
-									<h2>Capacitar</h2>
+									<h2>Capacita</h2>
 								</a>
 								<p style="font-size: 13px; text-align: center;">Capacitación basada en competencias, <br>con instructores de alto nivel.</p>
 							</div>
@@ -257,7 +257,7 @@
 							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-apalanca"></i>
-									<h2>Apalancar</h2>
+									<h2>Apalanca</h2>
 								</a>
 								<p style="font-size: 13px; text-align: center;">Apalanca la estrategia de <br>retención del talento.</p>
 							</div>
@@ -269,7 +269,7 @@
 							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-gestion"></i>
-									<h2>Facilitar</h2>
+									<h2>Facilita</h2>
 								</a>
 								<p style="font-size: 13px; text-align: center;">Facilita la gestión de formación <bR>y entrenamiento.</p>
 							</div>
@@ -281,7 +281,7 @@
 							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-tiempo"></i>
-									<h2>Ahorrar</h2>
+									<h2>Ahorra</h2>
 								</a>
 								<p style="font-size: 13px; text-align: center;">Ahorra tiempo y recursos.</p>
 							</div>
@@ -293,7 +293,7 @@
 							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-refuerza"></i>
-									<h2>Reforzar</h2>
+									<h2>Refuerza</h2>
 								</a>
 								<p style="font-size: 13px; text-align: center;">Refuerza el proceso de gerencia y preservación del conocimiento.</p>
 							</div>
@@ -305,9 +305,9 @@
 							<div class="box-icon box-icon-center box-icon-color box-icon-round box-icon-transparent box-icon-large">
 								<a class="box-icon-title">
 									<i class="icon icon-herramientas"></i>
-									<h2>Emplear</h2>
+									<h2>Aporta</h2>
 								</a>
-								<p style="font-size: 13px; text-align: center;">Cuenta con funciones y <br>herramientas orientadas <br>al aprendizaje y a la productividad</p>
+								<p style="font-size: 13px; text-align: center;"> Funciones y herramientas orientadas <br>al aprendizaje y a la productividad</p>
 							</div>
 
 						</div>								
@@ -377,7 +377,7 @@
 
 					<div class="text-center">
 						<h3 class="size-30">Conócenos</h3>
-						<p>En <strong style="color: #F47741; font-size: 20px">ilernus</strong> ofrecemos la más alta calidad en contenidos y metodología para el <em><b>e-learning</b></em></p>
+						<p>En <strong style="color: #F47741; font-size: 20px">iLernus</strong> ofrecemos la más alta calidad en contenidos y metodología para el <em><b>e-learning</b></em></p>
 					</div>
 
 				</div>
@@ -458,7 +458,7 @@
 
 					<br>
 
-					<a href="#" class="btn btn-reveal btn-warning" data-toggle="modal" data-target="#myModal{{$x}}">
+					<a href="#" style="color: #ffffff; font-weight: bold;" class="btn btn-reveal btn-warning" data-toggle="modal" data-target="#myModal{{$x}}">
 						<i class="fa fa-plus"></i>
 						<span>Ver más</span>
 					</a>
@@ -545,7 +545,7 @@
 
 					<p style="font-size: 11px"> {{ $gerente->str_cv_corto }}</p>
 
-					<a href="#" class="btn btn-reveal btn-warning" data-toggle="modal" data-target="#myModalGerente{{$x}}">
+					<a href="#" style="color: #ffffff; font-weight: bold;" class="btn btn-reveal btn-warning" data-toggle="modal" data-target="#myModalGerente{{$x}}">
 						<i class="fa fa-plus"></i>
 						<span>Ver más</span>
 					</a>
@@ -576,7 +576,7 @@
 
 					<div class="text-center">
 						<h3 class="size-30">Soluciones</h3>
-						<p><em><b>Únete</b></em> a nosotros en <strong style="color: #F47741; font-size: 20px">ilernus</strong> estamos comprometidos con tu crecimiento</p>
+						<p><em><b>Únete</b></em> a nosotros en <strong style="color: #F47741; font-size: 20px">iLernus</strong> estamos comprometidos con tu crecimiento</p>
 					</div>
 
 				</div>
@@ -596,7 +596,7 @@
 							<div class="heading-title heading-border-bottom heading-color">
 								<h3>
 									<img class="pull-center img-responsive wow fadeInLeft" data-wow-delay="0.4s" src="{{ asset('smarty/assets/images/demo/layerslider/emblema.png') }}" style="width: 10%" alt="" />
-									<em><strong style="color: #35459C; font-size: 25px">iLernus University</strong></em>
+									<strong style="color: #35459C; font-size: 25px">iLernus University</strong>
 								</h3>
 
 							</div>
@@ -609,7 +609,7 @@
 							<div class="heading-title heading-border-bottom heading-color">
 								<h3>
 									<img class="pull-center img-responsive wow fadeInLeft" data-wow-delay="0.4s" src="{{ asset('smarty/assets/images/demo/layerslider/emblema.png') }}" style="width: 10%" alt="" />
-									<em><strong style="color: #35459C; font-size: 25px">iLernus Producciones</strong></em>
+									<strong style="color: #35459C; font-size: 25px">iLernus Producciones</strong>
 								</h3>
 							</div>
 							<p style="text-align: justify;">Ofrece la concepción, desarrollo y producción de <strong style="color: #F47741">servicios instruccionales y audiovisuales</strong> con fines educativos, diseñándolos a la medida de su empresa bajo altos estándares de calidad.</p>
@@ -620,7 +620,7 @@
 							<div class="heading-title heading-border-bottom heading-color">
 								<h3>
 									<img class="pull-center img-responsive wow fadeInLeft" data-wow-delay="0.4s" src="{{ asset('smarty/assets/images/demo/layerslider/emblema.png') }}" style="width: 10%" alt="" />
-									<em><strong style="color: #35459C; font-size: 25px">iLernus Academia</strong></em>
+									<strong style="color: #35459C; font-size: 25px">iLernus Academia</strong>
 								</h3>
 							</div>
 							<p style="text-align: justify;">Brinda <strong style="color: #F47741">soluciones educativas presenciales</strong> in company o en nuestras instalaciones, con un equipo de la más alta talla que diseñan una estratégica de formación a su medida.</p>
@@ -631,9 +631,31 @@
 
 					</div>
 
+<!-- 
+
+FULLWIDTH: OUTSIDE OF <section> 
+
+	Available Classes:
+	alert-default
+	alert-info
+	alert-warning
+	alert-danger
+	alert-success
+	alert-dark
+-->
+
 
 
 </div>
+
+
+
+
+
+
+
+
+
 </section>
 
 
@@ -697,7 +719,7 @@
 
 							      </div>
 							      <div class="modal-footer">
-							        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+							        <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
 							      </div>
 							    </div>
 							  </div>
@@ -713,8 +735,7 @@
 	
 											<span class="inner">
 											<h3 style="color: #ffffff; font-size: 18px">
-													{!! str_replace("-"," ",$curso->str_titulocorto) !!}
-													<br><br>
+		
 												<!--
 												<!-- lightbox - ->
 												<a class="ico-rounded lightbox" href="" data-plugin-options='{"type":"image"}'>
@@ -729,10 +750,10 @@
 													</a>
 												-->
 
-													<!-- Button trigger modal -->
-													<button type="button" class="btn btn-sm" style="background-color: {{ $curso->str_color }}" data-toggle="modal" data-target="#myModalCursos{{$x}}">
-													  <i class="fa fa-search"></i> <b>Ver</b>
-													</button>
+													<a href="#" style="color: #ffffff; font-weight: bold;" class="btn btn-reveal btn-warning" data-toggle="modal" data-target="#myModalCursos{{$x}}">
+														<i class="fa fa-plus"></i>
+														<span >Ver más</span>
+													</a>
 
 												</h3>
 
@@ -741,9 +762,6 @@
 
 										<img class="img-responsive" src="{{ asset('smarty/assets/images/cursosilernus/'.$curso->str_imagen) }}" width="600" height="399" alt="">
 
-										<h3><span style="color: #ffffff">
-											<img class="pull-center img-responsive" src="{{ asset('smarty/assets/images/demo/layerslider/emblema.png') }}" style="width: 6%" alt="" />
-										{{ $curso->str_categoria }}</span></h3>
 									</figure>
 
 									<div class="item-box-desc">

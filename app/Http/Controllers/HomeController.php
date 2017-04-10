@@ -81,7 +81,69 @@ class HomeController extends Controller
 
         return \View::make('contactanos');
         
-    }    
+    }  
+
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function terminos()
+    {
+
+        return \View::make('terminos');
+        
+    }  
+
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function politicas()
+    {
+
+        return \View::make('politicas');
+        
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function faq()
+    {
+
+        return \View::make('faq');
+        
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function mapa()
+    {
+
+        return \View::make('mapa');
+        
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function trabaja()
+    {
+
+        return \View::make('trabaja');
+        
+    }                      
 
 
     public function enviar()

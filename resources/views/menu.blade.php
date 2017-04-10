@@ -20,13 +20,13 @@
 											@if(Route::current()->getName() == 'home')
 
 												<a href="#slider">
-													Inicio
+													ILernus
 												</a>
 
-											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog'))
+											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa'))
 
 												<a href="{{ route('home') }}">
-													Ilernus
+													ILernus
 												</a>
 
 											@endif
@@ -40,7 +40,7 @@
 													Conócenos
 												</a>
 
-											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog'))
+											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa'))
 
 												<a href="http://localhost:8000#conocenos">
 													Conócenos
@@ -57,7 +57,7 @@
 													Soluciones
 												</a>
 
-											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog'))
+											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa'))
 
 												<a href="http://localhost:8000#soluciones">
 													Soluciones
@@ -68,7 +68,7 @@
 										</li>
 										<li><!--  -->
 											<a href="{{ route('instructores')}}">
-												Instructores
+												Academia de Instructores
 											</a>
 										</li>
 
@@ -88,7 +88,7 @@
 													Testimonios
 												</a>
 
-											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') ||  (Route::current()->getName() == 'blog'))
+											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa'))
 
 												<a href="http://localhost:8000#testimonios">
 													Testimonios
