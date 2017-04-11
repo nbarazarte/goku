@@ -4,21 +4,17 @@
 				<div class="copyright">
 					<div class="container">
 						<ul class="pull-right nomargin list-inline mobile-block">
-							<li>
-								<!-- Small Description -->
-								<p>Desarrollado por: <br>B&G Technologies S.A. J-405498633</p>		
-							</li>
-					
+
 							<li>
 								
 								<a href="http://www.monitorbg.com" target="_blank">
-									<img src="{{ asset('smarty/assets/images/bg2.png') }}" alt="logo bg" title="www.monitorbg.com"/>						
+									<img src="{{ asset('smarty/assets/images/bg2.png') }}" alt="logo bg" title="www.monitorbg.com"/>
+									<p>Desarrollado por: <br>B&G Technologies S.A. J-405498633</p>							
 								</a>
 
 							</li>
 
 							<li>
-
 
 								<a href="https://www.facebook.com/ilernus/" target="_blank" class="social-icon social-icon-sm social-facebook" data-toggle="tooltip" data-placement="top" title="Facebook">
 									<i class="fa fa-facebook"></i>
@@ -40,39 +36,22 @@
 									<i class="fa fa-linkedin"></i>
 								</a>
 
-
-							
 							</li>
-
 
 						</ul>
 
-
 						<ul class="pull-left nomargin list-inline mobile-block">
 
-					
 							<li>
 								
 								<a href="http://www.ilernus.com" target="_blank">
-									<img src="{{ asset('smarty/assets/images/ilernus4_mini2.png') }}" alt="logo ilernus" title="www.ilernus.com" />							
+									<img src="{{ asset('smarty/assets/images/ilernus4_mini2.png') }}" alt="logo ilernus" title="www.ilernus.com" />				<p>&copy; 2017 iLernus. Todos los derechos reservados. <br>El nombre y logo de iLernus son marcas registradas.</p>	
 								</a>
 
 							</li>
 
-
-							<li>
-								<!-- Small Description -->
-								<p>&copy; 2017 iLernus. Todos los derechos reservados. <br>El nombre y logo de iLernus son marcas registradas.</p>	
-							</li>
-
 						</ul>
 
-
-							
-							<!-- Small Description -->
-							
-
-						
 					</div>
 				</div>
 			</footer>
