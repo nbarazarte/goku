@@ -322,6 +322,8 @@
 				<div class="container">
 
 					<!-- Counters -->
+
+					<!--
 					<div class="row countTo-sm text-center">
 
 						<div class="col-xs-6 col-sm-3 col-xs-6" style="cursor: pointer;" title="Instructores de ilernus">
@@ -365,7 +367,59 @@
 						</div>
 
 					</div>
+
+					-->
 					<!-- /Counters -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 				</div>
 

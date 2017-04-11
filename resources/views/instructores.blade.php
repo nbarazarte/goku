@@ -39,32 +39,41 @@
 <div class="text-center">
 	<div class="owl-carousel nomargin" data-plugin-options='{"singleItem": false, "autoPlay": true}'>
 		<div>
-			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/brands/universidades/1.png') }}" alt="">
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/1.png') }}" alt="Universidad Metropolitana" title="Universidad Metropolitana">
 		</div>
 		<div>
-			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/brands/universidades/2.png') }}" alt="">
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/2.png') }}" alt="Universidad Central de Venezuela" title="Universidad Central de Venezuela">
 		</div>
 		<div>
-			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/brands/universidades/3.png') }}" alt="">
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/3.png') }}" alt="Universidad Simón Bolívar" title="Universidad Simón Bolívar">
 		</div>
 		<div>
-			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/brands/universidades/1.png') }}" alt="">
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/4.png') }}" alt="Universidad de Valencia España"" title="Universidad de Valencia España">
 		</div>
 		<div>
-			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/brands/universidades/2.png') }}" alt="">
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/5.png') }}" alt="Universidad de Almería España" title="Universidad de Almería España">
 		</div>
 		<div>
-			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/brands/universidades/3.png') }}" alt="">
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/6.png') }}" alt="Universidad Complutense de Madrid" title="Universidad Complutense de Madrid">
 		</div>
 		<div>
-			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/brands/universidades/1.png') }}" alt="">
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/1.png') }}" alt="Universidad Metropolitana" title="Universidad Metropolitana">
 		</div>
 		<div>
-			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/brands/universidades/2.png') }}" alt="">
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/2.png') }}" alt="Universidad Central de Venezuela" title="Universidad Central de Venezuela">
 		</div>
 		<div>
-			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/brands/universidades/3.png') }}" alt="">
-		</div>		
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/3.png') }}" alt="Universidad Simón Bolívar" title="Universidad Simón Bolívar">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/4.png') }}" alt="Universidad de Valencia España"" title="Universidad de Valencia España">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/5.png') }}" alt="Universidad de Almería España" title="Universidad de Almería España">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/6.png') }}" alt="Universidad Complutense de Madrid" title="Universidad Complutense de Madrid">
+		</div>
 
 
 	</div>
