@@ -67,10 +67,7 @@
 						<!-- SLIDE -->
 						<div class="ls-slide" data-ls="slidedelay:8000;transition2d:all;transition3d:36;timeshift:-1000;">
 
-							<img src="smarty/assets/images/1x1.png" data-src="smarty/assets/images/demo/layerslider/Depositphotos_36252879_original.jpg" class="ls-bg" alt="Slide background" />
-
-
-							<img class="ls-l" style="top:-201px;left:70px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;delayin:500;fadein:false;offsetxout:right;durationout:1000;fadeout:false;" src="smarty/assets/images/1x1.png" data-src="smarty/assets/images/caption_bg.png" alt="">
+							<img src="smarty/assets/images/1x1.png" data-src="smarty/assets/images/demo/layerslider/slide-corporate-3.jpg" class="ls-bg" alt="Slide background" />
 
 							<p class="ls-l" style="top:48px;left:100px;color: #fff; text-shadow: none; font-weight: 300;height:40px;font-size: 30px; line-height: 34px; padding: 0px 10px; padding-top: 1px; margin: 0px; border-width: 0px; border-style: none; background-color:#35459C; white-space: nowrap;" data-ls="offsetxin:0;durationin:800;delayin:500;rotatein:30;scalexin:0.2;scaleyin:0.2;offsetxout:0;offsetyout:top;durationout:1000;fadeout:false;rotateout:30;scalexout:0.2;scaleyout:0.2;">NUESTROS INSTRUCTORES</p>
 
@@ -84,6 +81,8 @@
 
 							<h5 class="ls-l" style="top:350px;left:150px; font-weight: bold;font-size:24px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:0;delayin:3300;easingin:easeOutQuint;scalexin:0.8;scaleyin:0.8;offsetxout:0;durationout:750;scalexout:0.8;scaleyout:0.8;">Formados en las más prestigiosas <br> universidades</h5>
 
+
+
 							<h5 class="ls-l" style="top:165px;left: 80px; font-weight: bold; text-align: center;width:50px;height:50px;font-size:25px;line-height:50px;color:white;background:#F47741;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:1500;easingin:easeOutQuint;rotatein:90;scalexin:0.5;scaleyin:0.5;offsetxout:0;durationout:750;rotateout:90;scalexout:0.5;scaleyout:0.5;"><i class="fa fa-check" aria-hidden="true"></i></h5>
 
 							<h5 class="ls-l" style="top:225px;left:80px; font-weight: bold; text-align: center;width:50px;height:50px;font-size:25px;line-height:50px;color:white;background:#41B649;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:2000;easingin:easeOutQuint;rotatein:90;scalexin:0.5;scaleyin:0.5;offsetxout:0;durationout:750;rotateout:90;scalexout:0.5;scaleyout:0.5;"><i class="fa fa-check" aria-hidden="true"></i></h5>
@@ -94,40 +93,17 @@
 
 
 
+							<img class="ls-l" style="top:20px;left:1000px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;easingin:easeOutElastic;fadein:false;offsetxout:right;durationout:5500;showuntil:1;easingout:easeInBack;fadeout:false;" src="smarty/assets/images/demo/logos/1.png" alt="">
 
+							<img class="ls-l" style="top:213px;left:620px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:50;easingin:easeOutElastic;fadein:false;offsetxout:right;durationout:5500;showuntil:700;easingout:easeInBack;fadeout:false;" src="smarty/assets/images/demo/logos/2.png" alt="">
 
+							<img class="ls-l" style="top:199px;left:920px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:100;easingin:easeOutElastic;fadein:false;offsetxout:left;durationout:5500;showuntil:400;easingout:easeInBack;fadeout:false;" src="smarty/assets/images/demo/logos/3.png" alt="">
 
-
-
-							<img class="ls-l" style="top:20px;left:1000px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;easingin:easeOutElastic;fadein:false;offsetxout:right;durationout:3500;showuntil:1;easingout:easeInBack;fadeout:false;" src="smarty/assets/images/demo/logos/1.png" alt="Cube">
-
-							<img class="ls-l" style="top:153px;left:600px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:50;easingin:easeOutElastic;fadein:false;offsetxout:right;durationout:3500;showuntil:700;easingout:easeInBack;fadeout:false;" src="smarty/assets/images/demo/logos/2.png" alt="Cube">
-
-							<img class="ls-l" style="top:276px;left:700px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:100;easingin:easeOutElastic;fadein:false;offsetxout:left;durationout:3500;showuntil:400;easingout:easeInBack;fadeout:false;" src="smarty/assets/images/demo/logos/3.png" alt="Cube">
-
-							<img class="ls-l" style="top:199px;left:1000px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:50;easingin:easeOutElastic;fadein:false;offsetxout:left;durationout:3500;showuntil:950;easingout:easeInBack;fadeout:false;" src="smarty/assets/images/demo/logos/4.png" alt="Cube">
+							<img class="ls-l" style="top:37px;left:600px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:50;easingin:easeOutElastic;fadein:false;offsetxout:left;durationout:5500;showuntil:950;easingout:easeInBack;fadeout:false;" src="smarty/assets/images/demo/logos/4.png" alt="">
 							
-							<img class="ls-l" style="top:37px;left:600px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;easingin:easeOutElastic;fadein:false;offsetxout:left;durationout:3500;showuntil:250;easingout:easeInBack;fadeout:false;" src="smarty/assets/images/demo/logos/5.png" alt="Cube">
+							<img class="ls-l" style="top:390px;left:710px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;easingin:easeOutElastic;fadein:false;offsetxout:left;durationout:5500;showuntil:250;easingout:easeInBack;fadeout:false;" src="smarty/assets/images/demo/logos/5.png" alt="">
 
-							<img class="ls-l" style="top:390px;left:650px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:50;easingin:easeOutElastic;fadein:false;offsetxout:right;durationout:3500;showuntil:100;easingout:easeInBack;fadeout:false;" src="smarty/assets/images/demo/logos/6.png" alt="Cube">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+							<img class="ls-l" style="top:180px;left:820px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:50;easingin:easeOutElastic;fadein:false;offsetxout:right;durationout:5500;showuntil:100;easingout:easeInBack;fadeout:false;" src="smarty/assets/images/demo/logos/6.png" alt="">
 
 						</div>
 
