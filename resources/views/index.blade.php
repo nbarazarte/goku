@@ -304,10 +304,12 @@
 
 
 			<!-- PARALLAX -->
-			<section class="parallax parallax-2" style="background-image: url('smarty/assets/images/demo/1200x800/35.jpg');">
-				<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
 
-				<div class="container">
+			<!--
+			<section class="parallax parallax-2" style="background-image: url('smarty/assets/images/demo/1200x800/35.jpg');">
+				<div class="overlay dark-5">--><!-- dark overlay [1 to 9 opacity] --><!--</div>-->
+
+				<!--<div class="container">-->
 
 					<!-- Counters -->
 
@@ -359,10 +361,10 @@
 					-->
 					<!-- /Counters -->
 
-
+<!--
 				</div>
 
-			</section>
+			</section>-->
 			<!-- /PARALLAX -->
 
 			<section id="conocenos" class="callout-dark heading-title heading-arrow-bottom" style="">
