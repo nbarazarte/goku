@@ -5,7 +5,7 @@
 							<img src="smarty/assets/images/demo/layerslider/education-2.jpg" class="ls-bg" alt="Slide background"/>
 
 							<p class="ls-l" style="top:44%;left:50%;font-weight: 300;font-size:30px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:50;durationin:750;easingin:easeOutBack;skewxin:-50;offsetxout:-50;durationout:600;showuntil:500;easingout:easeInBack;skewxout:50;">
-								<b>bienvenidos a</b>
+								<b>Bienvenidos a</b>
 							</p>
 							<p class="ls-l" style="top:52%;left:50%;font-weight: 300;font-size:50px;color:#ffffff;white-space: nowrap;" data-ls="offsetxin:-100;durationin:750;delayin:250;easingin:easeOutBack;skewxin:-50;offsetxout:100;durationout:600;showuntil:500;easingout:easeInBack;skewxout:50;">
 								<b>iLernus</b>
@@ -91,19 +91,6 @@
 
 							<h5 class="ls-l" style="top:345px;left:80px; font-weight: bold; text-align: center;width:50px;height:50px;font-size:25px;line-height:50px;color:white;background:#7952A1;border-radius:100px;white-space: nowrap;" data-ls="offsetxin:0;durationin:750;delayin:3000;easingin:easeOutQuint;rotatein:90;scalexin:0.5;scaleyin:0.5;offsetxout:0;durationout:750;rotateout:90;scalexout:0.5;scaleyout:0.5;"><i class="fa fa-check" aria-hidden="true"></i></h5>
 
-
-
-							<img class="ls-l" style="top:20px;left:1000px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;easingin:easeOutElastic;fadein:false;offsetxout:right;durationout:5500;showuntil:1;easingout:easeInBack;fadeout:false;" src="smarty/assets/images/demo/logos/1.png" alt="">
-
-							<img class="ls-l" style="top:213px;left:620px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:50;easingin:easeOutElastic;fadein:false;offsetxout:right;durationout:5500;showuntil:700;easingout:easeInBack;fadeout:false;" src="smarty/assets/images/demo/logos/2.png" alt="">
-
-							<img class="ls-l" style="top:199px;left:920px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:100;easingin:easeOutElastic;fadein:false;offsetxout:left;durationout:5500;showuntil:400;easingout:easeInBack;fadeout:false;" src="smarty/assets/images/demo/logos/3.png" alt="">
-
-							<img class="ls-l" style="top:37px;left:600px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:50;easingin:easeOutElastic;fadein:false;offsetxout:left;durationout:5500;showuntil:950;easingout:easeInBack;fadeout:false;" src="smarty/assets/images/demo/logos/4.png" alt="">
-							
-							<img class="ls-l" style="top:390px;left:710px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;easingin:easeOutElastic;fadein:false;offsetxout:left;durationout:5500;showuntil:250;easingout:easeInBack;fadeout:false;" src="smarty/assets/images/demo/logos/5.png" alt="">
-
-							<img class="ls-l" style="top:180px;left:820px;white-space: nowrap;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:50;easingin:easeOutElastic;fadein:false;offsetxout:right;durationout:5500;showuntil:100;easingout:easeInBack;fadeout:false;" src="smarty/assets/images/demo/logos/6.png" alt="">
 
 						</div>
 

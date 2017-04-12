@@ -303,68 +303,77 @@
 				</div>	
 
 
-			<!-- PARALLAX -->
+			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
 
-			<!--
-			<section class="parallax parallax-2" style="background-image: url('smarty/assets/images/demo/1200x800/35.jpg');">
-				<div class="overlay dark-5">--><!-- dark overlay [1 to 9 opacity] --><!--</div>-->
+				<div class="text-center">
 
-				<!--<div class="container">-->
+					<h3 style="color: #ffffff">Instructores formados en las más prestigiosas universidades</h3>
 
-					<!-- Counters -->
-
-					<!--
-					<div class="row countTo-sm text-center">
-
-						<div class="col-xs-6 col-sm-3 col-xs-6" style="cursor: pointer;" title="Instructores de ilernus">
-							
-
-							<a href="{{ route('instructores') }}" target="_blank">
-
-								<i class="fa fa-users" style="font-size: 50px" aria-hidden="true"></i>
-								<div class="block size-50" style="color: #F47741;">
-									<strong class="countTo size-50" data-speed="3000">18</strong>
-								</div>
-								<h3 class="size-15 margin-top-10 margin-bottom-0">INSTRUCTORES</h3>
-
-							</a>
-
-
-						</div>
-
-						<div class="col-xs-6 col-sm-3 col-xs-6">
-							<i class="fa fa-graduation-cap" style="font-size: 50px" aria-hidden="true"></i>
-							<div class="block size-50" style="color: #41B649;">
-								<strong class="countTo size-50" data-speed="3000">100</strong>
-							</div>
-							<h3 class="size-15 margin-top-10 margin-bottom-0">CURSOS E-LEARNING IMPARTIDOS</h3>
-						</div>
-
-						<div class="col-xs-6 col-sm-3 col-xs-6">
-							<i class="fa fa-laptop" style="font-size: 50px" aria-hidden="true"></i>
-							<div class="block size-50" style="color: #35459C;">
-								<strong class="countTo size-50" data-speed="3000">30</strong>
-							</div>
-							<h3 class="size-15 margin-top-10 margin-bottom-0">PROYECTOS Y CONTENIDOS VIRTUALIZADOS</h3>
-						</div>
-
-						<div class="col-xs-6 col-sm-3 col-xs-6">
-							<i class="fa fa-smile-o" style="font-size: 50px" aria-hidden="true"></i>
-							<div class="block size-50" style="color: #7952A1;">
-								<strong class="countTo size-50" data-speed="3000">3</strong>
-							</div>
-							<h3 class="size-15 margin-top-10 margin-bottom-0">CLIENTES FELICES</h3>
-						</div>
-
-					</div>
-
-					-->
-					<!-- /Counters -->
-
-<!--
 				</div>
 
-			</section>-->
+			</div>		
+
+			<!-- PARALLAX -->
+
+			
+			<section class="parallax parallax-2" style="background-image: url('smarty/assets/images/demo/cubes-blur.jpg');">
+				<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
+
+				<div class="container">
+
+					<!-- 
+	controlls-over		= navigation buttons over the image 
+	buttons-autohide 	= navigation buttons visible on mouse hover only
+	
+	data-plugin-options:
+		"singleItem": true
+		"autoPlay": true
+		"navigation": true
+		"pagination": true
+-->
+<div class="text-center">
+	<div class="owl-carousel nomargin" data-plugin-options='{"singleItem": false, "autoPlay": true}'>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/1.png') }}" alt="Universidad Metropolitana" title="Universidad Metropolitana">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/2.png') }}" alt="Universidad Central de Venezuela" title="Universidad Central de Venezuela">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/3.png') }}" alt="Universidad Simón Bolívar" title="Universidad Simón Bolívar">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/4.png') }}" alt="Universidad de Valencia España"" title="Universidad de Valencia España">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/5.png') }}" alt="Universidad de Almería España" title="Universidad de Almería España">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/6.png') }}" alt="Universidad Complutense de Madrid" title="Universidad Complutense de Madrid">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/1.png') }}" alt="Universidad Metropolitana" title="Universidad Metropolitana">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/2.png') }}" alt="Universidad Central de Venezuela" title="Universidad Central de Venezuela">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/3.png') }}" alt="Universidad Simón Bolívar" title="Universidad Simón Bolívar">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/4.png') }}" alt="Universidad de Valencia España"" title="Universidad de Valencia España">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/5.png') }}" alt="Universidad de Almería España" title="Universidad de Almería España">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/6.png') }}" alt="Universidad Complutense de Madrid" title="Universidad Complutense de Madrid">
+		</div>
+
+
+				</div>
+
+			</section>
 			<!-- /PARALLAX -->
 
 			<section id="conocenos" class="callout-dark heading-title heading-arrow-bottom" style="">
@@ -626,18 +635,6 @@
 
 					</div>
 
-<!-- 
-
-FULLWIDTH: OUTSIDE OF <section> 
-
-	Available Classes:
-	alert-default
-	alert-info
-	alert-warning
-	alert-danger
-	alert-success
-	alert-dark
--->
 
 
 
@@ -911,7 +908,65 @@ FULLWIDTH: OUTSIDE OF <section>
 -->
 
 
+			<!-- PARALLAX -->
 
+			<!--
+			<section class="parallax parallax-2" style="background-image: url('smarty/assets/images/demo/1200x800/35.jpg');">
+				<div class="overlay dark-5"></div>
+
+				<div class="container">
+
+									
+					<div class="row countTo-sm text-center">
+
+						<div class="col-xs-6 col-sm-3 col-xs-6" style="cursor: pointer;" title="Instructores de ilernus">
+							
+
+							<a href="{{ route('instructores') }}" target="_blank">
+
+								<i class="fa fa-users" style="font-size: 50px" aria-hidden="true"></i>
+								<div class="block size-50" style="color: #F47741;">
+									<strong class="countTo size-50" data-speed="3000">18</strong>
+								</div>
+								<h3 class="size-15 margin-top-10 margin-bottom-0">INSTRUCTORES</h3>
+
+							</a>
+
+
+						</div>
+
+						<div class="col-xs-6 col-sm-3 col-xs-6">
+							<i class="fa fa-graduation-cap" style="font-size: 50px" aria-hidden="true"></i>
+							<div class="block size-50" style="color: #41B649;">
+								<strong class="countTo size-50" data-speed="3000">100</strong>
+							</div>
+							<h3 class="size-15 margin-top-10 margin-bottom-0">CURSOS E-LEARNING IMPARTIDOS</h3>
+						</div>
+
+						<div class="col-xs-6 col-sm-3 col-xs-6">
+							<i class="fa fa-laptop" style="font-size: 50px" aria-hidden="true"></i>
+							<div class="block size-50" style="color: #35459C;">
+								<strong class="countTo size-50" data-speed="3000">30</strong>
+							</div>
+							<h3 class="size-15 margin-top-10 margin-bottom-0">PROYECTOS Y CONTENIDOS VIRTUALIZADOS</h3>
+						</div>
+
+						<div class="col-xs-6 col-sm-3 col-xs-6">
+							<i class="fa fa-smile-o" style="font-size: 50px" aria-hidden="true"></i>
+							<div class="block size-50" style="color: #7952A1;">
+								<strong class="countTo size-50" data-speed="3000">3</strong>
+							</div>
+							<h3 class="size-15 margin-top-10 margin-bottom-0">CLIENTES FELICES</h3>
+						</div>
+
+					</div>
+
+					
+
+				</div>
+
+			</section>-->
+			<!-- /PARALLAX -->
 			
 
 
