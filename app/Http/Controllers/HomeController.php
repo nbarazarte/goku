@@ -165,7 +165,26 @@ class HomeController extends Controller
 
         return Redirect::to('/#contacto');*/
 
-        $message = $_POST['message']."<br><br> Atte.: ".$_POST['name']."<br> Teléfono: ".$_POST['phone'];
+        if($_POST['cargo'] != 'otros') {
+
+            $cargo = $_POST['cargo'];
+
+        }else{
+
+            $cargo = $_POST['otroCargo'];
+        }
+
+
+        if($_POST['sector'] != 'otros') {
+
+            $sector = $_POST['sector'];
+
+        }else{
+
+            $sector = $_POST['otroSector'];
+        }        
+
+        $message = $_POST['message']."<br><br> Atte.: ".$_POST['name']."<br> Cargo: ".$cargo."<br> Sector: ".$sector."<br> Teléfono: ".$_POST['phone']."<br> Correo Electrónico: ".$_POST['email'];
 
         $mail = new PHPMailer;
         $mail->isSMTP();
@@ -175,11 +194,18 @@ class HomeController extends Controller
         $mail->Port = 465;
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = "ssl";
-        $mail->Username = "socialmedia@monitorbg.com";
-        $mail->Password = "Monitor.2017";
-        $mail->SetFrom('socialmedia@monitorbg.com');
+
+        //$mail->Username = "socialmedia@monitorbg.com";
+        //$mail->Password = "Monitor.2017";
+        //$mail->SetFrom('socialmedia@monitorbg.com');
+
+        $mail->Username = "atrellus@gmail.com";
+        $mail->Password = "falcor90dbb";
+        $mail->SetFrom('socialmedia@monitorbg.com');        
+
         $mail->AddReplyTo($_POST['email'], $_POST['name']);
-        $mail->addAddress("ventas@ilernus.com");
+        //$mail->addAddress("ventas@ilernus.com");
+        $mail->addAddress("ezebarazarte@gmail.com");
         
         $mail->Subject = "ilernus.com - ". $_POST['asunto'];
         //$mail->msgHTML(file_get_contents('contents.html'), dirname(__FILE__));
@@ -194,7 +220,7 @@ class HomeController extends Controller
             Session::flash('message','Su mensaje fue enviado exitosamente!');
         }
 
-        return Redirect::to('/#mensaje-enviado');
+        return Redirect::to('http://www.ilernus.com/Contáctanos#mensaje-enviado');
 
     }  
 

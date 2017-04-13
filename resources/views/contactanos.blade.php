@@ -100,40 +100,42 @@
 										<div class="form-group">
 
 											<div class="col-md-4">
-												<label for="contact_asunto">Cargo</label>
-												<select class="form-control pointer" id="cargo" name="cargo">
+												<label for="cargo">Cargo</label>
+												<select class="form-control pointer" id="cargo" name="cargo" onchange="showfield(this.options[this.selectedIndex].value)">
 													<option value="">--- Seleccione ---</option>
-													<option value="director">Director</option>
-													<option value="gerente">Gerente</option>
+													<option value="Director">Director</option>
+													<option value="Gerente">Gerente</option>
 													<option value="otros">Otros</option>
 												</select>
+												<div id="div1"></div>
 											</div>
 											<div class="col-md-4">
-													<label for="contact_asunto">Sector Industrial</label>
-													<select class="form-control pointer" id="sector" name="sector">
+													<label for="sector">Sector Industrial</label>
+													<select class="form-control pointer" id="sector" name="sector" onchange="showfield2(this.options[this.selectedIndex].value)">
 														<option value="">--- Seleccione ---</option>
-														<option value="salud">Salud</option>
-														<option value="medios_comunicacion">Medios de Comunicación</option>
-														<option value="deportes">Deportes</option>
-														<option value="tecnologia">Tecnología</option>
-														<option value="educacion">Educación</option>
-														<option value="comercio">Comercio</option>
-														<option value="transporte_comunicaciones">Transporte y Comunicaciones</option>
-														<option value="turismo">Turismo</option>
-														<option value="banca_finanzas">Banca/Finanzas</option>
-														<option value="seguros">Seguros</option>
-														<option value="admin_publica">Administración Pública</option>
-														<option value="marketing">Marketing</option>
-														<option value="capital_humano">Capital Humano</option>
+														<option value="Salud">Salud</option>
+														<option value="Medios de Comunicación">Medios de Comunicación</option>
+														<option value="Deportes">Deportes</option>
+														<option value="Tecnología">Tecnología</option>
+														<option value="Educación">Educación</option>
+														<option value="Comercio">Comercio</option>
+														<option value="Transporte y Comunicaciones">Transporte y Comunicaciones</option>
+														<option value="Turismo">Turismo</option>
+														<option value="Banca/Finanzas">Banca/Finanzas</option>
+														<option value="Seguros">Seguros</option>
+														<option value="Administración Pública">Administración Pública</option>
+														<option value="Marketing">Marketing</option>
+														<option value="Capital Humano">Capital Humano</option>
 														<option value="otros">Otros</option>
 													</select>
+													<div id="div2"></div>
 												</div>											
 											<div class="col-md-4">
 													<label for="contact_asunto">Asunto</label>
 													<select class="form-control pointer" id="asunto" name="asunto">
 														<option value="">--- Seleccione ---</option>
-														<option value="comentarios">Comentarios</option>
-														<option value="sugerencias">Sugerencias</option>
+														<option value="Comentarios">Comentarios</option>
+														<option value="Sugerencias">Sugerencias</option>
 														<option value="otros">Otros</option>
 													</select>
 												</div>											
@@ -197,5 +199,21 @@
 				</div>
 			</section>
 			<!-- / -->
+
+<script type="text/javascript">
+function showfield(name){
+  if(name=='otros')
+  	document.getElementById('div1').innerHTML='<label for="otroCargo">Indique</label><input type="text" class="form-control pointer" name="otroCargo" />';
+
+  else document.getElementById('div1').innerHTML='';
+}
+
+function showfield2(name){
+  if(name=='otros')
+  	document.getElementById('div2').innerHTML='<label for="otroSector">Indique</label><input type="text" class="form-control pointer" name="otroSector" />';
+
+  else document.getElementById('div2').innerHTML='';
+}
+</script>
 
 @endsection					
