@@ -42,9 +42,20 @@
 
 											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa'))
 
-												<a href="http://localhost:8000#conocenos">
-													Conócenos
-												</a>
+
+												@if( $_SERVER['SERVER_NAME'] == 'localhost' )
+
+													<a href="http://{{ $_SERVER['SERVER_NAME'] }}:8000#conocenos">
+														Conócenos
+													</a>
+
+												@else
+
+													<a href="http://{{ $_SERVER['SERVER_NAME'] }}#conocenos">
+														Conócenos
+													</a>
+
+												@endif
 
 											@endif
 
@@ -59,9 +70,19 @@
 
 											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa'))
 
-												<a href="http://localhost:8000#soluciones">
-													Soluciones
-												</a>
+												@if( $_SERVER['SERVER_NAME'] == 'localhost' )
+
+													<a href="http://{{ $_SERVER['SERVER_NAME'] }}:8000#soluciones">
+														Soluciones
+													</a>
+
+												@else
+
+													<a href="http://{{ $_SERVER['SERVER_NAME'] }}#soluciones">
+														Soluciones
+													</a>
+
+												@endif
 
 											@endif
 																						
@@ -90,9 +111,19 @@
 
 											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa'))
 
-												<a href="http://localhost:8000#testimonios">
-													Testimonios
-												</a>
+												@if( $_SERVER['SERVER_NAME'] == 'localhost' )
+
+													<a href="http://{{ $_SERVER['SERVER_NAME'] }}:8000#testimonios">
+														Testimonios
+													</a>
+
+												@else
+
+													<a href="http://{{ $_SERVER['SERVER_NAME'] }}#testimonios">
+														Testimonios
+													</a>
+
+												@endif
 
 											@endif										
 										</li>

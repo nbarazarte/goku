@@ -220,7 +220,7 @@ class HomeController extends Controller
             Session::flash('message','Su mensaje fue enviado exitosamente!');
         }
 
-        return Redirect::to('http://www.ilernus.com/Contáctanos#mensaje-enviado');
+        return Redirect::to('http://'.$_SERVER['SERVER_NAME'].'/Contáctanos#mensaje-enviado');
 
     }  
 
