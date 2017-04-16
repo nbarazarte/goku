@@ -2,7 +2,8 @@
 
 @section('content')
 
-			<section id="contacto" class="callout-dark heading-title heading-arrow-bottom" style="">
+			<section id="contacto" class="heading-title parallax" style="background-image: url('smarty/assets/images/demo/cubes-azul.jpg');">
+			<div class="overlay dark-8"><!-- dark overlay [1 to 9 opacity] --></div>
 				<div class="container">
 
 					<div class="text-center">
@@ -186,9 +187,9 @@
 							<hr />
 
 							<p>
-								<span class="block"><strong><i class="fa fa-map-marker"></i> Dirección:</strong> Urb. Terrazas del Avila, Zona Rental Universidad Metropolitana. Edif. 1. P1. Oficina ilernus, (B&G). Caracas, Edo. Miranda.</span>
-								<span class="block"><strong><i class="fa fa-phone"></i> Teléfono:</strong> <a href="tel:1800-555-1234">+58 (212) 204.24.31 </a></span>
-								<span class="block"><strong><i class="fa fa-envelope"></i> Correo Electrónico:</strong> <a href="mailto:mail@yourdomain.com">info@ilernus.com</a></span>
+								<span class="block"><strong><i class="fa fa-map-marker"></i> Dirección:</strong> Urb. Terrazas del Ávila, Zona Rental Universidad Metropolitana. Edif. 1. P1. Oficina iLernus, (B&G). Caracas, Edo. Miranda.</span>
+								<span class="block"><strong><i class="fa fa-phone"></i> Teléfono:</strong> <a href="tel:+58-212-204-24-31">+58 (212) 204.24.31 </a></span>
+								<span class="block"><strong><i class="fa fa-envelope"></i> Correo Electrónico:</strong> <a href="mailto:info@ilernus.com">info@ilernus.com</a></span>
 							</p>
 
 						</div>

@@ -105,7 +105,8 @@
 			</section>
 			<!-- / -->
 
-			<section class="callout-dark heading-title heading-arrow-bottom">
+			<section id="" class="heading-title parallax" style="background-image: url('smarty/assets/images/demo/cubes-azul.jpg');">
+			<div class="overlay dark-8"><!-- dark overlay [1 to 9 opacity] --></div>
 				<div class="container">
 
 					<div class="text-center">
@@ -316,8 +317,8 @@
 			<!-- PARALLAX -->
 
 			
-			<section class="parallax parallax-2" style="background-image: url('smarty/assets/images/demo/cubes-blur.jpg');">
-				<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
+			<section class="" style="">
+				
 
 				<div class="container">
 
@@ -376,7 +377,8 @@
 			</section>
 			<!-- /PARALLAX -->
 
-			<section id="conocenos" class="callout-dark heading-title heading-arrow-bottom" style="">
+			<section id="conocenos" class="heading-title parallax " style="background-image: url('smarty/assets/images/demo/cubes-azul.jpg');">
+			<div class="overlay dark-8"><!-- dark overlay [1 to 9 opacity] --></div>
 				<div class="container">
 
 					<div class="text-center">
@@ -575,7 +577,8 @@
 
 
 
-			<section id="soluciones" class="callout-dark heading-title heading-arrow-bottom" style="">
+			<section id="soluciones" class="heading-title parallax" style="background-image: url('smarty/assets/images/demo/cubes-azul.jpg');">
+			<div class="overlay dark-8"><!-- dark overlay [1 to 9 opacity] --></div>
 				<div class="container">
 
 					<div class="text-center">

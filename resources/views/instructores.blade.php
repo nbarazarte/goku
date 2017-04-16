@@ -2,7 +2,8 @@
 
 @section('content')
 
-			<section class="callout-dark heading-title heading-arrow-bottom">
+			<section id="" class="heading-title parallax" style="background-image: url('smarty/assets/images/demo/cubes-azul.jpg');">
+			<div class="overlay dark-8"><!-- dark overlay [1 to 9 opacity] --></div>
 				<div class="container">
 
 					<div class="text-center">
@@ -17,7 +18,7 @@
 
 				<div class="text-center">
 
-					<h3 style="color: #ffffff">Formados en las más prestigiosas casas de estudio</h3>
+					<h3 style="color: #ffffff">Formados en las más prestigiosas universidades</h3>
 
 				</div>
 

@@ -6,7 +6,7 @@
 						<div class="col-md-5th">
 							<!-- Footer Logo -->
 							
-							<img src="{{ asset('smarty/assets/images/ilernus4_mini2.png') }}" alt="logo ilernus" title="www.ilernus.com" />	
+							<img src="{{ asset('smarty/assets/images/ilernus4_mini2.png') }}" alt="logo iLernus" title="www.ilernus.com" />	
 							<!-- Small Description -->
 							<p>&copy; 2017 iLernus. Todos los derechos reservados.</p>
 
