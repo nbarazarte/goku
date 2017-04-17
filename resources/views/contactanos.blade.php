@@ -93,7 +93,9 @@
 											</div>
 											<div class="col-md-4">
 												<label for="phone">Teléfono</label>
-												<input type="text" value="" class="form-control" name="phone" id="phone">
+												<input type="text" class="form-control masked" data-format="(999) 999-99-99" data-placeholder="X" placeholder="" name="phone" id="phone">
+
+												
 											</div>
 										</div>
 									</div>

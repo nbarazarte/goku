@@ -2,7 +2,8 @@
 
 @section('content')
 
-			<section id="contacto" class="callout-dark heading-title heading-arrow-bottom" style="">
+			<section id="" class="heading-title parallax" style="background-image: url('smarty/assets/images/demo/cubes-azul.jpg');">
+			<div class="overlay dark-8"><!-- dark overlay [1 to 9 opacity] --></div>
 				<div class="container">
 
 					<div class="text-center">

@@ -3,7 +3,8 @@
  * @version		v1.0.0
  * @author		Dorin Grigoras [www.stepofweb.com]
  * @date		Thursday, May 21, 2015
-**/	date_default_timezone_set('Etc/UTC');
+**/	//date_default_timezone_set('Etc/UTC');
+	date_default_timezone_set('America/Caracas');
 	@ini_set('display_errors', 0);
 	@ini_set('track_errors', 0);
 
@@ -12,7 +13,7 @@
 	if($array['email'] !== false) {
 
 		$fh = fopen('_newsletter.txt', 'a+');
-		fwrite($fh, "\r\n" . $array['email']);
+		fwrite($fh, "\r\n" . $array['email'].";".$_REQUEST['nombre'].";".date("d/m/Y, g:i a"));
 		fclose($fh);
 
 		unset($fh, $array);
