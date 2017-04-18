@@ -20,13 +20,13 @@
 											@if(Route::current()->getName() == 'home')
 
 												<a href="#slider">
-													ILernus
+													iLernus
 												</a>
 
 											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa'))
 
 												<a href="{{ route('home') }}">
-													ILernus
+													iLernus
 												</a>
 
 											@endif

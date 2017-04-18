@@ -82,10 +82,31 @@
 			<!-- /LAYER SLIDER -->
 			<!-- /HOME -->
 
-			<!-- -->
-			<section>
+
+			<section id="" class="heading-title parallax" style="background-image: url('smarty/assets/images/demo/cubes-azul.jpg');">
+			<div class="overlay dark-8"><!-- dark overlay [1 to 9 opacity] --></div>
 				<div class="container">
 
+					<div class="text-center">
+						
+					<h1 class="nomargin size-50 weight-300 wow fadeInUp" data-wow-delay="0.4s">Fortalece la relación y la <span style="color: #F47741"><strong>formación</strong></span> de tus colaboradores </h1>
+					<p class="lead font-lato size-30 wow fadeInUp" data-wow-delay="0.7s">por medio de <span style="color: #F47741"><strong>nuestras soluciones</strong></span> organizacionales</p>
+
+					</div>
+
+				</div>
+			</section>
+
+			<!-- -->
+			<section>
+				<div class="container text-center">
+
+	
+
+
+				
+
+<br>
 					<header class="text-center margin-bottom-60">
 						<h2>¿Qué es iLernus?</h2>
 						<p class="lead font-lato margin-bottom-60">
@@ -498,6 +519,82 @@
 
 <section>
 	<div class="container">
+
+
+<div class="row">
+
+<?php
+	$x=0;
+?>
+@foreach ($ceos as $ceo)
+
+
+							<div class="modal fade" id="myModalGerente{{$x}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							        <h4 class="modal-title" id="myModalLabel">
+							        	<span class="label" style="background-color: #35459C ">{{ $ceo->str_cargo }}</span>
+							        </h4>
+							      </div>
+							      <div class="modal-body">
+							      <h3>
+							      	{{ $ceo->str_nombre }}
+							      </h3>
+
+							        {!! $ceo->str_cv !!}
+
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-warning" data-dismiss="modal">Cerrar</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+
+
+
+	<div class="col-md-4 col-md-offset-4">
+
+		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
+			<div class="front">
+				<div class="box1 box-default">
+					<div class="box-icon-title">
+						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/{{ $ceo->str_imagen }}.jpg" alt="" />
+
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="back">
+				<div class="box2" style="background-color: #35459C">
+
+					<p style="font-size: 11px"> {{ $ceo->str_cv_corto }}</p>
+
+					<a href="#" style="color: #ffffff; font-weight: bold;" class="btn btn-reveal btn-warning" data-toggle="modal" data-target="#myModalGerente{{$x}}">
+						<i class="fa fa-plus"></i>
+						<span>Ver más</span>
+					</a>
+
+				</div>
+			</div>
+		</div>
+			<br>
+	</div>
+<?php
+	$x++;
+?>
+@endforeach
+
+</div>
+
+
+
+
+
+
 		
 <div class="row">
 
@@ -533,7 +630,7 @@
 
 
 
-	<div class="col-md-5th">
+	<div class="col-md-3">
 
 		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
 			<div class="front">
@@ -583,7 +680,13 @@
 
 					<div class="text-center">
 						<h3 class="size-30">Soluciones</h3>
+
+<p>Academia <strong style="color: #F47741; font-size: 20px"> <i class="fa fa-circle" style="font-size: 5px" aria-hidden="true"></i> </strong> University <strong style="color: #F47741; font-size: 20px"> <i class="fa fa-circle" style="font-size: 5px" aria-hidden="true"></i> </strong> Producciones </p>
+
 						<p><em><b>Únete</b></em> a nosotros en <strong style="color: #F47741; font-size: 20px">iLernus</strong> estamos comprometidos con tu crecimiento</p>
+
+
+
 					</div>
 
 				</div>
@@ -596,59 +699,44 @@
 				<div class="container">
 					
 			
-					<div class="row">
-					
-						<div class="col-md-4">
-							
-							<div class="heading-title heading-border-bottom heading-color">
-								<h3>
-									<!--<img class="pull-center img-responsive wow fadeInLeft" data-wow-delay="0.4s" src="{{ asset('smarty/assets/images/demo/layerslider/emblema.png') }}" style="width: 10%" alt="" />-->
-									<img class="pull-center img-responsive wow fadeIn" data-wow-delay="0.4s" src="{{ asset('smarty/assets/images/LOGOS-ILERNUS-FINAL-2017-05.png') }}" style="width: 100%" alt="" />									
-									<!--<strong style="color: #35459C; font-size: 25px">iLernus University</strong>-->
-								</h3>
+		<div class="owl-carousel text-center owl-testimonial nomargin" data-plugin-options='{"singleItem": true, "autoPlay": 11000, "navigation": false, "pagination": true, "transitionStyle":"fade"}'>
+			<div class="testimonial">
+				
+					<img class="img-responsive" src="smarty/assets/images/LOGOS-ILERNUS-FINAL-2017-05.png" style="width: 30%" alt="" />
+				<br>
+				<div class="testimonial-content nopadding">
+				<br>
+					<p class="lead">Es una plataforma educativa de <strong style="color: #F47741">aprendizaje en línea</strong> que permite capacitar y actualizar a los colaboradores de su empresa a través de la suscripción de planes y paquetes de contenidos de interés.</p>
+<b>1/3</b>
+				</div>
+			</div>
+			<div class="testimonial">
+				
+					<img class="img-responsive" src="smarty/assets/images/LOGOS-ILERNUS-FINAL-2017-03.png" style="width: 30%" alt="" />
+				<br>
+				<div class="testimonial-content nopadding">
+				<br>
+					<p class="lead">Ofrece la concepción, desarrollo y producción de <strong style="color: #F47741">servicios instruccionales y audiovisuales</strong> con fines educativos, diseñándolos a la medida de su empresa bajo altos estándares de calidad.</p>
+<b>2/3</b>
+				</div>
+			</div>
 
-							</div>
-							
-							<p style="text-align: justify;">Es una plataforma educativa de <strong style="color: #F47741">aprendizaje en línea</strong> que permite capacitar y actualizar a los colaboradores de su empresa a través de la suscripción de planes y paquetes de contenidos de interés.</p>
-
-						</div>
-
-						<div class="col-md-4">
-							<div class="heading-title heading-border-bottom heading-color">
-								<h3>
-									<img class="pull-center img-responsive wow fadeIn" data-wow-delay="0.4s" src="{{ asset('smarty/assets/images/LOGOS-ILERNUS-FINAL-2017-03.png') }}" style="width: 100%" alt="" />
-									<!--<strong style="color: #35459C; font-size: 25px">iLernus Producciones</strong>-->
-								</h3>
-							</div>
-							<p style="text-align: justify;">Ofrece la concepción, desarrollo y producción de <strong style="color: #F47741">servicios instruccionales y audiovisuales</strong> con fines educativos, diseñándolos a la medida de su empresa bajo altos estándares de calidad.</p>
-
-						</div>
-
-						<div class="col-md-4">
-							<div class="heading-title heading-border-bottom heading-color">
-								<h3>
-									<img class="pull-center img-responsive wow fadeIn" data-wow-delay="0.4s" src="{{ asset('smarty/assets/images/LOGOS-ILERNUS-FINAL-2017-04.png') }}" style="width: 100%" alt="" />
-									<!--<strong style="color: #35459C; font-size: 25px">iLernus Academia</strong>-->
-								</h3>
-							</div>
-							<p style="text-align: justify;">Brinda <strong style="color: #F47741">soluciones educativas presenciales</strong> in company o en nuestras instalaciones, con un equipo de la más alta talla que diseñan una estratégica de formación a su medida.</p>
-
-						</div>
-
-	
-
-					</div>
+			<div class="testimonial">
+				
+					<img class="img-responsive" src="smarty/assets/images/LOGOS-ILERNUS-FINAL-2017-04.png" style="width: 30%" alt="" />
+				<br>
+				<div class="testimonial-content nopadding">
+				<br>
+					<p class="lead">Brinda <strong style="color: #F47741">soluciones educativas presenciales</strong> in company o en nuestras instalaciones, con un equipo de la más alta talla que diseñan una estratégica de formación a su medida.</p>
+<b>3/3</b>
+				</div>
+			</div>			
+		</div>
 
 
 
 
 </div>
-
-
-
-
-
-
 
 
 
@@ -669,13 +757,9 @@
 
 			<section>
 
-			<div class="container">
-
-
+			<div class="container text-center">
 
 					<div class="row">
-
-
 
 					<div id="portfolio" class="portfolio-nogutter">
 
