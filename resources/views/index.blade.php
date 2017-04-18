@@ -602,8 +602,9 @@
 							
 							<div class="heading-title heading-border-bottom heading-color">
 								<h3>
-									<img class="pull-center img-responsive wow fadeInLeft" data-wow-delay="0.4s" src="{{ asset('smarty/assets/images/demo/layerslider/emblema.png') }}" style="width: 10%" alt="" />
-									<strong style="color: #35459C; font-size: 25px">iLernus University</strong>
+									<!--<img class="pull-center img-responsive wow fadeInLeft" data-wow-delay="0.4s" src="{{ asset('smarty/assets/images/demo/layerslider/emblema.png') }}" style="width: 10%" alt="" />-->
+									<img class="pull-center img-responsive wow fadeIn" data-wow-delay="0.4s" src="{{ asset('smarty/assets/images/LOGOS-ILERNUS-FINAL-2017-05.png') }}" style="width: 100%" alt="" />									
+									<!--<strong style="color: #35459C; font-size: 25px">iLernus University</strong>-->
 								</h3>
 
 							</div>
@@ -615,8 +616,8 @@
 						<div class="col-md-4">
 							<div class="heading-title heading-border-bottom heading-color">
 								<h3>
-									<img class="pull-center img-responsive wow fadeInLeft" data-wow-delay="0.4s" src="{{ asset('smarty/assets/images/demo/layerslider/emblema.png') }}" style="width: 10%" alt="" />
-									<strong style="color: #35459C; font-size: 25px">iLernus Producciones</strong>
+									<img class="pull-center img-responsive wow fadeIn" data-wow-delay="0.4s" src="{{ asset('smarty/assets/images/LOGOS-ILERNUS-FINAL-2017-03.png') }}" style="width: 100%" alt="" />
+									<!--<strong style="color: #35459C; font-size: 25px">iLernus Producciones</strong>-->
 								</h3>
 							</div>
 							<p style="text-align: justify;">Ofrece la concepción, desarrollo y producción de <strong style="color: #F47741">servicios instruccionales y audiovisuales</strong> con fines educativos, diseñándolos a la medida de su empresa bajo altos estándares de calidad.</p>
@@ -626,8 +627,8 @@
 						<div class="col-md-4">
 							<div class="heading-title heading-border-bottom heading-color">
 								<h3>
-									<img class="pull-center img-responsive wow fadeInLeft" data-wow-delay="0.4s" src="{{ asset('smarty/assets/images/demo/layerslider/emblema.png') }}" style="width: 10%" alt="" />
-									<strong style="color: #35459C; font-size: 25px">iLernus Academia</strong>
+									<img class="pull-center img-responsive wow fadeIn" data-wow-delay="0.4s" src="{{ asset('smarty/assets/images/LOGOS-ILERNUS-FINAL-2017-04.png') }}" style="width: 100%" alt="" />
+									<!--<strong style="color: #35459C; font-size: 25px">iLernus Academia</strong>-->
 								</h3>
 							</div>
 							<p style="text-align: justify;">Brinda <strong style="color: #F47741">soluciones educativas presenciales</strong> in company o en nuestras instalaciones, con un equipo de la más alta talla que diseñan una estratégica de formación a su medida.</p>
