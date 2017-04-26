@@ -22,7 +22,7 @@
 							.height-750
 							.height-800
 					-->
-					<div class="layerslider height-500" style="width:100%;">
+					<div class="layerslider height-600" style="width:100%;">
 
 						@include('slider')
 
@@ -83,7 +83,7 @@
 			<!-- /HOME -->
 
 
-			<section id="" class="heading-title parallax" style="background-image: url('smarty/assets/images/demo/cubes-azul.jpg');">
+			<section id="ilernus" class="heading-title parallax" style="background-image: url('smarty/assets/images/demo/cubes-azul.jpg');">
 			<div class="overlay dark-8"><!-- dark overlay [1 to 9 opacity] --></div>
 				<div class="container">
 
@@ -138,6 +138,15 @@
 				</div>
 			</section>
 
+</div>
+</section>
+
+
+
+
+
+
+
 			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
 
 				<div class="text-center">
@@ -147,6 +156,11 @@
 				</div>
 
 			</div>			
+
+
+
+<section>
+	<div class="container">		
 
 				<div class="row">
 
@@ -248,7 +262,12 @@
 						</div>			
 
 				</div>
-			
+	
+				</div>
+			</section>
+			<!-- / -->
+
+
 
 			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
 
@@ -258,9 +277,11 @@
 
 				</div>
 
-			</div>		
+			</div>	
 
-				<div class="row">
+
+<section>
+	<div class="container">		
 
 						<div class="col-md-5th">
 
@@ -324,6 +345,10 @@
 
 				</div>	
 
+
+				</div>
+			</section>
+			<!-- / -->
 
 			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
 
@@ -410,10 +435,10 @@
 				</div>
 			</section>
 
-			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
+			<div id="directores" class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
 
 				<div class="text-center">
-
+					<br><br>
 					<h3 style="color: #ffffff">Equipo Directivo</h3>
 
 				</div>
@@ -506,10 +531,10 @@
 	</div>
 </section>		
 
-			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
+			<div id="gerentes" class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
 
 				<div class="text-center">
-
+					<br><br>
 					<h3 style="color: #ffffff">Equipo Gerencial</h3>
 
 				</div>
@@ -529,7 +554,7 @@
 @foreach ($ceos as $ceo)
 
 
-							<div class="modal fade" id="myModalGerente{{$x}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							<div class="modal fade" id="myModalCeo{{$x}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 							  <div class="modal-dialog" role="document">
 							    <div class="modal-content">
 							      <div class="modal-header">
@@ -573,7 +598,7 @@
 
 					<p style="font-size: 11px"> {{ $ceo->str_cv_corto }}</p>
 
-					<a href="#" style="color: #ffffff; font-weight: bold;" class="btn btn-reveal btn-warning" data-toggle="modal" data-target="#myModalGerente{{$x}}">
+					<a href="#" style="color: #ffffff; font-weight: bold;" class="btn btn-reveal btn-warning" data-toggle="modal" data-target="#myModalCeo{{$x}}">
 						<i class="fa fa-plus"></i>
 						<span>Ver más</span>
 					</a>
@@ -744,15 +769,18 @@
 
 
 
-			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
+			<section id="cursos" class="heading-title parallax " style="background-image: url('smarty/assets/images/demo/cubes-azul.jpg');">
+			<div class="overlay dark-8"><!-- dark overlay [1 to 9 opacity] --></div>
+				<div class="container">
 
-				<div class="text-center">
-
-					<h3 style="color: #ffffff">Nuestros Cursos</h3>
+					<div class="text-center">
+						<h3 class="size-30">Nuestros Cursos</h3>
+<p>Negocios <strong style="color: #F47741; font-size: 20px"> <i class="fa fa-circle" style="font-size: 5px" aria-hidden="true"></i> </strong> Tecnología <strong style="color: #F47741; font-size: 20px"> <i class="fa fa-circle" style="font-size: 5px" aria-hidden="true"></i> </strong> Desarrollo <strong style="color: #F47741; font-size: 20px"> <i class="fa fa-circle" style="font-size: 5px" aria-hidden="true"></i> </strong> Productividad</p>
+						<p>En <strong style="color: #F47741; font-size: 20px">iLernus</strong> ofrecemos la más alta calidad en contenidos y metodología para el <em><b>e-learning</b></em></p>
+					</div>
 
 				</div>
-
-			</div>	
+			</section>
 
 
 			<section>
@@ -783,13 +811,13 @@
 							<div class="modal fade" id="myModalCursos{{$x}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 							  <div class="modal-dialog" role="document">
 							    <div class="modal-content">
-							      <div class="modal-header">
+							      <div class="modal-header" style="text-align: left;">
 							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 							        <h4 class="modal-title" id="myModalLabel">
 							        	<span class="label" style="background-color: {{ $curso->str_color }}">{{ $curso->str_categoria }}</span>
 							        </h4>
 							      </div>
-							      <div class="modal-body">
+							      <div class="modal-body" style="text-align: justify;">
 
 							      <h3>
 							      	{!! str_replace("-"," ",$curso->str_curso) !!}
@@ -807,41 +835,46 @@
 
 							<div class="{{ $curso->str_clase}}"><!-- item -->
 
-								<div class="item-box">
+								<div class="item-box"><br>
 									<figure style="background-color: {{ $curso->str_color }}; cursor: pointer;" title="{!! str_replace("-"," ",$curso->str_curso) !!}">
 										<span class="item-hover">
-											<span class="overlay dark-5"></span>
+											<span class="overlay dark-5"></span>								
 
-	
-											<span class="inner">
-											<h3 style="color: #ffffff; font-size: 18px">
-		
-												<!--
-												<!-- lightbox - ->
-												<a class="ico-rounded lightbox" href="" data-plugin-options='{"type":"image"}'>
-													<span class="fa fa-search size-20"></span>
-												</a>
-												-->
+												<span class="inner">
 
-												<!-- details -->
-												<!--
-													<a class="ico-rounded" href="{{ route('curso',$curso->str_curso) }}" target="_blank">
-														<span class="fa fa-share size-20"></span>
-													</a>
-												-->
+													<div class="row">
 
-													<a href="#" style="color: #ffffff; font-weight: bold;" class="btn btn-reveal btn-warning" data-toggle="modal" data-target="#myModalCursos{{$x}}">
-														<i class="fa fa-plus"></i>
-														<span >Ver más</span>
-													</a>
+														<div class="col-md-8 text-center">
 
-												</h3>
+															<h3 style="color: #ffffff; font-size: 18px">
+						
+																<!--
+																<!-- lightbox - ->
+																<a class="ico-rounded lightbox" href="" data-plugin-options='{"type":"image"}'>
+																	<span class="fa fa-search size-20"></span>
+																</a>
+																-->
+
+																<!-- details -->
+																<!--
+																	<a class="ico-rounded" href="{{ route('curso',$curso->str_curso) }}" target="_blank">
+																		<span class="fa fa-share size-20"></span>
+																	</a>
+																-->
+																{!! str_replace("-"," ",$curso->str_curso) !!}
+														
+															</h3>
+											
+														</div>
+														
+													</div>	
+
+												</span>
 
 											</span>
-										</span>
 
 										<img class="img-responsive" src="{{ asset('smarty/assets/images/cursosilernus/'.$curso->str_imagen) }}" width="600" height="399" alt="">
-
+										<span class="label" style="color: #FFFFFF; font-weight: bold;">{{ $curso->str_categoria }}</span>
 									</figure>
 
 									<div class="item-box-desc">
@@ -851,7 +884,27 @@
 												aquí iba el titulo corto
                                         	-->
 
-										</h3>
+                                        	<!--
+															<a href="#" style="color: #ffffff; " class="btn btn-reveal btn-warning" data-toggle="modal" data-target="#myModalCursos{{$x}}">
+														<i class="fa fa-plus"></i>
+														<span >Ver más</span>
+													</a>
+											-->
+											</h3>
+									<a href="#" data-toggle="modal" data-target="#myModalCursos{{$x}}">
+									Leer
+										<!-- /word rotator -->
+										<span class="word-rotator" data-delay="2000">
+											<span class="items">
+												<span>más</span>
+												<span>ahora</span>
+											</span>
+										</span><!-- /word rotator -->
+										<i class="glyphicon glyphicon-menu-right size-12"></i>
+									</a>
+
+
+										
 										<!--
 										<ul class="list-inline categories nomargin">
 											<li>

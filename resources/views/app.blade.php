@@ -4,9 +4,13 @@
 <!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
 	<head>
 		<meta charset="utf-8" />
-		<title>iLernus</title>
-		<meta name="keywords" content="e-learning" />
-		<meta name="description" content="" />
+		<title>
+			Cursos e-learning, presenciales y virtualización de contenido| iLernus
+		</title>
+		<meta name="keywords" content="Formación,formacion,Academia,Academias,Virtualización,virtualizacion,Aprendizaje,On line,E-learning,Capacitación,capacitacion, Soluciones,Colaboradores,Organizaciones,Instructores,Instructor,Educación,educacion,Audiovisual,Empresas,Empresa,Producción,produccion,Contenidos,contenido,Metodologías,metodología,Metodologias,metodologia,University" />
+
+		<meta name="description" content="La mejor solución que ofrece la más alta calidad en contenidos y metodología instruccional e-learning, soluciones de gestión de aprendizaje en línea y virtualización de contenidos especializados en una plataforma." />
+
 		<meta name="Author" content="Neil Barazarte [www.neilbarazarte.com]" />
 
 		<!-- mobile settings -->
@@ -96,7 +100,7 @@
 				Example Usage:  class="clearfix sticky header-sm transparent noborder"
 			-->
 			<!-- <div id="header" class="sticky transparent clearfix"> -->
-			<div id="header" class="sticky  clearfix"> <!-- shadow-after-3 -->
+			<div id="header" class="sticky  clearfix header-sm"> <!-- shadow-after-3 -->
 
 				<!-- TOP NAV -->
 				<header id="topNav">
@@ -148,7 +152,7 @@
 
 	<div class="text-center">
 
-		<h3> <i class="fa fa-phone-square" aria-hidden="true"></i> Llámanos al  <strong>0800-iLernus</strong>!</h3>
+		<h3> <i class="fa fa-phone-square" aria-hidden="true"></i> ¡Llámanos al  <strong>0800-iLernus</strong>!</h3>
 		<p class="font-lato size-20">
 			Estamos para brindarte la mejor atención y asesoría
 		</p>
@@ -177,6 +181,16 @@
 			</div>
 		</div><!-- /PRELOADER -->
 
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-97823639-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
 
 		<!-- JAVASCRIPT FILES -->
 		<script type="text/javascript">var plugin_path = 'smarty/assets/plugins/';</script>

@@ -42,25 +42,25 @@
 								Calidad
 							</p>
 							<p class="ls-l" style="top:90px;left:100px;font-weight: 300;font-size:24px;color:#fff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:700;rotateyin:90;skewxin:60;transformoriginin:25% 50% 0;offsetxout:100;durationout:750;skewxout:60;">
-								<b>en contenido instruccional e-learning</b>
+								<strong>en contenido instruccional e-learning</strong>
 							</p>
 							<p class="ls-l" style="top:150px;left:100px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#ffffff;background:#41B649;border-radius:4px;white-space: nowrap;" data-ls="durationin:1500;delayin:1000;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">
 								Conocimientos
 							</p>
 							<p class="ls-l" style="top:190px;left:100px;font-weight: 300;font-size:24px;color:#fff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:1400;rotateyin:90;skewxin:60;transformoriginin:25% 50% 0;offsetxout:100;durationout:750;skewxout:60;">
-								<b>que transforman la manera de planificar</b>
+								<strong>que transforman la manera de planificar</strong>
 							</p>
 							<p class="ls-l" style="top:250px;left:100px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#ffffff;background:#35459C;border-radius:4px;white-space: nowrap;" data-ls="durationin:1500;delayin:1700;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">
 								Tecnología
 							</p>
 							<p class="ls-l" style="top:290px;left:100px;font-weight: 300;font-size:24px;color:#fff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:2100;rotateyin:90;skewxin:60;transformoriginin:25% 50% 0;offsetxout:100;durationout:750;skewxout:60;">
-								<b>para el desarrollo eficiente</b>
+								<strong>para el desarrollo eficiente</strong>
 							</p>
 							<p class="ls-l" style="top:350px;left:100px;font-weight: 300;height:40px;padding-right:10px;padding-left:10px;font-size:30px;line-height:37px;color:#ffffff;background:#7952A1;border-radius:4px;white-space: nowrap;" data-ls="durationin:1500;delayin:2400;rotatein:20;rotatexin:30;scalexin:1.5;scaleyin:1.5;transformoriginin:left 50% 0;durationout:750;rotateout:20;rotatexout:-30;scalexout:0;scaleyout:0;transformoriginout:left 50% 0;">
 								Control de gestión
 							</p>
 							<p class="ls-l" style="top:390px;left:100px;font-weight: 300;font-size:24px;color:#fff;white-space: nowrap;" data-ls="offsetxin:0;durationin:1500;delayin:2800;rotateyin:90;skewxin:60;transformoriginin:25% 50% 0;offsetxout:100;durationout:750;skewxout:60;">
-								<b>para la formación de empresas en Venezuela</b>
+								<strong>para la formación de empresas en Venezuela</strong>
 							</p>
 						</div>
 

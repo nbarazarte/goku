@@ -5992,9 +5992,9 @@ section.dark #portfolio h3 {
 	color:#fff;
 }
 .item-box .item-hover .inner {
-	position:absolute;
+	position:relative;
 	display:block;
-	left:0; right:0; top:50%;
+	left:20%; right:0; top:35%;
 	margin-top:-10px;
 	margin-bottom:0;
 	width:100%;
