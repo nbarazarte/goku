@@ -11,7 +11,7 @@
 
 		<meta name="description" content="La mejor solución que ofrece la más alta calidad en contenidos y metodología instruccional e-learning, soluciones de gestión de aprendizaje en línea y virtualización de contenidos especializados en una plataforma." />
 
-		<meta name="Author" content="Neil Barazarte [www.neilbarazarte.com]" />
+		<meta name="Author" content="Neil Barazarte [ezebarazarte@gmail.com]" />
 
 		<!-- mobile settings -->
 		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
