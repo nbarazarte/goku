@@ -93,7 +93,7 @@
 											</div>
 											<div class="col-md-4">
 												<label for="phone">Teléfono</label>
-												<input type="text" class="form-control masked" data-format="(999) 999-99-99" data-placeholder="X" placeholder="" name="phone" id="phone">
+												<input required type="text" class="form-control masked" data-format="(9999) 999-99-99" data-placeholder="X" placeholder="" name="phone" id="phone">
 
 												
 											</div>
@@ -104,7 +104,7 @@
 
 											<div class="col-md-4">
 												<label for="cargo">Cargo</label>
-												<select class="form-control pointer" id="cargo" name="cargo" onchange="showfield(this.options[this.selectedIndex].value)">
+												<select required class="form-control pointer" id="cargo" name="cargo" onchange="showfield(this.options[this.selectedIndex].value)">
 													<option value="">--- Seleccione ---</option>
 													<option value="Director">Director</option>
 													<option value="Gerente">Gerente</option>
@@ -114,7 +114,7 @@
 											</div>
 											<div class="col-md-4">
 													<label for="sector">Sector Industrial</label>
-													<select class="form-control pointer" id="sector" name="sector" onchange="showfield2(this.options[this.selectedIndex].value)">
+													<select required class="form-control pointer" id="sector" name="sector" onchange="showfield2(this.options[this.selectedIndex].value)">
 														<option value="">--- Seleccione ---</option>
 														<option value="Salud">Salud</option>
 														<option value="Medios de Comunicación">Medios de Comunicación</option>
@@ -135,11 +135,10 @@
 												</div>											
 											<div class="col-md-4">
 													<label for="contact_asunto">Asunto</label>
-													<select class="form-control pointer" id="asunto" name="asunto">
+													<select required class="form-control pointer" id="asunto" name="asunto">
 														<option value="">--- Seleccione ---</option>
 														<option value="Comentarios">Comentarios</option>
 														<option value="Sugerencias">Sugerencias</option>
-														<option value="otros">Otros</option>
 													</select>
 												</div>											
 											</div>

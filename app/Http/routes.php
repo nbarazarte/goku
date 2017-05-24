@@ -42,6 +42,11 @@
 	Route::put('Enviando', [
 			'uses' => 'HomeController@enviar',
 			'as' =>'enviar'
+	]);
+
+	Route::put('Enviando-CV', [
+			'uses' => 'HomeController@enviarTrabaja',
+			'as' =>'enviarTrabaja'
 	]);	
 
 	Route::get('/Términos-del-Servicio', [

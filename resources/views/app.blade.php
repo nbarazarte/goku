@@ -130,7 +130,7 @@
 								<i class="fa fa-instagram" aria-hidden="true"></i>
 								<i class="fa fa-instagram" aria-hidden="true"></i>
 							</a>
-							<a href="https://www.linkedin.com/company/ilernus" target="_blank" class="social-icon social-icon-sm social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
+							<a href="https://www.linkedin.com/company-beta/9189376/" target="_blank" class="social-icon social-icon-sm social-linkedin" data-toggle="tooltip" data-placement="top" title="Linkedin">
 								<i class="fa fa-linkedin"></i>
 								<i class="fa fa-linkedin"></i>
 							</a>
@@ -206,7 +206,7 @@
 		<!--<script type="text/javascript" src="smarty/assets/js/contact.js"></script>-->
 
 
-		@if(Route::current()->getName() == 'contactanos')
+		@if( (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'trabaja') )
 		
 			<!-- 
 				GMAP.JS 
