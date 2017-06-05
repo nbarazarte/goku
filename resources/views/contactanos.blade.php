@@ -188,7 +188,7 @@
 							<hr />
 
 							<p>
-								<span class="block"><strong><i class="fa fa-map-marker"></i> Dirección:</strong> Urb. Terrazas del Ávila, Zona Rental Universidad Metropolitana. Edif. 1. P1. Oficina iLernus, (B&G). Caracas, Edo. Miranda.</span>
+								<span class="block"><strong><i class="fa fa-map-marker"></i> Dirección:</strong> Urb. Terrazas del Ávila, Zona Rental Universidad Metropolitana. Edif. Andrés German Otero Mezzanina. Oficina B&G (iLernus). Caracas, Edo. Miranda.</span>
 								<span class="block"><strong><i class="fa fa-phone"></i> Teléfono:</strong> <a href="tel:+58-212-204-24-31">+58 (212) 204.24.31 </a></span>
 								<span class="block"><strong><i class="fa fa-envelope"></i> Correo Electrónico:</strong> <a href="mailto:info@ilernus.com">info@ilernus.com</a></span>
 							</p>

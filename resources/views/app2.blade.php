@@ -152,7 +152,7 @@
 
 	<div class="text-center">
 
-		<h3> <i class="fa fa-phone-square" aria-hidden="true"></i> ¡Llámanos al  <strong>0800-ILERNUS</strong>!</h3>
+		<h3> <i class="fa fa-phone-square" aria-hidden="true"></i> ¡Llámanos al  <strong>0800-iLernus</strong>! (453 76 87)</h3>
 		<p class="font-lato size-20">
 			Estamos para brindarte la mejor atención y asesoría
 		</p>

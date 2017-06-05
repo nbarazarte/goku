@@ -399,6 +399,10 @@
 			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/6.png') }}" alt="Universidad Complutense de Madrid" title="Universidad Complutense de Madrid">
 		</div>
 		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/0.png') }}" alt="IESA" title="IESA">
+		</div>
+
+		<div>
 			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/1.png') }}" alt="Universidad Metropolitana" title="Universidad Metropolitana">
 		</div>
 		<div>
@@ -415,6 +419,9 @@
 		</div>
 		<div>
 			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/6.png') }}" alt="Universidad Complutense de Madrid" title="Universidad Complutense de Madrid">
+		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/0.png') }}" alt="IESA" title="IESA">
 		</div>
 
 
@@ -469,7 +476,7 @@
 							      	{{ $director->str_nombre }}
 							      </h3>
 
-							        {!! $director->str_cv !!}
+							        <p class="justify">{!! $director->str_cv !!}</p>
 
 							      </div>
 							      <div class="modal-footer">
@@ -568,7 +575,7 @@
 							      	{{ $ceo->str_nombre }}
 							      </h3>
 
-							        {!! $ceo->str_cv !!}
+							        <p class="justify">{!! $ceo->str_cv !!}</p>
 
 							      </div>
 							      <div class="modal-footer">
@@ -643,7 +650,7 @@
 							      	{{ $gerente->str_nombre }}
 							      </h3>
 
-							        {!! $gerente->str_cv !!}
+							        <p class="justify">{!! $gerente->str_cv !!}</p>
 
 							      </div>
 							      <div class="modal-footer">
@@ -655,7 +662,7 @@
 
 
 
-	<div class="col-md-3">
+	<div class="col-md-4">
 
 		<div class="box-flip box-color box-icon box-icon-center box-icon-round box-icon-large text-center">
 			<div class="front">

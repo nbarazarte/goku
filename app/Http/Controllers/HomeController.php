@@ -39,11 +39,22 @@ class HomeController extends Controller
         //$cursos = DB::table('tbl_cursos')->orderByRaw("RAND()")->get();    
         $cursos = DB::table('tbl_cursos')->get();
 
-        $directores = DB::table('tbl_equipoilernus')->where('str_tipo', 'director')->orderBy('str_orden', 'asc')->get();
+        $directores = DB::table('tbl_equipoilernus')
+            ->where('str_tipo', 'director')
+            ->orderBy('str_orden', 'asc')
+            ->get();
 
-        $gerentes = DB::table('tbl_equipoilernus')->where('str_tipo', 'gerencial')->where('str_orden', '>', 1)->orderBy('str_orden', 'asc')->get();
+        $gerentes = DB::table('tbl_equipoilernus')
+            ->where('str_tipo', 'gerencial')
+            ->where('str_orden', '>', 1)
+            ->where('bol_eliminado', '=', 0)
+            ->orderBy('str_orden', 'asc')->get();
 
-        $ceos = DB::table('tbl_equipoilernus')->where('str_tipo', 'gerencial')->where('str_orden', '=', 1)->orderBy('str_orden', 'asc')->get();
+        $ceos = DB::table('tbl_equipoilernus')
+            ->where('str_tipo', 'gerencial')
+            ->where('str_orden', '=', 1)
+            ->orderBy('str_orden', 'asc')
+            ->get();
 
         return \View::make('index', compact('cursos','directores','gerentes','ceos'));
     }

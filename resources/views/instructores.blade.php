@@ -58,6 +58,10 @@
 			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/6.png') }}" alt="Universidad Complutense de Madrid" title="Universidad Complutense de Madrid">
 		</div>
 		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/0.png') }}" alt="IESA" title="IESA">
+		</div>
+
+		<div>
 			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/1.png') }}" alt="Universidad Metropolitana" title="Universidad Metropolitana">
 		</div>
 		<div>
@@ -75,6 +79,9 @@
 		<div>
 			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/6.png') }}" alt="Universidad Complutense de Madrid" title="Universidad Complutense de Madrid">
 		</div>
+		<div>
+			<img class="img-responsive" src="{{ asset('smarty/assets/images/demo/logos/0.png') }}" alt="IESA" title="IESA">
+		</div>		
 
 
 	</div>
