@@ -134,11 +134,11 @@
 							<!-- IMAGE -->
 							<figure class="margin-bottom-20" style="text-align: center;">
 
-								<img class="img-responsive" src="{{ asset('smarty/assets/images/emblema.png') }}" alt="" style=" width: 100px">
+								<img class="img-responsive" src="data:image/jpeg;base64,{{ $instructor->blb_img }}" alt="{!! $instructor->str_nombre !!}" title="{!! $instructor->str_nombre !!}" style=" width: 100px">
 
 							</figure>
 
-							<h2 style="text-align: center;"><a href="blog-single-default.html">{{ $instructor->str_nombre }}</a></h2>
+							<h2 style="text-align: center;"><a href="#" data-toggle="modal" data-target="#myModal{{$x}}" >{{ $instructor->str_nombre }}</a></h2>
 
 							<p>
 								{{ $instructor->str_profesion}}
