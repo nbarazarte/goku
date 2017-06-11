@@ -496,9 +496,6 @@
 				<div class="box1 box-default">
 					<div class="box-icon-title">
 
-					<!--
-						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/{{ $director->str_imagen }}.jpg" alt="" />
-					-->
 						<img class="img-responsive" src="data:image/jpeg;base64,{{ $director->blb_img }}" alt="{!! $director->str_nombre !!}" />
 
 						<!--<h2>{{ $director->str_nombre }}</h2>-->
@@ -593,9 +590,7 @@
 			<div class="front">
 				<div class="box1 box-default">
 					<div class="box-icon-title">
-						<!--
-						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/{{ $ceo->str_imagen }}.jpg" alt="" />
-						-->
+
 						<img class="img-responsive" src="data:image/jpeg;base64,{{ $ceo->blb_img }}" alt="{!! $ceo->str_nombre !!}" />
 
 					</div>
@@ -625,12 +620,6 @@
 
 </div>
 
-
-
-
-
-
-		
 <div class="row">
 
 <?php
@@ -671,9 +660,7 @@
 			<div class="front">
 				<div class="box1 box-default">
 					<div class="box-icon-title">
-						<!--
-						<img class="img-responsive" src="smarty/assets/images/demo/people/1200x800/{{ $gerente->str_imagen }}.jpg" alt="" />
-						-->
+
 						<img class="img-responsive" src="data:image/jpeg;base64,{{ $gerente->blb_img }}" alt="{!! $gerente->str_nombre !!}" />
 
 					</div>
