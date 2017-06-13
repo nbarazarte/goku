@@ -193,6 +193,26 @@
 
 		</script>
 
+		@if( (Route::current()->getName() == 'blogPost') || Route::current()->getName() == 'blog') ) 
+
+			<!-- JAVASCRIPT FILES -->
+			<script type="text/javascript">
+			
+				var plugin_path = '../smarty/assets/plugins/';
+
+			</script>
+
+		@else
+
+			<!-- JAVASCRIPT FILES -->
+			<script type="text/javascript">
+			
+				var plugin_path = 'smarty/assets/plugins/';
+
+			</script>
+
+		@endif
+		
 		<!-- JAVASCRIPT FILES -->
 		<script type="text/javascript">var plugin_path = 'smarty/assets/plugins/';</script>
 		{!! Html::script('smarty/assets/plugins/jquery/jquery-2.1.4.min.js') !!}

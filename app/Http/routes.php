@@ -29,6 +29,11 @@
 		'as' =>'blog'
 	]);
 
+	Route::get('/Blog/{titulo}', [
+		'uses' => 'HomeController@blogPost',
+		'as' =>'blogPost'
+	]);
+
 	Route::get('/Instructores', [
 		'uses' => 'HomeController@instructores',
 		'as' =>'instructores'

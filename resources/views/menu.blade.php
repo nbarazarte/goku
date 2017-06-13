@@ -24,7 +24,7 @@
 													Inicio
 												</a>
 
-											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa') || (Route::current()->getName() == 'trabaja'))
+											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa') || (Route::current()->getName() == 'trabaja') || (Route::current()->getName() == 'blogPost'))
 
 												@if( $_SERVER['SERVER_NAME'] == 'localhost' )
 
@@ -51,7 +51,7 @@
 													iLernus
 												</a>
 
-											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa') || (Route::current()->getName() == 'trabaja'))
+											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa') || (Route::current()->getName() == 'trabaja') || (Route::current()->getName() == 'blogPost'))
 
 												@if( $_SERVER['SERVER_NAME'] == 'localhost' )
 
@@ -95,7 +95,7 @@
 													</li>												
 												</ul>											
 
-											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa') || (Route::current()->getName() == 'trabaja'))
+											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa') || (Route::current()->getName() == 'trabaja') || (Route::current()->getName() == 'blogPost'))
 
 
 												@if( $_SERVER['SERVER_NAME'] == 'localhost' )
@@ -152,7 +152,7 @@
 													Soluciones
 												</a>
 
-											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa') || (Route::current()->getName() == 'trabaja'))
+											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa') || (Route::current()->getName() == 'trabaja') || (Route::current()->getName() == 'blogPost'))
 
 												@if( $_SERVER['SERVER_NAME'] == 'localhost' )
 
@@ -183,7 +183,7 @@
 													Nuestros Cursos
 												</a>
 
-											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa') || (Route::current()->getName() == 'trabaja'))
+											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa') || (Route::current()->getName() == 'trabaja') || (Route::current()->getName() == 'blogPost'))
 
 												@if( $_SERVER['SERVER_NAME'] == 'localhost' )
 
@@ -227,7 +227,7 @@
 													Testimonios
 												</a>
 
-											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa') || (Route::current()->getName() == 'trabaja'))
+											@elseif((Route::current()->getName() == 'instructores') || (Route::current()->getName() == 'contactanos') || (Route::current()->getName() == 'blog') || (Route::current()->getName() == 'terminos') || (Route::current()->getName() == 'politicas') || (Route::current()->getName() == 'faq') || (Route::current()->getName() == 'mapa') || (Route::current()->getName() == 'trabaja') || (Route::current()->getName() == 'blogPost'))
 
 												@if( $_SERVER['SERVER_NAME'] == 'localhost' )
 

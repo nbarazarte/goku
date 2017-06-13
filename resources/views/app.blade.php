@@ -21,6 +21,8 @@
 		<!--
 		-->
 
+	
+
 		{!! Html::style('smarty/assets/css/css.min.css') !!}
 
 		<!-- CORE CSS -->
@@ -192,8 +194,26 @@
 
 		</script>
 
-		<!-- JAVASCRIPT FILES -->
-		<script type="text/javascript">var plugin_path = 'smarty/assets/plugins/';</script>
+		@if( (Route::current()->getName() == 'blogPost') || Route::current()->getName() == 'blog') ) 
+
+			<!-- JAVASCRIPT FILES -->
+			<script type="text/javascript">
+			
+				var plugin_path = '../smarty/assets/plugins/';
+
+			</script>
+
+		@else
+
+			<!-- JAVASCRIPT FILES -->
+			<script type="text/javascript">
+			
+				var plugin_path = 'smarty/assets/plugins/';
+
+			</script>
+
+		@endif
+
 		{!! Html::script('smarty/assets/plugins/jquery/jquery-2.1.4.min.js') !!}
 		{!! Html::script('smarty/assets/js/scripts.min.js') !!}
 		<!-- STYLESWITCHER - REMOVE -->
