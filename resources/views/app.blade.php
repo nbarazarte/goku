@@ -194,7 +194,7 @@
 
 		</script>
 
-		@if( (Route::current()->getName() == 'blogPost') || Route::current()->getName() == 'blog') ) 
+		@if( (Route::current()->getName() == 'blogPost') || (Route::current()->getName() == 'blog') ) 
 
 			<!-- JAVASCRIPT FILES -->
 			<script type="text/javascript">

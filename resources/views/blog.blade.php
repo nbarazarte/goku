@@ -316,9 +316,9 @@
 								
 							@endforeach
 
-							<!-- PAGINATION -->
+							<!-- PAGINATION 
 							<div class="text-left">
-								<!-- Pagination Default -->
+								<!-- Pagination Default 
 								<ul class="pagination nomargin">
 									<li><a href="#">&laquo;</a></li>
 									<li class="active"><a href="#">1</a></li>
@@ -328,7 +328,7 @@
 									<li><a href="#">5</a></li>
 									<li><a href="#">&raquo;</a></li>
 								</ul>
-								<!-- /Pagination Default -->
+								<!-- /Pagination Default 
 							</div>
 							<!-- /PAGINATION -->
 
