@@ -42,10 +42,10 @@
 							<!-- INLINE SEARCH -->
 							<div class="inline-search clearfix margin-bottom-30">
 								<form action="" method="get" class="widget_search">
-									<input type="search" placeholder="Start Searching..." id="s" name="s" class="serch-input">
+									<!--<input type="search" placeholder="Start Searching..." id="s" name="s" class="serch-input">
 									<button type="submit">
 										<i class="fa fa-search"></i>
-									</button>
+									</button>-->
 								</form>
 							</div>
 							<!-- /INLINE SEARCH -->
