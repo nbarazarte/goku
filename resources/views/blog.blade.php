@@ -91,7 +91,11 @@
 
 													@if($recientes->str_tipo == 'video' )
 													
-														<i class="fa fa-video-camera" aria-hidden="true" style="font-size: 18px"></i>
+														<div class="margin-bottom-20">
+															<div class="embed-responsive embed-responsive-16by9">
+																{!! html_entity_decode($recientes->str_video) !!}
+															</div>
+														</div>
 														
 													@endif													
 
@@ -192,7 +196,7 @@
 
 										<div class="margin-bottom-20">
 											<div class="embed-responsive embed-responsive-16by9">
-												<iframe class="embed-responsive-item" src="{{ $post->str_video }}" width="800" height="450"></iframe>
+												{!! html_entity_decode($post->str_video) !!}
 											</div>
 										</div>									
 
