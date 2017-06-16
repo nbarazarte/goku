@@ -6,11 +6,7 @@
 
 @endforeach
 
-		<meta property="og:url"                content="http://ilernus.com/<?=Request::path()?> " />
-		<meta property="og:type"               content="article" />
-		<meta property="og:title"              content="<?=str_replace("-"," ",$post->str_titulo)?>" />
-		<meta property="og:description"        content="" />
-		<meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />	
+
 
 <!-- 
 				PAGE HEADER 
@@ -226,7 +222,7 @@
 								<ul>
 
 									<li>
-						  				<a class="twitter-share-button" href="https://twitter.com/intent/tweet" data-size="large"> Tweet </a>
+						  				<a class="twitter-share-button" href="https://twitter.com/intent/tweet" data-size="large" data-text="iLernus" data-lang="es"> Tweet </a>
 						  			</li>
 
 						  			<li>
@@ -239,7 +235,17 @@
 												Compartir
 											</a>
 										</div>
-						  			</li> 
+						  			</li>
+
+						  			<li>
+						  				&nbsp;
+						  			</li>
+
+						  			<li>
+						  				<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: es_ES</script>
+										<script type="IN/Share"></script>
+						  			</li>
+
 						 		</ul> 
 							</div>
 
@@ -377,7 +383,7 @@
 
 
 							<!-- FACEBOOK -->
-							<iframe class="hidden-xs" src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fstepofweb&amp;width=263&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false" style="border:none; overflow:hidden; width:263px; height:258px;"></iframe>
+							<iframe class="hidden-xs" src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Filernus&amp;width=263&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false" style="border:none; overflow:hidden; width:263px; height:258px;"></iframe>
 
 
 

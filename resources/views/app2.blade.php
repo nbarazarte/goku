@@ -21,6 +21,25 @@
 		<!--
 		-->
 
+		@if (Route::current()->getName() == 'blogPost')
+
+			<meta property="og:url"                content="http://ilernus.com/<?=Request::path()?>" />
+			<meta property="og:type"               content="article" />
+			<meta property="og:title"              content="<?=str_replace("-"," ",$post->str_titulo)?>" />
+			<meta property="og:description"        content="<?=str_replace("-"," ",$post->str_titulo)?>"" />
+			<meta property="og:image"              content="http://ilernus.com/smarty/assets/images/LOGOS-ILERNUS-COMPARTIR.png" />	
+			<meta name="author" 					content="<?=$post->autor?>">
+			<meta property="og:locale" 				content="en_EN"/>
+			<meta property="og:site_name" 			content="ilernus.com"/>
+
+			<meta name="twitter:title" 				content="<?=str_replace("-"," ",$post->str_titulo)?>"/>
+			<meta name="twitter:description" 		content="<?=str_replace("-"," ",$post->str_titulo)?>"/>
+			<meta name="twitter:image" 				content="http://ilernus.com/smarty/assets/images/LOGOS-ILERNUS-COMPARTIR.png"/>
+			<meta name="twitter:card" 				content="photo"/>
+			<meta name="twitter:url" 				content="http://ilernus.com/<?=Request::path()?>"/>
+
+		@endif
+
 		{!! Html::style('smarty/assets/css/css.min.css') !!}
 
 		<!-- CORE CSS -->
