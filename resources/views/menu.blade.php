@@ -211,13 +211,13 @@
 											</a>
 										</li>
 
-										<!--
+										
 										<li>
 											<a href="{{ route('blog')}}" target="_blank">
 												Blog
 											</a>
 										</li>
-										-->
+										
 
 										<!--
 										<li>

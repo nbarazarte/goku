@@ -349,7 +349,7 @@
 				</div>
 			</section>
 			<!-- / -->
-
+<!--
 			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
 
 				<div class="text-center">
@@ -358,11 +358,11 @@
 
 				</div>
 
-			</div>		
+			</div>	-->	
 
 			<!-- PARALLAX -->
 
-			
+			<!--
 			<section class="" style="">
 				
 
@@ -377,7 +377,7 @@
 		"autoPlay": true
 		"navigation": true
 		"pagination": true
--->
+--><!--
 <div class="text-center">
 	<div class="owl-carousel nomargin" data-plugin-options='{"singleItem": false, "autoPlay": true}'>
 		<div>
@@ -427,7 +427,7 @@
 
 				</div>
 
-			</section>
+			</section>-->
 			<!-- /PARALLAX -->
 
 			<section id="conocenos" class="heading-title parallax " style="background-image: url('smarty/assets/images/demo/cubes-azul.jpg');">

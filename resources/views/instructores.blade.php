@@ -13,7 +13,7 @@
 
 				</div>
 			</section>
-
+			<!--
 			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
 
 				<div class="text-center">
@@ -22,7 +22,7 @@
 
 				</div>
 
-			</div>	<br>
+			</div>	<br>-->
 
 
 
@@ -37,6 +37,7 @@
 		"navigation": true
 		"pagination": true
 -->
+<!--
 <div class="text-center">
 	<div class="owl-carousel nomargin" data-plugin-options='{"singleItem": false, "autoPlay": true}'>
 		<div>
@@ -86,7 +87,7 @@
 
 	</div>
 </div>
-
+-->
 
 
 
